@@ -1454,3 +1454,49 @@ ul { margin: 0; }
   .teacher-accordion { break-inside: auto !important; }
   .teacher-accordion > summary { break-after: avoid !important; }
 }
+
+
+/* Department section filters — used by Building & Worksite and future multi-area departments. */
+.section-filter-panel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: -2px 0 16px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #faf7f5;
+}
+.section-filter-label {
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.section-chips { display: flex; gap: 7px; flex-wrap: wrap; }
+.section-chip {
+  appearance: none;
+  border: 1px solid #d7cbc7;
+  background: white;
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 7px 11px;
+  font: inherit;
+  font-size: .86rem;
+  font-weight: 750;
+  cursor: pointer;
+}
+.section-chip:hover { border-color: var(--maroon); }
+.section-chip.active {
+  background: var(--maroon);
+  border-color: var(--maroon);
+  color: white;
+  box-shadow: 0 4px 12px rgba(123,31,58,.14);
+}
+@media (max-width: 620px) {
+  .section-filter-panel { align-items: flex-start; }
+  .section-filter-label { width: 100%; }
+  .section-chip { padding: 8px 10px; }
+}

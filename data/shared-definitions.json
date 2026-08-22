@@ -56,6 +56,15 @@
     "sheet-gloves": {
       "label": "Sheet-handling gloves",
       "icon": "assets/icons/ppe/sheet-gloves.svg"
+    },
+    "hardhat": {
+      "label": "Hard hat when required"
+    },
+    "hivis": {
+      "label": "Hi-vis clothing when required"
+    },
+    "sun": {
+      "label": "Sun protection"
     }
   },
   "hazardTypes": {

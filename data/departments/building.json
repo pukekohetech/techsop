@@ -2,15 +2,25 @@
   "schemaVersion": 2,
   "department": {
     "id": "building",
-    "name": "Building & Woodwork",
-    "icon": "🪚"
+    "name": "Building & Worksite",
+    "icon": "🪚",
+    "sections": [
+      "Workshop Tools & Machines",
+      "Worksite Tools & Machines",
+      "Worksite Safety",
+      "Working at Height",
+      "Materials & Chemicals",
+      "Dust & Airborne Hazards",
+      "Outdoor & Environmental",
+      "Groundworks & Services"
+    ]
   },
   "meta": {
-    "sourceTitle": "RAMS TECHNOLOGY.pdf — Part 1 Work with resistant materials",
-    "sourceEdition": "CLEAPSS model risk assessments; supplied PDF includes later revisions on some sheets.",
-    "conversionPurpose": "Curated one-page student SOPs for Building & Woodwork plus fuller teacher RAMS source material.",
+    "sourceTitle": "RAMS TECHNOLOGY.pdf plus current WorkSafe New Zealand construction guidance",
+    "sourceEdition": "CLEAPSS resistant-material RAMS for workshop equipment; WorkSafe New Zealand guidance reviewed 22 Aug 2026 for residential-construction worksite risks.",
+    "conversionPurpose": "Curated one-page student SOPs for Building workshop tools and residential worksite activities, paired with fuller teacher controls and source references.",
     "localAdaptationRequired": true,
-    "legalContextNote": "The supplied source is UK guidance. It must be reviewed against current New Zealand law, Pukekohe High School policy, actual equipment, rooms and student groups before publication or use."
+    "legalContextNote": "These teaching summaries do not replace a site-specific risk assessment, current WorkSafe New Zealand guidance, Pukekohe High School procedures, product SDS information, manufacturer instructions, or competent-person controls. Review the actual site, stage of build, weather, equipment, students and supervision before use."
   },
   "tools": [
     {
@@ -22,7 +32,7 @@
       ],
       "name": "Wood dust & extraction",
       "category": "Dust control",
-      "image": "",
+      "image": "assets/images/wood-dust.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -125,9 +135,11 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
+          "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust",
+          "WorkSafe NZ — Wood dust: controlling the risks — https://www.worksafe.govt.nz/topic-and-industry/dust/wood-dust-controlling-the-risks/"
         ]
-      }
+      },
+      "section": "Dust & Airborne Hazards"
     },
     {
       "id": "bld-chisels-gouges",
@@ -138,7 +150,7 @@
       ],
       "name": "Chisels & gouges",
       "category": "Hand tools",
-      "image": "",
+      "image": "assets/images/bench-handwork.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -236,7 +248,8 @@
         "references": [
           "CLEAPSS Model Risk Assessment 1.072 - Wood working: hand tools - chisels and gouges"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-hand-saws",
@@ -248,7 +261,7 @@
       ],
       "name": "Hand saws",
       "category": "Hand tools",
-      "image": "",
+      "image": "assets/images/hand-saws.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -359,7 +372,8 @@
         "references": [
           "CLEAPSS Model Risk Assessment 1.073 - Wood working: hand tools - saws"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-biscuit-jointer",
@@ -369,7 +383,7 @@
       ],
       "name": "Biscuit jointer",
       "category": "Portable power tools",
-      "image": "",
+      "image": "assets/images/craftsmanship.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -523,7 +537,8 @@
           "CLEAPSS Model Risk Assessment 1.074 - Wood working: portable power tools - biscuit cutters",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-portable-drill",
@@ -533,7 +548,7 @@
       ],
       "name": "Portable drill — woodwork",
       "category": "Portable power tools",
-      "image": "",
+      "image": "assets/images/portable-drill-wood.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -685,7 +700,8 @@
           "CLEAPSS Model Risk Assessment 1.075 - Wood working: portable power tools - drills",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-portable-planer",
@@ -695,7 +711,7 @@
       ],
       "name": "Portable planer",
       "category": "Portable power tools",
-      "image": "",
+      "image": "assets/images/warm-workshop.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -852,7 +868,8 @@
           "CLEAPSS Model Risk Assessment 1.076 - Wood working: portable power tools - planers",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-router",
@@ -862,7 +879,7 @@
       ],
       "name": "Hand-held router",
       "category": "Portable power tools",
-      "image": "",
+      "image": "assets/images/router-wood.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -1031,7 +1048,8 @@
           "CLEAPSS Model Risk Assessment 1.077 - Wood working: portable power tools - routers",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-portable-sander",
@@ -1042,7 +1060,7 @@
       ],
       "name": "Portable sander",
       "category": "Portable power tools",
-      "image": "",
+      "image": "assets/images/portable-sander.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -1199,7 +1217,8 @@
           "CLEAPSS Model Risk Assessment 1.078 - Wood working: portable power tools - sanders",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-portable-saw",
@@ -1210,7 +1229,7 @@
       ],
       "name": "Portable jigsaw / circular saw",
       "category": "Portable power tools",
-      "image": "",
+      "image": "assets/images/jigsaw.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -1371,7 +1390,8 @@
           "CLEAPSS Model Risk Assessment 1.079 - Wood working: portable power tools - saws",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-wood-lathe",
@@ -1381,7 +1401,7 @@
       ],
       "name": "Wood lathe",
       "category": "Woodworking machines",
-      "image": "",
+      "image": "assets/images/wood-lathe.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -1532,7 +1552,8 @@
           "CLEAPSS Model Risk Assessment 1.080 - Wood-working machines: lathes - wood turning",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-mortiser",
@@ -1542,7 +1563,7 @@
       ],
       "name": "Mortising machine",
       "category": "Woodworking machines",
-      "image": "",
+      "image": "assets/images/mortiser.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -1682,7 +1703,8 @@
           "CLEAPSS Model Risk Assessment 1.081 - Wood-working machines: mortising",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-planer-thicknesser",
@@ -1692,7 +1714,7 @@
       ],
       "name": "Planer / thicknesser",
       "category": "Teacher-only woodworking machine",
-      "image": "",
+      "image": "assets/images/woodwork-student.webp",
       "studentVisible": false,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
@@ -1839,7 +1861,8 @@
           "CLEAPSS Model Risk Assessment 1.082 - Wood-working machines: planing and thicknessing",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-machine-sander",
@@ -1850,7 +1873,7 @@
       ],
       "name": "Belt / disc / bobbin sander",
       "category": "Woodworking machines",
-      "image": "",
+      "image": "assets/images/woodwork-student.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -2007,7 +2030,8 @@
           "CLEAPSS Model Risk Assessment 1.083 - Wood-working machines: sanders - belt, bobbin, disc",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-band-saw",
@@ -2017,7 +2041,7 @@
       ],
       "name": "Band saw — wood",
       "category": "High-risk woodworking machine",
-      "image": "",
+      "image": "assets/images/band-saw-wood.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -2174,7 +2198,8 @@
           "CLEAPSS Model Risk Assessment 1.084 - Wood-working machines: saws - band",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-scroll-saw",
@@ -2185,7 +2210,7 @@
       ],
       "name": "Scroll / fret saw",
       "category": "Woodworking machines",
-      "image": "",
+      "image": "assets/images/scroll-saw.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -2330,7 +2355,8 @@
           "CLEAPSS Model Risk Assessment 1.085 - Wood-working machines: saws - bench-mounted, fret, jig, scroll",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-chop-mitre-saw",
@@ -2341,7 +2367,7 @@
       ],
       "name": "Chop / mitre / radial-arm saw",
       "category": "Teacher-only woodworking machine",
-      "image": "",
+      "image": "assets/images/craftsmanship.webp",
       "studentVisible": false,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
@@ -2502,17 +2528,20 @@
           "CLEAPSS Model Risk Assessment 1.086 - Wood-working machines: saws - chop, cross-cut, mitre, radial arm",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
         ]
-      }
+      },
+      "section": "Workshop Tools & Machines"
     },
     {
       "id": "bld-circular-panel-saw",
       "aliases": [
+        "bench saw",
         "circular saw",
-        "panel saw"
+        "panel saw",
+        "table saw"
       ],
-      "name": "Circular / vertical panel saw",
+      "name": "Table saw / circular / vertical panel saw",
       "category": "Teacher-only woodworking machine",
-      "image": "",
+      "image": "assets/images/table-saw.webp",
       "studentVisible": false,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
@@ -2528,11 +2557,12 @@
         "supervision": "Teacher instruction and supervision required.",
         "notes": [
           "Student wording curated 22 Aug 2026 from the listed source material.",
-          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval.",
+          "Table saw wording and image added 22 Aug 2026 so this entry is easy to find in the SOP list."
         ]
       },
       "student": {
-        "headline": "Get trained first. Keep hands clear, use guards and stop before adjusting.",
+        "headline": "Get trained first. Use guards, a push stick and teacher supervision at all times.",
         "ppe": [
           "eye",
           "ear",
@@ -2577,7 +2607,7 @@
         "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
       },
       "teacher": {
-        "overview": "Circular saw: The preparation of workpieces from sheet, board or section material. Vertical panel saw: a machine designed for cutting large sheets to size using a saw blade and motor on a sliding framework.",
+        "overview": "Table saw / circular saw: The preparation of workpieces from sheet, board or section material. Vertical panel saw: a machine designed for cutting large sheets to size using a saw blade and motor on a sliding framework.",
         "ppe": [
           "eye",
           "ear",
@@ -2679,6 +2709,2822 @@
         "references": [
           "CLEAPSS Model Risk Assessment 1.087 - Wood-working machines: saws - circular and vertical panel",
           "CLEAPSS Model Risk Assessment 1.071 - Wood working: dust"
+        ]
+      },
+      "section": "Workshop Tools & Machines"
+    },
+    {
+      "id": "bld-site-induction",
+      "slug": "worksite-induction-daily-check",
+      "aliases": [
+        "site briefing",
+        "daily site check",
+        "worksite rules"
+      ],
+      "name": "Worksite induction & daily site check",
+      "section": "Worksite Safety",
+      "category": "Site Safety",
+      "image": "assets/images/worksite-induction.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Construction / site induction"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Start every session by checking what has changed on the site and what work is happening today.",
+        "ppe": [
+          "shoes",
+          "eye",
+          "hivis"
+        ],
+        "hazards": [
+          "Changing site conditions",
+          "Trips, nails and sharp materials",
+          "Moving tools, people and timber",
+          "Blocked access or emergency routes"
+        ],
+        "beforeStart": [
+          "Sign in and listen to the site briefing.",
+          "Check the work area, emergency point and boundaries.",
+          "Wear the PPE set for today’s work.",
+          "Get teacher permission before starting a task."
+        ],
+        "dos": [
+          "Keep walkways clear.",
+          "Store tools and timber neatly.",
+          "Report new hazards straight away.",
+          "Stay inside the work areas your teacher has approved."
+        ],
+        "donts": [
+          "Do not enter closed or unsafe areas.",
+          "Do not leave tools, leads or timber in walkways.",
+          "Do not start a task if you are unsure what the controls are."
+        ],
+        "stop": [
+          "You see a new or uncontrolled hazard.",
+          "A tool, guard, barrier or access route is damaged.",
+          "Someone is hurt or unwell.",
+          "Something feels unsafe."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "A short site induction and start-of-session check for a school residential building project. It should cover current work, changing hazards, access, emergency arrangements, PPE, exclusions and supervision.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Construction sites change as framing, services, deliveries, weather and work areas change.",
+          "Poor housekeeping can create slips, trips, puncture injuries and blocked access.",
+          "People may be exposed to another group’s tools, materials or work activity."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Walk the site before students enter active work areas.",
+          "Confirm emergency access, first-aid arrangements and any exclusion zones.",
+          "Identify work by other classes, contractors or visitors and coordinate boundaries.",
+          "Brief students on today’s tasks, weather, PPE and stop-work triggers."
+        ],
+        "safeUse": [
+          "Keep pedestrian routes and work zones clear and obvious.",
+          "Use barriers/signs for areas students must not enter.",
+          "Require students to report changes instead of assuming yesterday’s controls still apply.",
+          "Maintain access to first aid, exits and emergency assembly arrangements."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/",
+          "WorkSafe NZ — Managing work site traffic — https://www.worksafe.govt.nz/topic-and-industry/vehicles-and-mobile-plant/site-traffic-management/managing-work-site-traffic-gpg/"
+        ]
+      }
+    },
+    {
+      "id": "bld-working-at-height",
+      "slug": "working-at-height",
+      "aliases": [],
+      "name": "Working at height — general",
+      "section": "Working at Height",
+      "category": "Height Safety",
+      "image": "assets/images/worksite-working-at-height.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Working at height"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement; higher-risk height work for suitably mature students only",
+        "supervision": "Direct teacher supervision for student work at height.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Use protected platforms and edge protection. Do not work near an unprotected fall edge.",
+        "ppe": [
+          "shoes",
+          "eye",
+          "hardhat",
+          "hivis"
+        ],
+        "hazards": [
+          "Falls from edges or openings",
+          "Unstable or slippery footing",
+          "Dropped tools or materials",
+          "Wind and changing weather"
+        ],
+        "beforeStart": [
+          "Get teacher permission before working above ground level.",
+          "Use the safest access or platform available.",
+          "Check edge protection, scaffold or barriers are complete.",
+          "Check weather and the area below."
+        ],
+        "dos": [
+          "Work from protected platforms or approved scaffold.",
+          "Keep both feet on a stable surface.",
+          "Keep the area below clear.",
+          "Tell the teacher if protection is missing or has moved."
+        ],
+        "donts": [
+          "Do not work near an unprotected edge.",
+          "Do not stand on top plates, improvised platforms or unstable surfaces.",
+          "Do not overreach.",
+          "Do not keep going if conditions change."
+        ],
+        "stop": [
+          "Guardrails, covers or platforms are missing or damaged.",
+          "The surface is wet, unstable or slippery.",
+          "Wind becomes strong.",
+          "You are unsure how the fall risk is controlled."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "General student awareness and controls for tasks where a fall could occur. Prefer controls that prevent a fall, such as edge protection, scaffold or a suitable work platform, rather than relying on individual behaviour.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Falls from height can cause serious injury even from relatively low levels.",
+          "Unprotected edges, openings, incomplete structures and temporary access create changing fall risks.",
+          "Dropped objects can harm people below.",
+          "Weather can change footing and stability."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Plan the work and eliminate the need to work at height where reasonably practicable.",
+          "Select a protected platform or collective fall-prevention control before considering ladders or personal fall systems.",
+          "Inspect edge protection, platforms, access and the area below before students start."
+        ],
+        "safeUse": [
+          "Maintain edge protection and safe access for the duration of the task.",
+          "Keep people out of drop zones below height work.",
+          "Stop work when wind, rain, surface condition or the build stage makes the control ineffective."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [
+          "Students must not set up, alter or improvise fall-arrest systems, anchors, scaffold components or edge-protection systems unless an appropriately competent person has designed and controlled the activity."
+        ],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Working at height in New Zealand — https://www.worksafe.govt.nz/topic-and-industry/working-at-height/working-at-height-in-nz/",
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/"
+        ]
+      }
+    },
+    {
+      "id": "bld-ladders",
+      "slug": "ladders-stepladders",
+      "aliases": [],
+      "name": "Ladders & stepladders",
+      "section": "Working at Height",
+      "category": "Access Equipment",
+      "image": "assets/images/worksite-ladders.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Ladders & stepladders"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher checks the ladder selection and setup; direct supervision where students use it.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Use a ladder only when your teacher says it is the right access equipment for the short task.",
+        "ppe": [
+          "shoes",
+          "eye",
+          "hardhat"
+        ],
+        "hazards": [
+          "Falling",
+          "Ladder slipping or tipping",
+          "Overreaching",
+          "Power lines, wet or windy conditions"
+        ],
+        "beforeStart": [
+          "Choose the correct ladder with your teacher.",
+          "Check feet, rungs, stiles and locks.",
+          "Set it on firm, level ground and secure it as required.",
+          "Check for power lines and weather hazards."
+        ],
+        "dos": [
+          "Keep three points of contact.",
+          "Face the ladder.",
+          "Keep your body between the stiles.",
+          "Use a tool belt or another safe way to move tools."
+        ],
+        "donts": [
+          "Do not stand on prohibited top steps or rungs.",
+          "Do not overreach.",
+          "Do not use a damaged ladder.",
+          "Do not use near electrical hazards or in unsafe wind/rain."
+        ],
+        "stop": [
+          "The ladder wobbles or moves.",
+          "A rung, foot, lock or stile is damaged.",
+          "Ground is uneven or slippery.",
+          "Power lines or other electrical hazards are nearby."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Ladders are access equipment and do not provide the same fall protection as platforms or scaffold. WorkSafe guidance says they should be selected only after considering safer access equipment and should suit low-risk, short-duration work.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Falls from ladders and stepladders.",
+          "Instability caused by poor ground, damage, incorrect angle or overreaching.",
+          "Electrical contact where ladders are used near power lines or conductors."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Confirm a ladder is justified for the task rather than a safer platform or scaffold.",
+          "Use industrial-rated equipment that is structurally sound and appropriate for the task.",
+          "Check setup, security, ground condition, locks and electrical clearances."
+        ],
+        "safeUse": [
+          "Maintain three points of contact where practicable.",
+          "Prevent overreaching and side loading.",
+          "Keep tools off rungs and steps; use a tool belt or another controlled method.",
+          "Stop use if conditions or setup become unsafe."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Safe working with ladders and stepladders — https://www.worksafe.govt.nz/topic-and-industry/working-at-height/safe-working-with-ladders-and-stepladders-construction/",
+          "WorkSafe NZ — Working at height in New Zealand — https://www.worksafe.govt.nz/topic-and-industry/working-at-height/working-at-height-in-nz/"
+        ]
+      }
+    },
+    {
+      "id": "bld-scaffolding-use",
+      "slug": "using-scaffolding",
+      "aliases": [],
+      "name": "Using scaffolding safely",
+      "section": "Working at Height",
+      "category": "Access Equipment",
+      "image": "assets/images/worksite-scaffolding.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Scaffolding — use"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Direct teacher supervision for student scaffold use.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Use only scaffold that has been checked and released for use. Never alter it yourself.",
+        "ppe": [
+          "shoes",
+          "eye",
+          "hardhat",
+          "hivis"
+        ],
+        "hazards": [
+          "Falling from height",
+          "Missing guardrails or platform boards",
+          "Dropped tools",
+          "Unsafe climbing or overloaded platforms"
+        ],
+        "beforeStart": [
+          "Teacher confirms the scaffold is safe to use.",
+          "Check the access route, guardrails and platform boards.",
+          "Make sure the area below is controlled."
+        ],
+        "dos": [
+          "Use the proper access ladder or stairs.",
+          "Stay inside the guardrails.",
+          "Keep tools and materials tidy.",
+          "Tell the teacher if anything is loose, missing or changed."
+        ],
+        "donts": [
+          "Do not climb the outside of scaffold.",
+          "Do not remove rails, boards, braces or ties.",
+          "Do not overload the platform.",
+          "Do not jump, lean out or improvise access."
+        ],
+        "stop": [
+          "A guardrail, board, brace or access point is missing or loose.",
+          "The scaffold has been altered or damaged.",
+          "People are entering the drop zone below.",
+          "Weather makes the platform unsafe."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Student use of completed scaffold only. Scaffold erection, alteration, inspection and handover require appropriate competence and must not be treated as a student setup task.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Falls from incomplete or unprotected scaffold.",
+          "Scaffold collapse or movement if components are altered or loads are inappropriate.",
+          "Dropped objects can injure people below.",
+          "Unsafe access increases fall risk."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Confirm the scaffold has been erected, inspected and released for use by an appropriately competent person.",
+          "Check access, guardrails, midrails, toe boards/platforms as applicable, ties/bracing and ground condition.",
+          "Set a drop-zone control where tools or materials could fall."
+        ],
+        "safeUse": [
+          "Prevent students from altering scaffold components.",
+          "Use designated access.",
+          "Control platform loading and keep platforms tidy.",
+          "Re-check after weather, impact, alteration or any event that could affect stability."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [
+          "This SOP is for using completed scaffold only. It does not authorise students to erect, dismantle or alter scaffold."
+        ],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Scaffolding in New Zealand — https://www.worksafe.govt.nz/topic-and-industry/working-at-height/scaffolding-in-new-zealand/",
+          "WorkSafe NZ — Working at height in New Zealand — https://www.worksafe.govt.nz/topic-and-industry/working-at-height/working-at-height-in-nz/"
+        ]
+      }
+    },
+    {
+      "id": "bld-scaffold-erect-alter",
+      "slug": "scaffold-erection-alteration",
+      "aliases": [],
+      "name": "Scaffold erection / alteration",
+      "section": "Working at Height",
+      "category": "Teacher Control",
+      "image": "assets/images/worksite-scaffolding.webp",
+      "studentVisible": false,
+      "sourceAccess": "teacher-only",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Scaffold erection / alteration"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": false,
+        "minimumYear": "Teacher only",
+        "supervision": "Competent-person control; students excluded from scaffold erection, alteration and dismantling.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Teacher-only control: students do not erect, dismantle or alter scaffold.",
+        "ppe": [
+          "hardhat",
+          "shoes"
+        ],
+        "hazards": [
+          "Falls during erection or dismantling",
+          "Structural instability",
+          "Dropped components"
+        ],
+        "beforeStart": [
+          "Do not start this task."
+        ],
+        "dos": [
+          "Tell the teacher if scaffold has been changed or damaged."
+        ],
+        "donts": [
+          "Do not move, remove or add scaffold parts."
+        ],
+        "stop": [
+          "Any scaffold part appears loose, moved or damaged."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Scaffold erection, dismantling and alteration is kept in Teacher mode because it requires competence, planning, inspection and compliance with current New Zealand requirements.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Falls during assembly/dismantling.",
+          "Instability from incorrect components, foundations, ties or bracing.",
+          "Dropped scaffold components.",
+          "Electrical risks near overhead conductors."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Use an appropriately competent scaffold provider/person and follow current WorkSafe requirements.",
+          "Plan foundations, loading, access, edge protection, ties and electrical clearances before work starts.",
+          "Keep students and other unauthorised people out of the erection/dismantling zone."
+        ],
+        "safeUse": [
+          "Maintain an exclusion zone.",
+          "Do not allow unauthorised alteration after handover.",
+          "Reinspect when required after alteration, impact or weather."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [
+          "Teacher / competent-person control only. Student mode deliberately hides this entry."
+        ],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Scaffolding in New Zealand — https://www.worksafe.govt.nz/topic-and-industry/working-at-height/scaffolding-in-new-zealand/",
+          "WorkSafe NZ — Working at height in New Zealand — https://www.worksafe.govt.nz/topic-and-industry/working-at-height/working-at-height-in-nz/"
+        ]
+      }
+    },
+    {
+      "id": "bld-roof-work",
+      "slug": "roof-work-access",
+      "aliases": [],
+      "name": "Roof work & roof access",
+      "section": "Working at Height",
+      "category": "Height Safety",
+      "image": "assets/images/worksite-roof-work.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Roof work"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Direct teacher supervision for student roof access/work.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Use the approved roof access and edge protection. Do not go onto a roof unless the teacher has released the task.",
+        "ppe": [
+          "shoes",
+          "eye",
+          "hardhat",
+          "hivis"
+        ],
+        "hazards": [
+          "Falling from the roof",
+          "Slippery or fragile surfaces",
+          "Openings and weak areas",
+          "Wind, rain and sun glare"
+        ],
+        "beforeStart": [
+          "Get teacher approval.",
+          "Check the approved access route and edge protection.",
+          "Check weather and surface condition.",
+          "Keep the area below controlled."
+        ],
+        "dos": [
+          "Use the safe access point.",
+          "Walk only where your teacher says the roof is safe.",
+          "Keep both hands available when climbing.",
+          "Stop when weather or surface condition changes."
+        ],
+        "donts": [
+          "Do not go onto the roof alone.",
+          "Do not work near an unprotected edge.",
+          "Do not step on weak areas, openings or unsupported material.",
+          "Do not throw tools or materials down."
+        ],
+        "stop": [
+          "The roof is wet or slippery.",
+          "Wind becomes strong.",
+          "Edge protection or safe access is missing.",
+          "Any part of the roof looks weak or unsafe."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Roof work carries a serious fall risk. WorkSafe guidance prioritises safe access, fall prevention and attention to weather and roof condition.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Falls from roof edges or through openings/fragile areas.",
+          "Slips on wet, dusty or steep surfaces.",
+          "Dropped tools/materials.",
+          "Wind and weather can rapidly change risk."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Plan safe access and edge/fall protection before students enter the roof area.",
+          "Inspect roof condition, openings, temporary coverings and weather.",
+          "Control the area below and secure loose materials."
+        ],
+        "safeUse": [
+          "Maintain the agreed safe route and protection.",
+          "Stop roof work if weather, wind, moisture or surface condition makes controls ineffective.",
+          "Prevent students from relying on improvised access or standing on unprotected top plates."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [
+          "Higher-risk roof work requires explicit local PHS approval and direct supervision. Do not use this summary as authority to bypass competent-person fall-protection requirements."
+        ],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Working on roofs — https://www.worksafe.govt.nz/topic-and-industry/working-at-height/roofs/working-on-roofs-gpg/",
+          "WorkSafe NZ — Working at height in New Zealand — https://www.worksafe.govt.nz/topic-and-industry/working-at-height/working-at-height-in-nz/"
+        ]
+      }
+    },
+    {
+      "id": "bld-edges-openings",
+      "slug": "floor-openings-edges",
+      "aliases": [],
+      "name": "Floor openings & exposed edges",
+      "section": "Working at Height",
+      "category": "Height Safety",
+      "image": "assets/images/worksite-working-at-height.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Edges & openings"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Direct supervision when students work near any fall edge or opening.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Guardrails and secure covers stay in place. Never step over, remove or work around missing edge protection.",
+        "ppe": [
+          "shoes",
+          "eye",
+          "hardhat"
+        ],
+        "hazards": [
+          "Falls through openings",
+          "Falls from exposed edges",
+          "Loose or moved covers",
+          "Dropped items into lower levels"
+        ],
+        "beforeStart": [
+          "Check barriers, guardrails and covers with the teacher.",
+          "Make sure covers are secure and the area is well lit."
+        ],
+        "dos": [
+          "Keep protection in place.",
+          "Use the marked safe route.",
+          "Keep materials away from edges and openings."
+        ],
+        "donts": [
+          "Do not remove, move or stand on an unapproved cover.",
+          "Do not climb over barriers.",
+          "Do not work beside an unprotected edge."
+        ],
+        "stop": [
+          "A cover, guardrail or barrier is missing or loose.",
+          "An opening appears that was not there before.",
+          "Materials block the safe route."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Student-facing control for temporary openings, floor edges, stair voids and similar fall locations during a house build.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Falls through floor/stair openings or from exposed edges.",
+          "Temporary covers can move, fail or be removed during the build.",
+          "Objects can fall through openings and strike people below."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Identify all openings/edges before students enter the area.",
+          "Use secure covers, guardrails or other appropriate collective fall controls.",
+          "Mark and control the safe access route."
+        ],
+        "safeUse": [
+          "Do not allow protection to be casually removed for convenience.",
+          "Reinstate controls immediately after any work requiring temporary removal.",
+          "Keep materials and trip hazards away from openings and edges."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Working at height in New Zealand — https://www.worksafe.govt.nz/topic-and-industry/working-at-height/working-at-height-in-nz/",
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/"
+        ]
+      }
+    },
+    {
+      "id": "bld-framing-top-plates-trusses",
+      "slug": "framing-top-plates-trusses",
+      "aliases": [],
+      "name": "Wall framing, top plates & roof trusses",
+      "section": "Working at Height",
+      "category": "Framing Safety",
+      "image": "assets/images/worksite-roof-work.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Framing / trusses"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Direct teacher supervision for frame/truss positioning and any work above floor level.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Frames and trusses can move suddenly. Work from the approved platform and stay away from unprotected top plates.",
+        "ppe": [
+          "shoes",
+          "eye",
+          "hardhat",
+          "hivis"
+        ],
+        "hazards": [
+          "Falls from frames or top plates",
+          "Frames or trusses moving or falling",
+          "Pinch/crush points",
+          "Wind catching large frames or sheets"
+        ],
+        "beforeStart": [
+          "Teacher confirms the lifting plan, bracing and working platform.",
+          "Check the area is clear and the weather is suitable.",
+          "Know where hands and feet must stay clear."
+        ],
+        "dos": [
+          "Use team communication.",
+          "Keep temporary bracing in place.",
+          "Work from the approved platform or scaffold.",
+          "Keep clear of suspended or unstable frames."
+        ],
+        "donts": [
+          "Do not stand on an unprotected external top plate.",
+          "Do not remove temporary bracing without permission.",
+          "Do not stand under a frame or truss being positioned."
+        ],
+        "stop": [
+          "A frame, brace or truss moves unexpectedly.",
+          "Wind becomes strong.",
+          "The working platform or edge protection is incomplete."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Controls for erecting and working around timber wall frames and roof trusses on a school house-build site.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Falls while fixing at wall or truss height.",
+          "Unbraced frames/trusses can fall or rotate.",
+          "Large frames and sheets are vulnerable to wind.",
+          "Crush and pinch injuries can occur during positioning."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Plan lifting/positioning, temporary bracing, exclusion zones and working platforms before moving frames.",
+          "Check weather, communication and team roles.",
+          "Use mechanical aids or additional people where appropriate."
+        ],
+        "safeUse": [
+          "Maintain temporary bracing until the structure is stable as designed.",
+          "Keep students out of fall/drop zones and away from suspended/unstable loads.",
+          "Use protected platforms rather than standing on unprotected top plates."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Working at height in New Zealand — https://www.worksafe.govt.nz/topic-and-industry/working-at-height/working-at-height-in-nz/",
+          "WorkSafe NZ — Working in extreme outdoor conditions — https://www.worksafe.govt.nz/topic-and-industry/natural-events-and-emergencies/working-in-extreme-outdoor-conditions/",
+          "WorkSafe NZ — Manual handling screening tools — https://www.worksafe.govt.nz/dmsdocument/68343-manual-handling-screening-tools/latest"
+        ]
+      }
+    },
+    {
+      "id": "bld-housekeeping-waste",
+      "slug": "housekeeping-waste",
+      "aliases": [],
+      "name": "Site housekeeping, sharp waste & recycling",
+      "section": "Worksite Safety",
+      "category": "Housekeeping",
+      "image": "assets/images/worksite-induction.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Housekeeping & waste"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "A tidy site is a safety control. Clear nails, offcuts, packaging and leads before they become hazards.",
+        "ppe": [
+          "shoes",
+          "gloves",
+          "hivis"
+        ],
+        "hazards": [
+          "Trips and blocked routes",
+          "Nails, screws and sharp offcuts",
+          "Falling or unstable material stacks",
+          "Waste mixed with chemicals or hot materials"
+        ],
+        "beforeStart": [
+          "Know which bins or recycling areas are used.",
+          "Check the route before moving waste."
+        ],
+        "dos": [
+          "Remove protruding nails or place waste where they cannot injure someone.",
+          "Stack timber and sheet materials so they cannot fall.",
+          "Keep exits, walkways and access points clear.",
+          "Separate chemical/contaminated waste as directed."
+        ],
+        "donts": [
+          "Do not throw sharp waste loosely into walkways or mixed bins.",
+          "Do not leave offcuts, cords or packaging where people walk.",
+          "Do not burn or dispose of chemical containers yourself."
+        ],
+        "stop": [
+          "A bin is overflowing or contains unknown chemicals.",
+          "Waste has sharp protrusions you cannot handle safely.",
+          "An emergency route becomes blocked."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Housekeeping is treated as a continuous site control, not an end-of-day cleanup only. It includes sharp waste, timber/offcut storage, access routes, cords and product waste.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Trips and puncture injuries.",
+          "Unstable material storage.",
+          "Blocked emergency access.",
+          "Incompatible or hazardous waste entering general waste."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Provide clearly located waste/recycling areas and separate hazardous-product waste.",
+          "Set expectations for nail removal/protection, timber stacking and cord routing."
+        ],
+        "safeUse": [
+          "Pause work for housekeeping when routes or work areas become cluttered.",
+          "Keep fire/emergency access and pedestrian routes open.",
+          "Use SDS/manufacturer instructions for hazardous-product containers and contaminated waste."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/",
+          "WorkSafe NZ — Safety data sheets — https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/managing/safety-data-sheets/"
+        ]
+      }
+    },
+    {
+      "id": "bld-site-electricity",
+      "slug": "site-electricity-extension-leads",
+      "aliases": [],
+      "name": "Temporary site electricity & extension leads",
+      "section": "Worksite Safety",
+      "category": "Electrical Safety",
+      "image": "assets/images/worksite-electricity.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Site electricity"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Use RCD-protected site power, keep equipment dry and take damaged leads out of service immediately.",
+        "ppe": [
+          "shoes",
+          "eye"
+        ],
+        "hazards": [
+          "Electric shock",
+          "Damaged plugs, cords or tools",
+          "Wet conditions",
+          "Trips from leads"
+        ],
+        "beforeStart": [
+          "Ask before plugging in.",
+          "Check the RCD and equipment for obvious damage.",
+          "Keep chargers and power equipment dry.",
+          "Route leads so people cannot trip over them."
+        ],
+        "dos": [
+          "Use only teacher-approved, RCD-protected power.",
+          "Keep leads protected and out of walkways.",
+          "Unplug by the plug, not by pulling the cord.",
+          "Report damage immediately."
+        ],
+        "donts": [
+          "Do not use taped, cut, brittle, scorched or damaged leads.",
+          "Do not use mains tools in rain or wet areas.",
+          "Do not overload outlets or multi-boxes.",
+          "Do not run leads where vehicles can crush them."
+        ],
+        "stop": [
+          "An RCD trips or will not test correctly.",
+          "You see sparks, overheating or smell burning.",
+          "Insulation, plug or casing is damaged.",
+          "Water reaches electrical equipment."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Construction sites are harsh environments for electrical equipment. WorkSafe guidance emphasises RCD protection, inspection/removal of faulty equipment, environmental protection and safe routing of heavy-duty leads.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Electric shock and electrocution.",
+          "Damage from water, dust, chemicals, UV or site traffic.",
+          "Trip hazards and mechanical damage to leads."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Confirm site electrical supply and RCD arrangements.",
+          "Inspect tools, leads, plugs, guards and RCDs for visible damage.",
+          "Provide dry charging locations and protected cable routes."
+        ],
+        "safeUse": [
+          "Remove faulty equipment from service immediately.",
+          "Use heavy-duty extension leads appropriate for site conditions.",
+          "Keep leads off pedestrian/vehicle routes where practicable or protect them appropriately.",
+          "Do not permit use in wet conditions without suitable controls."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Electrical safety on small construction sites — https://www.worksafe.govt.nz/topic-and-industry/electricity/electrical-safety-on-construction-sites/"
+        ]
+      }
+    },
+    {
+      "id": "bld-manual-handling",
+      "slug": "lifting-carrying-timber",
+      "aliases": [],
+      "name": "Lifting & carrying timber safely",
+      "section": "Worksite Safety",
+      "category": "Manual Handling",
+      "image": "assets/images/worksite-manual-handling.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Manual handling"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Plan the lift, clear the route and team-lift long or awkward materials.",
+        "ppe": [
+          "shoes",
+          "gloves"
+        ],
+        "hazards": [
+          "Strains and sprains",
+          "Pinched fingers",
+          "Heavy, long or awkward loads",
+          "Blocked vision while carrying"
+        ],
+        "beforeStart": [
+          "Check the load and the route.",
+          "Team-lift long, heavy or awkward items.",
+          "Plan where the item will be put down."
+        ],
+        "dos": [
+          "Keep the load close to your body.",
+          "Use your legs and avoid twisting under load.",
+          "Talk with your partner during team lifts.",
+          "Use a trolley or other aid when available."
+        ],
+        "donts": [
+          "Do not carry more than you can control.",
+          "Do not twist while lifting.",
+          "Do not walk where the load blocks your view.",
+          "Do not leave timber where it becomes a trip hazard."
+        ],
+        "stop": [
+          "The load feels too heavy or unstable.",
+          "The route is blocked or slippery.",
+          "A nail, splinter or sharp edge makes the lift unsafe.",
+          "Someone needs extra help."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Manual handling includes lifting, lowering, carrying, pushing and pulling. Risk depends on more than weight: awkward size, posture, distance, repetition, environment and grip all matter.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Musculoskeletal injury from heavy, awkward or repetitive handling.",
+          "Crush/pinch injuries during team lifts.",
+          "Long materials can strike people or objects and block the carrier’s view."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Assess load shape, weight, route, destination and people available.",
+          "Use mechanical aids or break loads down where practicable.",
+          "Remove nails/splinters and clear the route before lifting."
+        ],
+        "safeUse": [
+          "Coordinate team lifts with one clear caller.",
+          "Avoid twisting, long carries and sudden changes in level.",
+          "Keep people out of the path of long sheet/timber loads."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Manual handling screening tools — https://www.worksafe.govt.nz/dmsdocument/68343-manual-handling-screening-tools/latest",
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/"
+        ]
+      }
+    },
+    {
+      "id": "bld-construction-dust",
+      "slug": "construction-dust-cleanup",
+      "aliases": [],
+      "name": "Construction dust — control & clean-up",
+      "section": "Dust & Airborne Hazards",
+      "category": "Dust Control",
+      "image": "assets/images/worksite-dust.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Construction dust"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Control dust at the source and clean it up with the method your teacher specifies — not by blowing it around.",
+        "ppe": [
+          "eye",
+          "dust",
+          "shoes"
+        ],
+        "hazards": [
+          "Breathing in dust",
+          "Dust in eyes",
+          "Dusty/slippery surfaces",
+          "Dust spreading to other work areas"
+        ],
+        "beforeStart": [
+          "Identify the material before cutting, drilling or sanding.",
+          "Set up extraction, water suppression or another control as directed.",
+          "Wear the PPE selected for the task.",
+          "Keep other people out of the dust zone."
+        ],
+        "dos": [
+          "Use on-tool extraction or wet methods when specified.",
+          "Keep the work area controlled.",
+          "Use the approved vacuum or wet-cleaning method.",
+          "Wash hands before eating or drinking."
+        ],
+        "donts": [
+          "Do not blow dust with compressed air.",
+          "Do not dry-sweep hazardous fine dust.",
+          "Do not continue if extraction is not working."
+        ],
+        "stop": [
+          "A visible dust cloud forms.",
+          "Extraction or water control fails.",
+          "Respiratory PPE is damaged or does not fit.",
+          "Your eyes or throat are irritated."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "General construction-dust control. Identify the material first because silica, wood dust, asbestos and other contaminants require different controls.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Inhalation of harmful dust.",
+          "Eye/skin exposure.",
+          "Dust migration to other people and areas.",
+          "Poor cleanup can re-suspend hazardous dust."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Identify the dust-generating material and applicable WorkSafe/product guidance.",
+          "Select source controls such as on-tool extraction or wet methods before relying on PPE.",
+          "Create an exclusion zone where appropriate."
+        ],
+        "safeUse": [
+          "Keep source controls operating while dust is generated.",
+          "Use suitable industrial vacuum/wet cleanup for hazardous fine dust; do not dry sweep or use compressed air for silica dust.",
+          "Prevent students from taking contaminated dust on clothing into eating areas."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/",
+          "WorkSafe NZ — Silica dust in the workplace — https://www.worksafe.govt.nz/topic-and-industry/dust/silica-dust-in-the-workplace/"
+        ]
+      }
+    },
+    {
+      "id": "bld-silica-dust",
+      "slug": "silica-dust",
+      "aliases": [],
+      "name": "Silica dust — concrete, mortar, brick & fibre cement",
+      "section": "Dust & Airborne Hazards",
+      "category": "Hazardous Dust",
+      "image": "assets/images/worksite-dust.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Silica dust"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Direct supervision for student cutting/drilling of silica-containing materials.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Concrete, mortar, brick and fibre-cement dust can contain silica. Use the dust controls set up by your teacher.",
+        "ppe": [
+          "eye",
+          "dust",
+          "shoes"
+        ],
+        "hazards": [
+          "Respirable silica dust can seriously harm lungs",
+          "Dust from cutting, grinding or drilling",
+          "Dust on clothes and hands",
+          "Dust spread during cleanup"
+        ],
+        "beforeStart": [
+          "Teacher confirms the material and approved cutting/drilling method.",
+          "Use on-tool water suppression or extraction as set up.",
+          "Use the specified respiratory protection if required."
+        ],
+        "dos": [
+          "Keep dust controls running.",
+          "Stay inside the controlled work zone.",
+          "Use the approved H-class/HEPA vacuum or wet cleanup method.",
+          "Wash hands and keep dusty clothing away from eating areas."
+        ],
+        "donts": [
+          "Do not dry cut or grind silica-containing materials without controls.",
+          "Do not dry sweep silica dust.",
+          "Do not use compressed air to clean it up."
+        ],
+        "stop": [
+          "A dust cloud appears.",
+          "Water suppression or extraction stops.",
+          "Required respiratory protection is unavailable, damaged or not correctly fitted."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Respirable crystalline silica can be generated by cutting, grinding, drilling, sanding or disturbing concrete, mortar, brick, stone and fibre-cement products. WorkSafe prioritises elimination/substitution and source controls such as water suppression and on-tool extraction.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Silicosis and other serious respiratory harm from respirable crystalline silica.",
+          "High exposures can occur during dry cutting, drilling, grinding and cleanup."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Identify whether the material contains silica.",
+          "Use lower-dust methods/materials where practicable.",
+          "Set up water suppression and/or on-tool extraction suitable for the task.",
+          "Select respiratory protection only as part of a wider control system and ensure any required fit testing is managed."
+        ],
+        "safeUse": [
+          "Do not allow dry sweeping or compressed-air cleanup of silica dust.",
+          "Use an H-class HEPA-filtered vacuum or wet cleanup as appropriate.",
+          "Maintain exclusion zones and hygiene controls."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [
+          "Do not allow student work that cannot be controlled to a suitable standard. Respiratory protection is not a substitute for effective source control."
+        ],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Silica dust in the workplace — https://www.worksafe.govt.nz/topic-and-industry/dust/silica-dust-in-the-workplace/"
+        ]
+      }
+    },
+    {
+      "id": "bld-wet-cement",
+      "slug": "wet-cement-concrete-mortar",
+      "aliases": [],
+      "name": "Wet cement, concrete & mortar",
+      "section": "Materials & Chemicals",
+      "category": "Cement / Concrete",
+      "image": "assets/images/worksite-wet-cement.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Wet cement / concrete"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Wet cement can burn skin and irritate eyes. Keep it off your body and wash splashes off straight away.",
+        "ppe": [
+          "shoes",
+          "eye",
+          "gloves",
+          "apron"
+        ],
+        "hazards": [
+          "Skin irritation or cement burns",
+          "Splashes to eyes",
+          "Heavy bags and awkward loads",
+          "Wet, slippery work areas"
+        ],
+        "beforeStart": [
+          "Wear the gloves, eye protection and footwear set for the task.",
+          "Mix only in the approved area.",
+          "Have clean water available for washing splashes.",
+          "Follow the product/SDS instructions."
+        ],
+        "dos": [
+          "Avoid direct skin contact.",
+          "Add and mix materials carefully to control dust and splashes.",
+          "Wash contamination off promptly and tell the teacher.",
+          "Clean spills before they become slip hazards."
+        ],
+        "donts": [
+          "Do not kneel in wet concrete or mortar.",
+          "Do not leave wet cement trapped inside gloves, boots or clothing.",
+          "Do not throw dry cement powder around."
+        ],
+        "stop": [
+          "Wet cement gets on skin or inside clothing/boots.",
+          "Cement gets in an eye.",
+          "A bag splits or a large spill occurs.",
+          "Someone develops skin irritation."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Fresh cement, concrete and mortar can irritate or burn skin, especially when trapped against the body. Dry cement handling can also generate dust. Use the product SDS and control splashes, dust, handling and wet/slippery areas.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Alkaline wet cement can cause dermatitis or chemical burns.",
+          "Eye splashes can cause serious irritation/injury.",
+          "Dry cement dust may irritate the respiratory system.",
+          "Bags and wet materials present manual-handling and slip hazards."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Obtain/read the current product SDS.",
+          "Provide suitable gloves, eye protection, footwear and washing facilities.",
+          "Plan dust-minimising mixing/handling and manual-handling controls."
+        ],
+        "safeUse": [
+          "Prevent wet cement being trapped against skin.",
+          "Require prompt washing/removal of contaminated clothing as directed by the SDS/school procedure.",
+          "Control wet spill/slip areas and dry powder dust."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "For exposure, follow the current cement/product SDS and school first-aid procedure. Wet cement trapped against skin requires prompt removal/cleaning; eye exposure requires immediate response under the SDS/first-aid plan."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Concrete pumping health and safety guidance — https://www.worksafe.govt.nz/dmsdocument/440-concrete-pumping-health-and-safety-guidelines/",
+          "WorkSafe NZ — Safety data sheets — https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/managing/safety-data-sheets/"
+        ]
+      }
+    },
+    {
+      "id": "bld-treated-timber",
+      "slug": "treated-timber",
+      "aliases": [],
+      "name": "Treated timber",
+      "section": "Materials & Chemicals",
+      "category": "Timber / Chemicals",
+      "image": "assets/images/worksite-hazardous-substances.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Treated timber"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Treat treated timber as a chemical-containing material: control dust, wash hands and follow the product information.",
+        "ppe": [
+          "eye",
+          "dust",
+          "gloves",
+          "shoes"
+        ],
+        "hazards": [
+          "Wood dust",
+          "Chemical residues or splinters",
+          "Skin or eye contact",
+          "Incorrect disposal or burning"
+        ],
+        "beforeStart": [
+          "Teacher confirms the timber treatment/product and the task controls.",
+          "Use dust extraction for cutting or sanding.",
+          "Wear the PPE selected for the task."
+        ],
+        "dos": [
+          "Wash hands after handling.",
+          "Keep dust under control.",
+          "Put offcuts and waste where your teacher says."
+        ],
+        "donts": [
+          "Do not burn treated timber or treated-timber dust.",
+          "Do not eat or drink with dusty hands.",
+          "Do not use unknown treated timber without teacher approval."
+        ],
+        "stop": [
+          "The treatment/product is unknown.",
+          "Dust control fails.",
+          "You get a splinter, skin reaction or eye contamination."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Treated-timber hazards depend on the treatment/product. Use current supplier/manufacturer information and SDS where applicable, plus normal wood-dust controls.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Wood dust and splinters.",
+          "Potential chemical exposure from treatment residues or dust.",
+          "Inappropriate burning/disposal can create additional exposure."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Identify the timber/treatment and obtain current supplier guidance/SDS where applicable.",
+          "Set dust controls for cutting/sanding.",
+          "Plan waste/offcut handling and hygiene."
+        ],
+        "safeUse": [
+          "Control dust at source.",
+          "Require hand washing before eating/drinking.",
+          "Do not burn treated timber unless an authorised disposal process explicitly allows it."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Safety data sheets — https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/managing/safety-data-sheets/",
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/",
+          "Use the current supplier/manufacturer safety information for the specific treated timber used at PHS."
+        ]
+      }
+    },
+    {
+      "id": "bld-adhesives-sealants",
+      "slug": "construction-adhesives-sealants",
+      "aliases": [],
+      "name": "Construction adhesives & sealants",
+      "section": "Materials & Chemicals",
+      "category": "Hazardous Substances",
+      "image": "assets/images/worksite-hazardous-substances.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Adhesives & sealants"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Check the label/SDS with your teacher, use small amounts and keep the area ventilated.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "apron"
+        ],
+        "hazards": [
+          "Fumes or vapours",
+          "Skin and eye contact",
+          "Flammable products",
+          "Spills and uncured adhesive"
+        ],
+        "beforeStart": [
+          "Use only the teacher-approved product.",
+          "Check the label/SDS and ventilation.",
+          "Wear the specified gloves/eye protection if required."
+        ],
+        "dos": [
+          "Use the smallest practical amount.",
+          "Keep lids/nozzles closed when not in use.",
+          "Wash hands after use.",
+          "Report spills straight away."
+        ],
+        "donts": [
+          "Do not sniff fumes.",
+          "Do not mix products.",
+          "Do not use flammable products near flames, sparks or heat.",
+          "Do not put chemicals into drink/food containers."
+        ],
+        "stop": [
+          "Strong fumes build up.",
+          "You feel dizzy or unwell.",
+          "The product gets in an eye.",
+          "A container, cartridge or nozzle leaks."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Construction adhesives and sealants vary widely. The actual product SDS controls selection of ventilation, PPE, storage, fire precautions, cleanup and first aid.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Organic-solvent vapours may affect health and can be flammable.",
+          "Some adhesives/sealants can irritate or sensitise skin/eyes.",
+          "Pressurised cartridges/aerosols and curing products may introduce additional hazards."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Review the current SDS and choose a lower-hazard product where practicable.",
+          "Provide ventilation/extraction suitable for the product.",
+          "Set storage, ignition-control and spill arrangements before use."
+        ],
+        "safeUse": [
+          "Keep containers closed between uses.",
+          "Use the smallest practical quantity at the workface.",
+          "Keep ignition sources away from flammable products.",
+          "Follow SDS controls for contaminated rags, cartridges and spills."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Safety data sheets — https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/managing/safety-data-sheets/",
+          "WorkSafe NZ — Reducing harm when working with organic solvents — https://www.worksafe.govt.nz/dmsdocument/20955-reducing-harm-when-working-with-organic-solvents/latest/"
+        ]
+      }
+    },
+    {
+      "id": "bld-paints-solvents",
+      "slug": "paints-stains-solvents-finishes",
+      "aliases": [],
+      "name": "Paints, stains, solvents & timber finishes",
+      "section": "Materials & Chemicals",
+      "category": "Hazardous Substances",
+      "image": "assets/images/worksite-hazardous-substances.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Paints / solvents / finishes"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Use finishes only in the approved area, with ventilation and away from flames or sparks.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "apron"
+        ],
+        "hazards": [
+          "Fumes and vapours",
+          "Flammable liquids",
+          "Skin or eye irritation",
+          "Spills and contaminated rags"
+        ],
+        "beforeStart": [
+          "Check the product label/SDS with the teacher.",
+          "Use the approved ventilated area.",
+          "Wear the specified PPE.",
+          "Set up safe waste/cloth disposal before starting."
+        ],
+        "dos": [
+          "Use small quantities.",
+          "Keep lids on containers.",
+          "Apply with good ventilation.",
+          "Put used rags/brush-cleaning waste where the teacher directs."
+        ],
+        "donts": [
+          "Do not sniff solvents.",
+          "Do not use near flames, heaters or sparks.",
+          "Do not leave solvent-soaked rags lying around.",
+          "Do not pour leftovers down drains."
+        ],
+        "stop": [
+          "You feel dizzy or unwell.",
+          "A strong fume build-up occurs.",
+          "A spill or leak occurs.",
+          "The ventilation stops working."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Paints, stains and finishes may contain organic solvents or other hazardous substances. Product selection, ventilation, ignition control, PPE and waste arrangements must follow the current SDS.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Acute/chronic health effects from organic-solvent vapours.",
+          "Fire/explosion risk from flammable vapours.",
+          "Skin/eye exposure and contaminated waste."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Review the SDS and substitute water-based/lower-hazard products where reasonably practicable.",
+          "Provide ventilation/extraction.",
+          "Control ignition sources and plan contaminated-rag/waste handling."
+        ],
+        "safeUse": [
+          "Keep containers closed and quantities at the workface low.",
+          "Maintain ventilation during application/drying as required.",
+          "Manage rags/solvent waste exactly as product guidance specifies."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Safety data sheets — https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/managing/safety-data-sheets/",
+          "WorkSafe NZ — Reducing harm when working with organic solvents — https://www.worksafe.govt.nz/dmsdocument/20955-reducing-harm-when-working-with-organic-solvents/latest/"
+        ]
+      }
+    },
+    {
+      "id": "bld-hazardous-substances",
+      "slug": "hazardous-substances-sds",
+      "aliases": [],
+      "name": "Hazardous substances & SDS",
+      "section": "Materials & Chemicals",
+      "category": "Hazardous Substances",
+      "image": "assets/images/worksite-hazardous-substances.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Hazardous substances / SDS"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Read the label with your teacher, use only approved products and know what to do before a spill happens.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "apron"
+        ],
+        "hazards": [
+          "Fumes or toxic exposure",
+          "Skin/eye burns or irritation",
+          "Fire from flammable products",
+          "Spills reaching people, soil or drains"
+        ],
+        "beforeStart": [
+          "Check the product label and SDS with the teacher.",
+          "Know the approved use area and PPE.",
+          "Know where the spill controls and washing facilities are."
+        ],
+        "dos": [
+          "Use only the amount you need.",
+          "Keep products in their original labelled containers.",
+          "Keep lids closed.",
+          "Tell the teacher about spills or symptoms immediately."
+        ],
+        "donts": [
+          "Do not mix products unless the procedure specifically requires it.",
+          "Do not decant chemicals into food/drink containers.",
+          "Do not use a product with a missing/unclear label."
+        ],
+        "stop": [
+          "The label or SDS is missing.",
+          "You smell unexpected/strong fumes.",
+          "You feel dizzy, irritated or unwell.",
+          "A spill, leak or fire occurs."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "A general student framework for hazardous products used during a house build. WorkSafe requires current SDS information to be available for workplace hazardous substances and used to manage safe use, storage, disposal, PPE, spills and emergency response.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Health effects vary by substance and exposure route.",
+          "Flammable, corrosive, toxic or sensitising products may be present.",
+          "Incorrect storage, mixing, decanting or disposal can create additional hazards."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Maintain a current hazardous-substance inventory and accessible SDS information as required.",
+          "Review each product before student use and substitute lower-hazard products where practicable.",
+          "Set ventilation, PPE, storage, spill and emergency controls from the SDS."
+        ],
+        "safeUse": [
+          "Keep products correctly labelled and in approved containers.",
+          "Supervise decanting/application.",
+          "Do not allow use of unknown/unlabelled substances.",
+          "Update training/controls when products or SDS information changes."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Safety data sheets — https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/managing/safety-data-sheets/",
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/"
+        ]
+      }
+    },
+    {
+      "id": "bld-spills-environment",
+      "slug": "spills-environmental-protection",
+      "aliases": [],
+      "name": "Spills & environmental protection",
+      "section": "Materials & Chemicals",
+      "category": "Environmental Safety",
+      "image": "assets/images/worksite-hazardous-substances.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Spills / environment"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Stop the source if it is safe, protect people and drains, and tell the teacher immediately.",
+        "ppe": [
+          "shoes",
+          "eye",
+          "gloves"
+        ],
+        "hazards": [
+          "Chemical exposure",
+          "Slips",
+          "Fire from flammable liquids",
+          "Pollution of soil, stormwater or drains"
+        ],
+        "beforeStart": [
+          "Know where spill materials are kept.",
+          "Know which drains or sensitive areas are nearby.",
+          "Check the product SDS before use."
+        ],
+        "dos": [
+          "Tell the teacher immediately.",
+          "Keep people away from the spill.",
+          "Use the spill procedure and materials only as instructed.",
+          "Protect drains/soil if this can be done safely."
+        ],
+        "donts": [
+          "Do not wash chemicals into drains.",
+          "Do not touch or clean an unknown spill.",
+          "Do not use the wrong absorbent or mix cleanup chemicals."
+        ],
+        "stop": [
+          "The spill is large, unknown, flammable or gives off fumes.",
+          "Product reaches a drain or soil.",
+          "Someone is exposed or feels unwell."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Spill controls should be product-specific and based on the SDS, quantity, drainage, fire risk and environmental pathways.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Exposure to hazardous substances.",
+          "Slips and secondary spread.",
+          "Fire from flammable liquids.",
+          "Contamination of land/stormwater."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Identify drainage and spill-sensitive areas.",
+          "Provide suitable spill materials and an emergency plan based on the products held.",
+          "Ensure SDS information is accessible."
+        ],
+        "safeUse": [
+          "Isolate and contain spills without exposing students.",
+          "Prevent chemicals entering drains/soil where safely practicable.",
+          "Escalate significant, unknown or dangerous spills under school/emergency procedures."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Safety data sheets — https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/managing/safety-data-sheets/",
+          "WorkSafe hazardous-substance guidance: spills can injure people and contaminate land or waterways."
+        ]
+      }
+    },
+    {
+      "id": "bld-noise",
+      "slug": "construction-noise-hearing",
+      "aliases": [],
+      "name": "Noise & hearing protection",
+      "section": "Dust & Airborne Hazards",
+      "category": "Noise",
+      "image": "assets/images/worksite-dust.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Noise in construction"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "If you have to raise your voice to be heard nearby, the noise may be high enough to need stronger controls.",
+        "ppe": [
+          "ear",
+          "eye",
+          "shoes"
+        ],
+        "hazards": [
+          "Permanent hearing damage",
+          "Tinnitus/ringing ears",
+          "Reduced ability to hear warnings",
+          "Multiple noisy tools operating together"
+        ],
+        "beforeStart": [
+          "Check whether the task is in a hearing-protection zone.",
+          "Use the hearing protection your teacher specifies.",
+          "Tell the teacher if several noisy tasks are happening at once."
+        ],
+        "dos": [
+          "Wear hearing protection correctly when required.",
+          "Keep noisy work separated from other students where possible.",
+          "Switch off equipment when it is not being used."
+        ],
+        "donts": [
+          "Do not remove hearing protection in a marked/noisy area.",
+          "Do not assume short bursts of very loud noise are harmless."
+        ],
+        "stop": [
+          "Your ears ring or hearing feels muffled.",
+          "Hearing protection is damaged or does not fit.",
+          "Noise becomes much louder than expected."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Construction tools and activities can generate damaging noise. WorkSafe notes that if normal conversation at about one metre requires raised voices, noise may be high enough to harm hearing.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Noise-induced hearing loss is permanent.",
+          "High noise can mask alarms, instructions and vehicle warnings.",
+          "Multiple simultaneous tools can increase exposure."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Eliminate/reduce noisy work where practicable; choose quieter equipment and separate noisy tasks.",
+          "Identify hearing-protection zones/tasks and provide suitable protection as part of the control system."
+        ],
+        "safeUse": [
+          "Maintain hearing protection and enforce use where required.",
+          "Avoid unnecessary idling/running of noisy equipment.",
+          "Review exposure when tasks/equipment change."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Noise in construction — https://www.worksafe.govt.nz/dmsdocument/2290-noise-in-construction/latest/",
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/"
+        ]
+      }
+    },
+    {
+      "id": "bld-weather-uv",
+      "slug": "weather-uv-heat-wind-rain",
+      "aliases": [],
+      "name": "UV, heat, cold, rain & high winds",
+      "section": "Outdoor & Environmental",
+      "category": "Outdoor Conditions",
+      "image": "assets/images/worksite-roof-work.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Weather / UV"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Outdoor conditions can make a safe task unsafe. Check the weather and stop when conditions change.",
+        "ppe": [
+          "shoes",
+          "sun",
+          "hivis"
+        ],
+        "hazards": [
+          "UV/sun exposure",
+          "Heat or cold stress",
+          "Wet/slippery surfaces",
+          "Wind moving sheets, ladders or materials"
+        ],
+        "beforeStart": [
+          "Check the weather and teacher briefing.",
+          "Use sun protection and drinking water as directed.",
+          "Secure loose materials before wind increases.",
+          "Check height work and electrical tasks again if rain or wind starts."
+        ],
+        "dos": [
+          "Use shade and breaks when available.",
+          "Stay hydrated.",
+          "Secure sheet materials and loose items.",
+          "Stop height work when wind/rain makes it unsafe."
+        ],
+        "donts": [
+          "Do not continue just because the task is nearly finished.",
+          "Do not carry large sheets in strong wind.",
+          "Do not use wet electrical equipment."
+        ],
+        "stop": [
+          "You feel dizzy, faint, very cold or overheated.",
+          "Wind begins moving materials or access equipment.",
+          "Rain makes surfaces slippery.",
+          "Lightning, flooding or poor visibility creates a hazard."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Outdoor conditions can affect fall risks, lifting, sheets/materials, electricity and worker health. WorkSafe guidance highlights UV, heat/cold, rain, poor visibility and high winds as risks requiring active management.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "UV exposure can cause skin and eye harm even on cloudy days.",
+          "Heat/cold can affect health and judgement.",
+          "Rain can create slips and electrical risk.",
+          "High winds can move objects, sheets, ladders and people working at height."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Check forecast/current conditions and identify tasks sensitive to wind, rain, heat or UV.",
+          "Provide shade, water, sun protection and suitable breaks.",
+          "Secure loose materials and identify stop-work thresholds/teacher triggers."
+        ],
+        "safeUse": [
+          "Stop or change tasks when conditions make controls ineffective.",
+          "Avoid height work and large-sheet handling in unsafe wind.",
+          "Reassess electrical work after rain/water exposure."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Working in extreme outdoor conditions — https://www.worksafe.govt.nz/topic-and-industry/natural-events-and-emergencies/working-in-extreme-outdoor-conditions/",
+          "WorkSafe NZ — UV/sun exposure — https://www.worksafe.govt.nz/topic-and-industry/road-and-roadside/keeping-healthy-safe-working-road-or-roadside/part-b/13-0-uvsun-exposure/",
+          "WorkSafe NZ — Working on roofs — https://www.worksafe.govt.nz/topic-and-industry/working-at-height/roofs/working-on-roofs-gpg/"
+        ]
+      }
+    },
+    {
+      "id": "bld-site-traffic",
+      "slug": "site-traffic-deliveries-fencing",
+      "aliases": [],
+      "name": "Deliveries, vehicles, pedestrians & site access",
+      "section": "Worksite Safety",
+      "category": "Site Traffic",
+      "image": "assets/images/worksite-induction.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Site traffic"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Stay on the pedestrian route, keep clear of reversing vehicles and follow the spotter/teacher instructions.",
+        "ppe": [
+          "shoes",
+          "hivis",
+          "hardhat"
+        ],
+        "hazards": [
+          "Being struck by vehicles or mobile plant",
+          "Blind spots and reversing",
+          "Deliveries blocking walkways",
+          "Unauthorised people entering work areas"
+        ],
+        "beforeStart": [
+          "Listen to the traffic/delivery briefing.",
+          "Know the pedestrian route and exclusion zones.",
+          "Wear hi-vis if the site plan requires it."
+        ],
+        "dos": [
+          "Stay separated from vehicle routes.",
+          "Make eye contact with drivers only from a safe position.",
+          "Wait for the teacher/spotter before crossing a vehicle area.",
+          "Keep gates and barriers as set."
+        ],
+        "donts": [
+          "Do not walk behind a reversing vehicle.",
+          "Do not take shortcuts through loading areas.",
+          "Do not move traffic barriers or open the site to visitors without permission."
+        ],
+        "stop": [
+          "A vehicle enters unexpectedly.",
+          "You lose sight of the driver/spotter.",
+          "A pedestrian route is blocked.",
+          "A gate/barrier is damaged or moved."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "WorkSafe site-traffic guidance prioritises separation of pedestrians and vehicles, clear routes, visibility, controlled crossings and coordinated delivery/reversing arrangements.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Struck-by and crush injuries from vehicles/mobile plant.",
+          "Reversing blind spots.",
+          "Changing delivery routes on dynamic construction sites.",
+          "Visitors/unauthorised access."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Plan pedestrian and vehicle routes and separate them where reasonably practicable.",
+          "Set delivery times, crossing points, exclusion zones and any spotter arrangements.",
+          "Brief visitors/drivers and students on site rules."
+        ],
+        "safeUse": [
+          "Keep pedestrian routes clear and visible.",
+          "Prevent students entering reversing/loading zones.",
+          "Use competent spotters where required and maintain driver-spotter visual contact.",
+          "Control gates/barriers and visitor access."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Managing work site traffic — https://www.worksafe.govt.nz/topic-and-industry/vehicles-and-mobile-plant/site-traffic-management/managing-work-site-traffic-gpg/",
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/"
+        ]
+      }
+    },
+    {
+      "id": "bld-excavation-services",
+      "slug": "excavations-trenches-services",
+      "aliases": [],
+      "name": "Excavations, trenches & underground / overhead services",
+      "section": "Groundworks & Services",
+      "category": "Groundworks",
+      "image": "assets/images/worksite-induction.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Excavation / services"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Direct teacher supervision around excavations and any digging near identified service zones.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Treat excavations and services as controlled areas. Do not dig, enter or work near them until the teacher has confirmed the controls.",
+        "ppe": [
+          "shoes",
+          "hardhat",
+          "hivis"
+        ],
+        "hazards": [
+          "Falls into holes or trenches",
+          "Ground collapse",
+          "Underground gas/electric/water services",
+          "Overhead electrical lines",
+          "Vehicles near excavation edges"
+        ],
+        "beforeStart": [
+          "Teacher identifies the excavation boundary and known services.",
+          "Check barriers and safe access.",
+          "Treat services as live/in use unless formally confirmed otherwise."
+        ],
+        "dos": [
+          "Stay outside exclusion zones.",
+          "Use only the access route provided.",
+          "Report exposed cables, pipes, unstable ground or water immediately."
+        ],
+        "donts": [
+          "Do not enter a trench unless the teacher has explicitly released it as safe.",
+          "Do not dig where services have not been checked.",
+          "Do not move barriers or pile materials at an excavation edge."
+        ],
+        "stop": [
+          "A service/cable/pipe is uncovered.",
+          "Ground cracks, collapses or water enters.",
+          "A barrier or access route is missing.",
+          "Plant or vehicles approach the exclusion zone unexpectedly."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Excavations and services require planning before digging. WorkSafe guidance says overhead and underground services should be identified and treated as live/in use unless formally advised otherwise, and excavation risks include collapse, falls, plant and water.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Ground collapse or engulfment.",
+          "Falls into excavations.",
+          "Striking gas/electricity/water/communications services.",
+          "Mobile plant and spoil/material loading can destabilise edges."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Identify and mark services before excavation.",
+          "Set excavation support/battering/benching, barriers, access and plant controls appropriate to the depth/ground/site.",
+          "Keep spoil, vehicles and loads back from edges as determined by the site assessment."
+        ],
+        "safeUse": [
+          "Maintain barriers and safe access.",
+          "Monitor ground/water/weather changes.",
+          "Stop work immediately if an unidentified service or ground instability is found."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [
+          "Students must not enter unsupported or otherwise uncontrolled excavations. Any excavation requiring competent design, shoring, service-owner consent or notification remains under competent-person/teacher control."
+        ],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Excavation safety — https://www.worksafe.govt.nz/topic-and-industry/excavation/excavation-safety-gpg/",
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/"
+        ]
+      }
+    },
+    {
+      "id": "bld-asbestos",
+      "slug": "asbestos-stop-report",
+      "aliases": [],
+      "name": "Suspected asbestos — stop & report",
+      "section": "Materials & Chemicals",
+      "category": "Asbestos Awareness",
+      "image": "assets/images/worksite-hazardous-substances.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Asbestos awareness"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher control; students stop and leave the area if suspect asbestos is found.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "If you uncover a material that might contain asbestos, stop work, keep people away and tell the teacher.",
+        "ppe": [
+          "shoes"
+        ],
+        "hazards": [
+          "Breathing asbestos fibres",
+          "Spreading contamination",
+          "Drilling, cutting or breaking unknown existing materials"
+        ],
+        "beforeStart": [
+          "Existing-building work must be checked by the teacher before materials are disturbed.",
+          "Know that old boards, linings, insulation and other products may need specialist identification."
+        ],
+        "dos": [
+          "Stop immediately if suspicious/unknown material is uncovered.",
+          "Leave it undisturbed.",
+          "Keep others out and tell the teacher."
+        ],
+        "donts": [
+          "Do not cut, drill, sand, sweep or vacuum suspected asbestos.",
+          "Do not take samples yourself.",
+          "Do not carry pieces around the site."
+        ],
+        "stop": [
+          "Unknown/suspicious material is uncovered or damaged.",
+          "Dust/debris appears from an existing material that has not been cleared."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Student asbestos-awareness only. WorkSafe’s current guidance says that if previously unidentified asbestos or asbestos-containing material is unexpectedly discovered, work should stop immediately and people should be kept away from the area.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Asbestos fibres can cause fatal occupational disease.",
+          "Disturbing material can spread contamination to people, clothing, tools and surrounding areas."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "For work involving existing buildings/materials, determine asbestos status before disturbance where required.",
+          "Have an unexpected-discovery plan and know who will isolate/escalate the area."
+        ],
+        "safeUse": [
+          "If suspect material is found, stop work and isolate the area.",
+          "Do not allow students to sample, clean or disturb suspect material.",
+          "Use competent/licensed asbestos professionals where required."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [
+          "Awareness only. This SOP never authorises students to work with, remove, sample or clean asbestos/asbestos-containing material."
+        ],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Working with or near asbestos — https://www.worksafe.govt.nz/topic-and-industry/asbestos/asbestos-information-for-tradespeople/working-with-or-near-asbestos/",
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/"
+        ]
+      }
+    },
+    {
+      "id": "bld-emergency-reporting",
+      "slug": "emergency-incident-near-miss",
+      "aliases": [],
+      "name": "Emergency, incident & near-miss response",
+      "section": "Worksite Safety",
+      "category": "Emergency Response",
+      "image": "assets/images/worksite-induction.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Emergency / incident"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement",
+        "supervision": "Teacher instruction and active supervision required.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Stop the task, make the area safe without putting yourself at risk, and tell the teacher about injuries, incidents and near misses.",
+        "ppe": [
+          "shoes",
+          "hivis"
+        ],
+        "hazards": [
+          "A second injury after the first incident",
+          "Unreported hazards remaining in service",
+          "People entering an unsafe area",
+          "Delay getting first aid or emergency help"
+        ],
+        "beforeStart": [
+          "Know the first-aid location, emergency point and how to contact the teacher.",
+          "Know which areas must be kept clear for emergency access."
+        ],
+        "dos": [
+          "Stop work.",
+          "Warn others and keep them away from the hazard.",
+          "Get the teacher/first aider immediately.",
+          "Report near misses as well as injuries."
+        ],
+        "donts": [
+          "Do not move a seriously injured person unless needed to prevent immediate further harm.",
+          "Do not hide damage or near misses.",
+          "Do not restart equipment or work until the teacher releases it."
+        ],
+        "stop": [
+          "Someone is hurt, unwell or exposed to a hazardous substance.",
+          "A serious near miss occurs.",
+          "Equipment, scaffold, electricity or site controls fail."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "A consistent school worksite response: stop work, prevent further exposure, provide/obtain first aid or emergency assistance, preserve/secure the area as appropriate, record and investigate, and meet any school or WorkSafe notification duties.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Secondary harm when work continues after an incident.",
+          "Critical information can be lost if damage/near misses are hidden or reset.",
+          "Delayed first aid/emergency response."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Confirm site emergency arrangements, first aid, access and communication before work begins.",
+          "Brief students that near misses must be reported."
+        ],
+        "safeUse": [
+          "Stop and isolate affected work after incidents.",
+          "Provide first aid/emergency response under school procedure.",
+          "Do not restart until the cause/control has been reviewed.",
+          "Assess whether the event is notifiable or requires preservation of the site under current law/procedure."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — What events need to be notified? — https://www.worksafe.govt.nz/notifications/what-events-need-to-be-notified/",
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/"
+        ]
+      }
+    },
+    {
+      "id": "bld-nail-gun",
+      "slug": "nail-gun-framing-nailer",
+      "aliases": [
+        "framing nailer",
+        "pneumatic nail gun",
+        "battery nail gun",
+        "brad nailer"
+      ],
+      "name": "Nail gun / framing nailer",
+      "section": "Worksite Tools & Machines",
+      "category": "Portable Power Tool",
+      "image": "assets/images/building-nail-gun.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "sourceLabel": "WorkSafe NZ",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "Nail gun / framing nailer"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Teacher judgement; trained and suitably mature students only",
+        "supervision": "Direct teacher supervision until competence is demonstrated; teacher remains immediately available.",
+        "notes": [
+          "Added as part of the PHS residential building worksite safety expansion, 22 Aug 2026."
+        ]
+      },
+      "student": {
+        "headline": "Treat a nail gun as a loaded tool. Keep it pointed away from people and keep your free hand clear of the firing line.",
+        "ppe": [
+          "eye",
+          "ear",
+          "shoes"
+        ],
+        "hazards": [
+          "Nail penetrating hands or body",
+          "Ricochet or nail exiting the side/back of timber",
+          "Unexpected firing or double fire",
+          "Hose, battery or jam-clearing hazards"
+        ],
+        "beforeStart": [
+          "Get direct teacher permission and use only the nailer you have been trained on.",
+          "Wear eye and hearing protection.",
+          "Check the tool, fasteners, battery/air hose and contact safety for damage.",
+          "Make sure nobody is behind or beside the work where a nail could emerge."
+        ],
+        "dos": [
+          "Keep your finger off the trigger until the nose is correctly positioned.",
+          "Keep your free hand well away from the fastening point.",
+          "Hold the tool square to the work.",
+          "Disconnect air/remove battery or otherwise make the tool safe before clearing a jam or servicing, as the manufacturer specifies."
+        ],
+        "donts": [
+          "Never point the tool at anyone.",
+          "Do not defeat or tape back the contact safety.",
+          "Do not fire near edges/knots where the nail may deflect unless the teacher has approved the method.",
+          "No horseplay."
+        ],
+        "stop": [
+          "The nailer jams, misfires, double-fires or sounds wrong.",
+          "The safety tip/trigger does not work properly.",
+          "A nail ricochets or emerges unexpectedly.",
+          "The hose, battery or tool is damaged."
+        ],
+        "summaryStatus": "curated",
+        "note": "Short PHS student summary. It supports, but does not replace, the site briefing, teacher directions, WorkSafe guidance, local controls, manufacturer instructions or product SDS information."
+      },
+      "teacher": {
+        "overview": "Student SOP for pneumatic, gas or battery collated nailers/framing nailers only, subject to manufacturer instructions and local assessment. Powder-actuated fastening tools are specifically excluded from this student SOP.",
+        "ppe": [],
+        "supervision": "Active teacher supervision; increase to direct supervision for higher-risk stages or inexperienced students.",
+        "training": "Students must be instructed in the task, controls, boundaries and stop-work triggers before starting.",
+        "hazards": [
+          "Penetrating injury from direct or deflected fasteners.",
+          "Unexpected firing/double firing.",
+          "Ricochet or fastener passing through/along timber.",
+          "Noise, hose or battery hazards."
+        ],
+        "riskAssessment": [
+          "Residential construction sites change as work progresses. Re-check controls whenever access, weather, materials, equipment, other people or the stage of build changes."
+        ],
+        "preStart": [
+          "Use the exact manufacturer manual to set training, trigger mode, fastener selection, pressure/battery and maintenance.",
+          "Inspect contact safety, trigger, nose, magazine, hose/battery and guards.",
+          "Establish a clear line-of-fire/exclusion zone behind and beside the work."
+        ],
+        "safeUse": [
+          "Maintain controlled trigger discipline and hand position.",
+          "Make the tool safe before loading, jam clearing, servicing or passing it to another person as required by the manufacturer.",
+          "Do not defeat safety mechanisms.",
+          "Stop use after misfire, double-fire or damage until checked."
+        ],
+        "shutdown": [
+          "Leave the area safe, clear and ready for the next person or class. Report unresolved hazards before leaving."
+        ],
+        "restrictions": [
+          "This SOP does not cover powder-actuated fastening tools. WorkSafe states powder-actuated tools require certified operators with appropriate skills and training."
+        ],
+        "disposal": [],
+        "storage": [],
+        "furtherInformation": [],
+        "firstAid": [
+          "Stop work, tell the teacher immediately and follow the school first-aid/emergency procedure. For chemical exposure, use the current product SDS first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Review the actual site, stage of construction, students, supervision and weather before the activity starts.",
+          "Use current WorkSafe New Zealand guidance and Pukekohe High School procedures; this student summary is not a substitute for a site-specific risk assessment.",
+          "Confirm any manufacturer instructions, product SDS information, competent-person requirements and exclusion zones that apply."
+        ],
+        "references": [
+          "WorkSafe NZ — Powder-actuated hand-held fastening tools (exclusion/reference) — https://www.worksafe.govt.nz/topic-and-industry/power-tools/powder-actuated-tools/",
+          "WorkSafe NZ — Construction — https://www.worksafe.govt.nz/topic-and-industry/construction/",
+          "Use the current manufacturer manual for the exact pneumatic, gas or battery nailer used at PHS."
         ]
       }
     }

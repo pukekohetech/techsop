@@ -32,6 +32,7 @@ const state = {
   selectedToolId: null,
   mode: 'student',
   departmentFilter: 'engineering',
+  sectionFilter: 'all',
   search: '',
   defaultDepartment: 'engineering',
   defaultMode: 'student',
@@ -47,6 +48,8 @@ const els = {
   emptyTools: document.getElementById('emptyTools'),
   toolsHeading: document.getElementById('toolsHeading'),
   toolCount: document.getElementById('toolCount'),
+  sectionFilterPanel: document.getElementById('sectionFilterPanel'),
+  sectionChips: document.getElementById('sectionChips'),
   modeHint: document.getElementById('modeHint'),
   searchInput: document.getElementById('searchInput'),
   clearSearchBtn: document.getElementById('clearSearchBtn'),
@@ -127,6 +130,7 @@ async function loadAllData() {
     searchBlob: [
       tool.name,
       tool.category,
+      tool.section,
       ...(tool.aliases || []),
       ...(tool.sourceSheets || []),
       data.department?.name
@@ -165,6 +169,7 @@ function renderAll() {
   applyHomeFilters();
   renderMode();
   renderDepartments();
+  renderSectionFilters();
   renderToolGrid();
   renderView();
   updateHash();
@@ -174,13 +179,14 @@ function applyHomeFilters() {
   const q = state.search.trim().toLowerCase();
   state.visibleTools = state.tools.filter(tool => {
     const departmentOk = state.departmentFilter === 'all' || tool.department?.id === state.departmentFilter;
+    const sectionOk = state.sectionFilter === 'all' || tool.section === state.sectionFilter;
     const modeOk = state.mode === 'teacher' ? datasetAllowsMode(tool, 'teacher') : canShowInStudentMode(tool);
     const searchOk = !q || tool.searchBlob.includes(q);
-    return departmentOk && modeOk && searchOk;
+    return departmentOk && sectionOk && modeOk && searchOk;
   });
 
   const imageRank = tool => tool.image ? 0 : 1;
-  state.visibleTools.sort((a,b) => imageRank(a) - imageRank(b) || (a.category || '').localeCompare(b.category || '') || a.name.localeCompare(b.name));
+  state.visibleTools.sort((a,b) => imageRank(a) - imageRank(b) || (a.section || '').localeCompare(b.section || '') || (a.category || '').localeCompare(b.category || '') || a.name.localeCompare(b.name));
 }
 
 function renderMode() {
@@ -217,10 +223,56 @@ function renderDepartments() {
   els.departmentCards.querySelectorAll('[data-department]').forEach(btn => {
     btn.addEventListener('click', () => {
       state.departmentFilter = btn.dataset.department;
+      state.sectionFilter = 'all';
       state.selectedToolId = null;
       state.view = 'home';
       applyHomeFilters();
       renderDepartments();
+      renderSectionFilters();
+      renderToolGrid();
+      updateHash();
+    });
+  });
+}
+
+
+function sectionOptionsForCurrentDepartment() {
+  if (state.departmentFilter === 'all') return [];
+  const dept = state.departments.find(d => d.id === state.departmentFilter);
+  if (!dept) return [];
+  const configured = Array.isArray(dept.sections) ? dept.sections : [];
+  const present = [...new Set(state.tools
+    .filter(tool => tool.department?.id === state.departmentFilter)
+    .filter(tool => state.mode === 'teacher' ? datasetAllowsMode(tool, 'teacher') : canShowInStudentMode(tool))
+    .map(tool => tool.section)
+    .filter(Boolean))];
+  const ordered = configured.filter(name => present.includes(name));
+  present.forEach(name => { if (!ordered.includes(name)) ordered.push(name); });
+  return ordered;
+}
+
+function renderSectionFilters() {
+  if (!els.sectionFilterPanel || !els.sectionChips) return;
+  const options = sectionOptionsForCurrentDepartment();
+  if (!options.length) {
+    state.sectionFilter = 'all';
+    els.sectionFilterPanel.classList.add('hidden');
+    els.sectionChips.innerHTML = '';
+    return;
+  }
+  if (state.sectionFilter !== 'all' && !options.includes(state.sectionFilter)) state.sectionFilter = 'all';
+  const chips = ['all', ...options];
+  els.sectionChips.innerHTML = chips.map(name => {
+    const active = name === state.sectionFilter;
+    const label = name === 'all' ? 'All' : name;
+    return `<button class="section-chip ${active ? 'active' : ''}" type="button" data-section="${escapeHtml(name)}" aria-pressed="${active}">${escapeHtml(label)}</button>`;
+  }).join('');
+  els.sectionFilterPanel.classList.remove('hidden');
+  els.sectionChips.querySelectorAll('[data-section]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.sectionFilter = btn.dataset.section;
+      applyHomeFilters();
+      renderSectionFilters();
       renderToolGrid();
       updateHash();
     });
@@ -249,6 +301,7 @@ function renderToolGrid() {
       ? `<img src="${escapeHtml(tool.image)}" alt="${escapeHtml(tool.name)}">`
       : `<div class="tool-fallback" aria-hidden="true">${categoryIcon(tool)}</div>`;
     const source = (tool.sourceSheets || []).join(', ');
+    const sourceBadge = tool.sourceLabel || 'RAMS';
     const teacherStatus = state.mode === 'teacher' ? teacherHomeStatus(tool) : null;
     return `
       <button class="tool-card" type="button" data-tool-id="${escapeHtml(tool.id)}" aria-label="Open ${escapeHtml(tool.name)} ${state.mode === 'student' ? 'student SOP' : 'teacher SOP'}">
@@ -260,7 +313,7 @@ function renderToolGrid() {
           <strong>${escapeHtml(tool.name)}</strong>
           ${tool.category ? `<span>${escapeHtml(tool.category)}</span>` : ''}
           ${state.mode === 'teacher' && teacherStatus ? `<span class="tool-teacher-status ${teacherStatus.cls}">${escapeHtml(teacherStatus.label)}</span>` : ''}
-          ${source ? `<span class="tool-source">RAMS ${escapeHtml(source)}</span>` : ''}
+          ${source ? `<span class="tool-source">${escapeHtml(sourceBadge)} ${escapeHtml(source)}</span>` : ''}
         </span>
       </button>`;
   }).join('');
@@ -286,6 +339,7 @@ function openTool(id) {
   if (state.mode === 'student' && !canShowInStudentMode(tool)) return;
   state.selectedToolId = id;
   state.departmentFilter = tool.department?.id || state.departmentFilter;
+  state.sectionFilter = tool.section || 'all';
   state.view = 'detail';
   renderCurrentTool();
   renderView();
@@ -298,6 +352,7 @@ function goHome() {
   state.view = 'home';
   applyHomeFilters();
   renderDepartments();
+  renderSectionFilters();
   renderToolGrid();
   renderView();
   updateHash();
@@ -467,6 +522,7 @@ function renderTeacherSop(tool) {
   const access = teacherAccessStatus(tool);
   const sourceSheets = tool.sourceSheets || [];
   const sourceLabel = sourceSheets.length ? sourceSheets.join(', ') : 'local source';
+  const sourceBadge = tool.sourceLabel || 'RAMS';
   const sourceNote = meta.legalContextNote || 'Review this material against current local requirements before use.';
   const localNotes = local.notes || [];
   const supervision = local.supervision || t.supervision || 'Set locally';
@@ -515,7 +571,7 @@ function renderTeacherSop(tool) {
           <img src="assets/phs-shield.svg" alt="" aria-hidden="true">
           <span><strong>Pukekohe High School</strong><small>Technology • Teacher SOP / RAMS reference</small></span>
         </div>
-        <div class="teacher-card-source"><span>RAMS</span><strong>${escapeHtml(sourceLabel)}</strong></div>
+        <div class="teacher-card-source"><span>${escapeHtml(sourceBadge)}</span><strong>${escapeHtml(sourceLabel)}</strong></div>
       </header>
 
       <section class="teacher-hero">
@@ -577,11 +633,11 @@ function renderTeacherSop(tool) {
         ${teacherAccordion({ id: 'teacher-storage', icon: '⌂', title: 'Storage, disposal & further information', subtitle: 'Supporting source information', body: storageBody })}
         ${teacherAccordion({ id: 'teacher-first-aid', icon: '+', title: 'Immediate remedial measures / source first aid', subtitle: 'Source text for incident response — follow current school emergency procedures', items: t.firstAid, tone: 'first-aid' })}
         ${teacherAccordion({ id: 'teacher-local', icon: 'PHS', title: 'Pukekohe High School local review', subtitle: 'Approval, local notes and teacher checks', body: localBody, tone: 'local', open: !local.reviewed })}
-        ${teacherAccordion({ id: 'teacher-sources', icon: '↗', title: 'Source references', subtitle: 'RAMS sheets and dataset provenance', body: referenceBody })}
+        ${teacherAccordion({ id: 'teacher-sources', icon: '↗', title: 'Source references', subtitle: 'Source references and dataset provenance', body: referenceBody })}
       </section>
 
       <footer class="teacher-card-footer">
-        <span><strong>${escapeHtml(tool.name)}</strong> • RAMS ${escapeHtml(sourceLabel)}</span>
+        <span><strong>${escapeHtml(tool.name)}</strong> • ${escapeHtml(sourceBadge)} ${escapeHtml(sourceLabel)}</span>
         <span>This teacher view preserves the fuller source material; no safety text is shortened to fit the page.</span>
       </footer>
     </div>`;
@@ -635,10 +691,14 @@ function setMode(mode) {
     const modeOk = mode === 'teacher' ? datasetAllowsMode(tool, 'teacher') : canShowInStudentMode(tool);
     return deptOk && modeOk;
   });
-  if (!departmentHasItems) state.departmentFilter = state.defaultDepartment;
-  applyHomeFilters();
+  if (!departmentHasItems) {
+    state.departmentFilter = state.defaultDepartment;
+    state.sectionFilter = 'all';
+  }
   renderMode();
   renderDepartments();
+  renderSectionFilters();
+  applyHomeFilters();
   renderToolGrid();
   if (state.view === 'detail') renderCurrentTool();
   renderView();

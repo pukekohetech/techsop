@@ -34,8 +34,8 @@
       <section class="home-hero">
         <div class="home-hero-copy">
           <p class="eyebrow">Technology • Safety • SOPs</p>
-          <h1>Find a tool. Check the risks. Work safely.</h1>
-          <p>Pick a department or start typing. One click takes you straight to the safety page you need.</p>
+          <h1>Find a tool or worksite task. Check the risks. Work safely.</h1>
+          <p>Pick a department or start typing. One click takes you straight to the safety page you need — workshop or worksite.</p>
         </div>
         <div class="home-hero-mark" aria-hidden="true">
           <img src="assets/phs-shield.svg" alt="">
@@ -43,10 +43,10 @@
       </section>
 
       <section class="search-panel" aria-label="Search safety SOPs">
-        <label for="searchInput">Find a tool or RAMS</label>
+        <label for="searchInput">Find a tool, task or safety topic</label>
         <div class="search-box">
           <span aria-hidden="true">⌕</span>
-          <input id="searchInput" type="search" autocomplete="off" placeholder="Try “lathe”, “pillar drill”, “welder” or “1.039”.">
+          <input id="searchInput" type="search" autocomplete="off" placeholder="Try “ladder”, “silica”, “nail gun”, “lathe” or “1.039”.">
           <button id="clearSearchBtn" class="clear-search hidden" type="button">Clear</button>
         </div>
       </section>
@@ -69,6 +69,10 @@
             <h2 id="toolsHeading">Engineering Workshop</h2>
           </div>
           <p id="toolCount" class="section-note"></p>
+        </div>
+        <div id="sectionFilterPanel" class="section-filter-panel no-print hidden" aria-label="Filter this department by section">
+          <span class="section-filter-label">Section</span>
+          <div id="sectionChips" class="section-chips"></div>
         </div>
         <div id="toolGrid" class="tool-grid" aria-live="polite"></div>
         <div id="emptyTools" class="empty-tools hidden">
