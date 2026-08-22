@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#7b1f3a">
+  <title>Pukekohe High School • Technology Safety Hub</title>
+  <meta name="description" content="Fast student SOPs and fuller teacher RAMS for Pukekohe High School Technology.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header no-print">
+    <div class="brand-wrap">
+      <button id="brandHomeBtn" class="brand-home" type="button" aria-label="Return to SOP home">
+        <img class="brand-shield" src="assets/phs-shield.svg" alt="">
+        <span class="brand-copy">
+          <span class="school-name">PUKEKOHE HIGH SCHOOL</span>
+          <span class="school-name-maori">Te Kura Tuarua o Pukekohekohe</span>
+          <strong>Technology Safety Hub</strong>
+        </span>
+      </button>
+      <div class="header-tools">
+        <div class="mode-switch" aria-label="Choose SOP view">
+          <button id="studentModeBtn" class="mode-btn active" type="button" aria-pressed="true">Student</button>
+          <button id="teacherModeBtn" class="mode-btn" type="button" aria-pressed="false">Teacher</button>
+        </div>
+        <a id="qrLabelsBtn" class="qr-admin-link hidden" href="qr-labels.html">QR labels</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section id="homeView" class="home-view">
+      <section class="home-hero">
+        <div class="home-hero-copy">
+          <p class="eyebrow">Technology • Safety • SOPs</p>
+          <h1>Find a tool. Check the risks. Work safely.</h1>
+          <p>Pick a department or start typing. One click takes you straight to the safety page you need.</p>
+        </div>
+        <div class="home-hero-mark" aria-hidden="true">
+          <img src="assets/phs-shield.svg" alt="">
+        </div>
+      </section>
+
+      <section class="search-panel" aria-label="Search safety SOPs">
+        <label for="searchInput">Find a tool or RAMS</label>
+        <div class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" autocomplete="off" placeholder="Try “lathe”, “pillar drill”, “welder” or “1.039”.">
+          <button id="clearSearchBtn" class="clear-search hidden" type="button">Clear</button>
+        </div>
+      </section>
+
+      <section class="home-section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Step 1</p>
+            <h2>Choose a department</h2>
+          </div>
+          <p id="modeHint" class="section-note">Student mode shows curated student SOPs.</p>
+        </div>
+        <div id="departmentCards" class="department-grid" aria-label="Departments"></div>
+      </section>
+
+      <section class="home-section tools-section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Step 2</p>
+            <h2 id="toolsHeading">Engineering Workshop</h2>
+          </div>
+          <p id="toolCount" class="section-note"></p>
+        </div>
+        <div id="toolGrid" class="tool-grid" aria-live="polite"></div>
+        <div id="emptyTools" class="empty-tools hidden">
+          <strong>No matching SOPs.</strong>
+          <span>Try a different search, choose another department, or switch to Teacher view.</span>
+        </div>
+      </section>
+    </section>
+
+    <section id="detailView" class="detail-view hidden">
+      <div class="detail-toolbar no-print">
+        <button id="backHomeBtn" class="back-btn" type="button">← All SOPs</button>
+        <div class="detail-actions">
+          <button id="jumpPrev" class="small-btn" type="button">← Previous</button>
+          <button id="jumpNext" class="small-btn" type="button">Next →</button>
+          <button id="shareSopBtn" class="small-btn share hidden" type="button">QR / Link</button>
+          <button id="printBtn" class="small-btn primary" type="button">Print SOP</button>
+        </div>
+      </div>
+      <article id="sopCard" class="sop-card" aria-live="polite"></article>
+    </section>
+  </main>
+
+  <footer class="site-footer no-print">
+    <img src="assets/phs-shield.svg" alt="" aria-hidden="true">
+    <div>
+      <strong>Pukekohe High School Technology</strong>
+      <span>Student summaries support teaching; local RAMS, teacher instructions and machine-specific controls remain authoritative.</span>
+    </div>
+  </footer>
+
+
+  <dialog id="shareDialog" class="share-dialog no-print" aria-labelledby="shareDialogTitle">
+    <div class="share-dialog-card">
+      <div class="share-dialog-head">
+        <div>
+          <p class="share-kicker">Direct machine link</p>
+          <h2 id="shareDialogTitle">Student SOP</h2>
+        </div>
+        <button id="closeShareDialogBtn" class="dialog-close" type="button" aria-label="Close">×</button>
+      </div>
+      <div class="share-dialog-body">
+        <div class="qr-preview">
+          <img id="shareQrImage" src="" alt="">
+        </div>
+        <div class="share-copy">
+          <p><strong>Put this QR code beside the machine.</strong> Scanning it opens the Student SOP directly with no searching.</p>
+          <label for="shareUrlInput">Direct Student SOP link</label>
+          <div class="share-link-row">
+            <input id="shareUrlInput" type="text" readonly>
+            <button id="copyShareLinkBtn" class="small-btn" type="button">Copy</button>
+          </div>
+          <div class="share-actions">
+            <a id="openShareLink" class="small-btn" href="#" target="_blank" rel="noopener">Open link</a>
+            <a id="downloadQrLink" class="small-btn" href="#" download>Download QR</a>
+            <a id="printQrCardLink" class="small-btn primary" href="qr-labels.html" target="_blank" rel="noopener">Print QR card</a>
+          </div>
+          <p id="shareSafetyNote" class="share-safety-note"></p>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

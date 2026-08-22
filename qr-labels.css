@@ -1,0 +1,53 @@
+:root {
+  --maroon:#7b1f3a;
+  --maroon-soft:#f4e8ec;
+  --gold:#c79b43;
+  --ink:#231f20;
+  --muted:#675f61;
+  --line:#d9d1d3;
+  --paper:#f4f1f2;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--paper);color:var(--ink)}
+body{min-height:100vh}
+.qr-page-header{max-width:1200px;margin:0 auto;padding:18px 20px;display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center}
+.qr-page-header p{margin:0;color:var(--maroon);font-size:.76rem;letter-spacing:.08em;font-weight:900}
+.qr-page-header h1{margin:2px 0 3px;font-size:1.65rem}
+.qr-page-header span{color:var(--muted);font-size:.9rem}
+.back-link,.qr-page-header button,.controls button{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;padding:10px 14px;text-decoration:none;font-weight:800}
+.qr-page-header button{background:var(--maroon);border-color:var(--maroon);color:#fff}
+main{max-width:1200px;margin:0 auto;padding:0 20px 40px}
+.controls{background:#fff;border:1px solid var(--line);border-radius:18px;padding:12px 14px;display:flex;gap:10px;align-items:end;flex-wrap:wrap;margin-bottom:16px}
+.controls label{display:grid;gap:4px;font-size:.78rem;font-weight:800;color:var(--maroon);flex:1 1 220px}
+.controls input,.controls select{border:1px solid var(--line);border-radius:12px;padding:10px 11px;background:#fff;color:var(--ink);font:inherit}
+.controls span{margin-left:auto;padding:10px 0;color:var(--muted);font-weight:700}
+.qr-label-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.qr-label{background:#fff;border:1px solid #bfb5b8;border-top:7px solid var(--maroon);border-radius:16px;padding:12px;display:grid;grid-template-columns:1fr 112px;gap:12px;min-height:200px;box-shadow:0 8px 24px rgba(35,31,32,.06);break-inside:avoid}
+.label-copy{display:flex;flex-direction:column;min-width:0}
+.label-brand{display:flex;gap:7px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:7px;margin-bottom:8px}
+.label-brand img{width:25px;height:31px;object-fit:contain}
+.label-brand span{display:grid;gap:0}
+.label-brand strong{font-size:.68rem;color:var(--maroon);letter-spacing:.04em}
+.label-brand small{font-size:.62rem;color:var(--muted)}
+.label-dept{margin:0 0 3px;color:var(--maroon);font-weight:850;font-size:.67rem;text-transform:uppercase;letter-spacing:.06em}
+.qr-label h2{font-size:1.08rem;line-height:1.08;margin:0 0 7px}
+.scan-copy{margin:0 0 6px;font-size:.82rem;line-height:1.3}
+.safety-copy{margin:auto 0 0;padding-top:7px;border-top:1px solid var(--line);font-size:.69rem;line-height:1.25;color:#5e4308;font-weight:750}
+.qr-side{display:grid;align-content:center;justify-items:center;gap:5px}
+.qr-side img{width:108px;height:108px;object-fit:contain;background:#fff}
+.qr-side strong{font-size:.68rem;color:var(--maroon);text-align:center}
+.short-route{font-size:.55rem;color:var(--muted);text-align:center;word-break:break-word;line-height:1.15}
+.empty-card{grid-column:1/-1;background:#fff;border:2px dashed var(--line);border-radius:16px;padding:28px;text-align:center;color:var(--muted)}
+@media(max-width:900px){.qr-label-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.qr-page-header{grid-template-columns:1fr}.back-link,.qr-page-header button{justify-self:start}}
+@media(max-width:580px){main,.qr-page-header{padding-left:12px;padding-right:12px}.qr-label-grid{grid-template-columns:1fr}.qr-label{grid-template-columns:1fr 118px}}
+@media print{
+  @page{size:A4 portrait;margin:8mm}
+  html,body{background:#fff}
+  .no-print{display:none!important}
+  main{max-width:none;padding:0;margin:0}
+  .qr-label-grid{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+  .qr-label{box-shadow:none;border-radius:3mm;border:0.3mm solid #a99fa2;border-top:2mm solid var(--maroon);padding:3.2mm;min-height:84mm;max-height:84mm;grid-template-columns:1fr 34mm;gap:3mm;page-break-inside:avoid;break-inside:avoid}
+  .label-brand{padding-bottom:2mm;margin-bottom:2mm}.label-brand img{width:8mm;height:9.5mm}.label-brand strong{font-size:7.5pt}.label-brand small{font-size:6.4pt}
+  .label-dept{font-size:6.8pt}.qr-label h2{font-size:12pt;margin-bottom:2mm}.scan-copy{font-size:8.5pt}.safety-copy{font-size:7.2pt}.qr-side img{width:31mm;height:31mm}.qr-side strong{font-size:7pt}.short-route{font-size:5.8pt}
+}

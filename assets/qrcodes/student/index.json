@@ -1,0 +1,165 @@
+{
+  "publicBaseUrl": "https://pukekohetech.github.io/techsop/",
+  "items": [
+    {
+      "id": "eng-metal-hand-tools",
+      "name": "Metal hand tools \u2014 hacksaw, file & cold chisel",
+      "department": "engineering",
+      "slug": "metal-hand-tools",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/metal-hand-tools",
+      "qr": "assets/qrcodes/student/eng-metal-hand-tools.svg"
+    },
+    {
+      "id": "eng-soldering-iron",
+      "name": "Soldering iron / soft soldering",
+      "department": "engineering",
+      "slug": "soldering-iron",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/soldering-iron",
+      "qr": "assets/qrcodes/student/eng-soldering-iron.svg"
+    },
+    {
+      "id": "eng-brazing",
+      "name": "Brazing / silver soldering",
+      "department": "engineering",
+      "slug": "brazing",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/brazing",
+      "qr": "assets/qrcodes/student/eng-brazing.svg"
+    },
+    {
+      "id": "eng-butane-blowtorch",
+      "name": "Butane blowtorch",
+      "department": "engineering",
+      "slug": "butane-blowtorch",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/butane-blowtorch",
+      "qr": "assets/qrcodes/student/eng-butane-blowtorch.svg"
+    },
+    {
+      "id": "eng-metal-casting",
+      "name": "Metal casting",
+      "department": "engineering",
+      "slug": "metal-casting",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/metal-casting",
+      "qr": "assets/qrcodes/student/eng-metal-casting.svg"
+    },
+    {
+      "id": "eng-forging",
+      "name": "Forging",
+      "department": "engineering",
+      "slug": "forging",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/forging",
+      "qr": "assets/qrcodes/student/eng-forging.svg"
+    },
+    {
+      "id": "eng-arc-stick-welder",
+      "name": "Arc / stick welder",
+      "department": "engineering",
+      "slug": "arc-stick-welder",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/arc-stick-welder",
+      "qr": "assets/qrcodes/student/eng-arc-stick-welder.svg"
+    },
+    {
+      "id": "eng-mig-welder",
+      "name": "MIG welder \u2014 core arc-welding safety",
+      "department": "engineering",
+      "slug": "mig-welder",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/mig-welder",
+      "qr": "assets/qrcodes/student/eng-mig-welder.svg"
+    },
+    {
+      "id": "eng-oxy-acetylene",
+      "name": "Oxy-acetylene welding set",
+      "department": "engineering",
+      "slug": "oxy-acetylene",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/oxy-acetylene",
+      "qr": "assets/qrcodes/student/eng-oxy-acetylene.svg"
+    },
+    {
+      "id": "eng-spot-welder",
+      "name": "Spot welder",
+      "department": "engineering",
+      "slug": "spot-welder",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/spot-welder",
+      "qr": "assets/qrcodes/student/eng-spot-welder.svg"
+    },
+    {
+      "id": "eng-grinder-linisher",
+      "name": "Combined bench grinder & linisher",
+      "department": "engineering",
+      "slug": "grinder-linisher",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/grinder-linisher",
+      "qr": "assets/qrcodes/student/eng-grinder-linisher.svg"
+    },
+    {
+      "id": "eng-foot-guillotine",
+      "name": "Foot-operated guillotine",
+      "department": "engineering",
+      "slug": "foot-guillotine",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/foot-guillotine",
+      "qr": "assets/qrcodes/student/eng-foot-guillotine.svg"
+    },
+    {
+      "id": "eng-sheet-folder",
+      "name": "Sheet-metal folder",
+      "department": "engineering",
+      "slug": "sheet-folder",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/sheet-folder",
+      "qr": "assets/qrcodes/student/eng-sheet-folder.svg"
+    },
+    {
+      "id": "eng-sheet-rollers",
+      "name": "Sheet-metal rollers",
+      "department": "engineering",
+      "slug": "sheet-rollers",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/sheet-rollers",
+      "qr": "assets/qrcodes/student/eng-sheet-rollers.svg"
+    },
+    {
+      "id": "eng-metal-lathe",
+      "name": "Metal lathe",
+      "department": "engineering",
+      "slug": "metal-lathe",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/metal-lathe",
+      "qr": "assets/qrcodes/student/eng-metal-lathe.svg"
+    },
+    {
+      "id": "eng-milling-machine",
+      "name": "Milling machine",
+      "department": "engineering",
+      "slug": "milling-machine",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/milling-machine",
+      "qr": "assets/qrcodes/student/eng-milling-machine.svg"
+    },
+    {
+      "id": "eng-pillar-drill",
+      "name": "Pillar drill",
+      "department": "engineering",
+      "slug": "pillar-drill",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/pillar-drill",
+      "qr": "assets/qrcodes/student/eng-pillar-drill.svg"
+    },
+    {
+      "id": "eng-angle-grinder",
+      "name": "Angle grinder",
+      "department": "engineering",
+      "slug": "angle-grinder",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/angle-grinder",
+      "qr": "assets/qrcodes/student/eng-angle-grinder.svg"
+    },
+    {
+      "id": "eng-portable-drill",
+      "name": "Portable drill",
+      "department": "engineering",
+      "slug": "portable-drill",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/portable-drill",
+      "qr": "assets/qrcodes/student/eng-portable-drill.svg"
+    },
+    {
+      "id": "eng-portable-sheet-shears",
+      "name": "Portable sheet-metal shears / nibbler",
+      "department": "engineering",
+      "slug": "portable-sheet-shears",
+      "url": "https://pukekohetech.github.io/techsop/#/engineering/portable-sheet-shears",
+      "qr": "assets/qrcodes/student/eng-portable-sheet-shears.svg"
+    }
+  ]
+}

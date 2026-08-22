@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "ppe": {
+    "eye": {"label": "Safety glasses", "icon": "assets/icons/ppe/eye.svg"},
+    "ear": {"label": "Hearing protection", "icon": "assets/icons/ppe/ear.svg"},
+    "apron": {"label": "Apron / protective clothing", "icon": "assets/icons/ppe/apron.svg"},
+    "dust": {"label": "Dust / respiratory protection", "icon": "assets/icons/ppe/dust.svg"},
+    "shoes": {"label": "Protective footwear", "icon": "assets/icons/ppe/shoes.svg"},
+    "gloves": {"label": "Protective gloves", "icon": "assets/icons/ppe/gloves.svg"},
+    "face": {"label": "Face shield", "icon": "assets/icons/ppe/face.svg"},
+    "hair": {"label": "Tie back hair", "icon": "assets/icons/ppe/hair.svg"},
+    "heat": {"label": "Oven / heat gloves", "icon": "assets/icons/ppe/heat.svg"},
+    "hygiene": {"label": "Clean hands / hygiene", "icon": "assets/icons/ppe/hygiene.svg"},
+    "heat-eye": {"label": "Heat-resistant eye protection", "icon": "assets/icons/ppe/heat-eye.svg"},
+    "weld-face": {"label": "Welding helmet / shield", "icon": "assets/icons/ppe/weld-face.svg"},
+    "heat-gloves": {"label": "Heat-resistant gloves", "icon": "assets/icons/ppe/heat-gloves.svg"},
+    "sheet-gloves": {"label": "Sheet-handling gloves", "icon": "assets/icons/ppe/sheet-gloves.svg"}
+  },
+  "hazardTypes": {
+    "rotating": {"label": "Rotating parts", "tone": "danger"},
+    "entanglement": {"label": "Entanglement", "tone": "danger"},
+    "cut": {"label": "Cuts / blades", "tone": "danger"},
+    "crush": {"label": "Crush / trapping", "tone": "danger"},
+    "impact": {"label": "Impact / flying material", "tone": "warning"},
+    "burn": {"label": "Burns / hot surfaces", "tone": "warning"},
+    "fire": {"label": "Fire / sparks", "tone": "warning"},
+    "electric": {"label": "Electric shock", "tone": "danger"},
+    "fumes": {"label": "Fumes / vapours", "tone": "warning"},
+    "dust": {"label": "Dust", "tone": "warning"},
+    "noise": {"label": "Noise", "tone": "warning"},
+    "chemical": {"label": "Chemical exposure", "tone": "danger"},
+    "biological": {"label": "Food / biological contamination", "tone": "warning"},
+    "slip-trip": {"label": "Slip / trip", "tone": "warning"},
+    "manual-handling": {"label": "Manual handling", "tone": "warning"}
+  },
+  "categoryFallbacks": [
+    {"terms": ["weld"], "symbol": "⚡"},
+    {"terms": ["braz", "solder", "forg", "cast", "oven"], "symbol": "🔥"},
+    {"terms": ["drill"], "symbol": "◉"},
+    {"terms": ["lathe", "mill"], "symbol": "⚙"},
+    {"terms": ["grind", "linish"], "symbol": "✦"},
+    {"terms": ["guillotine", "shear"], "symbol": "✂"},
+    {"terms": ["roll"], "symbol": "↻"},
+    {"terms": ["fold"], "symbol": "∠"},
+    {"terms": ["saw"], "symbol": "⌁"},
+    {"terms": ["food", "cook", "kitchen"], "symbol": "◌"},
+    {"terms": ["knife"], "symbol": "／"},
+    {"terms": ["clean"], "symbol": "✧"}
+  ]
+}

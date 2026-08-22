@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#7b1f3a">
+  <title>Student SOP QR Labels • Pukekohe High School</title>
+  <link rel="stylesheet" href="qr-labels.css">
+</head>
+<body>
+  <header class="qr-page-header no-print">
+    <a class="back-link" href="index.html#/teacher/engineering">← Safety Hub</a>
+    <div>
+      <p>PUKEKOHE HIGH SCHOOL</p>
+      <h1>Student SOP QR Labels</h1>
+      <span>Print these cards and place them beside the matching machines.</span>
+    </div>
+    <button id="printLabelsBtn" type="button">Print labels</button>
+  </header>
+
+  <main>
+    <section class="controls no-print">
+      <label>Find a label <input id="qrSearch" type="search" placeholder="Pillar drill, welder, lathe…"></label>
+      <label>Department <select id="qrDepartment"><option value="all">All departments</option></select></label>
+      <button id="showAllBtn" type="button">Show all</button>
+      <span id="qrCount"></span>
+    </section>
+    <section id="qrGrid" class="qr-label-grid" aria-live="polite"></section>
+  </main>
+
+  <template id="emptyQrTemplate">
+    <div class="empty-card">No matching Student SOP QR labels.</div>
+  </template>
+
+  <script src="qr-labels.js"></script>
+</body>
+</html>
