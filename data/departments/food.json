@@ -3,12 +3,12 @@
   "department": {
     "id": "food",
     "name": "Food Technology",
-    "icon": "🍳"
+    "icon": "🍴"
   },
   "meta": {
     "sourceTitle": "RAMS Food.pdf",
     "sourceEdition": "CLEAPSS model risk assessments, principally 2009; some sheets in the supplied PDF show later revision dates.",
-    "conversionPurpose": "Student-friendly one-page SOP summaries plus fuller teacher source material.",
+    "conversionPurpose": "Curated one-page student SOPs for common Food Technology activities plus fuller teacher RAMS source material.",
     "localAdaptationRequired": true,
     "legalContextNote": "The supplied source is UK guidance. It must be reviewed against current New Zealand law, Pukekohe High School policy, actual equipment, rooms and student groups before publication or use."
   },
@@ -1073,9 +1073,10 @@
     {
       "id": "3-010-conventional-ovens",
       "aliases": [
-        "Oven"
+        "oven",
+        "conventional oven"
       ],
-      "name": "Conventional ovens",
+      "name": "Oven",
       "category": "Cooking equipment",
       "image": "",
       "studentVisible": true,
@@ -1090,46 +1091,53 @@
         "studentUseApproved": null,
         "studentUseCandidate": true,
         "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Hot ovens can burn. Use dry oven gloves and open the door carefully.",
+        "headline": "Hot oven, hot trays and steam can burn. Use oven gloves and open the door carefully.",
         "ppe": [
-          "heat",
           "apron",
-          "hair"
+          "heat",
+          "shoes",
+          "hair",
+          "hygiene"
         ],
         "hazards": [
-          "Hot shelves, trays and oven surfaces",
-          "Steam and hot food",
-          "Fire from overheated food, fat or oil",
-          "Gas can be dangerous if it does not light"
+          "Hot shelves, trays and dishes can burn",
+          "Hot air and steam can scald",
+          "Food or fat can catch fire",
+          "Undercooked or badly stored food can make people sick"
         ],
         "beforeStart": [
-          "Tie back long hair and wear suitable protective clothing.",
-          "Check the oven is set correctly.",
-          "Use dry oven gloves for hot trays."
+          "Tie back long hair and wash your hands.",
+          "Check the shelf is level and in the right place.",
+          "Use dry oven gloves.",
+          "Make sure the area around the oven is clear."
         ],
         "dos": [
-          "Open the oven carefully and stand back from heat or steam.",
-          "Use oven gloves when handling hot shelves or containers.",
-          "Cook food right through when the recipe requires it.",
-          "Keep the oven clean and free from grease build-up."
+          "Open the oven door carefully and stand back from the heat.",
+          "Use both hands and oven gloves for hot trays.",
+          "Put hot trays on a heat-safe surface.",
+          "Cook and reheat food thoroughly as your teacher instructs."
         ],
         "donts": [
-          "Do not touch hot trays with bare hands.",
-          "Do not leave food cooking without the supervision your teacher requires.",
-          "Do not use an oven that smells of unburnt gas."
+          "Do not touch hot shelves or trays with bare hands.",
+          "Do not leave the oven door open.",
+          "Do not use water on burning fat or oil.",
+          "Do not crowd around the oven."
         ],
         "stop": [
-          "You smell gas.",
-          "There is unexpected smoke or fire.",
-          "An oven glove, shelf or door is unsafe.",
-          "Something looks, sounds or feels unsafe."
+          "You see smoke or fire.",
+          "A shelf, tray or oven door is loose or damaged.",
+          "You are burned or scalded.",
+          "Food has not heated properly."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "The use of a conventional oven for initial cooking and reheating of precooked food. See sheet 3.011 for the hazards of food poisoning and 3.023 for heating on hobs.",
@@ -1232,7 +1240,7 @@
       "name": "Cooking and reheating, food poisoning",
       "category": "Food safety",
       "image": "",
-      "studentVisible": true,
+      "studentVisible": false,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -1275,7 +1283,7 @@
           "You are unsure how long food has been stored.",
           "Something about the food seems unsafe."
         ],
-        "summaryStatus": "curated",
+        "summaryStatus": "generated-draft",
         "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
       },
       "teacher": {
@@ -1341,10 +1349,10 @@
     {
       "id": "3-012-deep-fat-fryers",
       "aliases": [
-        "Deep fryer",
-        "Deep fat fryer"
+        "fryer",
+        "deep fryer"
       ],
-      "name": "Deep fat fryers",
+      "name": "Deep fat fryer",
       "category": "Cooking equipment",
       "image": "",
       "studentVisible": true,
@@ -1358,42 +1366,54 @@
         "reviewed": false,
         "studentUseApproved": null,
         "studentUseCandidate": true,
-        "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "minimumYear": "Set locally from source restriction and student maturity",
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Follow the hygiene and safety steps before you start.",
+        "headline": "Hot oil can cause serious burns and fire. Use the fryer only after teacher training and permission.",
         "ppe": [
-          "heat"
+          "apron",
+          "heat",
+          "shoes",
+          "hair",
+          "hygiene"
         ],
         "hazards": [
-          "Trips and falls",
-          "Electric shock",
-          "Burns and scalds",
-          "Overheating or fire",
-          "Can harm the environment",
-          "Food poisoning from harmful germs"
+          "Very hot oil can burn or scald",
+          "Wet food can make hot oil spit",
+          "Overheated oil can catch fire",
+          "Trailing leads or a knocked fryer can cause serious injury"
         ],
         "beforeStart": [
-          "Get teacher permission before you start."
+          "Get teacher permission before using the fryer.",
+          "Make sure food is not dripping wet.",
+          "Check the fryer is stable and the lead is out of the way.",
+          "Use the basket and utensils your teacher provides."
         ],
         "dos": [
-          "Cook food right through to the safe centre temperature.",
-          "Use dry protective gloves for hot or very cold items."
+          "Lower food gently into the oil.",
+          "Keep your face and hands away from the hot oil.",
+          "Keep the area around the fryer clear.",
+          "Follow the fryer temperature and quantity limits."
         ],
         "donts": [
-          "Do not use this until your teacher has checked that you are trained and ready.",
-          "Do not reheat food more than once."
+          "Do not put wet food or water into hot oil.",
+          "Do not move a fryer while it is hot.",
+          "Do not reach into hot oil.",
+          "Never use water on an oil fire."
         ],
         "stop": [
-          "A plug, lead or electrical part is damaged.",
-          "There is unexpected smoke, fire or dangerous heat.",
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "Oil spits or foams badly.",
+          "You smell burning or see smoke.",
+          "The fryer or lead is damaged.",
+          "Someone is burned or the fryer is knocked."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Deep fat frying using a thermostatically controlled closed deep fat fryer.",
@@ -1486,8 +1506,11 @@
     },
     {
       "id": "3-013-defrosting-foods",
-      "aliases": [],
-      "name": "Defrosting foods",
+      "aliases": [
+        "thawing",
+        "defrost"
+      ],
+      "name": "Defrosting food",
       "category": "Food storage",
       "image": "",
       "studentVisible": true,
@@ -1502,30 +1525,46 @@
         "studentUseApproved": null,
         "studentUseCandidate": true,
         "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Keep food at safe temperatures and protect it from contamination.",
-        "ppe": [],
+        "headline": "Defrost food safely so harmful germs do not get time to grow.",
+        "ppe": [
+          "apron",
+          "hygiene"
+        ],
         "hazards": [
-          "Food poisoning from harmful germs"
+          "Germs can grow if food gets warm for too long",
+          "Raw food juices can contaminate other food",
+          "Some foods may still be frozen in the middle"
         ],
         "beforeStart": [
-          "Get teacher permission before you start."
+          "Follow the packet or teacher instructions.",
+          "Use a clean tray or container to catch drips.",
+          "Keep raw food away from cooked or ready-to-eat food."
         ],
         "dos": [
-          "Follow the steps your teacher has shown you."
+          "Defrost food in the fridge when instructed.",
+          "Cover food while it defrosts.",
+          "Cook thawed food promptly.",
+          "Wash hands and clean surfaces after handling raw food."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not leave high-risk food warm on the bench for a long time.",
+          "Do not refreeze thawed food unless it has been cooked as instructed.",
+          "Do not use food from a failed freezer without teacher approval."
         ],
         "stop": [
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "Food smells wrong, looks spoiled or feels unusually warm.",
+          "Raw juices have contaminated other food.",
+          "You are not sure whether the food is fully thawed."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Defrosting foods that are precooked and defrosting food that is to be cooked.",
@@ -1628,8 +1667,11 @@
     },
     {
       "id": "3-014-eating-and-tasting",
-      "aliases": [],
-      "name": "Eating and tasting",
+      "aliases": [
+        "taste",
+        "sensory testing"
+      ],
+      "name": "Eating & tasting",
       "category": "Food safety",
       "image": "",
       "studentVisible": true,
@@ -1644,39 +1686,44 @@
         "studentUseApproved": null,
         "studentUseCandidate": true,
         "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Keep hands, tools and food clean so harmful germs do not spread.",
+        "headline": "Taste only when your teacher says it is safe. Think about hygiene and food allergies.",
         "ppe": [
           "hygiene"
         ],
         "hazards": [
-          "Food poisoning from harmful germs",
-          "Chemical or pest poison can contaminate food",
-          "Food can become contaminated",
-          "Allergic reaction"
+          "Food poisoning from contaminated food",
+          "Allergic reactions",
+          "Cross-contamination from hands or utensils"
         ],
         "beforeStart": [
-          "Get teacher permission before you start.",
-          "Wash and dry your hands."
+          "Wash your hands.",
+          "Check allergy information before tasting.",
+          "Use a clean spoon or utensil each time."
         ],
         "dos": [
-          "Wash and dry your hands after the task.",
-          "Wash and dry your hands before touching food.",
-          "Keep raw food away from cooked or ready-to-eat food."
+          "Take only a small tasting amount.",
+          "Use a fresh spoon if tasting again.",
+          "Keep raw food and tasting utensils separate."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not taste raw meat, poultry or unsafe mixtures.",
+          "Do not share used tasting spoons.",
+          "Do not give food to someone if you do not know their allergy requirements."
         ],
         "stop": [
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Someone may be having an allergic reaction.",
-          "Something looks, sounds or feels unsafe."
+          "Someone feels unwell after tasting.",
+          "You are unsure about an ingredient or allergy.",
+          "Food may have been contaminated."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Tasting during preparation (for flavour adjustment) and consuming food after preparation and cooking as the end point of the activity. Sensory analysis activities.",
@@ -1892,9 +1939,9 @@
     {
       "id": "3-016-food-processors",
       "aliases": [
-        "Food processor"
+        "processor"
       ],
-      "name": "Food processors",
+      "name": "Food processor",
       "category": "Powered kitchen equipment",
       "image": "",
       "studentVisible": true,
@@ -1909,44 +1956,52 @@
         "studentUseApproved": null,
         "studentUseCandidate": true,
         "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Keep fingers clear of moving blades and switch off before cleaning or adjusting.",
+        "headline": "Sharp blades spin very fast. Keep hands out of the bowl and switch off before opening.",
         "ppe": [
+          "apron",
+          "shoes",
+          "hair",
           "hygiene"
         ],
         "hazards": [
-          "Cuts from sharp tools or edges",
-          "Electric shock",
-          "Heavy or awkward items",
-          "Food poisoning from harmful germs",
-          "Chemical or pest poison can contaminate food",
-          "Allergic reaction"
+          "Sharp blades can cut",
+          "Moving parts can trap fingers",
+          "Electric shock from damaged equipment or wet hands",
+          "Food can spill or be thrown out if assembled badly"
         ],
         "beforeStart": [
-          "Get teacher permission before you start.",
-          "Wash and dry your hands."
+          "Tie back hair and wash and dry your hands.",
+          "Check the bowl, lid, blade and cable are fitted correctly.",
+          "Keep the processor on a stable, dry bench.",
+          "Get teacher permission before switching on."
         ],
         "dos": [
-          "Keep the safety guards in place.",
-          "Wash and dry your hands after the task.",
-          "Wash and dry your hands before touching food.",
-          "Keep raw food away from cooked or ready-to-eat food."
+          "Use the pusher, not your fingers, to feed food.",
+          "Keep the lid locked while the motor is running.",
+          "Switch off and unplug before removing blades or clearing food.",
+          "Carry sharp blades carefully by safe parts."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not put fingers or utensils into a moving processor.",
+          "Do not use with wet hands.",
+          "Do not force the lid or safety lock.",
+          "Do not leave the machine running unattended."
         ],
         "stop": [
-          "A plug, lead or electrical part is damaged.",
-          "A blade, wheel, drill bit or cutter looks damaged.",
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Someone may be having an allergic reaction.",
-          "Something looks, sounds or feels unsafe."
+          "The lid or safety lock does not work.",
+          "The cable, plug or bowl is damaged.",
+          "The blade jams or the machine vibrates badly.",
+          "You are cut or receive an electric shock."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Using food processors that are not held in the hand during use.",
@@ -2058,7 +2113,7 @@
       "name": "Food storage: dry foods",
       "category": "Food storage",
       "image": "",
-      "studentVisible": true,
+      "studentVisible": false,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -2153,7 +2208,7 @@
       "name": "Food storage: high temperatures",
       "category": "Food storage",
       "image": "",
-      "studentVisible": true,
+      "studentVisible": false,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -2266,11 +2321,12 @@
     {
       "id": "3-019-food-storage-low-temperatures",
       "aliases": [
-        "Fridge",
-        "Refrigerator",
-        "Freezer"
+        "fridge",
+        "refrigerator",
+        "freezer",
+        "cold storage"
       ],
-      "name": "Food storage: low temperatures",
+      "name": "Fridge & freezer storage",
       "category": "Food storage",
       "image": "",
       "studentVisible": true,
@@ -2285,33 +2341,45 @@
         "studentUseApproved": null,
         "studentUseCandidate": true,
         "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Keep food at safe temperatures and protect it from contamination.",
-        "ppe": [],
+        "headline": "Keep cold food cold, covered and separated so germs cannot spread.",
+        "ppe": [
+          "hygiene"
+        ],
         "hazards": [
-          "Food poisoning from harmful germs",
-          "Chemical or pest poison can contaminate food"
+          "Germs can grow if chilled food gets too warm",
+          "Raw food can drip onto ready-to-eat food",
+          "Poorly wrapped or old food can become unsafe"
         ],
         "beforeStart": [
-          "Get teacher permission before you start."
+          "Wash your hands before handling stored food.",
+          "Use clean containers or safe wrapping.",
+          "Label food when your teacher requires it."
         ],
         "dos": [
-          "Secure the work before you start.",
-          "Let hot parts or food cool before touching them.",
-          "Keep raw food away from cooked or ready-to-eat food."
+          "Put chilled food back in the fridge quickly.",
+          "Keep raw meat below cooked and ready-to-eat food.",
+          "Keep food covered.",
+          "Follow use-by dates and storage instructions."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not put hot food straight into a crowded fridge.",
+          "Do not mix raw and cooked food.",
+          "Do not eat food that has been stored unsafely."
         ],
         "stop": [
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "The fridge or freezer is not cold.",
+          "Raw food has leaked onto other food.",
+          "Food is out of date, spoiled or has been left warm."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Preserving the quality of food by chilling and freezing.",
@@ -2423,7 +2491,7 @@
       "name": "Freezing food: freezer, refrigerator",
       "category": "Food storage",
       "image": "",
-      "studentVisible": true,
+      "studentVisible": false,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -2562,8 +2630,11 @@
     },
     {
       "id": "3-021-frying-and-grilling-food",
-      "aliases": [],
-      "name": "Frying and grilling food",
+      "aliases": [
+        "frying pan",
+        "grill"
+      ],
+      "name": "Frying & grilling",
       "category": "Cooking equipment",
       "image": "",
       "studentVisible": true,
@@ -2577,43 +2648,54 @@
         "reviewed": false,
         "studentUseApproved": null,
         "studentUseCandidate": true,
-        "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "minimumYear": "Set locally from source restriction and student maturity",
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Watch out for heat, steam and hot surfaces. Work slowly and follow the teacher.",
+        "headline": "Hot pans, grills, oil and steam can burn. Keep handles safe and stay with your cooking.",
         "ppe": [
-          "eye",
-          "heat"
+          "apron",
+          "heat",
+          "shoes",
+          "hair",
+          "hygiene"
         ],
         "hazards": [
-          "Fire",
-          "Burns from hot parts or material",
-          "Eye damage",
-          "Food poisoning from harmful germs"
+          "Hot oil and pans can burn",
+          "Oil or fat can catch fire",
+          "Steam and splashes can scald",
+          "Raw food can contaminate cooked food"
         ],
         "beforeStart": [
-          "Get teacher permission before you start.",
-          "Put on eye protection."
+          "Tie back hair and clear the cooking area.",
+          "Use the correct pan, tray and utensils.",
+          "Keep pan handles turned to a safe position.",
+          "Dry food before adding it to hot oil where instructed."
         ],
         "dos": [
-          "Wear the eye protection your teacher gives you.",
-          "Cook food right through to the safe centre temperature.",
-          "Use dry protective gloves for hot or very cold items."
+          "Stay with the pan or grill while it is heating.",
+          "Add food gently to reduce splashing.",
+          "Use heat-safe tools and oven gloves when needed.",
+          "Keep raw and cooked foods separate."
         ],
         "donts": [
-          "Do not use this until your teacher has checked that you are trained and ready.",
-          "Do not reheat food more than once."
+          "Do not leave hot oil unattended.",
+          "Do not overfill a pan.",
+          "Do not use water on burning fat or oil.",
+          "Do not touch hot pans with bare hands."
         ],
         "stop": [
-          "You can smell strong fumes or the extraction is not working.",
-          "There is unexpected smoke, fire or dangerous heat.",
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "Oil smokes or catches fire.",
+          "A pan is unstable or a handle is unsafe.",
+          "You are burned or scalded.",
+          "Food may not be cooked safely."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "The use of a frying pan for shallow frying and a powered deep-fat fryer with or without a lid. The use of a gas- or electrically-heated grill.",
@@ -2703,8 +2785,12 @@
     },
     {
       "id": "3-022-handling-food",
-      "aliases": [],
-      "name": "Handling food",
+      "aliases": [
+        "food hygiene",
+        "cross contamination",
+        "hand washing"
+      ],
+      "name": "Food hygiene & safe handling",
       "category": "Food safety",
       "image": "",
       "studentVisible": true,
@@ -2718,46 +2804,50 @@
         "studentUseApproved": null,
         "studentUseCandidate": true,
         "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Clean hands and clean tools keep germs out of food.",
+        "headline": "Clean hands, clean tools and good separation stop germs spreading through food.",
         "ppe": [
-          "hygiene",
           "apron",
+          "hygiene",
           "hair"
         ],
         "hazards": [
-          "Food poisoning from harmful germs",
-          "Food can be contaminated by chemicals or dirty hands",
-          "Some foods can cause serious allergic reactions"
+          "Germs from dirty hands or surfaces",
+          "Cross-contamination between raw and ready-to-eat food",
+          "Cuts or illness can contaminate food",
+          "Allergens can be transferred between foods"
         ],
         "beforeStart": [
-          "Wash and dry your hands.",
+          "Wash and dry your hands properly.",
           "Tie back long hair and wear a clean apron.",
-          "Cover cuts with a waterproof dressing.",
-          "Tell the teacher about relevant allergies or illness."
+          "Cover cuts with a waterproof food-safe dressing.",
+          "Check the bench and equipment are clean."
         ],
         "dos": [
-          "Keep raw food away from cooked or ready-to-eat food.",
-          "Use clean tools, boards and work surfaces.",
-          "Wash hands between raw and ready-to-eat foods.",
-          "Keep food protected from contamination."
+          "Wash hands after handling raw meat, eggs or dirty items.",
+          "Use separate clean equipment where instructed.",
+          "Keep raw food away from cooked and ready-to-eat food.",
+          "Clean spills promptly."
         ],
         "donts": [
-          "Do not prepare food for others if you have vomiting, diarrhoea or an infection.",
-          "Do not touch hair or face and then touch food without washing hands.",
-          "Do not use dirty utensils or boards."
+          "Do not prepare food for others if you are vomiting, have diarrhoea or have been told not to cook.",
+          "Do not touch hair, face or phones then touch food without washing hands.",
+          "Do not use dirty cloths, boards or utensils."
         ],
         "stop": [
-          "Food may have been contaminated.",
-          "Someone may be having an allergic reaction.",
-          "A work surface or utensil cannot be cleaned safely.",
-          "Something about the food seems unsafe."
+          "Food has been contaminated.",
+          "You feel unwell.",
+          "A cut or dressing may have contaminated food.",
+          "You are unsure about an allergen."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Handling all food substances and products.",
@@ -2841,11 +2931,12 @@
     {
       "id": "3-023-hob-kettle-urn",
       "aliases": [
-        "Hob",
-        "Kettle",
-        "Urn"
+        "hob",
+        "stovetop",
+        "kettle",
+        "urn"
       ],
-      "name": "Hob, kettle, urn",
+      "name": "Hob, kettle & urn",
       "category": "Cooking equipment",
       "image": "",
       "studentVisible": true,
@@ -2859,45 +2950,53 @@
         "studentUseApproved": null,
         "studentUseCandidate": true,
         "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Hot water, steam and hot pans can burn. Work slowly and keep handles safe.",
+        "headline": "Heat, steam and boiling water can scald. Keep handles safe and pour carefully.",
         "ppe": [
           "apron",
-          "hair"
+          "heat",
+          "shoes",
+          "hair",
+          "hygiene"
         ],
         "hazards": [
-          "Hot pans, hotplates and flames",
-          "Boiling water and steam",
-          "Fire from oils and fats",
-          "Electric shock from damaged appliances"
+          "Hot elements, pans and kettles can burn",
+          "Steam and boiling water can scald",
+          "Pan handles can be knocked",
+          "Gas or electrical faults can cause fire or shock"
         ],
         "beforeStart": [
-          "Tie back long hair and wear suitable protective clothing.",
-          "Check pans, burners, kettles and leads look safe.",
-          "Keep the area around the hob clear."
+          "Tie back hair and clear the area.",
+          "Check pans and kettles are stable and not overfilled.",
+          "Keep leads away from heat and water.",
+          "Use dry hands with electrical equipment."
         ],
         "dos": [
-          "Turn pan handles so they do not stick out.",
-          "Avoid carrying boiling water when possible.",
-          "Use only kettles with automatic switch-off.",
-          "Keep water out of electrical parts."
+          "Turn pan handles away from edges and other burners.",
+          "Lift lids away from your face.",
+          "Pour hot water slowly and carefully.",
+          "Switch off the heat when finished."
         ],
         "donts": [
-          "Do not overcrowd the hob.",
-          "Do not use open deep-fat frying.",
-          "Do not touch electrical equipment with wet hands."
+          "Do not leave pans or kettles heating unattended.",
+          "Do not use wet oven gloves or cloths.",
+          "Do not carry an overfilled kettle or pan.",
+          "Do not use damaged electrical equipment."
         ],
         "stop": [
-          "A lead or plug is damaged.",
-          "A pan of fat or oil catches fire.",
-          "A gas flame goes out or you smell gas.",
-          "Something looks, sounds or feels unsafe."
+          "There is a gas smell, smoke or fire.",
+          "A pan boils over badly.",
+          "The lead, plug or appliance is damaged.",
+          "You are burned or scalded."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "The use of a hob, either as a separate unit or as part of a ‘cooker’ powered by gas or electricity. The use of a kettle or urn for heating water.",
@@ -2974,10 +3073,10 @@
     {
       "id": "3-024-knives",
       "aliases": [
-        "Knife",
-        "Knives"
+        "knife",
+        "chef knife"
       ],
-      "name": "Knives",
+      "name": "Kitchen knives",
       "category": "Knives & cutting",
       "image": "",
       "studentVisible": true,
@@ -2992,44 +3091,48 @@
         "studentUseApproved": null,
         "studentUseCandidate": true,
         "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Use the taught knife grip, cut on a board and keep fingers out of the blade path.",
+        "headline": "Use a sharp knife on a stable board. Cut away from your fingers and carry it safely.",
         "ppe": [
+          "apron",
+          "shoes",
           "hygiene"
         ],
         "hazards": [
-          "Cuts from sharp knives",
-          "Stab injuries when carrying knives",
-          "Juice can splash into eyes",
-          "Dirty knives or boards can spread germs"
+          "Sharp blades can cut hands and fingers",
+          "A slipping board or food can make the knife slip",
+          "Knives left hidden or near bench edges can injure others"
         ],
         "beforeStart": [
-          "Wash and dry your hands.",
-          "Use a clean chopping board.",
-          "Choose the correct knife and check it is sharp enough to control safely."
+          "Use the knife your teacher gives you for the job.",
+          "Put the board on a stable, non-slip surface.",
+          "Keep fingers curled safely away from the blade."
         ],
         "dos": [
-          "Use the knife technique your teacher has shown you.",
-          "Keep the hand holding food behind the blade path.",
-          "Use a sawing action for fruit when this reduces splashing.",
-          "Use separate clean boards and knives for raw and ready-to-eat foods."
+          "Cut away from your body and fingers.",
+          "Carry a knife down by your side with the point facing down.",
+          "Put the knife down where it can be clearly seen.",
+          "Wash and store knives carefully as instructed."
         ],
         "donts": [
-          "Do not carry a knife carelessly around the room.",
-          "Do not use a mandolin slicer.",
-          "Do not use a blunt knife that needs excessive force."
+          "Do not wave, throw or play with knives.",
+          "Do not try to catch a falling knife.",
+          "Do not leave a knife in a sink, under food or near a bench edge."
         ],
         "stop": [
-          "The knife is damaged or too blunt to control.",
-          "The work area is overcrowded.",
-          "A board or knife may be contaminated.",
-          "Someone is not using a knife safely."
+          "The handle or blade is loose or damaged.",
+          "The board or food will not stay stable.",
+          "You cut yourself.",
+          "Someone is using a knife unsafely nearby."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Scraping, peeling and cutting vegetables, cutting and trimming meat, filleting and cutting fish, cutting bread.",
@@ -3137,12 +3240,12 @@
     {
       "id": "3-025-liquidising-mincing-mixing",
       "aliases": [
-        "Blender",
-        "Liquidiser",
-        "Mixer",
-        "Mincer"
+        "blender",
+        "mixer",
+        "mincer",
+        "liquidiser"
       ],
-      "name": "Liquidising, mincing, mixing",
+      "name": "Liquidiser, mixer & mincer",
       "category": "Powered kitchen equipment",
       "image": "",
       "studentVisible": true,
@@ -3156,37 +3259,51 @@
         "studentUseApproved": null,
         "studentUseCandidate": true,
         "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Keep fingers clear of moving blades and switch off before cleaning or adjusting.",
-        "ppe": [],
+        "headline": "Blades and beaters move fast. Keep hands and utensils out until everything has stopped.",
+        "ppe": [
+          "apron",
+          "shoes",
+          "hair",
+          "hygiene"
+        ],
         "hazards": [
-          "Electric shock",
-          "Injury from equipment or handling",
-          "Heavy or awkward items",
-          "Dust can harm lungs or eyes"
+          "Sharp blades or beaters can cut or trap",
+          "Loose hair or clothing can catch in moving parts",
+          "Food or liquid can splash out",
+          "Electric shock from damaged equipment or wet hands"
         ],
         "beforeStart": [
-          "Get teacher permission before you start."
+          "Tie back hair and keep sleeves secure.",
+          "Check the bowl, lid and attachments are fitted correctly.",
+          "Use the machine on a stable, dry bench.",
+          "Keep hands dry before touching plugs or controls."
         ],
         "dos": [
-          "Follow the steps your teacher has shown you."
+          "Start on the correct setting.",
+          "Use the lid or guard when required.",
+          "Switch off and unplug before changing attachments or scraping the bowl.",
+          "Wait for all movement to stop before opening."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not put fingers, spoons or spatulas into moving parts.",
+          "Do not operate electrical equipment with wet hands.",
+          "Do not remove guards or defeat safety locks."
         ],
         "stop": [
-          "A plug, lead or electrical part is damaged.",
-          "A blade, wheel, drill bit or cutter looks damaged.",
-          "You can smell strong fumes or the extraction is not working.",
-          "There is unexpected smoke, fire or dangerous heat.",
-          "Someone may be having an allergic reaction.",
-          "Something looks, sounds or feels unsafe."
+          "The attachment is loose or damaged.",
+          "The machine shakes, jams or sounds wrong.",
+          "The plug or lead is damaged.",
+          "You are cut or receive an electric shock."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "The use of table-top mixing machines with liquidising and mincing accessories.",
@@ -3344,9 +3461,9 @@
     {
       "id": "3-027-microwaves",
       "aliases": [
-        "Microwave"
+        "microwave oven"
       ],
-      "name": "Microwaves",
+      "name": "Microwave",
       "category": "Cooking equipment",
       "image": "",
       "studentVisible": true,
@@ -3361,39 +3478,50 @@
         "studentUseApproved": null,
         "studentUseCandidate": true,
         "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Follow the hygiene and safety steps before you start.",
+        "headline": "Microwaved food can be much hotter than it looks. Use microwave-safe containers and watch for steam.",
         "ppe": [
-          "heat"
+          "apron",
+          "heat",
+          "hygiene"
         ],
         "hazards": [
-          "Microwave heating can cause burns",
-          "Burns and scalds",
-          "Liquids can suddenly boil or spit",
-          "Trips and falls",
-          "Food poisoning from harmful germs"
+          "Hot food and steam can burn",
+          "Sealed containers can burst",
+          "Metal or unsuitable items can cause sparks",
+          "Food can heat unevenly and stay cold in the middle"
         ],
         "beforeStart": [
-          "Get teacher permission before you start."
+          "Use only microwave-safe containers.",
+          "Remove metal and follow the teacher or packet instructions.",
+          "Loosen or vent lids when instructed.",
+          "Check the door and seal look undamaged."
         ],
         "dos": [
-          "Cook food right through to the safe centre temperature.",
-          "Use dry protective gloves for hot or very cold items."
+          "Stand back when opening hot containers.",
+          "Stir food and allow standing time when instructed.",
+          "Use oven gloves for hot dishes.",
+          "Make sure reheated food is hot throughout."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely.",
-          "Do not reheat food more than once."
+          "Do not run the microwave empty.",
+          "Do not put metal, foil or sealed containers inside unless specifically instructed.",
+          "Do not use a microwave with a damaged door or seal."
         ],
         "stop": [
-          "There is unexpected smoke, fire or dangerous heat.",
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "You see sparks, smoke or fire.",
+          "The door or seal is damaged.",
+          "A container swells or is under pressure.",
+          "Food is still cold in the middle after heating."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Heating and reheating food with microwaves in a microwave only oven or one with conventional and steam heating elements as well.",
@@ -3597,11 +3725,11 @@
     {
       "id": "3-029-portable-food-processors-mixers-and-powered-tools",
       "aliases": [
-        "Hand mixer",
-        "Stick blender",
-        "Portable mixer"
+        "hand mixer",
+        "stick blender",
+        "electric knife"
       ],
-      "name": "Portable food processors, mixers & powered tools",
+      "name": "Portable mixers & powered tools",
       "category": "Powered kitchen equipment",
       "image": "",
       "studentVisible": true,
@@ -3616,45 +3744,52 @@
         "studentUseApproved": null,
         "studentUseCandidate": true,
         "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Keep fingers clear of moving blades and switch off before cleaning or adjusting.",
+        "headline": "One person at a time. Keep hands clear, secure attachments and unplug before changing parts.",
         "ppe": [
+          "apron",
+          "shoes",
+          "hair",
           "hygiene"
         ],
         "hazards": [
-          "Electric shock",
-          "Injury from equipment or handling",
-          "Trips from leads, hoses or clutter",
-          "Dust can harm lungs or eyes",
-          "Food poisoning from harmful germs",
-          "Chemical or pest poison can contaminate food",
-          "Allergic reaction"
+          "Moving blades or beaters can cut or trap",
+          "Loose hair or clothing can catch",
+          "Electrical damage can cause shock",
+          "Equipment can move or throw food if used badly"
         ],
         "beforeStart": [
-          "Get teacher permission before you start.",
-          "Wash and dry your hands."
+          "Use the tool only after teacher instruction.",
+          "Tie back hair and keep clothing secure.",
+          "Check attachments, guards, plug and lead.",
+          "Make sure the work area is dry and clear."
         ],
         "dos": [
-          "Wash and dry your hands after the task.",
-          "Wash and dry your hands before touching food.",
-          "Keep raw food away from cooked or ready-to-eat food."
+          "Only one student operates the tool at a time.",
+          "Hold and use the tool as demonstrated.",
+          "Switch off and unplug before fitting, removing or cleaning attachments.",
+          "Keep cables away from water and hot surfaces."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not touch moving parts.",
+          "Do not change attachments while plugged in.",
+          "Do not use damaged equipment.",
+          "Do not distract someone using a powered tool."
         ],
         "stop": [
-          "A plug, lead or electrical part is damaged.",
-          "A blade, wheel, drill bit or cutter looks damaged.",
-          "You can smell strong fumes or the extraction is not working.",
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Someone may be having an allergic reaction.",
-          "Something looks, sounds or feels unsafe."
+          "The attachment is loose, jammed or damaged.",
+          "The tool behaves unexpectedly.",
+          "The plug or cable is damaged.",
+          "Someone is cut or receives an electric shock."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "The use of hand-held kitchen equipment which comes in several sizes from small battery-powered whisks to machines which really need a stand and table top blenders and smoothie makers",
@@ -3770,7 +3905,7 @@
       "name": "Pressure cookers",
       "category": "Cooking equipment",
       "image": "",
-      "studentVisible": true,
+      "studentVisible": false,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -3916,7 +4051,7 @@
       "name": "Purchase and selection of food",
       "category": "Food safety",
       "image": "",
-      "studentVisible": true,
+      "studentVisible": false,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -4017,11 +4152,11 @@
     {
       "id": "3-032-toasting-food",
       "aliases": [
-        "Toaster",
-        "Sandwich press",
-        "Sandwich toaster"
+        "toaster",
+        "sandwich maker",
+        "sandwich press"
       ],
-      "name": "Toasting food",
+      "name": "Toaster & sandwich press",
       "category": "Cooking equipment",
       "image": "",
       "studentVisible": true,
@@ -4036,38 +4171,48 @@
         "studentUseApproved": null,
         "studentUseCandidate": true,
         "minimumYear": "",
-        "supervision": "",
-        "notes": []
+        "supervision": "Teacher instruction and supervision required.",
+        "notes": [
+          "Student wording curated 22 Aug 2026 from the listed source material.",
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+        ]
       },
       "student": {
-        "headline": "Watch out for heat, steam and hot surfaces. Work slowly and follow the teacher.",
+        "headline": "Toasters and sandwich makers get very hot. Unplug before clearing food and never put metal inside.",
         "ppe": [
-          "heat"
+          "apron",
+          "heat",
+          "hygiene"
         ],
         "hazards": [
-          "Electric shock",
-          "Burns from hot parts or material",
-          "Food poisoning from harmful germs"
+          "Hot surfaces can burn",
+          "Food can catch fire",
+          "Metal objects inside a toaster can cause electric shock",
+          "Hot fillings can scald"
         ],
         "beforeStart": [
-          "Get teacher permission before you start."
+          "Check the appliance and lead look safe.",
+          "Keep it on a stable, dry surface near the socket.",
+          "Use heat-safe plastic or wooden tools as instructed."
         ],
         "dos": [
-          "Cook food right through to the safe centre temperature.",
-          "Use dry protective gloves for hot or very cold items."
+          "Stay nearby while food is heating.",
+          "Use oven gloves when handling hot sandwich plates or food.",
+          "Unplug before cleaning or clearing stuck food."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely.",
-          "Do not reheat food more than once."
+          "Do not put a metal knife or fork into a toaster.",
+          "Do not immerse an electrical appliance in water.",
+          "Do not use an appliance that is damaged or behaving strangely."
         ],
         "stop": [
-          "A plug, lead or electrical part is damaged.",
-          "There is unexpected smoke, fire or dangerous heat.",
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "You see smoke or fire.",
+          "Food is stuck and cannot be removed safely.",
+          "The lead, plug or appliance is damaged.",
+          "You are burned or receive an electric shock."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "The use of an electric toaster or a sandwich toaster as a stand-alone, electrically- powered unit.",
@@ -4265,7 +4410,7 @@
       "name": "Waste disposal",
       "category": "Food Technology",
       "image": "",
-      "studentVisible": true,
+      "studentVisible": false,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [

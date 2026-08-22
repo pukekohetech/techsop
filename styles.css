@@ -1289,3 +1289,168 @@ ul { margin: 0; }
   .share-link-row { grid-template-columns: 1fr; }
   .share-actions > * { flex: 1 1 145px; }
 }
+
+/* =============================================================
+   A4 PRINT FIX — 22 AUG 2026
+   Student SOPs are designed to fit one A4 page by using concise,
+   curated wording. Safety content is never clipped or hidden.
+   Teacher SOPs remain A4 but may flow to additional pages.
+   ============================================================= */
+@media print {
+  @page { size: A4 portrait; margin: 7mm; }
+  html, body {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .app-shell,
+  #app,
+  .main-content,
+  .detail-view,
+  .sop-card {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .no-print,
+  .home-view,
+  .site-footer,
+  .detail-toolbar,
+  .header-tools,
+  .teacher-jump-nav,
+  .share-dialog { display: none !important; }
+
+  /* Student one-page SOP */
+  .student-safety-card {
+    width: 196mm !important;
+    max-width: 196mm !important;
+    margin: 0 auto !important;
+    padding: 2.2mm 0 0 !important;
+    gap: 2mm !important;
+    border: 0 !important;
+    border-top: 4px solid var(--phs-maroon) !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    font-size: 8pt !important;
+    overflow: visible !important;
+    break-inside: avoid-page;
+  }
+  .student-card-brandline {
+    min-height: 10mm;
+    padding: 0 0 1.5mm !important;
+    gap: 2mm !important;
+  }
+  .student-card-school { gap: 1.5mm !important; }
+  .student-card-school img { width: 8.5mm !important; height: 9.8mm !important; }
+  .student-card-school strong { font-size: 8.4pt !important; }
+  .student-card-school small { font-size: 6.6pt !important; }
+  .student-status-badge { padding: 1mm 1.7mm !important; font-size: 6.2pt !important; }
+
+  .student-card-hero {
+    grid-template-columns: 40% 60% !important;
+    gap: 2.4mm !important;
+    break-inside: avoid !important;
+  }
+  .student-machine-image .hero-card,
+  .student-machine-image .fallback-image {
+    height: 58mm !important;
+    min-height: 58mm !important;
+    max-height: 58mm !important;
+    border-radius: 2.5mm !important;
+    overflow: hidden !important;
+  }
+  .student-machine-image .hero-card img { object-fit: cover !important; }
+  .student-machine-summary {
+    min-height: 58mm !important;
+    padding: 2.4mm !important;
+    gap: 1.4mm !important;
+    border-radius: 2.5mm !important;
+    overflow: visible !important;
+  }
+  .student-machine-summary .dept-kicker { font-size: 6pt !important; }
+  .student-machine-summary .tool-title-row { gap: 1.5mm !important; }
+  .student-machine-summary .tool-title-row h2 { font-size: 17pt !important; line-height: .98 !important; }
+  .student-machine-summary .category-chip { font-size: 5.8pt !important; padding: .9mm 1.5mm !important; }
+  .student-machine-summary .student-lead { font-size: 8pt !important; line-height: 1.18 !important; }
+
+  .student-ppe-block { padding: 1.6mm !important; margin-top: 0 !important; border-radius: 2mm !important; }
+  .student-section-label { margin-bottom: 1mm !important; gap: 1mm !important; }
+  .section-number.wear { padding: .7mm 1mm !important; font-size: 5.4pt !important; }
+  .student-section-label strong { font-size: 6.9pt !important; }
+  .student-ppe-grid {
+    grid-template-columns: repeat(3,minmax(0,1fr)) !important;
+    gap: .9mm !important;
+  }
+  .student-ppe-grid .ppe-item {
+    min-height: 0 !important;
+    padding: .8mm 1mm !important;
+    grid-template-columns: 6mm 1fr !important;
+    gap: .8mm !important;
+    border-radius: 1.5mm !important;
+  }
+  .student-ppe-grid .ppe-icon { width: 6mm !important; height: 6mm !important; padding: 1mm !important; }
+  .student-ppe-grid .ppe-item strong { font-size: 5.9pt !important; line-height: 1.05 !important; }
+  .student-alert { padding: 1.2mm 1.6mm !important; font-size: 6.4pt !important; line-height: 1.15 !important; }
+  .hazard-tags { gap: .7mm !important; margin: 0 0 .7mm !important; }
+  .hazard-tag { padding: .5mm 1mm !important; font-size: 5.5pt !important; }
+
+  .student-quick-grid {
+    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    gap: 1.7mm !important;
+    break-inside: avoid !important;
+  }
+  .quick-panel {
+    min-height: 0 !important;
+    padding: 1.8mm !important;
+    border-radius: 2mm !important;
+    overflow: visible !important;
+    break-inside: avoid !important;
+  }
+  .quick-panel::before { height: .7mm !important; }
+  .quick-panel-heading { gap: 1.2mm !important; margin-bottom: 1.2mm !important; }
+  .quick-icon { width: 6.5mm !important; height: 6.5mm !important; border-radius: 1.4mm !important; font-size: 7.5pt !important; }
+  .quick-panel-heading small { font-size: 5.2pt !important; }
+  .quick-panel-heading strong { font-size: 7.2pt !important; }
+  .student-bullet-list { gap: 1mm !important; }
+  .student-bullet-list li { padding-left: 3.1mm !important; font-size: 7.1pt !important; line-height: 1.14 !important; }
+
+  .student-stop-bar {
+    grid-template-columns: 25% 75% !important;
+    gap: 2mm !important;
+    padding: 1.8mm 2.2mm !important;
+    border-radius: 2mm !important;
+    break-inside: avoid !important;
+  }
+  .stop-title { gap: 1.4mm !important; }
+  .stop-octagon { width: 9mm !important; height: 9mm !important; font-size: 5pt !important; }
+  .stop-title small { font-size: 5.2pt !important; }
+  .stop-title strong { font-size: 7.2pt !important; }
+  .student-stop-list { gap: .9mm 2.4mm !important; }
+  .student-stop-list li { padding-left: 2.5mm !important; font-size: 6.8pt !important; line-height: 1.12 !important; }
+  .student-card-footer { padding-top: .5mm !important; gap: 2mm !important; font-size: 5.8pt !important; line-height: 1.1 !important; }
+
+  /* Teacher view: true A4 width, complete content, no clipping. */
+  .teacher-safety-card {
+    width: 196mm !important;
+    max-width: 196mm !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    box-shadow: none !important;
+  }
+  .teacher-hero { grid-template-columns: 62mm 1fr !important; gap: 2mm !important; }
+  .teacher-machine-image .hero-card,
+  .teacher-machine-image .fallback-image { height: 48mm !important; min-height: 48mm !important; }
+  .teacher-accordion,
+  .teacher-accordion-body,
+  .teacher-two-column-detail,
+  .teacher-local-grid { overflow: visible !important; }
+  details.teacher-accordion > * { display: block !important; }
+  .teacher-accordion { break-inside: auto !important; }
+  .teacher-accordion > summary { break-after: avoid !important; }
+}

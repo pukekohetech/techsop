@@ -25,6 +25,17 @@
       "enabled": true,
       "order": 20,
       "modes": [
+        "student",
+        "teacher"
+      ]
+    },
+    {
+      "id": "building",
+      "file": "departments/building.json",
+      "enabled": true,
+      "order": 30,
+      "modes": [
+        "student",
         "teacher"
       ]
     },

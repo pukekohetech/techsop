@@ -1,165 +1,338 @@
-{
-  "publicBaseUrl": "https://pukekohetech.github.io/techsop/",
-  "items": [
-    {
-      "id": "eng-metal-hand-tools",
-      "name": "Metal hand tools \u2014 hacksaw, file & cold chisel",
-      "department": "engineering",
-      "slug": "metal-hand-tools",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/metal-hand-tools",
-      "qr": "assets/qrcodes/student/eng-metal-hand-tools.svg"
-    },
-    {
-      "id": "eng-soldering-iron",
-      "name": "Soldering iron / soft soldering",
-      "department": "engineering",
-      "slug": "soldering-iron",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/soldering-iron",
-      "qr": "assets/qrcodes/student/eng-soldering-iron.svg"
-    },
-    {
-      "id": "eng-brazing",
-      "name": "Brazing / silver soldering",
-      "department": "engineering",
-      "slug": "brazing",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/brazing",
-      "qr": "assets/qrcodes/student/eng-brazing.svg"
-    },
-    {
-      "id": "eng-butane-blowtorch",
-      "name": "Butane blowtorch",
-      "department": "engineering",
-      "slug": "butane-blowtorch",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/butane-blowtorch",
-      "qr": "assets/qrcodes/student/eng-butane-blowtorch.svg"
-    },
-    {
-      "id": "eng-metal-casting",
-      "name": "Metal casting",
-      "department": "engineering",
-      "slug": "metal-casting",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/metal-casting",
-      "qr": "assets/qrcodes/student/eng-metal-casting.svg"
-    },
-    {
-      "id": "eng-forging",
-      "name": "Forging",
-      "department": "engineering",
-      "slug": "forging",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/forging",
-      "qr": "assets/qrcodes/student/eng-forging.svg"
-    },
-    {
-      "id": "eng-arc-stick-welder",
-      "name": "Arc / stick welder",
-      "department": "engineering",
-      "slug": "arc-stick-welder",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/arc-stick-welder",
-      "qr": "assets/qrcodes/student/eng-arc-stick-welder.svg"
-    },
-    {
-      "id": "eng-mig-welder",
-      "name": "MIG welder \u2014 core arc-welding safety",
-      "department": "engineering",
-      "slug": "mig-welder",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/mig-welder",
-      "qr": "assets/qrcodes/student/eng-mig-welder.svg"
-    },
-    {
-      "id": "eng-oxy-acetylene",
-      "name": "Oxy-acetylene welding set",
-      "department": "engineering",
-      "slug": "oxy-acetylene",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/oxy-acetylene",
-      "qr": "assets/qrcodes/student/eng-oxy-acetylene.svg"
-    },
-    {
-      "id": "eng-spot-welder",
-      "name": "Spot welder",
-      "department": "engineering",
-      "slug": "spot-welder",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/spot-welder",
-      "qr": "assets/qrcodes/student/eng-spot-welder.svg"
-    },
-    {
-      "id": "eng-grinder-linisher",
-      "name": "Combined bench grinder & linisher",
-      "department": "engineering",
-      "slug": "grinder-linisher",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/grinder-linisher",
-      "qr": "assets/qrcodes/student/eng-grinder-linisher.svg"
-    },
-    {
-      "id": "eng-foot-guillotine",
-      "name": "Foot-operated guillotine",
-      "department": "engineering",
-      "slug": "foot-guillotine",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/foot-guillotine",
-      "qr": "assets/qrcodes/student/eng-foot-guillotine.svg"
-    },
-    {
-      "id": "eng-sheet-folder",
-      "name": "Sheet-metal folder",
-      "department": "engineering",
-      "slug": "sheet-folder",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/sheet-folder",
-      "qr": "assets/qrcodes/student/eng-sheet-folder.svg"
-    },
-    {
-      "id": "eng-sheet-rollers",
-      "name": "Sheet-metal rollers",
-      "department": "engineering",
-      "slug": "sheet-rollers",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/sheet-rollers",
-      "qr": "assets/qrcodes/student/eng-sheet-rollers.svg"
-    },
-    {
-      "id": "eng-metal-lathe",
-      "name": "Metal lathe",
-      "department": "engineering",
-      "slug": "metal-lathe",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/metal-lathe",
-      "qr": "assets/qrcodes/student/eng-metal-lathe.svg"
-    },
-    {
-      "id": "eng-milling-machine",
-      "name": "Milling machine",
-      "department": "engineering",
-      "slug": "milling-machine",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/milling-machine",
-      "qr": "assets/qrcodes/student/eng-milling-machine.svg"
-    },
-    {
-      "id": "eng-pillar-drill",
-      "name": "Pillar drill",
-      "department": "engineering",
-      "slug": "pillar-drill",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/pillar-drill",
-      "qr": "assets/qrcodes/student/eng-pillar-drill.svg"
-    },
-    {
-      "id": "eng-angle-grinder",
-      "name": "Angle grinder",
-      "department": "engineering",
-      "slug": "angle-grinder",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/angle-grinder",
-      "qr": "assets/qrcodes/student/eng-angle-grinder.svg"
-    },
-    {
-      "id": "eng-portable-drill",
-      "name": "Portable drill",
-      "department": "engineering",
-      "slug": "portable-drill",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/portable-drill",
-      "qr": "assets/qrcodes/student/eng-portable-drill.svg"
-    },
-    {
-      "id": "eng-portable-sheet-shears",
-      "name": "Portable sheet-metal shears / nibbler",
-      "department": "engineering",
-      "slug": "portable-sheet-shears",
-      "url": "https://pukekohetech.github.io/techsop/#/engineering/portable-sheet-shears",
-      "qr": "assets/qrcodes/student/eng-portable-sheet-shears.svg"
-    }
-  ]
-}
+[
+  {
+    "id": "eng-metal-hand-tools",
+    "department": "engineering",
+    "name": "Metal hand tools — hacksaw, file & cold chisel",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/metal-hand-tools",
+    "file": "assets/qrcodes/student/eng-metal-hand-tools.svg"
+  },
+  {
+    "id": "eng-soldering-iron",
+    "department": "engineering",
+    "name": "Soldering iron / soft soldering",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/soldering-iron",
+    "file": "assets/qrcodes/student/eng-soldering-iron.svg"
+  },
+  {
+    "id": "eng-brazing",
+    "department": "engineering",
+    "name": "Brazing / silver soldering",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/brazing",
+    "file": "assets/qrcodes/student/eng-brazing.svg"
+  },
+  {
+    "id": "eng-butane-blowtorch",
+    "department": "engineering",
+    "name": "Butane blowtorch",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/butane-blowtorch",
+    "file": "assets/qrcodes/student/eng-butane-blowtorch.svg"
+  },
+  {
+    "id": "eng-metal-casting",
+    "department": "engineering",
+    "name": "Metal casting",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/metal-casting",
+    "file": "assets/qrcodes/student/eng-metal-casting.svg"
+  },
+  {
+    "id": "eng-forging",
+    "department": "engineering",
+    "name": "Forging",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/forging",
+    "file": "assets/qrcodes/student/eng-forging.svg"
+  },
+  {
+    "id": "eng-arc-stick-welder",
+    "department": "engineering",
+    "name": "Arc / stick welder",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/arc-stick-welder",
+    "file": "assets/qrcodes/student/eng-arc-stick-welder.svg"
+  },
+  {
+    "id": "eng-mig-welder",
+    "department": "engineering",
+    "name": "MIG welder — core arc-welding safety",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/mig-welder",
+    "file": "assets/qrcodes/student/eng-mig-welder.svg"
+  },
+  {
+    "id": "eng-oxy-acetylene",
+    "department": "engineering",
+    "name": "Oxy-acetylene welding set",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/oxy-acetylene",
+    "file": "assets/qrcodes/student/eng-oxy-acetylene.svg"
+  },
+  {
+    "id": "eng-spot-welder",
+    "department": "engineering",
+    "name": "Spot welder",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/spot-welder",
+    "file": "assets/qrcodes/student/eng-spot-welder.svg"
+  },
+  {
+    "id": "eng-grinder-linisher",
+    "department": "engineering",
+    "name": "Combined bench grinder & linisher",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/grinder-linisher",
+    "file": "assets/qrcodes/student/eng-grinder-linisher.svg"
+  },
+  {
+    "id": "eng-foot-guillotine",
+    "department": "engineering",
+    "name": "Foot-operated guillotine",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/foot-guillotine",
+    "file": "assets/qrcodes/student/eng-foot-guillotine.svg"
+  },
+  {
+    "id": "eng-sheet-folder",
+    "department": "engineering",
+    "name": "Sheet-metal folder",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/sheet-folder",
+    "file": "assets/qrcodes/student/eng-sheet-folder.svg"
+  },
+  {
+    "id": "eng-sheet-rollers",
+    "department": "engineering",
+    "name": "Sheet-metal rollers",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/sheet-rollers",
+    "file": "assets/qrcodes/student/eng-sheet-rollers.svg"
+  },
+  {
+    "id": "eng-metal-lathe",
+    "department": "engineering",
+    "name": "Metal lathe",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/metal-lathe",
+    "file": "assets/qrcodes/student/eng-metal-lathe.svg"
+  },
+  {
+    "id": "eng-milling-machine",
+    "department": "engineering",
+    "name": "Milling machine",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/milling-machine",
+    "file": "assets/qrcodes/student/eng-milling-machine.svg"
+  },
+  {
+    "id": "eng-pillar-drill",
+    "department": "engineering",
+    "name": "Pillar drill",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/pillar-drill",
+    "file": "assets/qrcodes/student/eng-pillar-drill.svg"
+  },
+  {
+    "id": "eng-angle-grinder",
+    "department": "engineering",
+    "name": "Angle grinder",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/angle-grinder",
+    "file": "assets/qrcodes/student/eng-angle-grinder.svg"
+  },
+  {
+    "id": "eng-portable-drill",
+    "department": "engineering",
+    "name": "Portable drill",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/portable-drill",
+    "file": "assets/qrcodes/student/eng-portable-drill.svg"
+  },
+  {
+    "id": "eng-portable-sheet-shears",
+    "department": "engineering",
+    "name": "Portable sheet-metal shears / nibbler",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/portable-sheet-shears",
+    "file": "assets/qrcodes/student/eng-portable-sheet-shears.svg"
+  },
+  {
+    "id": "3-010-conventional-ovens",
+    "department": "food",
+    "name": "Oven",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-010-conventional-ovens",
+    "file": "assets/qrcodes/student/3-010-conventional-ovens.svg"
+  },
+  {
+    "id": "3-012-deep-fat-fryers",
+    "department": "food",
+    "name": "Deep fat fryer",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-012-deep-fat-fryers",
+    "file": "assets/qrcodes/student/3-012-deep-fat-fryers.svg"
+  },
+  {
+    "id": "3-013-defrosting-foods",
+    "department": "food",
+    "name": "Defrosting food",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-013-defrosting-foods",
+    "file": "assets/qrcodes/student/3-013-defrosting-foods.svg"
+  },
+  {
+    "id": "3-014-eating-and-tasting",
+    "department": "food",
+    "name": "Eating & tasting",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-014-eating-and-tasting",
+    "file": "assets/qrcodes/student/3-014-eating-and-tasting.svg"
+  },
+  {
+    "id": "3-016-food-processors",
+    "department": "food",
+    "name": "Food processor",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-016-food-processors",
+    "file": "assets/qrcodes/student/3-016-food-processors.svg"
+  },
+  {
+    "id": "3-019-food-storage-low-temperatures",
+    "department": "food",
+    "name": "Fridge & freezer storage",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-019-food-storage-low-temperatures",
+    "file": "assets/qrcodes/student/3-019-food-storage-low-temperatures.svg"
+  },
+  {
+    "id": "3-021-frying-and-grilling-food",
+    "department": "food",
+    "name": "Frying & grilling",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-021-frying-and-grilling-food",
+    "file": "assets/qrcodes/student/3-021-frying-and-grilling-food.svg"
+  },
+  {
+    "id": "3-022-handling-food",
+    "department": "food",
+    "name": "Food hygiene & safe handling",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-022-handling-food",
+    "file": "assets/qrcodes/student/3-022-handling-food.svg"
+  },
+  {
+    "id": "3-023-hob-kettle-urn",
+    "department": "food",
+    "name": "Hob, kettle & urn",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-023-hob-kettle-urn",
+    "file": "assets/qrcodes/student/3-023-hob-kettle-urn.svg"
+  },
+  {
+    "id": "3-024-knives",
+    "department": "food",
+    "name": "Kitchen knives",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-024-knives",
+    "file": "assets/qrcodes/student/3-024-knives.svg"
+  },
+  {
+    "id": "3-025-liquidising-mincing-mixing",
+    "department": "food",
+    "name": "Liquidiser, mixer & mincer",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-025-liquidising-mincing-mixing",
+    "file": "assets/qrcodes/student/3-025-liquidising-mincing-mixing.svg"
+  },
+  {
+    "id": "3-027-microwaves",
+    "department": "food",
+    "name": "Microwave",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-027-microwaves",
+    "file": "assets/qrcodes/student/3-027-microwaves.svg"
+  },
+  {
+    "id": "3-029-portable-food-processors-mixers-and-powered-tools",
+    "department": "food",
+    "name": "Portable mixers & powered tools",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-029-portable-food-processors-mixers-and-powered-tools",
+    "file": "assets/qrcodes/student/3-029-portable-food-processors-mixers-and-powered-tools.svg"
+  },
+  {
+    "id": "3-032-toasting-food",
+    "department": "food",
+    "name": "Toaster & sandwich press",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-032-toasting-food",
+    "file": "assets/qrcodes/student/3-032-toasting-food.svg"
+  },
+  {
+    "id": "bld-wood-dust",
+    "department": "building",
+    "name": "Wood dust & extraction",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-wood-dust",
+    "file": "assets/qrcodes/student/bld-wood-dust.svg"
+  },
+  {
+    "id": "bld-chisels-gouges",
+    "department": "building",
+    "name": "Chisels & gouges",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-chisels-gouges",
+    "file": "assets/qrcodes/student/bld-chisels-gouges.svg"
+  },
+  {
+    "id": "bld-hand-saws",
+    "department": "building",
+    "name": "Hand saws",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-hand-saws",
+    "file": "assets/qrcodes/student/bld-hand-saws.svg"
+  },
+  {
+    "id": "bld-biscuit-jointer",
+    "department": "building",
+    "name": "Biscuit jointer",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-biscuit-jointer",
+    "file": "assets/qrcodes/student/bld-biscuit-jointer.svg"
+  },
+  {
+    "id": "bld-portable-drill",
+    "department": "building",
+    "name": "Portable drill — woodwork",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-portable-drill",
+    "file": "assets/qrcodes/student/bld-portable-drill.svg"
+  },
+  {
+    "id": "bld-portable-planer",
+    "department": "building",
+    "name": "Portable planer",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-portable-planer",
+    "file": "assets/qrcodes/student/bld-portable-planer.svg"
+  },
+  {
+    "id": "bld-router",
+    "department": "building",
+    "name": "Hand-held router",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-router",
+    "file": "assets/qrcodes/student/bld-router.svg"
+  },
+  {
+    "id": "bld-portable-sander",
+    "department": "building",
+    "name": "Portable sander",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-portable-sander",
+    "file": "assets/qrcodes/student/bld-portable-sander.svg"
+  },
+  {
+    "id": "bld-portable-saw",
+    "department": "building",
+    "name": "Portable jigsaw / circular saw",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-portable-saw",
+    "file": "assets/qrcodes/student/bld-portable-saw.svg"
+  },
+  {
+    "id": "bld-wood-lathe",
+    "department": "building",
+    "name": "Wood lathe",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-wood-lathe",
+    "file": "assets/qrcodes/student/bld-wood-lathe.svg"
+  },
+  {
+    "id": "bld-mortiser",
+    "department": "building",
+    "name": "Mortising machine",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-mortiser",
+    "file": "assets/qrcodes/student/bld-mortiser.svg"
+  },
+  {
+    "id": "bld-machine-sander",
+    "department": "building",
+    "name": "Belt / disc / bobbin sander",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-machine-sander",
+    "file": "assets/qrcodes/student/bld-machine-sander.svg"
+  },
+  {
+    "id": "bld-band-saw",
+    "department": "building",
+    "name": "Band saw — wood",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-band-saw",
+    "file": "assets/qrcodes/student/bld-band-saw.svg"
+  },
+  {
+    "id": "bld-scroll-saw",
+    "department": "building",
+    "name": "Scroll / fret saw",
+    "url": "https://pukekohetech.github.io/techsop/#/building/bld-scroll-saw",
+    "file": "assets/qrcodes/student/bld-scroll-saw.svg"
+  }
+]
