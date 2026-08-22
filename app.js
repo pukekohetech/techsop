@@ -171,6 +171,9 @@ function renderAll() {
   renderDepartments();
   renderSectionFilters();
   renderToolGrid();
+  // A direct QR/hash route can restore the app straight into detail view.
+  // Render the selected SOP before revealing the detail panel so it is never blank.
+  if (state.view === 'detail' && state.selectedToolId) renderCurrentTool();
   renderView();
   updateHash();
 }
