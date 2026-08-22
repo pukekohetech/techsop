@@ -10,6 +10,16 @@
   },
   "datasets": [
     {
+      "id": "dvc",
+      "file": "departments/dvc.json",
+      "enabled": true,
+      "order": 5,
+      "modes": [
+        "student",
+        "teacher"
+      ]
+    },
+    {
       "id": "engineering",
       "file": "departments/engineering.json",
       "enabled": true,
