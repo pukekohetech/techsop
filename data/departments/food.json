@@ -16,10 +16,10 @@
     {
       "id": "3-001-blast-chillers",
       "aliases": [],
-      "name": "Blast chillers",
+      "name": "Blast chiller",
       "category": "Food Technology",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/food-blast-chiller.webp",
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -28,35 +28,51 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": false,
+        "studentUseCandidate": true,
         "minimumYear": "",
         "supervision": "",
         "notes": []
       },
       "student": {
-        "headline": "Follow the hygiene and safety steps before you start.",
+        "headline": "Cool cooked food quickly and safely. Use only the food and settings your teacher gives you.",
         "ppe": [
-          "gloves"
+          "apron",
+          "gloves",
+          "shoes",
+          "hair",
+          "hygiene"
         ],
         "hazards": [
-          "Electric shock",
-          "Food poisoning from harmful germs"
+          "Very cold food or surfaces can injure skin",
+          "Damaged electrical equipment can shock",
+          "Poor cooling can let harmful germs multiply"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Get teacher permission and follow the machine instructions.",
+          "Wash your hands and use clean containers.",
+          "Check the food is suitable for blast chilling.",
+          "Use protective gloves when handling very cold items."
         ],
         "dos": [
-          "Use dry protective gloves for hot or very cold items."
+          "Place food in the chiller as your teacher shows you.",
+          "Keep containers clean, covered and clearly identified.",
+          "Close the door properly and use the correct programme.",
+          "Move chilled food to the correct storage as soon as instructed."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not put unsuitable items into the chiller.",
+          "Do not use a damaged machine, plug or lead.",
+          "Do not handle very cold items with bare hands if gloves are required.",
+          "Do not change settings unless your teacher tells you to."
         ],
         "stop": [
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "The machine is damaged or not cooling properly.",
+          "Food has been left warm for too long.",
+          "You get a cold burn or numb skin.",
+          "Something looks, smells or feels unsafe."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Use of commercial blast chillers to reduce the temperature of food quickly.",
@@ -109,11 +125,16 @@
     },
     {
       "id": "3-002-chemical-testing-of-food",
-      "aliases": [],
-      "name": "Chemical testing of food",
+      "aliases": [
+        "Benedict test",
+        "Biuret test",
+        "food tests",
+        "iodine test"
+      ],
+      "name": "Food testing chemicals",
       "category": "Food Technology",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/food-testing-chemicals.webp",
+      "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -122,41 +143,53 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": false,
-        "minimumYear": "",
-        "supervision": "",
+        "studentUseCandidate": true,
+        "minimumYear": "Year 7+ for approved tests; extra age restrictions apply to some reagents",
+        "supervision": "Teacher-controlled reagents and close supervision required.",
         "notes": []
       },
       "student": {
-        "headline": "Follow the hygiene and safety steps before you start.",
+        "headline": "Food tests use chemicals. Wear eye protection, use only the test your teacher gives you and keep flames away from ethanol.",
         "ppe": [
-          "eye"
+          "eye",
+          "apron",
+          "gloves",
+          "shoes",
+          "hair"
         ],
         "hazards": [
-          "Can burn skin or eyes",
-          "Toxic substance",
-          "Can be harmful if breathed, swallowed or touched",
-          "Can irritate skin, eyes or breathing",
-          "Catches fire very easily"
+          "Some test chemicals can irritate or burn skin and eyes",
+          "Some reagents are harmful or toxic",
+          "Ethanol used for fat tests is highly flammable",
+          "Hot water baths and hot test tubes can burn"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Put on safety glasses before handling test chemicals.",
+          "Do the test only in the room and setup your teacher has approved.",
+          "Use only teacher-prepared reagents and the approved test method.",
+          "Check which tests are allowed for your year level.",
+          "Make sure there are no flames or pilot lights when ethanol is used."
         ],
         "dos": [
-          "Wear the eye protection your teacher gives you."
+          "Use small amounts and keep test tubes in a rack.",
+          "Heat test tubes only by the method your teacher shows you.",
+          "Keep reagent droppers and containers separate.",
+          "Wash hands and clean the work area after testing."
         ],
         "donts": [
-          "Do not use this until your teacher has checked that you are trained and ready.",
-          "Do not use the wrong material, tool or chemical for the job.",
-          "Keep flames, sparks and ignition sources away."
+          "Do not taste any test chemical or tested food.",
+          "Do not use Millon’s reagent unless your teacher confirms you are allowed.",
+          "Do not use Fehling’s solution or Clinitest unless your teacher confirms you are allowed.",
+          "Do not use ethanol near a flame."
         ],
         "stop": [
-          "There is unexpected smoke, fire or dangerous heat.",
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "A chemical splashes into eyes or onto skin.",
+          "A container is unlabelled, damaged or leaking.",
+          "You smell strong fumes or see a spill.",
+          "You are unsure which reagent or test to use."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Tests to identify the presence of sugars, starch, proteins, fats and vitamin C.",
@@ -243,12 +276,15 @@
     },
     {
       "id": "3-003-cleaning-activities-general",
-      "aliases": [],
-      "name": "Cleaning activities: general",
+      "aliases": [
+        "cleaning",
+        "washing up"
+      ],
+      "name": "Cleaning work areas",
       "category": "Cleaning",
-      "image": "",
-      "studentVisible": false,
-      "sourceAccess": "local-review-required",
+      "image": "assets/images/food-cleaning-work-areas.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
       "sourceSheets": [
         "3.003"
@@ -256,42 +292,52 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": false,
-        "minimumYear": "",
-        "supervision": "",
+        "studentUseCandidate": true,
+        "minimumYear": "Year 11+ for aerosol/spray cleaners; otherwise set locally",
+        "supervision": "Teacher selects the cleaning product and level of supervision.",
         "notes": []
       },
       "student": {
-        "headline": "Use the right cleaner, protect yourself and never mix cleaning chemicals.",
+        "headline": "Clean as you go. Use only the cleaner your teacher gives you, protect your skin and eyes when required, and never mix cleaners.",
         "ppe": [
-          "eye",
-          "gloves"
+          "apron",
+          "gloves",
+          "shoes",
+          "hair",
+          "hygiene"
         ],
         "hazards": [
-          "Allergic reaction",
-          "Toxic or harmful substance",
-          "Can burn skin or eyes",
-          "Can irritate skin, eyes or breathing",
-          "Can catch fire",
-          "or highly flammable"
+          "Wet floors can cause slips",
+          "Cleaning products can irritate skin or eyes",
+          "Sprays can be breathed in or get into eyes",
+          "Mixing cleaning products can make dangerous gases"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Clear food away before using cleaning products.",
+          "Read the label and teacher instructions.",
+          "Wear gloves or eye protection if the product requires them.",
+          "Keep sprays away from flames and hot equipment."
         ],
         "dos": [
-          "Wear the eye protection your teacher gives you."
+          "Clean spills promptly.",
+          "Wash food-contact surfaces with the correct product and method.",
+          "Rinse surfaces when the product requires it.",
+          "Dry surfaces with a clean cloth or paper towel."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely.",
-          "Keep flames, sparks and ignition sources away."
+          "Never mix cleaning products.",
+          "Do not spray cleaners near faces, food or flames.",
+          "Do not use a product you have not been given permission to use.",
+          "Do not leave wet floors or benches without warning others."
         ],
         "stop": [
-          "There is unexpected smoke, fire or dangerous heat.",
-          "Someone may be having an allergic reaction.",
-          "Something looks, sounds or feels unsafe."
+          "A cleaner splashes into eyes or onto skin.",
+          "You smell strong fumes.",
+          "A product is unlabelled or you do not know what it is.",
+          "Someone slips, reacts to a product or feels unwell."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "General cleaning activities.",
@@ -371,11 +417,14 @@
     },
     {
       "id": "3-004-cleaning-agents-for-food-handling-areas-bleaches",
-      "aliases": [],
-      "name": "Cleaning agents for food handling areas: bleaches",
+      "aliases": [
+        "bleach",
+        "sanitiser"
+      ],
+      "name": "Bleach & sanitising solutions",
       "category": "Cleaning",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/bleach-sanitising.webp",
+      "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -384,38 +433,50 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": false,
-        "minimumYear": "",
-        "supervision": "",
+        "studentUseCandidate": true,
+        "minimumYear": "Below Year 12: diluted/non-corrosive products only under supervision",
+        "supervision": "Teacher supplies the correct product and concentration.",
         "notes": []
       },
       "student": {
-        "headline": "Use the right cleaner, protect yourself and never mix cleaning chemicals.",
+        "headline": "Bleach can hurt skin and eyes and can make toxic gas if mixed. Use only the diluted product your teacher gives you.",
         "ppe": [
+          "gloves",
           "eye",
-          "face",
-          "gloves"
+          "apron",
+          "shoes"
         ],
         "hazards": [
-          "Can burn skin or eyes",
-          "Can irritate skin, eyes or breathing"
+          "Bleach can irritate or burn skin and eyes",
+          "Bleach can be harmful if swallowed",
+          "Bleach mixed with acids can release toxic chlorine gas"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Get teacher permission before using bleach.",
+          "Check the product and dilution your teacher gives you.",
+          "Wear gloves and eye protection when instructed.",
+          "Keep all other cleaning products away."
         ],
         "dos": [
-          "Wear the eye protection your teacher gives you.",
-          "Use the face shield when your teacher tells you to."
+          "Use only the amount needed.",
+          "Keep bleach away from food until cleaning is finished.",
+          "Rinse food-contact items thoroughly when required.",
+          "Wash hands after cleaning."
         ],
         "donts": [
-          "Do not use this until your teacher has checked that you are trained and ready.",
-          "Never mix bleach with another cleaner."
+          "Never mix bleach with descaler, acids or any other cleaner.",
+          "Do not use corrosive bleach below Year 12.",
+          "Do not splash, spray or play with cleaning products.",
+          "Do not take bleach from the storage area without permission."
         ],
         "stop": [
-          "Something looks, sounds or feels unsafe."
+          "Bleach gets into eyes, mouth or onto skin.",
+          "You smell a strong chlorine-like gas.",
+          "The product is stronger than expected or unlabelled.",
+          "Someone feels short of breath or unwell."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Cleaning operations to remove stains using liquids, powders or tablet cleaners.",
@@ -485,11 +546,14 @@
     },
     {
       "id": "3-005-cleaning-agents-for-food-handling-areas-descalers",
-      "aliases": [],
-      "name": "Cleaning agents for food handling areas: descalers",
+      "aliases": [
+        "descaler",
+        "descaling"
+      ],
+      "name": "Descaling safely",
       "category": "Cleaning",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/descaler.webp",
+      "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -498,39 +562,50 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": false,
-        "minimumYear": "",
-        "supervision": "",
+        "studentUseCandidate": true,
+        "minimumYear": "Below Year 12: non-corrosive products only under supervision",
+        "supervision": "Teacher selects a suitable low-hazard product and supervises use.",
         "notes": []
       },
       "student": {
-        "headline": "Use the right cleaner, protect yourself and never mix cleaning chemicals.",
+        "headline": "Descalers contain acids. Use only the product your teacher gives you and never use one with bleach.",
         "ppe": [
+          "gloves",
           "eye",
-          "face",
-          "gloves"
+          "apron",
+          "shoes"
         ],
         "hazards": [
-          "Can burn skin or eyes",
-          "Can irritate skin, eyes or breathing"
+          "Acid descalers can irritate or burn skin and eyes",
+          "Some descalers are corrosive",
+          "Descaler mixed with bleach can release toxic chlorine gas"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Get teacher permission and read the product label.",
+          "Wear gloves and safety glasses when instructed.",
+          "Use the least hazardous product suitable for the job.",
+          "Make sure bleach and other cleaners are not being used nearby."
         ],
         "dos": [
-          "Wear the eye protection your teacher gives you.",
-          "Use the face shield when your teacher tells you to."
+          "Use the correct amount and follow the teacher’s method.",
+          "Keep splashes away from skin and eyes.",
+          "Rinse the item or surface as instructed.",
+          "Wash hands after use."
         ],
         "donts": [
-          "Do not use this until your teacher has checked that you are trained and ready.",
-          "Never mix bleach with another cleaner."
+          "Never mix descaler with bleach or another cleaner.",
+          "Do not use corrosive descaler below Year 12.",
+          "Do not use hydrochloric-acid descaler on stainless steel.",
+          "Do not use an unlabelled product."
         ],
         "stop": [
-          "You can smell strong fumes or the extraction is not working.",
-          "Something looks, sounds or feels unsafe."
+          "Descaler gets into eyes or onto skin.",
+          "You smell unusual fumes or chlorine.",
+          "The product is corrosive and you have not been authorised to use it.",
+          "You are unsure whether another cleaner has already been used."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "The removal of scale from hard water from sinks, taps, toilet bowls, washbasins, baths, kettles and steam irons. All use some form of acid as the active ingredient.",
@@ -596,11 +671,15 @@
     },
     {
       "id": "3-006-cleaning-agents-for-food-handling-areas-detergents",
-      "aliases": [],
-      "name": "Cleaning agents for food handling areas: detergents",
+      "aliases": [
+        "detergent",
+        "dishwashing",
+        "washing up"
+      ],
+      "name": "Detergents & washing up",
       "category": "Cleaning",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/detergent-washing.webp",
+      "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -609,35 +688,51 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": false,
-        "minimumYear": "",
-        "supervision": "",
+        "studentUseCandidate": true,
+        "minimumYear": "Corrosive products: adult use or close supervision below Year 12",
+        "supervision": "Teacher selects the detergent and PPE for the product.",
         "notes": []
       },
       "student": {
-        "headline": "Use the right cleaner, protect yourself and never mix cleaning chemicals.",
+        "headline": "Detergents can irritate skin and eyes. Use the correct amount, avoid dust and wear gloves when required.",
         "ppe": [
-          "eye"
+          "gloves",
+          "apron",
+          "shoes",
+          "hygiene"
         ],
         "hazards": [
-          "Allergic reaction",
-          "Can irritate skin, eyes or breathing"
+          "Detergents can dry or irritate skin",
+          "Some dishwasher or hard-surface products can seriously irritate eyes",
+          "Powders can make dust that gets into eyes or is breathed in",
+          "Some people can react to enzyme-containing detergents"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Check the product label and teacher instructions.",
+          "Wear gloves if the product is irritant or contains enzymes.",
+          "Use safety glasses if the product is marked irritant.",
+          "Keep food away from cleaning products."
         ],
         "dos": [
-          "Wear the eye protection your teacher gives you."
+          "Use only the recommended amount.",
+          "Pour or scoop powders carefully so dust is not raised.",
+          "Rinse food-contact items properly.",
+          "Wash and dry your hands after cleaning."
         ],
         "donts": [
-          "Do not use this until your teacher has checked that you are trained and ready."
+          "Do not use corrosive products unless specifically authorised and supervised.",
+          "Do not throw or shake detergent powder.",
+          "Do not mix detergents with other cleaners.",
+          "Do not leave detergent where it can contaminate food."
         ],
         "stop": [
-          "You can smell strong fumes or the extraction is not working.",
-          "Something looks, sounds or feels unsafe."
+          "Detergent gets into eyes.",
+          "Your skin becomes sore, itchy or red.",
+          "You breathe in a cloud of powder.",
+          "The product is unlabelled or stronger than expected."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Cleaning of hard surfaces, washing up pots, pans and cutlery by hand or with a machine.",
@@ -700,11 +795,14 @@
     },
     {
       "id": "3-007-cleaning-agents-for-food-handling-areas-disinfectants",
-      "aliases": [],
-      "name": "Cleaning agents for food handling areas: disinfectants",
+      "aliases": [
+        "disinfectant",
+        "surface sanitiser"
+      ],
+      "name": "Disinfectants & sanitising",
       "category": "Cleaning",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/disinfectant-sanitising.webp",
+      "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -713,41 +811,50 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": false,
-        "minimumYear": "",
-        "supervision": "",
+        "studentUseCandidate": true,
+        "minimumYear": "Below Year 12: no corrosive/toxic disinfectants except under close personal supervision",
+        "supervision": "Teacher chooses and supplies the disinfectant.",
         "notes": []
       },
       "student": {
-        "headline": "Use the right cleaner, protect yourself and never mix cleaning chemicals.",
+        "headline": "Disinfectants kill germs but some can hurt skin and eyes. Use only the product and dilution your teacher gives you.",
         "ppe": [
+          "gloves",
           "eye",
-          "gloves"
+          "apron",
+          "shoes"
         ],
         "hazards": [
-          "Toxic substance",
-          "Can be harmful if breathed, swallowed or touched",
-          "Can burn skin or eyes",
-          "Can irritate skin, eyes or breathing"
+          "Some disinfectants irritate skin and eyes",
+          "Some concentrated products are harmful, corrosive or toxic",
+          "Chlorine-releasing disinfectants can make toxic gas if mixed with acids"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Get teacher permission before using disinfectant.",
+          "Check the label and dilution.",
+          "Wear gloves and eye protection when the product requires them.",
+          "Keep all other cleaners away."
         ],
         "dos": [
-          "Wear the eye protection your teacher gives you."
+          "Use the correct amount and contact time.",
+          "Keep disinfectant away from uncovered food.",
+          "Rinse food-contact surfaces if the product instructions require it.",
+          "Wash hands after use."
         ],
         "donts": [
-          "Do not use this until your teacher has checked that you are trained and ready.",
-          "Never mix bleach with another cleaner.",
-          "Do not use the wrong material, tool or chemical for the job."
+          "Never mix disinfectant with another cleaning product.",
+          "Do not use corrosive or toxic disinfectants unless specifically authorised.",
+          "Do not spray towards people or food.",
+          "Do not take disinfectants from storage without permission."
         ],
         "stop": [
-          "You can smell strong fumes or the extraction is not working.",
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "Disinfectant gets into eyes or onto skin.",
+          "You smell strong fumes or chlorine.",
+          "The product is unlabelled or the dilution is unknown.",
+          "Someone has trouble breathing or feels unwell."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "The use of disinfectants to attempt to destroy microorganisms which may be present on surfaces etc in food technology areas.",
@@ -835,7 +942,7 @@
       "category": "Cleaning",
       "image": "",
       "studentVisible": false,
-      "sourceAccess": "local-review-required",
+      "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
         "3.008"
@@ -951,11 +1058,13 @@
     },
     {
       "id": "3-009-cleaning-agents-for-food-handling-areas-oven-cleaners",
-      "aliases": [],
-      "name": "Cleaning agents for food handling areas: oven cleaners",
+      "aliases": [
+        "oven cleaner"
+      ],
+      "name": "Cleaning ovens",
       "category": "Cleaning",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/food-cleaning-ovens.webp",
+      "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -964,40 +1073,51 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": false,
-        "minimumYear": "",
-        "supervision": "",
+        "studentUseCandidate": true,
+        "minimumYear": "Below Year 12: non-corrosive products only under close supervision; no spray/foam application",
+        "supervision": "Close teacher supervision required for student use.",
         "notes": []
       },
       "student": {
-        "headline": "Use the right cleaner, protect yourself and never mix cleaning chemicals.",
+        "headline": "Oven cleaners can burn skin and eyes. Let the oven cool, use only the product your teacher gives you and protect yourself.",
         "ppe": [
+          "gloves",
           "eye",
-          "face",
-          "gloves"
+          "apron",
+          "shoes"
         ],
         "hazards": [
-          "Can burn skin or eyes",
-          "Can irritate skin, eyes or breathing",
-          "Allergic reaction"
+          "Some oven cleaners are corrosive and can cause burns",
+          "Irritant products can hurt skin and eyes",
+          "Sprays and foams can reach the face or be breathed in",
+          "Hot oven surfaces can still burn"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Make sure the oven is off and cool.",
+          "Get teacher permission and check the cleaner label.",
+          "Wear gloves and eye protection as instructed.",
+          "Use only a non-spray method unless a teacher is doing the application."
         ],
         "dos": [
-          "Wear the eye protection your teacher gives you.",
-          "Use the face shield when your teacher tells you to.",
-          "Use the ventilation or extraction your teacher sets up."
+          "Apply the cleaner carefully using the method shown.",
+          "Keep skin covered and work at arm’s length where possible.",
+          "Ventilate the area if there is an unpleasant smell.",
+          "Rinse or wipe surfaces exactly as the product instructs."
         ],
         "donts": [
-          "Do not use this until your teacher has checked that you are trained and ready."
+          "Do not use corrosive oven cleaner below Year 12.",
+          "Do not spray or foam oven cleaner unless the teacher is handling it.",
+          "Do not mix oven cleaner with other products.",
+          "Do not clean a hot oven."
         ],
         "stop": [
-          "You can smell strong fumes or the extraction is not working.",
-          "Something looks, sounds or feels unsafe."
+          "Cleaner splashes onto skin or into eyes.",
+          "You smell strong fumes or feel unwell.",
+          "The cleaner is corrosive and you are not authorised to use it.",
+          "The oven is still hot or the product instructions are unclear."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Cleaning the insides of ovens using powders, liquids, gels, sprays and pads.",
@@ -1078,7 +1198,7 @@
       ],
       "name": "Oven",
       "category": "Cooking equipment",
-      "image": "",
+      "image": "assets/images/oven-baking.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -1236,11 +1356,14 @@
     },
     {
       "id": "3-011-cooking-and-reheating-food-poisoning",
-      "aliases": [],
-      "name": "Cooking and reheating, food poisoning",
+      "aliases": [
+        "food temperature",
+        "reheating"
+      ],
+      "name": "Cooking & reheating food safely",
       "category": "Food safety",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/food-cooking-and-reheating.webp",
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -1255,36 +1378,44 @@
         "notes": []
       },
       "student": {
-        "headline": "Cook food right through, cool it quickly and reheat it only once.",
+        "headline": "Cook and reheat food thoroughly. Keep raw and cooked food separate and follow your teacher’s temperature checks.",
         "ppe": [
-          "hygiene"
+          "apron",
+          "hair",
+          "hygiene",
+          "shoes"
         ],
         "hazards": [
-          "Food poisoning from harmful germs"
+          "Undercooked food can contain harmful germs",
+          "Poor reheating can leave cold spots where germs survive",
+          "Raw food can contaminate cooked or ready-to-eat food"
         ],
         "beforeStart": [
           "Wash and dry your hands.",
-          "Keep chilled food cold until it is ready to cook or reheat."
+          "Use clean equipment and separate raw food from ready-to-eat food.",
+          "Check the cooking or reheating method with your teacher.",
+          "Use the food probe correctly if your teacher provides one."
         ],
         "dos": [
-          "Cook high-risk food thoroughly.",
-          "Check the centre temperature with a clean thermometer when required.",
-          "Cool cooked food quickly before refrigerating.",
-          "Reheat cooked food thoroughly and only once."
+          "Cook food all the way through.",
+          "Reheat food thoroughly and evenly.",
+          "Keep cooked food away from raw food and dirty utensils.",
+          "Eat, chill or store cooked food as instructed."
         ],
         "donts": [
-          "Do not leave chilled food on the bench before reheating.",
-          "Do not reheat leftovers more than once.",
-          "Do not keep reheated leftovers again."
+          "Do not guess whether risky food is cooked safely.",
+          "Do not use the same dirty utensil for raw and cooked food.",
+          "Do not repeatedly cool and reheat food.",
+          "Do not eat food that has been left at an unsafe temperature."
         ],
         "stop": [
-          "Food has been left at room temperature too long.",
-          "The centre is not hot enough.",
-          "You are unsure how long food has been stored.",
-          "Something about the food seems unsafe."
+          "Food is still cold in the centre when it should be hot.",
+          "Raw food has touched cooked or ready-to-eat food.",
+          "The probe or cooking equipment is dirty or damaged.",
+          "You are unsure whether the food is safe to eat."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "The food poisoning hazards associated with use of any type of oven for initial cooking and reheating of precooked food. See sheet 3.010 for the burning and fire hazards.",
@@ -1354,7 +1485,7 @@
       ],
       "name": "Deep fat fryer",
       "category": "Cooking equipment",
-      "image": "",
+      "image": "assets/images/deep-fryer.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -1366,8 +1497,8 @@
         "reviewed": false,
         "studentUseApproved": null,
         "studentUseCandidate": true,
-        "minimumYear": "Set locally from source restriction and student maturity",
-        "supervision": "Teacher instruction and supervision required.",
+        "minimumYear": "No fixed minimum in source; adult supervision is advisable below Year 10",
+        "supervision": "Teacher training required; adult supervision advisable below Year 10 and set locally for all students.",
         "notes": [
           "Student wording curated 22 Aug 2026 from the listed source material.",
           "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
@@ -1512,7 +1643,7 @@
       ],
       "name": "Defrosting food",
       "category": "Food storage",
-      "image": "",
+      "image": "assets/images/fridge-organising.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -1673,7 +1804,7 @@
       ],
       "name": "Eating & tasting",
       "category": "Food safety",
-      "image": "",
+      "image": "assets/images/tasting.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -1834,11 +1965,13 @@
     },
     {
       "id": "3-015-enzymes",
-      "aliases": [],
-      "name": "Enzymes",
+      "aliases": [
+        "enzymes"
+      ],
+      "name": "Using food enzymes",
       "category": "Food Technology",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/food-using-food-enzymes.webp",
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -1847,36 +1980,50 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": false,
+        "studentUseCandidate": true,
         "minimumYear": "",
         "supervision": "",
         "notes": []
       },
       "student": {
-        "headline": "Follow the hygiene and safety steps before you start.",
+        "headline": "Enzymes used in food are usually low risk, but enzyme powder can cause allergies. Avoid dust and skin contact.",
         "ppe": [
-          "dust"
+          "dust",
+          "gloves",
+          "apron",
+          "shoes"
         ],
         "hazards": [
-          "Allergic reaction"
+          "Enzyme powders can trigger allergic reactions",
+          "Fine enzyme dust can be breathed in",
+          "Strong enzyme solutions can contact skin or eyes"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Tell your teacher if you have a known enzyme allergy.",
+          "Use only the enzyme and amount your teacher provides.",
+          "Avoid making dust when working with powders.",
+          "Wear gloves and a suitable dust mask if your teacher requires them."
         ],
         "dos": [
-          "Secure the work before you start.",
-          "Use dry protective gloves for hot or very cold items."
+          "Handle powders gently.",
+          "Keep enzyme containers closed when not in use.",
+          "Wash hands after handling enzymes.",
+          "Use fresh, correctly stored enzyme solution."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not sniff or blow enzyme powder.",
+          "Do not touch your face while handling enzyme powder.",
+          "Do not use an unknown or contaminated enzyme product.",
+          "Do not continue if you develop allergy symptoms."
         ],
         "stop": [
-          "You can smell strong fumes or the extraction is not working.",
-          "Someone may be having an allergic reaction.",
-          "Something looks, sounds or feels unsafe."
+          "You start wheezing, swelling, itching or feel unwell.",
+          "Powder gets into your eyes.",
+          "A large amount of enzyme powder is spilled.",
+          "You are unsure whether the culture or enzyme is safe."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Enzymes may be used in making cheese and junket, to tenderise meat, in extracting juice from fruit purées and for a variety of other tasks.",
@@ -1943,7 +2090,7 @@
       ],
       "name": "Food processor",
       "category": "Powered kitchen equipment",
-      "image": "",
+      "image": "assets/images/kitchen-prep.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -2109,11 +2256,14 @@
     },
     {
       "id": "3-017-food-storage-dry-foods",
-      "aliases": [],
-      "name": "Food storage: dry foods",
+      "aliases": [
+        "dry stores",
+        "pantry storage"
+      ],
+      "name": "Dry food storage",
       "category": "Food storage",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/food-dry-storage.webp",
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -2128,27 +2278,42 @@
         "notes": []
       },
       "student": {
-        "headline": "Keep food at safe temperatures and protect it from contamination.",
-        "ppe": [],
+        "headline": "Keep dry food clean, covered, labelled and away from pests and cleaning chemicals.",
+        "ppe": [
+          "apron",
+          "hygiene"
+        ],
         "hazards": [
-          "Food poisoning from harmful germs",
-          "Chemical or pest poison can contaminate food"
+          "Pests can contaminate stored food",
+          "Damaged cans or mouldy food may be unsafe",
+          "Cleaning products can contaminate food",
+          "Old stock may spoil or become infested"
         ],
         "beforeStart": [
-          "Get teacher permission before you start."
+          "Check shelves and containers are clean and dry.",
+          "Check food packaging for damage, pests or mould.",
+          "Check dates before storing or using food."
         ],
         "dos": [
-          "Follow the steps your teacher has shown you."
+          "Keep opened dry food in clean airtight containers.",
+          "Label and cover food.",
+          "Use older stock before newer stock.",
+          "Keep food above the floor and separate from cleaning products."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not use food from swollen, badly dented or rusty cans.",
+          "Do not use mouldy or pest-damaged food.",
+          "Do not store food beside chemicals or cleaning equipment.",
+          "Do not leave opened packets uncovered."
         ],
         "stop": [
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "You find insects, droppings or damaged packaging.",
+          "A can is swollen, leaking or badly damaged.",
+          "Food smells, looks or feels wrong.",
+          "You are unsure whether food is still safe."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Storage of dry food items such as flour, sugar, pulses, rice and canned foods.",
@@ -2204,11 +2369,14 @@
     },
     {
       "id": "3-018-food-storage-high-temperatures",
-      "aliases": [],
-      "name": "Food storage: high temperatures",
+      "aliases": [
+        "hot food storage",
+        "hot holding"
+      ],
+      "name": "Keeping food hot safely",
       "category": "Food storage",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/food-keeping-food-hot.webp",
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -2224,27 +2392,43 @@
         "notes": []
       },
       "student": {
-        "headline": "Keep food at safe temperatures and protect it from contamination.",
-        "ppe": [],
+        "headline": "If cooked food must stay hot, keep it above 63 °C and check it with a clean food probe.",
+        "ppe": [
+          "apron",
+          "heat",
+          "hygiene",
+          "shoes"
+        ],
         "hazards": [
-          "Food poisoning from harmful germs"
+          "Warm food can let harmful germs multiply",
+          "Hot containers and hotplates can burn",
+          "Dirty probes can contaminate food"
         ],
         "beforeStart": [
-          "Get teacher permission before you start."
+          "Use hot holding only when your teacher tells you to.",
+          "Check a clean food thermometer or probe is available.",
+          "Make sure the hot-holding equipment is working."
         ],
         "dos": [
-          "Secure the work before you start."
+          "Keep food above 63 °C while it is being held hot.",
+          "Check temperatures as your teacher instructs.",
+          "Keep food covered and protected from contamination.",
+          "Use heat protection for hot containers."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not try to keep food hot without a suitable thermometer.",
+          "Do not leave food warm instead of properly hot.",
+          "Do not use a dirty temperature probe.",
+          "Do not keep food hot longer than instructed."
         ],
         "stop": [
-          "There is unexpected smoke, fire or dangerous heat.",
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "Food falls below the required hot-holding temperature.",
+          "The thermometer is missing or not working.",
+          "Equipment stops heating properly.",
+          "You are unsure how long the food has been held."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Keeping cooked food warm until it is to be consumed.",
@@ -2328,7 +2512,7 @@
       ],
       "name": "Fridge & freezer storage",
       "category": "Food storage",
-      "image": "",
+      "image": "assets/images/fridge-storage.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -2485,13 +2669,15 @@
       "id": "3-020-freezing-food-freezer-refrigerator",
       "aliases": [
         "Freezer",
+        "Fridge",
         "Refrigerator",
-        "Fridge"
+        "freezer",
+        "freezing food"
       ],
-      "name": "Freezing food: freezer, refrigerator",
+      "name": "Freezing food safely",
       "category": "Food storage",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/food-freezing-food-safely.webp",
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -2507,26 +2693,44 @@
         "notes": []
       },
       "student": {
-        "headline": "Keep food at safe temperatures and protect it from contamination.",
-        "ppe": [],
+        "headline": "Cool food before freezing, label it clearly and keep the freezer cold enough for safe storage.",
+        "ppe": [
+          "apron",
+          "hygiene",
+          "gloves"
+        ],
         "hazards": [
-          "Food poisoning from harmful germs"
+          "Warm food can warm up nearby frozen food",
+          "Food that freezes too slowly can allow germs to multiply",
+          "Poorly labelled food can be stored too long or used unsafely",
+          "Very cold items can injure skin"
         ],
         "beforeStart": [
-          "Get teacher permission before you start."
+          "Use clean containers or wrapping.",
+          "Cool cooked food close to room temperature before freezing as instructed.",
+          "Label food with its name and date.",
+          "Check the freezer is working properly."
         ],
         "dos": [
-          "Follow the steps your teacher has shown you."
+          "Place food in the coldest area as your teacher shows you.",
+          "Keep food covered or wrapped.",
+          "Follow use-by dates and freezer storage instructions.",
+          "Use protective gloves for very cold items when needed."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not put very hot food straight into the freezer.",
+          "Do not use food that has thawed unexpectedly unless your teacher says it is safe.",
+          "Do not refreeze thawed food unless it has been cooked thoroughly as instructed.",
+          "Do not leave frozen food out unnecessarily."
         ],
         "stop": [
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "The freezer is not cold enough or has lost power.",
+          "Food has partly thawed and you do not know for how long.",
+          "Packaging is damaged or food is unlabelled.",
+          "You get a cold burn or numb skin."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "The use of domestic-type freezers and refrigerators for freezing raw and cooked foods.",
@@ -2636,7 +2840,7 @@
       ],
       "name": "Frying & grilling",
       "category": "Cooking equipment",
-      "image": "",
+      "image": "assets/images/frying-grilling.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -2648,8 +2852,8 @@
         "reviewed": false,
         "studentUseApproved": null,
         "studentUseCandidate": true,
-        "minimumYear": "Set locally from source restriction and student maturity",
-        "supervision": "Teacher instruction and supervision required.",
+        "minimumYear": "Chip pans on hobs: Year 12+; other frying/grilling set locally",
+        "supervision": "Teacher supervision based on task, equipment and student maturity.",
         "notes": [
           "Student wording curated 22 Aug 2026 from the listed source material.",
           "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
@@ -2686,7 +2890,8 @@
           "Do not leave hot oil unattended.",
           "Do not overfill a pan.",
           "Do not use water on burning fat or oil.",
-          "Do not touch hot pans with bare hands."
+          "Do not touch hot pans with bare hands.",
+          "Do not use a chip pan on a hob unless you are Year 12+ and your teacher specifically permits it."
         ],
         "stop": [
           "Oil smokes or catches fire.",
@@ -2792,7 +2997,7 @@
       ],
       "name": "Food hygiene & safe handling",
       "category": "Food safety",
-      "image": "",
+      "image": "assets/images/hand-washing.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -2938,7 +3143,7 @@
       ],
       "name": "Hob, kettle & urn",
       "category": "Cooking equipment",
-      "image": "",
+      "image": "assets/images/kettle.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -3078,7 +3283,7 @@
       ],
       "name": "Kitchen knives",
       "category": "Knives & cutting",
-      "image": "",
+      "image": "assets/images/knives.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -3247,7 +3452,7 @@
       ],
       "name": "Liquidiser, mixer & mincer",
       "category": "Powered kitchen equipment",
-      "image": "",
+      "image": "assets/images/blender.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -3366,11 +3571,15 @@
     },
     {
       "id": "3-026-microorganisms-used-in-food-production",
-      "aliases": [],
-      "name": "Microorganisms used in food production",
+      "aliases": [
+        "food microorganisms",
+        "yeast",
+        "yoghurt culture"
+      ],
+      "name": "Yeast & yoghurt cultures",
       "category": "Food Technology",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/food-yeast-and-yoghurt-cultures.webp",
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -3379,34 +3588,48 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": false,
+        "studentUseCandidate": true,
         "minimumYear": "",
         "supervision": "",
         "notes": []
       },
       "student": {
-        "headline": "Follow the hygiene and safety steps before you start.",
+        "headline": "Use only food-safe yeast or yoghurt cultures from a trusted source and keep everything clean.",
         "ppe": [
-          "hygiene"
+          "apron",
+          "hygiene",
+          "hair"
         ],
         "hazards": [
-          "Food poisoning from harmful germs"
+          "Food can be contaminated by unwanted microorganisms",
+          "Dried yeast can irritate eyes if dust is raised"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Wash and dry your hands.",
+          "Use clean equipment and containers.",
+          "Use only the food culture supplied or approved by your teacher.",
+          "Check the culture has been stored correctly."
         ],
         "dos": [
-          "Follow the steps your teacher has shown you."
+          "Keep cultures covered and clean.",
+          "Follow the recipe and temperature instructions.",
+          "Wash hands after handling cultures.",
+          "Dispose of unused culture as instructed."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not use unknown moulds or bacteria from the environment.",
+          "Do not culture microbes from dirty surfaces in the food room.",
+          "Do not use a culture that may be contaminated.",
+          "Do not blow or sniff dried yeast powder."
         ],
         "stop": [
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "The culture smells, looks or behaves unexpectedly.",
+          "You think the culture or food has been contaminated.",
+          "Dried yeast gets into your eyes.",
+          "You are unsure whether a culture is food-safe."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Using culinary microbes such as yeast in baking, and bacteria in making yoghurt.",
@@ -3465,7 +3688,7 @@
       ],
       "name": "Microwave",
       "category": "Cooking equipment",
-      "image": "",
+      "image": "assets/images/microwave.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -3625,7 +3848,7 @@
       "category": "Food Technology",
       "image": "",
       "studentVisible": false,
-      "sourceAccess": "local-review-required",
+      "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
         "3.028"
@@ -3731,7 +3954,7 @@
       ],
       "name": "Portable mixers & powered tools",
       "category": "Powered kitchen equipment",
-      "image": "",
+      "image": "assets/images/kitchen-demo.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -3900,12 +4123,13 @@
     {
       "id": "3-030-pressure-cookers",
       "aliases": [
-        "Pressure cooker"
+        "Pressure cooker",
+        "pressure cooking"
       ],
-      "name": "Pressure cookers",
+      "name": "Pressure cooker",
       "category": "Cooking equipment",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/pressure-cooker.webp",
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -3916,40 +4140,50 @@
         "reviewed": false,
         "studentUseApproved": null,
         "studentUseCandidate": true,
-        "minimumYear": "",
-        "supervision": "",
+        "minimumYear": "Set locally; use only after training",
+        "supervision": "Teacher supervision required, especially during pressure release and opening.",
         "notes": []
       },
       "student": {
-        "headline": "Watch out for heat, steam and hot surfaces. Work slowly and follow the teacher.",
+        "headline": "A pressure cooker holds very hot steam under pressure. Use it only after training and never open it while pressurised.",
         "ppe": [
-          "heat"
+          "apron",
+          "heat",
+          "shoes",
+          "hair"
         ],
         "hazards": [
-          "Explosion",
-          "Pressure can build up dangerously",
-          "Burns and scalds",
-          "Food poisoning from harmful germs"
+          "Pressurised steam can cause serious scalds",
+          "A blocked vent can make pressure rise too high",
+          "Hot metal surfaces can burn",
+          "Opening the cooker too early can release hot contents suddenly"
         ],
         "beforeStart": [
-          "Get teacher permission before you start."
+          "Get teacher permission and follow the exact cooker instructions.",
+          "Check the cooker, seal, vent and safety parts are clean and in good condition.",
+          "Add the correct amount of food and water.",
+          "Know how the pressure indicator works."
         ],
         "dos": [
-          "Secure the work before you start.",
-          "Cook food right through to the safe centre temperature.",
-          "Use dry protective gloves for hot or very cold items."
+          "Stay with the cooker and watch or listen for normal pressure release.",
+          "Use oven gloves when handling hot parts.",
+          "Follow the correct cooling and pressure-release method.",
+          "Wait until the cooker shows it is back at normal pressure before opening."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely.",
-          "Do not reheat food more than once."
+          "Never force the lid open.",
+          "Never remove the weight or pressure regulator while the cooker is pressurised.",
+          "Do not let the cooker boil dry.",
+          "Do not use a damaged or uninspected pressure cooker."
         ],
         "stop": [
-          "There is unexpected smoke, fire or dangerous heat.",
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "The pressure indicator or vent does not behave normally.",
+          "Steam escapes from the wrong place.",
+          "The cooker is damaged, leaking or making unusual sounds.",
+          "You are not sure the pressure has fully released."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "General use of domestic-type pressure cookers.",
@@ -4047,11 +4281,14 @@
     },
     {
       "id": "3-031-purchase-and-selection-of-food",
-      "aliases": [],
-      "name": "Purchase and selection of food",
+      "aliases": [
+        "checking ingredients",
+        "food selection"
+      ],
+      "name": "Choosing & checking food",
       "category": "Food safety",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/food-checking-food.webp",
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -4066,31 +4303,41 @@
         "notes": []
       },
       "student": {
-        "headline": "Keep hands, tools and food clean so harmful germs do not spread.",
+        "headline": "Choose food that is fresh, clean, undamaged and within its safe date. Reject anything suspicious.",
         "ppe": [
           "hygiene"
         ],
         "hazards": [
-          "Food poisoning from harmful germs",
-          "Chemical or pest poison can contaminate food",
-          "Old food can be unsafe"
+          "Spoiled or contaminated food can cause illness",
+          "Damaged packaging can let germs into food",
+          "Some natural food toxins can be harmful if food is prepared incorrectly",
+          "Unsafe storage can spoil food before the lesson"
         ],
         "beforeStart": [
-          "Get teacher permission before you start.",
-          "Wash and dry your hands."
+          "Check use-by and other date information.",
+          "Inspect tins, packets, produce and chilled food for damage or spoilage.",
+          "Check food that needs chilling has been kept cold."
         ],
         "dos": [
-          "Keep raw food away from cooked or ready-to-eat food."
+          "Choose food from clean, reputable suppliers.",
+          "Wash fruit and vegetables before use.",
+          "Remove green parts and eyes from potatoes.",
+          "Store ingredients correctly before and after the lesson."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not use swollen, rusty, leaking or badly damaged cans.",
+          "Do not use mouldy or obviously mishandled food.",
+          "Do not use food past its use-by date.",
+          "Do not eat green potato parts or rhubarb leaves."
         ],
         "stop": [
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "Food smells, looks or feels spoiled.",
+          "Packaging is damaged or leaking.",
+          "Chilled food has been left warm.",
+          "You are unsure whether an ingredient is safe."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "Choice of supplier and selection of food items.",
@@ -4158,7 +4405,7 @@
       ],
       "name": "Toaster & sandwich press",
       "category": "Cooking equipment",
-      "image": "",
+      "image": "assets/images/baking-rolls.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -4295,12 +4542,14 @@
     },
     {
       "id": "3-033-tunnel-ovens",
-      "aliases": [],
-      "name": "Tunnel ovens",
+      "aliases": [
+        "conveyor oven"
+      ],
+      "name": "Tunnel oven",
       "category": "Cooking equipment",
-      "image": "",
-      "studentVisible": false,
-      "sourceAccess": "local-review-required",
+      "image": "assets/images/food-tunnel-oven.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
       "sourceSheets": [
         "3.033"
@@ -4308,41 +4557,51 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": false,
-        "minimumYear": "",
-        "supervision": "",
+        "studentUseCandidate": true,
+        "minimumYear": "Set locally; trained students only",
+        "supervision": "Adult supervision required at all times.",
         "notes": []
       },
       "student": {
-        "headline": "Watch out for heat, steam and hot surfaces. Work slowly and follow the teacher.",
+        "headline": "A tunnel oven is hot and has moving parts. Use it only after training and with an adult supervising.",
         "ppe": [
+          "apron",
           "heat",
+          "shoes",
           "hair"
         ],
         "hazards": [
-          "Burns from hot parts or material",
-          "Fire",
-          "Hair, clothes or jewellery can get caught",
-          "Electric shock"
+          "Hot surfaces and food can burn",
+          "Moving parts can catch hair or clothing",
+          "Food or grease can catch fire",
+          "Damaged electrical equipment can shock"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Get teacher permission and training before use.",
+          "Tie back hair, remove dangling jewellery and secure loose clothing.",
+          "Put on oven gloves when handling hot items.",
+          "Check the oven area and belt are clear."
         ],
         "dos": [
-          "Tie back long hair and secure loose clothing.",
-          "Remove or cover jewellery.",
-          "Use dry protective gloves for hot or very cold items."
+          "Keep hands and clothing away from moving parts.",
+          "Use the speed and heat settings your teacher gives you.",
+          "Keep the oven clean and free from food build-up.",
+          "Use oven gloves for hot trays or food."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not reach into moving parts.",
+          "Do not change controls unless instructed.",
+          "Do not leave the oven running without adult supervision.",
+          "Do not use damaged electrical equipment."
         ],
         "stop": [
-          "A plug, lead or electrical part is damaged.",
-          "There is unexpected smoke, fire or dangerous heat.",
-          "Something looks, sounds or feels unsafe."
+          "Something becomes caught in the moving parts.",
+          "You see smoke or fire.",
+          "The belt, guards or controls do not work properly.",
+          "The machine gives an electric shock or smells electrical."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "A tunnel oven cooks food products by passing them through a chamber that is heated. The cooking time is influenced by the speed of the food passing through the oven.",
@@ -4406,11 +4665,15 @@
     },
     {
       "id": "3-034-waste-disposal",
-      "aliases": [],
-      "name": "Waste disposal",
+      "aliases": [
+        "bins",
+        "food waste",
+        "waste disposal"
+      ],
+      "name": "Food waste & bins",
       "category": "Food Technology",
-      "image": "",
-      "studentVisible": false,
+      "image": "assets/images/food-food-waste-and-bins.webp",
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -4425,30 +4688,42 @@
         "notes": []
       },
       "student": {
-        "headline": "Follow the hygiene and safety steps before you start.",
-        "ppe": [],
+        "headline": "Put food waste in the right bin, keep lids closed and wash your hands after touching bins or waste.",
+        "ppe": [
+          "apron",
+          "hygiene",
+          "shoes"
+        ],
         "hazards": [
-          "Waste can attract pests",
-          "Injury from equipment or handling"
+          "Food waste can attract pests",
+          "Dirty bins can spread germs to hands and food",
+          "Broken glass or sharp tools can injure people handling rubbish"
         ],
         "beforeStart": [
-          "Get teacher permission before you start."
+          "Know which bin is for food waste.",
+          "Check the bin has a liner and lid.",
+          "Keep food preparation areas separate from waste."
         ],
         "dos": [
-          "Secure the work before you start."
+          "Put food waste into the correct covered bin.",
+          "Keep the bin lid closed.",
+          "Wash your hands after touching the inside of a bin or waste.",
+          "Tell the teacher about broken glass or sharp waste."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not put knives, sharp metal or broken crockery loose in ordinary rubbish.",
+          "Do not leave food waste uncovered.",
+          "Do not let rubbish build up around food areas.",
+          "Do not handle discarded electrical equipment."
         ],
         "stop": [
-          "A plug, lead or electrical part is damaged.",
-          "A blade, wheel, drill bit or cutter looks damaged.",
-          "You can smell strong fumes or the extraction is not working.",
-          "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "You find broken glass or a sharp object in ordinary rubbish.",
+          "A bin has leaked or spilled.",
+          "You see signs of pests.",
+          "You are unsure where hazardous or sharp waste should go."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
       },
       "teacher": {
         "overview": "The disposal of food waste including cooked and uncooked material. Disposal of unwanted / irreparable equipment.",
