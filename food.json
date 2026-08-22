@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 2,
+  "site": {
+    "defaultDepartment": "engineering",
+    "defaultMode": "student",
+    "sharedDefinitions": "shared-definitions.json",
+    "publicBaseUrl": "https://pukekohetech.github.io/techsop/",
+    "routeStyle": "friendly-hash-v1",
+    "qrCodeDirectory": "assets/qrcodes/student"
+  },
+  "datasets": [
+    {
+      "id": "engineering",
+      "file": "departments/engineering.json",
+      "enabled": true,
+      "order": 10,
+      "modes": [
+        "student",
+        "teacher"
+      ]
+    },
+    {
+      "id": "food",
+      "file": "departments/food.json",
+      "enabled": true,
+      "order": 20,
+      "modes": [
+        "student",
+        "teacher"
+      ]
+    },
+    {
+      "id": "building",
+      "file": "departments/building.json",
+      "enabled": true,
+      "order": 30,
+      "modes": [
+        "student",
+        "teacher"
+      ]
+    },
+    {
+      "id": "technology-reference",
+      "file": "reference/technology-rams-reference.json",
+      "enabled": true,
+      "order": 900,
+      "modes": [
+        "teacher"
+      ]
+    }
+  ]
+}
