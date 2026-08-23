@@ -60,7 +60,9 @@ const canShowStudent = tool => {
 const usedPpe = new Set();
 for (const tool of tools) {
   if (!tool.id || !tool.name) fail(`${tool.file}: tool missing id/name`);
-  if (tool.image && !exists(tool.image)) fail(`${tool.id}: missing image ${tool.image}`);
+  if (!tool.image) fail(`${tool.id}: SOP has no image`);
+  else if (path.extname(tool.image).toLowerCase() !== '.webp') fail(`${tool.id}: SOP image must be WebP: ${tool.image}`);
+  else if (!exists(tool.image)) fail(`${tool.id}: missing image ${tool.image}`);
   for (const key of tool.student?.ppe || []) usedPpe.add(key);
   for (const key of tool.teacher?.ppe || []) usedPpe.add(key);
 
@@ -87,6 +89,7 @@ for (const key of usedPpe) {
 }
 for (const [key, item] of Object.entries(shared.ppe || {})) {
   if (!item.icon) fail(`PPE/preparation definition has no icon: ${key}`);
+  else if (path.extname(item.icon).toLowerCase() !== '.webp') fail(`PPE/preparation icon must be WebP for ${key}: ${item.icon}`);
   else if (!exists(item.icon)) fail(`PPE/preparation icon missing: ${item.icon}`);
 }
 for (const [key, item] of Object.entries(shared.sectionIcons || {})) {
