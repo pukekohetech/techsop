@@ -1645,66 +1645,7 @@ ul { margin: 0; }
 }
 
 @media print {
-  /* A normal Ctrl/Cmd+P also gives the currently open Student SOP a fuller page. */
-  .student-safety-card {
-    min-height: 283mm !important;
-    box-sizing: border-box !important;
-    align-content: space-between !important;
-  }
-
-  .student-safety-card.print-density-standard {
-    gap: 2.5mm !important;
-    font-size: 8.5pt !important;
-  }
-  .student-safety-card.print-density-standard .student-machine-image .hero-card,
-  .student-safety-card.print-density-standard .student-machine-image .fallback-image {
-    height: 65mm !important;
-    min-height: 65mm !important;
-    max-height: 65mm !important;
-  }
-  .student-safety-card.print-density-standard .student-machine-summary { min-height: 65mm !important; padding: 2.8mm !important; gap: 1.8mm !important; }
-  .student-safety-card.print-density-standard .student-machine-summary .tool-title-row h2 { font-size: 19pt !important; }
-  .student-safety-card.print-density-standard .student-machine-summary .student-lead { font-size: 8.7pt !important; line-height: 1.22 !important; }
-  .student-safety-card.print-density-standard .student-ppe-grid .ppe-icon { width: 7mm !important; height: 7mm !important; padding: 1.1mm !important; }
-  .student-safety-card.print-density-standard .student-ppe-grid .ppe-item { grid-template-columns: 7mm 1fr !important; padding: 1mm 1.2mm !important; }
-  .student-safety-card.print-density-standard .student-ppe-grid .ppe-item strong { font-size: 6.5pt !important; }
-  .student-safety-card.print-density-standard .quick-panel { padding: 2.2mm !important; }
-  .student-safety-card.print-density-standard .quick-icon { width: 7.3mm !important; height: 7.3mm !important; }
-  .student-safety-card.print-density-standard .quick-panel-heading strong { font-size: 8pt !important; }
-  .student-safety-card.print-density-standard .student-bullet-list li { font-size: 7.75pt !important; line-height: 1.18 !important; }
-  .student-safety-card.print-density-standard .student-stop-list li { font-size: 7.4pt !important; line-height: 1.16 !important; }
-
-  .student-safety-card.print-density-roomy {
-    gap: 3mm !important;
-    font-size: 9pt !important;
-  }
-  .student-safety-card.print-density-roomy .student-card-school img { width: 9.5mm !important; height: 11mm !important; }
-  .student-safety-card.print-density-roomy .student-card-school strong { font-size: 9.2pt !important; }
-  .student-safety-card.print-density-roomy .student-card-school small { font-size: 7.2pt !important; }
-  .student-safety-card.print-density-roomy .student-machine-image .hero-card,
-  .student-safety-card.print-density-roomy .student-machine-image .fallback-image {
-    height: 73mm !important;
-    min-height: 73mm !important;
-    max-height: 73mm !important;
-  }
-  .student-safety-card.print-density-roomy .student-machine-summary { min-height: 73mm !important; padding: 3.2mm !important; gap: 2mm !important; }
-  .student-safety-card.print-density-roomy .student-machine-summary .dept-kicker { font-size: 6.8pt !important; }
-  .student-safety-card.print-density-roomy .student-machine-summary .tool-title-row h2 { font-size: 21pt !important; }
-  .student-safety-card.print-density-roomy .student-machine-summary .student-lead { font-size: 9.2pt !important; line-height: 1.25 !important; }
-  .student-safety-card.print-density-roomy .student-ppe-grid { grid-template-columns: repeat(2,minmax(0,1fr)) !important; gap: 1.1mm !important; }
-  .student-safety-card.print-density-roomy .student-ppe-grid .ppe-icon { width: 8mm !important; height: 8mm !important; padding: 1.2mm !important; }
-  .student-safety-card.print-density-roomy .student-ppe-grid .ppe-item { grid-template-columns: 8mm 1fr !important; padding: 1.2mm 1.4mm !important; }
-  .student-safety-card.print-density-roomy .student-ppe-grid .ppe-item strong { font-size: 7pt !important; }
-  .student-safety-card.print-density-roomy .student-quick-grid { gap: 2.3mm !important; }
-  .student-safety-card.print-density-roomy .quick-panel { padding: 2.7mm !important; }
-  .student-safety-card.print-density-roomy .quick-icon { width: 8mm !important; height: 8mm !important; }
-  .student-safety-card.print-density-roomy .quick-panel-heading strong { font-size: 8.6pt !important; }
-  .student-safety-card.print-density-roomy .quick-panel-heading small { font-size: 5.9pt !important; }
-  .student-safety-card.print-density-roomy .student-bullet-list { gap: 1.45mm !important; }
-  .student-safety-card.print-density-roomy .student-bullet-list li { font-size: 8.3pt !important; line-height: 1.2 !important; }
-  .student-safety-card.print-density-roomy .student-stop-bar { padding: 2.5mm 2.7mm !important; }
-  .student-safety-card.print-density-roomy .student-stop-list li { font-size: 7.9pt !important; line-height: 1.18 !important; }
-  .student-safety-card.print-density-roomy .student-card-footer { font-size: 6.4pt !important; }
+  /* Batch printing keeps the original single-SOP print design below. */
 
   body.print-session-active > .site-header,
   body.print-session-active > .app-shell,
@@ -1827,4 +1768,54 @@ ul { margin: 0; }
   .two-up-footer { display: flex !important; justify-content: space-between !important; gap: 2mm !important; color: var(--muted) !important; font-size: 4.4pt !important; line-height: 1.05 !important; }
   .two-up-footer span:first-child { color: var(--phs-maroon) !important; font-weight: 850 !important; white-space: nowrap !important; }
   .two-up-footer span:last-child { text-align: right !important; }
+}
+
+/* =============================================================
+   ORIGINAL STUDENT PRINT LOOK + LARGER PPE — 24 AUG 2026
+   The single-page card continues to use the pre-batch print layout.
+   Only the PPE artwork and the hero height needed to contain it change.
+   ============================================================= */
+@media print {
+  .student-safety-card .student-card-hero {
+    min-height: 70mm !important;
+  }
+  .student-safety-card .student-machine-image .hero-card,
+  .student-safety-card .student-machine-image .fallback-image {
+    height: 70mm !important;
+    min-height: 70mm !important;
+    max-height: 70mm !important;
+  }
+  .student-safety-card .student-machine-summary {
+    min-height: 70mm !important;
+  }
+  .student-safety-card .student-ppe-grid {
+    grid-template-columns: repeat(3,minmax(0,1fr)) !important;
+    gap: .9mm !important;
+  }
+  .student-safety-card .student-ppe-grid .ppe-item {
+    min-height: 13mm !important;
+    padding: .5mm .7mm !important;
+    grid-template-columns: 12mm minmax(0,1fr) !important;
+    gap: .7mm !important;
+  }
+  .student-safety-card .student-ppe-grid .ppe-icon {
+    width: 12mm !important;
+    height: 12mm !important;
+    padding: 2mm !important;
+  }
+  .student-safety-card .student-ppe-grid .ppe-item strong {
+    font-size: 6.2pt !important;
+    line-height: 1.06 !important;
+  }
+
+  /* The two-up cards use half-page columns, so their PPE scales from 4.5mm to 9mm. */
+  .student-two-up-card .two-up-ppe .ppe-item {
+    grid-template-columns: 9mm minmax(0,1fr) !important;
+    gap: .8mm !important;
+  }
+  .student-two-up-card .two-up-ppe .ppe-icon {
+    width: 9mm !important;
+    height: 9mm !important;
+    padding: 1.2mm !important;
+  }
 }
