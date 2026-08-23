@@ -451,20 +451,22 @@ ul { margin: 0; }
 .student-section-label strong { font-size: .98rem; }
 .student-ppe-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 7px; }
 .student-ppe-grid .ppe-item {
-  min-height: 56px;
+  min-height: 94px;
   background: #fff;
   border: 1px solid #d8e5eb;
   border-radius: 12px;
-  padding: 8px 9px;
-  grid-template-columns: 38px 1fr;
+  padding: 9px 11px;
+  grid-template-columns: 76px minmax(0, 1fr);
+  gap: 12px;
 }
+
 .student-ppe-grid .ppe-icon {
   width: 76px;
   height: 76px;
   border-radius: 50%;
   background: var(--info-soft);
   color: var(--info);
-  padding: 7px;
+  padding: 14px;
 }
 .ppe-icon svg { width: 100%; height: 100%; fill: currentColor; display: block; }
 .student-ppe-grid .ppe-item strong { font-size: .83rem; line-height: 1.15; }
