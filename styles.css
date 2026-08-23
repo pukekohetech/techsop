@@ -1507,3 +1507,324 @@ ul { margin: 0; }
   .section-filter-label { width: 100%; }
   .section-chip { padding: 8px 10px; }
 }
+
+/* =============================================================
+   BATCH PRINT & ADAPTIVE A4 LAYOUT — 23 AUG 2026
+   Lets staff select several SOPs, print one complete SOP per page,
+   or place two complete student summaries on landscape A4.
+   ============================================================= */
+.batch-print-toolbar {
+  margin: -2px 0 16px;
+  padding: 12px 14px;
+  border: 1px solid #dccfd3;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #fbf7f8, #fffaf0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+.batch-print-copy { display: grid; gap: 2px; min-width: 210px; }
+.batch-print-copy strong { color: var(--phs-maroon); font-size: .95rem; }
+.batch-print-copy span { color: var(--muted); font-size: .82rem; line-height: 1.3; }
+.batch-print-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 7px; }
+.batch-print-actions .small-btn { padding: 8px 11px; }
+.batch-print-actions .small-btn:disabled { opacity: .48; cursor: not-allowed; }
+
+.tool-card-wrap { position: relative; min-width: 0; }
+.tool-card-wrap .tool-card { width: 100%; height: 100%; }
+.tool-print-marker {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: rgba(35,31,32,.82);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(35,31,32,.22);
+  display: none;
+  place-items: center;
+  font-weight: 950;
+  font-size: 1.15rem;
+  z-index: 2;
+}
+.tool-grid.selection-mode .tool-card { cursor: pointer; }
+.tool-grid.selection-mode .tool-print-marker { display: grid; }
+.tool-grid.selection-mode .tool-card:hover { border-color: var(--phs-maroon); }
+.tool-card-wrap.selected .tool-card {
+  border-color: var(--phs-maroon);
+  box-shadow: 0 0 0 3px var(--phs-maroon-soft), var(--shadow-soft);
+}
+.tool-card-wrap.selected .tool-print-marker { background: var(--phs-maroon); }
+
+.print-dialog {
+  width: min(720px, calc(100vw - 28px));
+  max-height: calc(100vh - 28px);
+  padding: 0;
+  border: 0;
+  border-radius: 22px;
+  background: transparent;
+  color: var(--ink);
+}
+.print-dialog::backdrop { background: rgba(20,16,17,.66); backdrop-filter: blur(2px); }
+.print-dialog-card {
+  background: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+  border-top: 8px solid var(--phs-maroon);
+  box-shadow: 0 30px 80px rgba(20,16,17,.28);
+}
+.print-dialog-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 20px 14px;
+  border-bottom: 1px solid var(--line);
+}
+.print-dialog-head h2 { margin: 2px 0 0; font-size: 1.5rem; }
+.print-kicker {
+  margin: 0;
+  color: var(--phs-maroon);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: .72rem;
+  font-weight: 900;
+}
+.print-dialog-summary { margin: 6px 0 0; color: var(--muted); font-size: .88rem; }
+.print-layout-options { margin: 0; padding: 18px 20px 10px; border: 0; display: grid; gap: 10px; }
+.print-layout-options legend { padding: 0; margin-bottom: 8px; font-weight: 900; color: var(--ink); }
+.print-layout-option {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto minmax(0,1fr) auto;
+  align-items: start;
+  gap: 11px;
+  border: 2px solid var(--line);
+  border-radius: 15px;
+  padding: 13px 14px;
+  cursor: pointer;
+  background: #fff;
+}
+.print-layout-option:has(input:checked) { border-color: var(--phs-maroon); background: var(--phs-maroon-soft); }
+.print-layout-option input { margin-top: 3px; accent-color: var(--phs-maroon); }
+.print-layout-option > span:nth-child(2) { display: grid; gap: 3px; }
+.print-layout-option strong { font-size: .96rem; }
+.print-layout-option small { color: var(--muted); line-height: 1.35; }
+.recommended-badge {
+  align-self: center;
+  border-radius: 999px;
+  padding: 5px 7px;
+  background: var(--safe-soft);
+  color: #17603d;
+  font-size: .67rem;
+  font-weight: 900;
+}
+.print-dialog-note {
+  margin: 2px 20px 0;
+  padding: 10px 12px;
+  border-left: 4px solid var(--phs-gold);
+  border-radius: 8px;
+  background: var(--phs-gold-soft);
+  color: #5e4308;
+  font-size: .84rem;
+  line-height: 1.4;
+}
+.print-dialog-actions { display: flex; justify-content: flex-end; gap: 8px; padding: 16px 20px 20px; }
+
+.batch-print-root { display: none; }
+
+@media (max-width: 720px) {
+  .batch-print-toolbar { align-items: stretch; flex-direction: column; }
+  .batch-print-actions { justify-content: flex-start; }
+  .batch-print-actions .small-btn { flex: 1 1 135px; }
+  .print-layout-option { grid-template-columns: auto minmax(0,1fr); }
+  .recommended-badge { grid-column: 2; justify-self: start; }
+}
+
+@media print {
+  /* A normal Ctrl/Cmd+P also gives the currently open Student SOP a fuller page. */
+  .student-safety-card {
+    min-height: 283mm !important;
+    box-sizing: border-box !important;
+    align-content: space-between !important;
+  }
+
+  .student-safety-card.print-density-standard {
+    gap: 2.5mm !important;
+    font-size: 8.5pt !important;
+  }
+  .student-safety-card.print-density-standard .student-machine-image .hero-card,
+  .student-safety-card.print-density-standard .student-machine-image .fallback-image {
+    height: 65mm !important;
+    min-height: 65mm !important;
+    max-height: 65mm !important;
+  }
+  .student-safety-card.print-density-standard .student-machine-summary { min-height: 65mm !important; padding: 2.8mm !important; gap: 1.8mm !important; }
+  .student-safety-card.print-density-standard .student-machine-summary .tool-title-row h2 { font-size: 19pt !important; }
+  .student-safety-card.print-density-standard .student-machine-summary .student-lead { font-size: 8.7pt !important; line-height: 1.22 !important; }
+  .student-safety-card.print-density-standard .student-ppe-grid .ppe-icon { width: 7mm !important; height: 7mm !important; padding: 1.1mm !important; }
+  .student-safety-card.print-density-standard .student-ppe-grid .ppe-item { grid-template-columns: 7mm 1fr !important; padding: 1mm 1.2mm !important; }
+  .student-safety-card.print-density-standard .student-ppe-grid .ppe-item strong { font-size: 6.5pt !important; }
+  .student-safety-card.print-density-standard .quick-panel { padding: 2.2mm !important; }
+  .student-safety-card.print-density-standard .quick-icon { width: 7.3mm !important; height: 7.3mm !important; }
+  .student-safety-card.print-density-standard .quick-panel-heading strong { font-size: 8pt !important; }
+  .student-safety-card.print-density-standard .student-bullet-list li { font-size: 7.75pt !important; line-height: 1.18 !important; }
+  .student-safety-card.print-density-standard .student-stop-list li { font-size: 7.4pt !important; line-height: 1.16 !important; }
+
+  .student-safety-card.print-density-roomy {
+    gap: 3mm !important;
+    font-size: 9pt !important;
+  }
+  .student-safety-card.print-density-roomy .student-card-school img { width: 9.5mm !important; height: 11mm !important; }
+  .student-safety-card.print-density-roomy .student-card-school strong { font-size: 9.2pt !important; }
+  .student-safety-card.print-density-roomy .student-card-school small { font-size: 7.2pt !important; }
+  .student-safety-card.print-density-roomy .student-machine-image .hero-card,
+  .student-safety-card.print-density-roomy .student-machine-image .fallback-image {
+    height: 73mm !important;
+    min-height: 73mm !important;
+    max-height: 73mm !important;
+  }
+  .student-safety-card.print-density-roomy .student-machine-summary { min-height: 73mm !important; padding: 3.2mm !important; gap: 2mm !important; }
+  .student-safety-card.print-density-roomy .student-machine-summary .dept-kicker { font-size: 6.8pt !important; }
+  .student-safety-card.print-density-roomy .student-machine-summary .tool-title-row h2 { font-size: 21pt !important; }
+  .student-safety-card.print-density-roomy .student-machine-summary .student-lead { font-size: 9.2pt !important; line-height: 1.25 !important; }
+  .student-safety-card.print-density-roomy .student-ppe-grid { grid-template-columns: repeat(2,minmax(0,1fr)) !important; gap: 1.1mm !important; }
+  .student-safety-card.print-density-roomy .student-ppe-grid .ppe-icon { width: 8mm !important; height: 8mm !important; padding: 1.2mm !important; }
+  .student-safety-card.print-density-roomy .student-ppe-grid .ppe-item { grid-template-columns: 8mm 1fr !important; padding: 1.2mm 1.4mm !important; }
+  .student-safety-card.print-density-roomy .student-ppe-grid .ppe-item strong { font-size: 7pt !important; }
+  .student-safety-card.print-density-roomy .student-quick-grid { gap: 2.3mm !important; }
+  .student-safety-card.print-density-roomy .quick-panel { padding: 2.7mm !important; }
+  .student-safety-card.print-density-roomy .quick-icon { width: 8mm !important; height: 8mm !important; }
+  .student-safety-card.print-density-roomy .quick-panel-heading strong { font-size: 8.6pt !important; }
+  .student-safety-card.print-density-roomy .quick-panel-heading small { font-size: 5.9pt !important; }
+  .student-safety-card.print-density-roomy .student-bullet-list { gap: 1.45mm !important; }
+  .student-safety-card.print-density-roomy .student-bullet-list li { font-size: 8.3pt !important; line-height: 1.2 !important; }
+  .student-safety-card.print-density-roomy .student-stop-bar { padding: 2.5mm 2.7mm !important; }
+  .student-safety-card.print-density-roomy .student-stop-list li { font-size: 7.9pt !important; line-height: 1.18 !important; }
+  .student-safety-card.print-density-roomy .student-card-footer { font-size: 6.4pt !important; }
+
+  body.print-session-active > .site-header,
+  body.print-session-active > .app-shell,
+  body.print-session-active > .site-footer,
+  body.print-session-active > dialog { display: none !important; }
+  body.print-session-active .batch-print-root { display: block !important; }
+  body.print-session-active { margin: 0 !important; padding: 0 !important; }
+  html.print-layout-full,
+  body.print-layout-full { width: 196mm !important; min-height: 283mm !important; }
+
+  .batch-print-sheet {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    break-after: page;
+    page-break-after: always;
+  }
+  .batch-print-sheet:last-child { break-after: auto; page-break-after: auto; }
+  .full-print-sheet { width: 196mm !important; }
+  .full-print-sheet.student-print-sheet { min-height: 283mm !important; }
+
+  html.print-layout-two-up,
+  body.print-layout-two-up { width: 285mm !important; min-height: 198mm !important; }
+  .two-up-print-sheet {
+    width: 285mm !important;
+    min-height: 198mm !important;
+    display: grid !important;
+    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    gap: 4mm !important;
+    align-items: stretch !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+  .student-two-up-card {
+    min-width: 0 !important;
+    min-height: 198mm !important;
+    box-sizing: border-box !important;
+    border: .35mm solid #d9d1d3 !important;
+    border-top: 2mm solid var(--phs-maroon) !important;
+    border-radius: 0 !important;
+    padding: 2mm !important;
+    background: #fff !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.25mm !important;
+    overflow: visible !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .two-up-brandline {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 1.5mm !important;
+    min-height: 8mm !important;
+    padding-bottom: 1mm !important;
+    border-bottom: .2mm solid var(--line) !important;
+  }
+  .two-up-brandline > div { display: flex !important; align-items: center !important; gap: 1.2mm !important; }
+  .two-up-brandline img { width: 6mm !important; height: 7mm !important; object-fit: contain !important; }
+  .two-up-brandline div span { display: grid !important; gap: 0 !important; }
+  .two-up-brandline div strong { color: var(--phs-maroon) !important; font-size: 6.5pt !important; text-transform: uppercase !important; }
+  .two-up-brandline div small { color: var(--muted) !important; font-size: 5pt !important; }
+  .two-up-status { border-radius: 999px !important; padding: .7mm 1mm !important; font-size: 4.8pt !important; font-weight: 900 !important; white-space: nowrap !important; }
+  .two-up-status.approved { background: var(--safe-soft) !important; color: #17603d !important; }
+  .two-up-status.draft { background: #f2eef0 !important; color: #6d5f63 !important; }
+
+  .two-up-hero { display: grid !important; grid-template-columns: 42mm minmax(0,1fr) !important; gap: 1.5mm !important; min-height: 29mm !important; }
+  .two-up-machine-image,
+  .two-up-machine-image .hero-card,
+  .two-up-machine-image .fallback-image { height: 29mm !important; min-height: 29mm !important; border-radius: 1.5mm !important; }
+  .two-up-machine-image .hero-card { border: 0 !important; }
+  .two-up-machine-image .hero-card img { object-fit: cover !important; }
+  .two-up-summary { min-width: 0 !important; padding: 1.4mm !important; border: .2mm solid var(--line) !important; border-radius: 1.5mm !important; display: grid !important; align-content: center !important; gap: .65mm !important; }
+  .two-up-summary > small { color: var(--phs-maroon) !important; font-size: 4.8pt !important; font-weight: 900 !important; text-transform: uppercase !important; }
+  .two-up-summary h2 { margin: 0 !important; font-size: 11.5pt !important; line-height: 1 !important; letter-spacing: -.02em !important; }
+  .two-up-summary p { margin: 0 !important; font-size: 6pt !important; line-height: 1.15 !important; font-weight: 650 !important; }
+
+  .two-up-ppe { padding: 1mm !important; border: .2mm solid #d7e6ee !important; border-radius: 1.4mm !important; background: #f2f7fa !important; }
+  .two-up-ppe > header { margin-bottom: .7mm !important; color: #24566d !important; font-size: 5.5pt !important; }
+  .two-up-ppe .ppe-grid { grid-template-columns: repeat(2,minmax(0,1fr)) !important; gap: .65mm !important; }
+  .two-up-ppe .ppe-item { min-height: 0 !important; padding: .45mm .65mm !important; grid-template-columns: 4.5mm 1fr !important; gap: .6mm !important; border-radius: 1mm !important; background: #fff !important; }
+  .two-up-ppe .ppe-icon { width: 4.5mm !important; height: 4.5mm !important; padding: .6mm !important; border-radius: 50% !important; }
+  .two-up-ppe .ppe-item strong { font-size: 5.4pt !important; line-height: 1.03 !important; }
+  .two-up-ppe .tag-line { grid-column: 1/-1 !important; font-size: 5pt !important; }
+  .two-up-alert { margin: 0 !important; padding: 1mm 1.2mm !important; border: .2mm solid #eed7a0 !important; border-radius: 1.2mm !important; background: var(--warn-soft) !important; color: #72540e !important; font-size: 5.2pt !important; line-height: 1.12 !important; }
+
+  .two-up-action-grid {
+    min-height: 0 !important;
+    flex: 1 1 auto !important;
+    display: grid !important;
+    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    grid-template-rows: repeat(2,minmax(0,1fr)) !important;
+    gap: 1mm !important;
+  }
+  .two-up-action-panel { min-width: 0 !important; padding: 1.2mm !important; border: .2mm solid var(--line) !important; border-radius: 1.3mm !important; overflow: visible !important; }
+  .two-up-action-panel.watch { background: #fffaf0 !important; border-color: #efdaa6 !important; }
+  .two-up-action-panel.ready { background: #f4f9fb !important; border-color: #d6e7ef !important; }
+  .two-up-action-panel.safe { background: #f2faf5 !important; border-color: #cce5d6 !important; }
+  .two-up-action-panel.unsafe { background: #fff5f4 !important; border-color: #eccbc8 !important; }
+  .two-up-action-panel > header { display: flex !important; align-items: center !important; gap: 1mm !important; margin-bottom: .8mm !important; }
+  .two-up-section-icon { width: 5mm !important; height: 5mm !important; flex: none !important; }
+  .two-up-section-icon img { width: 100% !important; height: 100% !important; object-fit: contain !important; }
+  .two-up-action-panel header > span:last-child { display: grid !important; gap: 0 !important; }
+  .two-up-action-panel header small { font-size: 4.3pt !important; letter-spacing: .05em !important; font-weight: 900 !important; }
+  .two-up-action-panel header strong { font-size: 6.2pt !important; line-height: 1 !important; }
+  .two-up-action-panel ul { margin: 0 !important; padding-left: 3.2mm !important; display: grid !important; gap: .5mm !important; }
+  .two-up-action-panel li { font-size: 6pt !important; line-height: 1.13 !important; }
+  .two-up-action-panel .hazard-tags { gap: .45mm !important; margin: 0 0 .6mm !important; }
+  .two-up-action-panel .hazard-tag { padding: .3mm .55mm !important; font-size: 4.2pt !important; }
+
+  .two-up-stop { display: grid !important; grid-template-columns: 9mm minmax(0,1fr) !important; gap: 1.2mm !important; align-items: center !important; padding: 1.1mm 1.4mm !important; border: .35mm solid #df9b96 !important; border-radius: 1.5mm !important; background: #fff0ef !important; }
+  .two-up-stop-icon { width: 8mm !important; height: 8mm !important; }
+  .two-up-stop-icon img { width: 100% !important; height: 100% !important; object-fit: contain !important; }
+  .two-up-stop strong { display: block !important; color: #6f2420 !important; font-size: 5.8pt !important; margin-bottom: .5mm !important; }
+  .two-up-stop ul { margin: 0 !important; padding-left: 3mm !important; columns: 2 !important; column-gap: 4mm !important; }
+  .two-up-stop li { break-inside: avoid !important; font-size: 5.65pt !important; line-height: 1.12 !important; margin-bottom: .35mm !important; }
+  .two-up-footer { display: flex !important; justify-content: space-between !important; gap: 2mm !important; color: var(--muted) !important; font-size: 4.4pt !important; line-height: 1.05 !important; }
+  .two-up-footer span:first-child { color: var(--phs-maroon) !important; font-weight: 850 !important; white-space: nowrap !important; }
+  .two-up-footer span:last-child { text-align: right !important; }
+}

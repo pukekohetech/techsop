@@ -47,7 +47,11 @@ const state = {
   defaultMode: 'student',
   studentPublicationMode: 'curated-drafts',
   view: 'home',
-  publicBaseUrl: 'https://pukekohetech.github.io/techsop/'
+  publicBaseUrl: 'https://pukekohetech.github.io/techsop/',
+  printSelectionMode: false,
+  printSelection: new Set(),
+  pendingPrintToolIds: [],
+  pendingPrintMode: 'student'
 };
 
 const els = {
@@ -82,7 +86,20 @@ const els = {
   downloadQrLink: document.getElementById('downloadQrLink'),
   printQrCardLink: document.getElementById('printQrCardLink'),
   closeShareDialogBtn: document.getElementById('closeShareDialogBtn'),
-  shareSafetyNote: document.getElementById('shareSafetyNote')
+  shareSafetyNote: document.getElementById('shareSafetyNote'),
+  batchPrintToolbar: document.getElementById('batchPrintToolbar'),
+  togglePrintSelectBtn: document.getElementById('togglePrintSelectBtn'),
+  selectVisiblePrintBtn: document.getElementById('selectVisiblePrintBtn'),
+  clearPrintSelectionBtn: document.getElementById('clearPrintSelectionBtn'),
+  openBatchPrintBtn: document.getElementById('openBatchPrintBtn'),
+  printDialog: document.getElementById('printDialog'),
+  printDialogSummary: document.getElementById('printDialogSummary'),
+  printDialogNote: document.getElementById('printDialogNote'),
+  twoUpPrintOption: document.getElementById('twoUpPrintOption'),
+  closePrintDialogBtn: document.getElementById('closePrintDialogBtn'),
+  cancelPrintBtn: document.getElementById('cancelPrintBtn'),
+  confirmPrintBtn: document.getElementById('confirmPrintBtn'),
+  batchPrintRoot: document.getElementById('batchPrintRoot')
 };
 
 async function fetchJson(path) {
@@ -305,6 +322,63 @@ function teacherHomeStatus(tool) {
   return { label: 'Teacher reference', cls: 'neutral' };
 }
 
+function toolPrintableInMode(tool, mode = state.mode) {
+  if (!tool) return false;
+  return mode === 'teacher' ? datasetAllowsMode(tool, 'teacher') : canShowInStudentMode(tool);
+}
+
+function selectedPrintTools(mode = state.mode) {
+  return state.tools.filter(tool => state.printSelection.has(tool.id) && toolPrintableInMode(tool, mode));
+}
+
+function renderBatchPrintControls() {
+  if (!els.batchPrintToolbar) return;
+  const validIds = new Set(state.tools.filter(tool => toolPrintableInMode(tool)).map(tool => tool.id));
+  [...state.printSelection].forEach(id => {
+    if (!validIds.has(id)) state.printSelection.delete(id);
+  });
+  const count = state.printSelection.size;
+  els.togglePrintSelectBtn.setAttribute('aria-pressed', String(state.printSelectionMode));
+  els.togglePrintSelectBtn.textContent = state.printSelectionMode
+    ? 'Done selecting'
+    : (count ? `Edit selection (${count})` : 'Select SOPs');
+  els.selectVisiblePrintBtn.classList.toggle('hidden', !state.printSelectionMode);
+  els.clearPrintSelectionBtn.classList.toggle('hidden', count === 0);
+  els.openBatchPrintBtn.classList.toggle('hidden', count === 0);
+  els.openBatchPrintBtn.disabled = count === 0;
+  els.openBatchPrintBtn.textContent = `Print selected (${count})`;
+  els.toolGrid.classList.toggle('selection-mode', state.printSelectionMode);
+}
+
+function setPrintSelectionMode(enabled) {
+  state.printSelectionMode = !!enabled;
+  renderToolGrid();
+  renderBatchPrintControls();
+}
+
+function togglePrintSelection(toolId) {
+  const tool = state.tools.find(item => item.id === toolId);
+  if (!toolPrintableInMode(tool)) return;
+  if (state.printSelection.has(toolId)) state.printSelection.delete(toolId);
+  else state.printSelection.add(toolId);
+  renderToolGrid();
+  renderBatchPrintControls();
+}
+
+function selectAllVisibleForPrint() {
+  state.visibleTools.forEach(tool => {
+    if (toolPrintableInMode(tool)) state.printSelection.add(tool.id);
+  });
+  renderToolGrid();
+  renderBatchPrintControls();
+}
+
+function clearPrintSelection() {
+  state.printSelection.clear();
+  renderToolGrid();
+  renderBatchPrintControls();
+}
+
 function renderToolGrid() {
   const departmentName = state.departmentFilter === 'all'
     ? 'All departments'
@@ -314,6 +388,7 @@ function renderToolGrid() {
   els.clearSearchBtn.classList.toggle('hidden', !state.search);
 
   els.toolGrid.innerHTML = state.visibleTools.map(tool => {
+    const selected = state.printSelection.has(tool.id);
     const image = tool.image
       ? `<img src="${escapeHtml(tool.image)}" alt="${escapeHtml(tool.name)}" loading="lazy" decoding="async">`
       : `<div class="tool-fallback" aria-hidden="true">${categoryIcon(tool)}</div>`;
@@ -321,24 +396,33 @@ function renderToolGrid() {
     const sourceBadge = tool.sourceLabel || 'RAMS';
     const teacherStatus = state.mode === 'teacher' ? teacherHomeStatus(tool) : null;
     return `
-      <button class="tool-card" type="button" data-tool-id="${escapeHtml(tool.id)}" aria-label="Open ${escapeHtml(tool.name)} ${state.mode === 'student' ? 'student SOP' : 'teacher SOP'}">
-        <span class="tool-card-image">
-          ${image}
-          <span class="tool-access ${state.mode === 'student' ? 'student' : ''}">${state.mode === 'student' ? 'Student SOP' : 'Teacher SOP'}</span>
-        </span>
-        <span class="tool-card-copy">
-          <strong>${escapeHtml(tool.name)}</strong>
-          ${tool.category ? `<span>${escapeHtml(tool.category)}</span>` : ''}
-          ${state.mode === 'teacher' && teacherStatus ? `<span class="tool-teacher-status ${teacherStatus.cls}">${escapeHtml(teacherStatus.label)}</span>` : ''}
-          ${source ? `<span class="tool-source">${escapeHtml(sourceBadge)} ${escapeHtml(source)}</span>` : ''}
-        </span>
-      </button>`;
+      <article class="tool-card-wrap ${selected ? 'selected' : ''}">
+        <button class="tool-card" type="button" data-tool-id="${escapeHtml(tool.id)}"
+          aria-label="${state.printSelectionMode ? `${selected ? 'Remove' : 'Add'} ${escapeHtml(tool.name)} ${selected ? 'from' : 'to'} batch print selection` : `Open ${escapeHtml(tool.name)} ${state.mode === 'student' ? 'student SOP' : 'teacher SOP'}`}"
+          ${state.printSelectionMode ? `aria-pressed="${selected}"` : ''}>
+          <span class="tool-card-image">
+            ${image}
+            <span class="tool-access ${state.mode === 'student' ? 'student' : ''}">${state.mode === 'student' ? 'Student SOP' : 'Teacher SOP'}</span>
+            <span class="tool-print-marker" aria-hidden="true">${selected ? '✓' : '+'}</span>
+          </span>
+          <span class="tool-card-copy">
+            <strong>${escapeHtml(tool.name)}</strong>
+            ${tool.category ? `<span>${escapeHtml(tool.category)}</span>` : ''}
+            ${state.mode === 'teacher' && teacherStatus ? `<span class="tool-teacher-status ${teacherStatus.cls}">${escapeHtml(teacherStatus.label)}</span>` : ''}
+            ${source ? `<span class="tool-source">${escapeHtml(sourceBadge)} ${escapeHtml(source)}</span>` : ''}
+          </span>
+        </button>
+      </article>`;
   }).join('');
 
   els.emptyTools.classList.toggle('hidden', state.visibleTools.length > 0);
   els.toolGrid.querySelectorAll('[data-tool-id]').forEach(btn => {
-    btn.addEventListener('click', () => openTool(btn.dataset.toolId));
+    btn.addEventListener('click', () => {
+      if (state.printSelectionMode) togglePrintSelection(btn.dataset.toolId);
+      else openTool(btn.dataset.toolId);
+    });
   });
+  renderBatchPrintControls();
 }
 
 function categoryIcon(tool) {
@@ -410,6 +494,18 @@ function accessBadge(tool, student = false) {
   return '';
 }
 
+function studentPrintDensity(tool) {
+  const student = tool?.student || {};
+  const listKeys = ['ppe', 'hazards', 'beforeStart', 'dos', 'donts', 'stop', 'hazardTags'];
+  const itemCount = listKeys.reduce((total, key) => total + (Array.isArray(student[key]) ? student[key].length : 0), 0);
+  const characterCount = [student.headline, ...listKeys.flatMap(key => student[key] || [])].filter(Boolean).join(' ').length;
+  const restrictionWeight = tool?.sourceAccess === 'age-or-maturity-restricted' ? 3 : 0;
+  const score = itemCount + (characterCount / 180) + restrictionWeight;
+  if (score <= 23.5) return 'print-density-roomy';
+  if (score <= 29.5) return 'print-density-standard';
+  return 'print-density-compact';
+}
+
 function renderStudentSop(tool) {
   const s = tool.student || {};
   const source = escapeHtml((tool.sourceSheets || []).join(', '));
@@ -424,7 +520,7 @@ function renderStudentSop(tool) {
     : '';
 
   return `
-    <div class="student-sheet student-safety-card">
+    <div class="student-sheet student-safety-card ${studentPrintDensity(tool)}">
       <header class="student-card-brandline">
         <div class="student-card-school">
           <img src="assets/phs-shield.svg" alt="" aria-hidden="true">
@@ -484,6 +580,182 @@ function renderStudentSop(tool) {
         <span>This quick SOP supports teacher instruction. Follow the exact machine rules in your workshop.</span>
       </footer>
     </div>`;
+}
+
+function renderStudentTwoUpSop(tool) {
+  const student = tool.student || {};
+  const source = escapeHtml((tool.sourceSheets || []).join(', ') || 'local source');
+  const approved = tool.local?.reviewed === true && tool.local?.studentUseApproved === true;
+  const restricted = tool.sourceAccess === 'age-or-maturity-restricted';
+  const actionPanel = (className, iconKey, fallback, kicker, title, items, extra = '') => `
+    <section class="two-up-action-panel ${className}">
+      <header><span class="two-up-section-icon" aria-hidden="true">${sectionIconHtml(iconKey, fallback)}</span><span><small>${kicker}</small><strong>${title}</strong></span></header>
+      ${extra}
+      <ul>${renderList(items)}</ul>
+    </section>`;
+
+  return `
+    <article class="student-two-up-card">
+      <header class="two-up-brandline">
+        <div><img src="assets/phs-shield.svg" alt="" aria-hidden="true"><span><strong>Pukekohe High School</strong><small>Technology • Student SOP</small></span></div>
+        <span class="two-up-status ${approved ? 'approved' : 'draft'}">${approved ? 'PHS approved' : 'DRAFT • Review pending'}</span>
+      </header>
+
+      <section class="two-up-hero">
+        <div class="two-up-machine-image">${heroHtml(tool)}</div>
+        <div class="two-up-summary">
+          <small>${escapeHtml(tool.department?.name || '')}</small>
+          <h2>${escapeHtml(tool.name)}</h2>
+          <p>${escapeHtml(student.headline || '')}</p>
+        </div>
+      </section>
+
+      <section class="two-up-ppe">
+        <header><strong>PPE • Wear this / Get ready</strong></header>
+        <div class="ppe-grid">${renderPpe(student.ppe || [])}</div>
+      </section>
+
+      ${restricted ? '<p class="two-up-alert"><strong>Teacher approval required:</strong> follow all training, maturity and supervision limits.</p>' : ''}
+
+      <section class="two-up-action-grid">
+        ${actionPanel('watch', 'hazards', '!', 'WATCH OUT', 'Hazards', student.hazards, renderHazardTags(student.hazardTags || []))}
+        ${actionPanel('ready', 'beforeStart', '1', 'GET READY', 'Before you start', student.beforeStart)}
+        ${actionPanel('safe', 'safeActions', '✓', 'DO THIS', 'Safe actions', student.dos)}
+        ${actionPanel('unsafe', 'unsafeActions', '×', 'NEVER', 'Unsafe actions', student.donts)}
+      </section>
+
+      <section class="two-up-stop">
+        <span class="two-up-stop-icon" aria-hidden="true">${sectionIconHtml('stop', 'STOP')}</span>
+        <div><strong>STOP THE JOB • Tell the teacher when:</strong><ul>${renderList(student.stop)}</ul></div>
+      </section>
+
+      <footer class="two-up-footer"><span>RAMS ${source}</span><span>Follow teacher instruction, training and the exact workshop rules.</span></footer>
+    </article>`;
+}
+
+function namespaceTeacherPrintHtml(html, toolId) {
+  const prefix = String(toolId || 'sop').replace(/[^a-z0-9_-]/gi, '-');
+  return html
+    .replaceAll('id="teacher', `id="${prefix}-teacher`)
+    .replaceAll('data-teacher-jump="teacher-', `data-teacher-jump="${prefix}-teacher-`);
+}
+
+function chunkItems(items, size) {
+  const chunks = [];
+  for (let index = 0; index < items.length; index += size) chunks.push(items.slice(index, index + size));
+  return chunks;
+}
+
+function renderPrintSheets(tools, mode, layout) {
+  if (layout === 'two-up' && mode === 'student') {
+    return chunkItems(tools, 2).map(pair => `
+      <section class="batch-print-sheet two-up-print-sheet">
+        ${pair.map(tool => renderStudentTwoUpSop(tool)).join('')}
+      </section>`).join('');
+  }
+  return tools.map(tool => {
+    const sop = mode === 'teacher'
+      ? namespaceTeacherPrintHtml(renderTeacherSop(tool), tool.id)
+      : renderStudentSop(tool);
+    return `<section class="batch-print-sheet full-print-sheet ${mode}-print-sheet" data-print-tool="${escapeHtml(tool.id)}">${sop}</section>`;
+  }).join('');
+}
+
+function closePrintDialog() {
+  if (typeof els.printDialog?.close === 'function') els.printDialog.close();
+  else els.printDialog?.removeAttribute('open');
+}
+
+function openPrintDialog(scope = 'current') {
+  const requested = scope === 'selected'
+    ? selectedPrintTools()
+    : [getCurrentTool()].filter(tool => toolPrintableInMode(tool));
+  if (!requested.length || !els.printDialog) return;
+
+  state.pendingPrintToolIds = requested.map(tool => tool.id);
+  state.pendingPrintMode = state.mode;
+  const count = requested.length;
+  const noun = state.mode === 'student'
+    ? (count === 1 ? 'student SOP' : 'student SOPs')
+    : (count === 1 ? 'teacher SOP / RAMS' : 'teacher SOPs / RAMS records');
+  els.printDialogSummary.textContent = count === 1
+    ? `${requested[0].name} • ${noun}`
+    : `${count} selected ${noun} in one print job`;
+
+  const allowTwoUp = state.mode === 'student' && count > 1;
+  els.twoUpPrintOption.classList.toggle('hidden', !allowTwoUp);
+  const fullOption = els.printDialog.querySelector('input[name="printLayout"][value="full"]');
+  if (fullOption) fullOption.checked = true;
+  els.printDialogNote.textContent = state.mode === 'teacher'
+    ? 'Teacher SOP / RAMS content is always printed at full width and may continue onto extra pages.'
+    : (allowTwoUp
+        ? 'Both layouts retain every student safety section. One-per-page provides the clearest classroom copy.'
+        : 'This SOP will expand to use the printable A4 page while retaining all safety content.');
+
+  if (typeof els.printDialog.showModal === 'function') els.printDialog.showModal();
+  else els.printDialog.setAttribute('open', '');
+}
+
+function installPrintPageStyle(layout) {
+  document.getElementById('dynamicPrintPageStyle')?.remove();
+  const style = document.createElement('style');
+  style.id = 'dynamicPrintPageStyle';
+  style.media = 'print';
+  style.textContent = layout === 'two-up'
+    ? '@page { size: A4 landscape; margin: 6mm; }'
+    : '@page { size: A4 portrait; margin: 7mm; }';
+  document.head.append(style);
+}
+
+function preparePrintSession(tools, mode, layout) {
+  els.batchPrintRoot.innerHTML = renderPrintSheets(tools, mode, layout);
+  els.batchPrintRoot.className = `batch-print-root ${layout === 'two-up' ? 'two-up-layout' : 'full-layout'} ${mode}-batch`;
+  els.batchPrintRoot.setAttribute('aria-hidden', 'false');
+  els.batchPrintRoot.querySelectorAll('details.teacher-accordion').forEach(item => { item.open = true; });
+  document.body.classList.remove('print-layout-full', 'print-layout-two-up', 'print-mode-student', 'print-mode-teacher');
+  document.body.classList.add('print-session-active', `print-layout-${layout}`, `print-mode-${mode}`);
+  document.documentElement.classList.remove('print-layout-full', 'print-layout-two-up');
+  document.documentElement.classList.add(`print-layout-${layout}`);
+  installPrintPageStyle(layout);
+}
+
+function clearPrintSession() {
+  document.body.classList.remove('print-session-active', 'print-layout-full', 'print-layout-two-up', 'print-mode-student', 'print-mode-teacher');
+  document.documentElement.classList.remove('print-layout-full', 'print-layout-two-up');
+  els.batchPrintRoot.className = 'batch-print-root';
+  els.batchPrintRoot.innerHTML = '';
+  els.batchPrintRoot.setAttribute('aria-hidden', 'true');
+  document.getElementById('dynamicPrintPageStyle')?.remove();
+}
+
+async function waitForPrintImages(root) {
+  const images = [...root.querySelectorAll('img')];
+  const waiting = images.map(image => {
+    if (image.complete) return Promise.resolve();
+    return new Promise(resolve => {
+      image.addEventListener('load', resolve, { once: true });
+      image.addEventListener('error', resolve, { once: true });
+    });
+  });
+  await Promise.race([
+    Promise.all(waiting),
+    new Promise(resolve => setTimeout(resolve, 4000))
+  ]);
+  if (document.fonts?.ready) await document.fonts.ready;
+}
+
+async function confirmPrintRequest() {
+  const mode = state.pendingPrintMode;
+  const tools = state.pendingPrintToolIds
+    .map(id => state.tools.find(tool => tool.id === id))
+    .filter(tool => toolPrintableInMode(tool, mode));
+  if (!tools.length) return;
+  const requestedLayout = els.printDialog.querySelector('input[name="printLayout"]:checked')?.value || 'full';
+  const layout = requestedLayout === 'two-up' && mode === 'student' && tools.length > 1 ? 'two-up' : 'full';
+  closePrintDialog();
+  preparePrintSession(tools, mode, layout);
+  await waitForPrintImages(els.batchPrintRoot);
+  requestAnimationFrame(() => requestAnimationFrame(() => window.print()));
 }
 
 function teacherAccessStatus(tool) {
@@ -697,7 +969,12 @@ function renderList(items = []) {
 }
 
 function setMode(mode) {
+  const modeChanged = state.mode !== mode;
   state.mode = mode;
+  if (modeChanged) {
+    state.printSelection.clear();
+    state.printSelectionMode = false;
+  }
   const current = getCurrentTool();
   if (state.view === 'detail' && mode === 'student' && current && !canShowInStudentMode(current)) {
     state.selectedToolId = null;
@@ -904,10 +1181,12 @@ window.addEventListener('beforeprint', () => {
   details.forEach(item => { item.open = true; });
 });
 window.addEventListener('afterprint', () => {
-  if (!teacherPrintOpenState) return;
-  const details = [...document.querySelectorAll('details.teacher-accordion')];
-  details.forEach((item, index) => { item.open = !!teacherPrintOpenState[index]; });
+  if (teacherPrintOpenState) {
+    const details = [...document.querySelectorAll('details.teacher-accordion')];
+    details.forEach((item, index) => { item.open = !!teacherPrintOpenState[index]; });
+  }
   teacherPrintOpenState = null;
+  clearPrintSession();
 });
 
 els.searchInput.addEventListener('input', () => {
@@ -928,7 +1207,17 @@ els.studentModeBtn.addEventListener('click', () => setMode('student'));
 els.teacherModeBtn.addEventListener('click', () => setMode('teacher'));
 els.brandHomeBtn.addEventListener('click', goHome);
 els.backHomeBtn.addEventListener('click', goHome);
-els.printBtn.addEventListener('click', () => window.print());
+els.printBtn.addEventListener('click', () => openPrintDialog('current'));
+els.togglePrintSelectBtn?.addEventListener('click', () => setPrintSelectionMode(!state.printSelectionMode));
+els.selectVisiblePrintBtn?.addEventListener('click', selectAllVisibleForPrint);
+els.clearPrintSelectionBtn?.addEventListener('click', clearPrintSelection);
+els.openBatchPrintBtn?.addEventListener('click', () => openPrintDialog('selected'));
+els.closePrintDialogBtn?.addEventListener('click', closePrintDialog);
+els.cancelPrintBtn?.addEventListener('click', closePrintDialog);
+els.confirmPrintBtn?.addEventListener('click', confirmPrintRequest);
+els.printDialog?.addEventListener('click', event => {
+  if (event.target === els.printDialog) closePrintDialog();
+});
 els.shareSopBtn?.addEventListener('click', openShareDialog);
 els.copyShareLinkBtn?.addEventListener('click', copyShareLink);
 els.closeShareDialogBtn?.addEventListener('click', () => {
