@@ -2980,13 +2980,14 @@
         ],
         "beforeStart": [
           "Choose the correct ladder with your teacher.",
-          "Should extend 1mtr past the top of the building",
+          "Extend 1mtr past the top of the building.",
           "Check feet, rungs, stiles and locks.",
-          "Place 1mtr out for every 4mtrs up",
-          "Set it on firm, level ground and secure it as required.",
+         "Set it on firm, level ground and secure it as required.",
           "Check for power lines and weather hazards."
         ],
         "dos": [
+          
+          "Place 1mtr out for every 4mtrs up.",
           "Keep three points of contact.",
           "Face the ladder.",
           "Keep your body between the stiles.",
