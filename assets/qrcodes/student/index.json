@@ -1,338 +1,922 @@
 [
   {
+    "id": "1-001-adhesives-acrylic-cement",
+    "department": "dvc",
+    "name": "Adhesives: acrylic cement",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/adhesives-acrylic-cement",
+    "file": "assets/qrcodes/student/1-001-adhesives-acrylic-cement.svg",
+    "approved": false
+  },
+  {
+    "id": "1-002-adhesives-cyanoacrylate",
+    "department": "dvc",
+    "name": "Adhesives: cyanoacrylate",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/adhesives-cyanoacrylate",
+    "file": "assets/qrcodes/student/1-002-adhesives-cyanoacrylate.svg",
+    "approved": false
+  },
+  {
+    "id": "1-003-adhesives-hot-melt-glue-guns",
+    "department": "dvc",
+    "name": "Adhesives: hot-melt glue guns",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/adhesives-hot-melt-glue-guns",
+    "file": "assets/qrcodes/student/1-003-adhesives-hot-melt-glue-guns.svg",
+    "approved": false
+  },
+  {
+    "id": "1-004-adhesives-hot-melt-glue-sticks",
+    "department": "dvc",
+    "name": "Adhesives: hot-melt glue sticks",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/adhesives-hot-melt-glue-sticks",
+    "file": "assets/qrcodes/student/1-004-adhesives-hot-melt-glue-sticks.svg",
+    "approved": false
+  },
+  {
+    "id": "1-007-adhesives-solvent-based-cellulosics-polymer-cements-rubber-solution",
+    "department": "dvc",
+    "name": "Adhesives: solvent-based, cellulosics, polymer cements, rubber solution",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/adhesives-solvent-based-cellulosics-polymer-cements-rubber-solution",
+    "file": "assets/qrcodes/student/1-007-adhesives-solvent-based-cellulosics-polymer-cements-rubber-solution.svg",
+    "approved": false
+  },
+  {
+    "id": "1-008-adhesives-solvent-based-repositionable",
+    "department": "dvc",
+    "name": "Adhesives: solvent-based, repositionable",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/adhesives-solvent-based-repositionable",
+    "file": "assets/qrcodes/student/1-008-adhesives-solvent-based-repositionable.svg",
+    "approved": false
+  },
+  {
+    "id": "1-009-adhesives-water-based-pva-rubber-latex",
+    "department": "dvc",
+    "name": "Adhesives: water-based, PVA, rubber latex",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/adhesives-water-based-pva-rubber-latex",
+    "file": "assets/qrcodes/student/1-009-adhesives-water-based-pva-rubber-latex.svg",
+    "approved": false
+  },
+  {
+    "id": "1-010-cnc-machines",
+    "department": "dvc",
+    "name": "CNC machines",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/cnc-machines",
+    "file": "assets/qrcodes/student/1-010-cnc-machines.svg",
+    "approved": false
+  },
+  {
+    "id": "1-011-craft-knives-scalpels-and-scissors",
+    "department": "dvc",
+    "name": "Craft knives, scalpels and scissors",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/craft-knives-scalpels-and-scissors",
+    "file": "assets/qrcodes/student/1-011-craft-knives-scalpels-and-scissors.svg",
+    "approved": false
+  },
+  {
+    "id": "1-013-electrical-and-electronics-work",
+    "department": "dvc",
+    "name": "Electrical and electronics work",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/electrical-and-electronics-work",
+    "file": "assets/qrcodes/student/1-013-electrical-and-electronics-work.svg",
+    "approved": false
+  },
+  {
+    "id": "1-032-laser-cutters",
+    "department": "dvc",
+    "name": "Laser cutters",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/laser-cutters",
+    "file": "assets/qrcodes/student/1-032-laser-cutters.svg",
+    "approved": false
+  },
+  {
+    "id": "1-052-plastics-abrading-and-trimming-equipment",
+    "department": "dvc",
+    "name": "Plastics: abrading and trimming equipment",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/plastics-abrading-and-trimming-equipment",
+    "file": "assets/qrcodes/student/1-052-plastics-abrading-and-trimming-equipment.svg",
+    "approved": false
+  },
+  {
+    "id": "1-053-plastics-abrading-dust-and-fumes",
+    "department": "dvc",
+    "name": "Plastics: abrading, dust and fumes",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/plastics-abrading-dust-and-fumes",
+    "file": "assets/qrcodes/student/1-053-plastics-abrading-dust-and-fumes.svg",
+    "approved": false
+  },
+  {
+    "id": "1-057-plastics-hot-wire-cutting-fumes",
+    "department": "dvc",
+    "name": "Plastics: hot-wire cutting, fumes",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/plastics-hot-wire-cutting-fumes",
+    "file": "assets/qrcodes/student/1-057-plastics-hot-wire-cutting-fumes.svg",
+    "approved": false
+  },
+  {
+    "id": "1-058-plastics-injection-moulding-equipment",
+    "department": "dvc",
+    "name": "Plastics: injection-moulding equipment",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/plastics-injection-moulding-equipment",
+    "file": "assets/qrcodes/student/1-058-plastics-injection-moulding-equipment.svg",
+    "approved": false
+  },
+  {
+    "id": "1-059-plastics-polishers",
+    "department": "dvc",
+    "name": "Plastics: polishers",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/plastics-polishers",
+    "file": "assets/qrcodes/student/1-059-plastics-polishers.svg",
+    "approved": false
+  },
+  {
+    "id": "1-060-plastics-polishing-dusts",
+    "department": "dvc",
+    "name": "Plastics: polishing dusts",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/plastics-polishing-dusts",
+    "file": "assets/qrcodes/student/1-060-plastics-polishing-dusts.svg",
+    "approved": false
+  },
+  {
+    "id": "1-061-plastics-sheet-benders",
+    "department": "dvc",
+    "name": "Plastics: sheet benders",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/plastics-sheet-benders",
+    "file": "assets/qrcodes/student/1-061-plastics-sheet-benders.svg",
+    "approved": false
+  },
+  {
+    "id": "1-062-plastics-vacuum-and-pressure-forming-equipment",
+    "department": "dvc",
+    "name": "Plastics: vacuum- and pressure-forming equipment",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/plastics-vacuum-and-pressure-forming-equipment",
+    "file": "assets/qrcodes/student/1-062-plastics-vacuum-and-pressure-forming-equipment.svg",
+    "approved": false
+  },
+  {
+    "id": "1-063-pneumatics-equipment-and-compressed-air",
+    "department": "dvc",
+    "name": "Pneumatics equipment and compressed air",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/pneumatics-equipment-and-compressed-air",
+    "file": "assets/qrcodes/student/1-063-pneumatics-equipment-and-compressed-air.svg",
+    "approved": false
+  },
+  {
+    "id": "1-065-surface-finishes-air-brushes-and-paint-sprays",
+    "department": "dvc",
+    "name": "Surface finishes: air brushes and paint sprays",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/surface-finishes-air-brushes-and-paint-sprays",
+    "file": "assets/qrcodes/student/1-065-surface-finishes-air-brushes-and-paint-sprays.svg",
+    "approved": false
+  },
+  {
+    "id": "1-068-surface-finishes-solvent-based-paints-aerosol",
+    "department": "dvc",
+    "name": "Surface finishes: solvent-based paints (aerosol)",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/surface-finishes-solvent-based-paints-aerosol",
+    "file": "assets/qrcodes/student/1-068-surface-finishes-solvent-based-paints-aerosol.svg",
+    "approved": false
+  },
+  {
+    "id": "1-069-surface-finishes-solvent-based-paints-liquid",
+    "department": "dvc",
+    "name": "Surface finishes: solvent-based paints (liquid)",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/surface-finishes-solvent-based-paints-liquid",
+    "file": "assets/qrcodes/student/1-069-surface-finishes-solvent-based-paints-liquid.svg",
+    "approved": false
+  },
+  {
+    "id": "1-070-surface-finishes-varnishes-and-wood-polishes",
+    "department": "dvc",
+    "name": "Surface finishes: varnishes and wood polishes",
+    "url": "https://pukekohetech.github.io/techsop/#/dvc/surface-finishes-varnishes-and-wood-polishes",
+    "file": "assets/qrcodes/student/1-070-surface-finishes-varnishes-and-wood-polishes.svg",
+    "approved": false
+  },
+  {
     "id": "eng-metal-hand-tools",
     "department": "engineering",
     "name": "Metal hand tools — hacksaw, file & cold chisel",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/metal-hand-tools",
-    "file": "assets/qrcodes/student/eng-metal-hand-tools.svg"
+    "file": "assets/qrcodes/student/eng-metal-hand-tools.svg",
+    "approved": false
   },
   {
     "id": "eng-soldering-iron",
     "department": "engineering",
     "name": "Soldering iron / soft soldering",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/soldering-iron",
-    "file": "assets/qrcodes/student/eng-soldering-iron.svg"
+    "file": "assets/qrcodes/student/eng-soldering-iron.svg",
+    "approved": false
   },
   {
     "id": "eng-brazing",
     "department": "engineering",
     "name": "Brazing / silver soldering",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/brazing",
-    "file": "assets/qrcodes/student/eng-brazing.svg"
+    "file": "assets/qrcodes/student/eng-brazing.svg",
+    "approved": false
   },
   {
     "id": "eng-butane-blowtorch",
     "department": "engineering",
     "name": "Butane blowtorch",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/butane-blowtorch",
-    "file": "assets/qrcodes/student/eng-butane-blowtorch.svg"
+    "file": "assets/qrcodes/student/eng-butane-blowtorch.svg",
+    "approved": false
   },
   {
     "id": "eng-metal-casting",
     "department": "engineering",
     "name": "Metal casting",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/metal-casting",
-    "file": "assets/qrcodes/student/eng-metal-casting.svg"
+    "file": "assets/qrcodes/student/eng-metal-casting.svg",
+    "approved": false
   },
   {
     "id": "eng-forging",
     "department": "engineering",
     "name": "Forging",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/forging",
-    "file": "assets/qrcodes/student/eng-forging.svg"
+    "file": "assets/qrcodes/student/eng-forging.svg",
+    "approved": false
   },
   {
     "id": "eng-arc-stick-welder",
     "department": "engineering",
     "name": "Arc / stick welder",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/arc-stick-welder",
-    "file": "assets/qrcodes/student/eng-arc-stick-welder.svg"
+    "file": "assets/qrcodes/student/eng-arc-stick-welder.svg",
+    "approved": false
   },
   {
     "id": "eng-mig-welder",
     "department": "engineering",
     "name": "MIG welder — core arc-welding safety",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/mig-welder",
-    "file": "assets/qrcodes/student/eng-mig-welder.svg"
+    "file": "assets/qrcodes/student/eng-mig-welder.svg",
+    "approved": false
   },
   {
     "id": "eng-oxy-acetylene",
     "department": "engineering",
     "name": "Oxy-acetylene welding set",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/oxy-acetylene",
-    "file": "assets/qrcodes/student/eng-oxy-acetylene.svg"
+    "file": "assets/qrcodes/student/eng-oxy-acetylene.svg",
+    "approved": false
   },
   {
     "id": "eng-spot-welder",
     "department": "engineering",
     "name": "Spot welder",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/spot-welder",
-    "file": "assets/qrcodes/student/eng-spot-welder.svg"
+    "file": "assets/qrcodes/student/eng-spot-welder.svg",
+    "approved": false
   },
   {
     "id": "eng-grinder-linisher",
     "department": "engineering",
     "name": "Combined bench grinder & linisher",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/grinder-linisher",
-    "file": "assets/qrcodes/student/eng-grinder-linisher.svg"
+    "file": "assets/qrcodes/student/eng-grinder-linisher.svg",
+    "approved": false
   },
   {
     "id": "eng-foot-guillotine",
     "department": "engineering",
     "name": "Foot-operated guillotine",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/foot-guillotine",
-    "file": "assets/qrcodes/student/eng-foot-guillotine.svg"
+    "file": "assets/qrcodes/student/eng-foot-guillotine.svg",
+    "approved": false
   },
   {
     "id": "eng-sheet-folder",
     "department": "engineering",
     "name": "Sheet-metal folder",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/sheet-folder",
-    "file": "assets/qrcodes/student/eng-sheet-folder.svg"
+    "file": "assets/qrcodes/student/eng-sheet-folder.svg",
+    "approved": false
   },
   {
     "id": "eng-sheet-rollers",
     "department": "engineering",
     "name": "Sheet-metal rollers",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/sheet-rollers",
-    "file": "assets/qrcodes/student/eng-sheet-rollers.svg"
+    "file": "assets/qrcodes/student/eng-sheet-rollers.svg",
+    "approved": false
   },
   {
     "id": "eng-metal-lathe",
     "department": "engineering",
     "name": "Metal lathe",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/metal-lathe",
-    "file": "assets/qrcodes/student/eng-metal-lathe.svg"
+    "file": "assets/qrcodes/student/eng-metal-lathe.svg",
+    "approved": false
   },
   {
     "id": "eng-milling-machine",
     "department": "engineering",
     "name": "Milling machine",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/milling-machine",
-    "file": "assets/qrcodes/student/eng-milling-machine.svg"
+    "file": "assets/qrcodes/student/eng-milling-machine.svg",
+    "approved": false
   },
   {
     "id": "eng-pillar-drill",
     "department": "engineering",
     "name": "Pillar drill",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/pillar-drill",
-    "file": "assets/qrcodes/student/eng-pillar-drill.svg"
+    "file": "assets/qrcodes/student/eng-pillar-drill.svg",
+    "approved": false
   },
   {
     "id": "eng-angle-grinder",
     "department": "engineering",
     "name": "Angle grinder",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/angle-grinder",
-    "file": "assets/qrcodes/student/eng-angle-grinder.svg"
+    "file": "assets/qrcodes/student/eng-angle-grinder.svg",
+    "approved": false
   },
   {
     "id": "eng-portable-drill",
     "department": "engineering",
     "name": "Portable drill",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/portable-drill",
-    "file": "assets/qrcodes/student/eng-portable-drill.svg"
+    "file": "assets/qrcodes/student/eng-portable-drill.svg",
+    "approved": false
   },
   {
     "id": "eng-portable-sheet-shears",
     "department": "engineering",
     "name": "Portable sheet-metal shears / nibbler",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/portable-sheet-shears",
-    "file": "assets/qrcodes/student/eng-portable-sheet-shears.svg"
+    "file": "assets/qrcodes/student/eng-portable-sheet-shears.svg",
+    "approved": false
+  },
+  {
+    "id": "3-001-blast-chillers",
+    "department": "food",
+    "name": "Blast chiller",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-001-blast-chillers",
+    "file": "assets/qrcodes/student/3-001-blast-chillers.svg",
+    "approved": false
+  },
+  {
+    "id": "3-002-chemical-testing-of-food",
+    "department": "food",
+    "name": "Food testing chemicals",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-002-chemical-testing-of-food",
+    "file": "assets/qrcodes/student/3-002-chemical-testing-of-food.svg",
+    "approved": false
+  },
+  {
+    "id": "3-003-cleaning-activities-general",
+    "department": "food",
+    "name": "Cleaning work areas",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-003-cleaning-activities-general",
+    "file": "assets/qrcodes/student/3-003-cleaning-activities-general.svg",
+    "approved": false
+  },
+  {
+    "id": "3-004-cleaning-agents-for-food-handling-areas-bleaches",
+    "department": "food",
+    "name": "Bleach & sanitising solutions",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-004-cleaning-agents-for-food-handling-areas-bleaches",
+    "file": "assets/qrcodes/student/3-004-cleaning-agents-for-food-handling-areas-bleaches.svg",
+    "approved": false
+  },
+  {
+    "id": "3-005-cleaning-agents-for-food-handling-areas-descalers",
+    "department": "food",
+    "name": "Descaling safely",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-005-cleaning-agents-for-food-handling-areas-descalers",
+    "file": "assets/qrcodes/student/3-005-cleaning-agents-for-food-handling-areas-descalers.svg",
+    "approved": false
+  },
+  {
+    "id": "3-006-cleaning-agents-for-food-handling-areas-detergents",
+    "department": "food",
+    "name": "Detergents & washing up",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-006-cleaning-agents-for-food-handling-areas-detergents",
+    "file": "assets/qrcodes/student/3-006-cleaning-agents-for-food-handling-areas-detergents.svg",
+    "approved": false
+  },
+  {
+    "id": "3-007-cleaning-agents-for-food-handling-areas-disinfectants",
+    "department": "food",
+    "name": "Disinfectants & sanitising",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-007-cleaning-agents-for-food-handling-areas-disinfectants",
+    "file": "assets/qrcodes/student/3-007-cleaning-agents-for-food-handling-areas-disinfectants.svg",
+    "approved": false
+  },
+  {
+    "id": "3-009-cleaning-agents-for-food-handling-areas-oven-cleaners",
+    "department": "food",
+    "name": "Cleaning ovens",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-009-cleaning-agents-for-food-handling-areas-oven-cleaners",
+    "file": "assets/qrcodes/student/3-009-cleaning-agents-for-food-handling-areas-oven-cleaners.svg",
+    "approved": false
   },
   {
     "id": "3-010-conventional-ovens",
     "department": "food",
     "name": "Oven",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-010-conventional-ovens",
-    "file": "assets/qrcodes/student/3-010-conventional-ovens.svg"
+    "file": "assets/qrcodes/student/3-010-conventional-ovens.svg",
+    "approved": false
+  },
+  {
+    "id": "3-011-cooking-and-reheating-food-poisoning",
+    "department": "food",
+    "name": "Cooking & reheating food safely",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-011-cooking-and-reheating-food-poisoning",
+    "file": "assets/qrcodes/student/3-011-cooking-and-reheating-food-poisoning.svg",
+    "approved": false
   },
   {
     "id": "3-012-deep-fat-fryers",
     "department": "food",
     "name": "Deep fat fryer",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-012-deep-fat-fryers",
-    "file": "assets/qrcodes/student/3-012-deep-fat-fryers.svg"
+    "file": "assets/qrcodes/student/3-012-deep-fat-fryers.svg",
+    "approved": false
   },
   {
     "id": "3-013-defrosting-foods",
     "department": "food",
     "name": "Defrosting food",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-013-defrosting-foods",
-    "file": "assets/qrcodes/student/3-013-defrosting-foods.svg"
+    "file": "assets/qrcodes/student/3-013-defrosting-foods.svg",
+    "approved": false
   },
   {
     "id": "3-014-eating-and-tasting",
     "department": "food",
     "name": "Eating & tasting",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-014-eating-and-tasting",
-    "file": "assets/qrcodes/student/3-014-eating-and-tasting.svg"
+    "file": "assets/qrcodes/student/3-014-eating-and-tasting.svg",
+    "approved": false
+  },
+  {
+    "id": "3-015-enzymes",
+    "department": "food",
+    "name": "Using food enzymes",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-015-enzymes",
+    "file": "assets/qrcodes/student/3-015-enzymes.svg",
+    "approved": false
   },
   {
     "id": "3-016-food-processors",
     "department": "food",
     "name": "Food processor",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-016-food-processors",
-    "file": "assets/qrcodes/student/3-016-food-processors.svg"
+    "file": "assets/qrcodes/student/3-016-food-processors.svg",
+    "approved": false
+  },
+  {
+    "id": "3-017-food-storage-dry-foods",
+    "department": "food",
+    "name": "Dry food storage",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-017-food-storage-dry-foods",
+    "file": "assets/qrcodes/student/3-017-food-storage-dry-foods.svg",
+    "approved": false
+  },
+  {
+    "id": "3-018-food-storage-high-temperatures",
+    "department": "food",
+    "name": "Keeping food hot safely",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-018-food-storage-high-temperatures",
+    "file": "assets/qrcodes/student/3-018-food-storage-high-temperatures.svg",
+    "approved": false
   },
   {
     "id": "3-019-food-storage-low-temperatures",
     "department": "food",
     "name": "Fridge & freezer storage",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-019-food-storage-low-temperatures",
-    "file": "assets/qrcodes/student/3-019-food-storage-low-temperatures.svg"
+    "file": "assets/qrcodes/student/3-019-food-storage-low-temperatures.svg",
+    "approved": false
+  },
+  {
+    "id": "3-020-freezing-food-freezer-refrigerator",
+    "department": "food",
+    "name": "Freezing food safely",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-020-freezing-food-freezer-refrigerator",
+    "file": "assets/qrcodes/student/3-020-freezing-food-freezer-refrigerator.svg",
+    "approved": false
   },
   {
     "id": "3-021-frying-and-grilling-food",
     "department": "food",
     "name": "Frying & grilling",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-021-frying-and-grilling-food",
-    "file": "assets/qrcodes/student/3-021-frying-and-grilling-food.svg"
+    "file": "assets/qrcodes/student/3-021-frying-and-grilling-food.svg",
+    "approved": false
   },
   {
     "id": "3-022-handling-food",
     "department": "food",
     "name": "Food hygiene & safe handling",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-022-handling-food",
-    "file": "assets/qrcodes/student/3-022-handling-food.svg"
+    "file": "assets/qrcodes/student/3-022-handling-food.svg",
+    "approved": false
   },
   {
     "id": "3-023-hob-kettle-urn",
     "department": "food",
     "name": "Hob, kettle & urn",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-023-hob-kettle-urn",
-    "file": "assets/qrcodes/student/3-023-hob-kettle-urn.svg"
+    "file": "assets/qrcodes/student/3-023-hob-kettle-urn.svg",
+    "approved": false
   },
   {
     "id": "3-024-knives",
     "department": "food",
     "name": "Kitchen knives",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-024-knives",
-    "file": "assets/qrcodes/student/3-024-knives.svg"
+    "file": "assets/qrcodes/student/3-024-knives.svg",
+    "approved": false
   },
   {
     "id": "3-025-liquidising-mincing-mixing",
     "department": "food",
     "name": "Liquidiser, mixer & mincer",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-025-liquidising-mincing-mixing",
-    "file": "assets/qrcodes/student/3-025-liquidising-mincing-mixing.svg"
+    "file": "assets/qrcodes/student/3-025-liquidising-mincing-mixing.svg",
+    "approved": false
+  },
+  {
+    "id": "3-026-microorganisms-used-in-food-production",
+    "department": "food",
+    "name": "Yeast & yoghurt cultures",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-026-microorganisms-used-in-food-production",
+    "file": "assets/qrcodes/student/3-026-microorganisms-used-in-food-production.svg",
+    "approved": false
   },
   {
     "id": "3-027-microwaves",
     "department": "food",
     "name": "Microwave",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-027-microwaves",
-    "file": "assets/qrcodes/student/3-027-microwaves.svg"
+    "file": "assets/qrcodes/student/3-027-microwaves.svg",
+    "approved": false
   },
   {
     "id": "3-029-portable-food-processors-mixers-and-powered-tools",
     "department": "food",
     "name": "Portable mixers & powered tools",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-029-portable-food-processors-mixers-and-powered-tools",
-    "file": "assets/qrcodes/student/3-029-portable-food-processors-mixers-and-powered-tools.svg"
+    "file": "assets/qrcodes/student/3-029-portable-food-processors-mixers-and-powered-tools.svg",
+    "approved": false
+  },
+  {
+    "id": "3-030-pressure-cookers",
+    "department": "food",
+    "name": "Pressure cooker",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-030-pressure-cookers",
+    "file": "assets/qrcodes/student/3-030-pressure-cookers.svg",
+    "approved": false
+  },
+  {
+    "id": "3-031-purchase-and-selection-of-food",
+    "department": "food",
+    "name": "Choosing & checking food",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-031-purchase-and-selection-of-food",
+    "file": "assets/qrcodes/student/3-031-purchase-and-selection-of-food.svg",
+    "approved": false
   },
   {
     "id": "3-032-toasting-food",
     "department": "food",
     "name": "Toaster & sandwich press",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-032-toasting-food",
-    "file": "assets/qrcodes/student/3-032-toasting-food.svg"
+    "file": "assets/qrcodes/student/3-032-toasting-food.svg",
+    "approved": false
+  },
+  {
+    "id": "3-033-tunnel-ovens",
+    "department": "food",
+    "name": "Tunnel oven",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-033-tunnel-ovens",
+    "file": "assets/qrcodes/student/3-033-tunnel-ovens.svg",
+    "approved": false
+  },
+  {
+    "id": "3-034-waste-disposal",
+    "department": "food",
+    "name": "Food waste & bins",
+    "url": "https://pukekohetech.github.io/techsop/#/food/3-034-waste-disposal",
+    "file": "assets/qrcodes/student/3-034-waste-disposal.svg",
+    "approved": false
   },
   {
     "id": "bld-wood-dust",
     "department": "building",
     "name": "Wood dust & extraction",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-wood-dust",
-    "file": "assets/qrcodes/student/bld-wood-dust.svg"
+    "file": "assets/qrcodes/student/bld-wood-dust.svg",
+    "approved": false
   },
   {
     "id": "bld-chisels-gouges",
     "department": "building",
     "name": "Chisels & gouges",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-chisels-gouges",
-    "file": "assets/qrcodes/student/bld-chisels-gouges.svg"
+    "file": "assets/qrcodes/student/bld-chisels-gouges.svg",
+    "approved": false
   },
   {
     "id": "bld-hand-saws",
     "department": "building",
     "name": "Hand saws",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-hand-saws",
-    "file": "assets/qrcodes/student/bld-hand-saws.svg"
+    "file": "assets/qrcodes/student/bld-hand-saws.svg",
+    "approved": false
   },
   {
     "id": "bld-biscuit-jointer",
     "department": "building",
     "name": "Biscuit jointer",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-biscuit-jointer",
-    "file": "assets/qrcodes/student/bld-biscuit-jointer.svg"
+    "file": "assets/qrcodes/student/bld-biscuit-jointer.svg",
+    "approved": false
   },
   {
     "id": "bld-portable-drill",
     "department": "building",
     "name": "Portable drill — woodwork",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-portable-drill",
-    "file": "assets/qrcodes/student/bld-portable-drill.svg"
+    "file": "assets/qrcodes/student/bld-portable-drill.svg",
+    "approved": false
   },
   {
     "id": "bld-portable-planer",
     "department": "building",
     "name": "Portable planer",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-portable-planer",
-    "file": "assets/qrcodes/student/bld-portable-planer.svg"
+    "file": "assets/qrcodes/student/bld-portable-planer.svg",
+    "approved": false
   },
   {
     "id": "bld-router",
     "department": "building",
     "name": "Hand-held router",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-router",
-    "file": "assets/qrcodes/student/bld-router.svg"
+    "file": "assets/qrcodes/student/bld-router.svg",
+    "approved": false
   },
   {
     "id": "bld-portable-sander",
     "department": "building",
     "name": "Portable sander",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-portable-sander",
-    "file": "assets/qrcodes/student/bld-portable-sander.svg"
+    "file": "assets/qrcodes/student/bld-portable-sander.svg",
+    "approved": false
   },
   {
     "id": "bld-portable-saw",
     "department": "building",
     "name": "Portable jigsaw / circular saw",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-portable-saw",
-    "file": "assets/qrcodes/student/bld-portable-saw.svg"
+    "file": "assets/qrcodes/student/bld-portable-saw.svg",
+    "approved": false
   },
   {
     "id": "bld-wood-lathe",
     "department": "building",
     "name": "Wood lathe",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-wood-lathe",
-    "file": "assets/qrcodes/student/bld-wood-lathe.svg"
+    "file": "assets/qrcodes/student/bld-wood-lathe.svg",
+    "approved": false
   },
   {
     "id": "bld-mortiser",
     "department": "building",
     "name": "Mortising machine",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-mortiser",
-    "file": "assets/qrcodes/student/bld-mortiser.svg"
+    "file": "assets/qrcodes/student/bld-mortiser.svg",
+    "approved": false
   },
   {
     "id": "bld-machine-sander",
     "department": "building",
     "name": "Belt / disc / bobbin sander",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-machine-sander",
-    "file": "assets/qrcodes/student/bld-machine-sander.svg"
+    "file": "assets/qrcodes/student/bld-machine-sander.svg",
+    "approved": false
   },
   {
     "id": "bld-band-saw",
     "department": "building",
     "name": "Band saw — wood",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-band-saw",
-    "file": "assets/qrcodes/student/bld-band-saw.svg"
+    "file": "assets/qrcodes/student/bld-band-saw.svg",
+    "approved": false
   },
   {
     "id": "bld-scroll-saw",
     "department": "building",
     "name": "Scroll / fret saw",
     "url": "https://pukekohetech.github.io/techsop/#/building/bld-scroll-saw",
-    "file": "assets/qrcodes/student/bld-scroll-saw.svg"
+    "file": "assets/qrcodes/student/bld-scroll-saw.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-site-induction",
+    "department": "building",
+    "name": "Worksite induction & daily site check",
+    "url": "https://pukekohetech.github.io/techsop/#/building/worksite-induction-daily-check",
+    "file": "assets/qrcodes/student/bld-site-induction.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-working-at-height",
+    "department": "building",
+    "name": "Working at height — general",
+    "url": "https://pukekohetech.github.io/techsop/#/building/working-at-height",
+    "file": "assets/qrcodes/student/bld-working-at-height.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-ladders",
+    "department": "building",
+    "name": "Ladders & stepladders",
+    "url": "https://pukekohetech.github.io/techsop/#/building/ladders-stepladders",
+    "file": "assets/qrcodes/student/bld-ladders.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-scaffolding-use",
+    "department": "building",
+    "name": "Using scaffolding safely",
+    "url": "https://pukekohetech.github.io/techsop/#/building/using-scaffolding",
+    "file": "assets/qrcodes/student/bld-scaffolding-use.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-roof-work",
+    "department": "building",
+    "name": "Roof work & roof access",
+    "url": "https://pukekohetech.github.io/techsop/#/building/roof-work-access",
+    "file": "assets/qrcodes/student/bld-roof-work.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-edges-openings",
+    "department": "building",
+    "name": "Floor openings & exposed edges",
+    "url": "https://pukekohetech.github.io/techsop/#/building/floor-openings-edges",
+    "file": "assets/qrcodes/student/bld-edges-openings.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-framing-top-plates-trusses",
+    "department": "building",
+    "name": "Wall framing, top plates & roof trusses",
+    "url": "https://pukekohetech.github.io/techsop/#/building/framing-top-plates-trusses",
+    "file": "assets/qrcodes/student/bld-framing-top-plates-trusses.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-housekeeping-waste",
+    "department": "building",
+    "name": "Site housekeeping, sharp waste & recycling",
+    "url": "https://pukekohetech.github.io/techsop/#/building/housekeeping-waste",
+    "file": "assets/qrcodes/student/bld-housekeeping-waste.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-site-electricity",
+    "department": "building",
+    "name": "Temporary site electricity & extension leads",
+    "url": "https://pukekohetech.github.io/techsop/#/building/site-electricity-extension-leads",
+    "file": "assets/qrcodes/student/bld-site-electricity.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-manual-handling",
+    "department": "building",
+    "name": "Lifting & carrying timber safely",
+    "url": "https://pukekohetech.github.io/techsop/#/building/lifting-carrying-timber",
+    "file": "assets/qrcodes/student/bld-manual-handling.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-construction-dust",
+    "department": "building",
+    "name": "Construction dust — control & clean-up",
+    "url": "https://pukekohetech.github.io/techsop/#/building/construction-dust-cleanup",
+    "file": "assets/qrcodes/student/bld-construction-dust.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-silica-dust",
+    "department": "building",
+    "name": "Silica dust — concrete, mortar, brick & fibre cement",
+    "url": "https://pukekohetech.github.io/techsop/#/building/silica-dust",
+    "file": "assets/qrcodes/student/bld-silica-dust.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-wet-cement",
+    "department": "building",
+    "name": "Wet cement, concrete & mortar",
+    "url": "https://pukekohetech.github.io/techsop/#/building/wet-cement-concrete-mortar",
+    "file": "assets/qrcodes/student/bld-wet-cement.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-treated-timber",
+    "department": "building",
+    "name": "Treated timber",
+    "url": "https://pukekohetech.github.io/techsop/#/building/treated-timber",
+    "file": "assets/qrcodes/student/bld-treated-timber.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-adhesives-sealants",
+    "department": "building",
+    "name": "Construction adhesives & sealants",
+    "url": "https://pukekohetech.github.io/techsop/#/building/construction-adhesives-sealants",
+    "file": "assets/qrcodes/student/bld-adhesives-sealants.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-paints-solvents",
+    "department": "building",
+    "name": "Paints, stains, solvents & timber finishes",
+    "url": "https://pukekohetech.github.io/techsop/#/building/paints-stains-solvents-finishes",
+    "file": "assets/qrcodes/student/bld-paints-solvents.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-hazardous-substances",
+    "department": "building",
+    "name": "Hazardous substances & SDS",
+    "url": "https://pukekohetech.github.io/techsop/#/building/hazardous-substances-sds",
+    "file": "assets/qrcodes/student/bld-hazardous-substances.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-spills-environment",
+    "department": "building",
+    "name": "Spills & environmental protection",
+    "url": "https://pukekohetech.github.io/techsop/#/building/spills-environmental-protection",
+    "file": "assets/qrcodes/student/bld-spills-environment.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-noise",
+    "department": "building",
+    "name": "Noise & hearing protection",
+    "url": "https://pukekohetech.github.io/techsop/#/building/construction-noise-hearing",
+    "file": "assets/qrcodes/student/bld-noise.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-weather-uv",
+    "department": "building",
+    "name": "UV, heat, cold, rain & high winds",
+    "url": "https://pukekohetech.github.io/techsop/#/building/weather-uv-heat-wind-rain",
+    "file": "assets/qrcodes/student/bld-weather-uv.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-site-traffic",
+    "department": "building",
+    "name": "Deliveries, vehicles, pedestrians & site access",
+    "url": "https://pukekohetech.github.io/techsop/#/building/site-traffic-deliveries-fencing",
+    "file": "assets/qrcodes/student/bld-site-traffic.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-excavation-services",
+    "department": "building",
+    "name": "Excavations, trenches & underground / overhead services",
+    "url": "https://pukekohetech.github.io/techsop/#/building/excavations-trenches-services",
+    "file": "assets/qrcodes/student/bld-excavation-services.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-asbestos",
+    "department": "building",
+    "name": "Suspected asbestos — stop & report",
+    "url": "https://pukekohetech.github.io/techsop/#/building/asbestos-stop-report",
+    "file": "assets/qrcodes/student/bld-asbestos.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-emergency-reporting",
+    "department": "building",
+    "name": "Emergency, incident & near-miss response",
+    "url": "https://pukekohetech.github.io/techsop/#/building/emergency-incident-near-miss",
+    "file": "assets/qrcodes/student/bld-emergency-reporting.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-nail-gun",
+    "department": "building",
+    "name": "Nail gun / framing nailer",
+    "url": "https://pukekohetech.github.io/techsop/#/building/nail-gun-framing-nailer",
+    "file": "assets/qrcodes/student/bld-nail-gun.svg",
+    "approved": false
   }
 ]
