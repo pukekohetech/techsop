@@ -1,5 +1,6 @@
 const sharedDefinitions = {
   ppe: {},
+  sectionIcons: {},
   hazardTypes: {},
   categoryFallbacks: []
 };
@@ -14,6 +15,14 @@ function ppeIconHtml(key) {
     return `<img src="${escapeHtml(item.icon)}" alt="" aria-hidden="true">`;
   }
   return genericPpeIconSvg();
+}
+
+function sectionIconHtml(key, fallback = '') {
+  const item = sharedDefinitions.sectionIcons?.[key] || {};
+  if (item.icon) {
+    return `<img src="${escapeHtml(item.icon)}" alt="" aria-hidden="true">`;
+  }
+  return escapeHtml(fallback);
 }
 
 function renderHazardTags(keys = []) {
@@ -36,6 +45,7 @@ const state = {
   search: '',
   defaultDepartment: 'engineering',
   defaultMode: 'student',
+  studentPublicationMode: 'curated-drafts',
   view: 'home',
   publicBaseUrl: 'https://pukekohetech.github.io/techsop/'
 };
@@ -86,6 +96,7 @@ async function loadAllData() {
   const site = manifest.site || {};
   state.defaultDepartment = site.defaultDepartment || manifest.defaultDepartment || 'engineering';
   state.defaultMode = site.defaultMode === 'teacher' ? 'teacher' : 'student';
+  state.studentPublicationMode = site.studentPublicationMode === 'approved-only' ? 'approved-only' : 'curated-drafts';
   state.publicBaseUrl = normaliseBaseUrl(site.publicBaseUrl || state.publicBaseUrl);
   state.departmentFilter = state.defaultDepartment;
   state.mode = state.defaultMode;
@@ -154,6 +165,7 @@ function canShowInStudentMode(tool) {
   if (tool.studentVisible === false) return false;
   if (tool.student?.summaryStatus !== 'curated') return false;
   if (tool.local?.studentUseApproved === false) return false;
+  if (state.studentPublicationMode === 'approved-only' && tool.local?.studentUseApproved !== true) return false;
   return true;
 }
 
@@ -199,7 +211,9 @@ function renderMode() {
   els.studentModeBtn.setAttribute('aria-pressed', String(student));
   els.teacherModeBtn.setAttribute('aria-pressed', String(!student));
   els.modeHint.textContent = student
-    ? 'Student mode shows curated student SOPs only.'
+    ? (state.studentPublicationMode === 'approved-only'
+        ? 'Student mode shows locally approved student SOPs only.'
+        : 'Student mode shows curated SOPs; items awaiting local review remain clearly marked DRAFT.')
     : 'Teacher mode shows the full RAMS / SOP library with access and local-review status.';
   if (els.qrLabelsBtn) els.qrLabelsBtn.classList.toggle('hidden', student);
 }
@@ -301,7 +315,7 @@ function renderToolGrid() {
 
   els.toolGrid.innerHTML = state.visibleTools.map(tool => {
     const image = tool.image
-      ? `<img src="${escapeHtml(tool.image)}" alt="${escapeHtml(tool.name)}">`
+      ? `<img src="${escapeHtml(tool.image)}" alt="${escapeHtml(tool.name)}" loading="lazy" decoding="async">`
       : `<div class="tool-fallback" aria-hidden="true">${categoryIcon(tool)}</div>`;
     const source = (tool.sourceSheets || []).join(', ');
     const sourceBadge = tool.sourceLabel || 'RAMS';
@@ -385,7 +399,7 @@ function renderCurrentTool() {
 
 function heroHtml(tool) {
   return tool.image
-    ? `<div class="hero-card"><img src="${escapeHtml(tool.image)}" alt="${escapeHtml(tool.name)}"></div>`
+    ? `<div class="hero-card"><img src="${escapeHtml(tool.image)}" alt="${escapeHtml(tool.name)}" decoding="async"></div>`
     : `<div class="hero-card"><div class="fallback-image"><div><strong>${escapeHtml(tool.name)}</strong><span>WebP image not added yet.</span></div></div></div>`;
 }
 
@@ -439,29 +453,29 @@ function renderStudentSop(tool) {
 
       <section class="student-quick-grid">
         <div class="quick-panel watch-panel">
-          <div class="quick-panel-heading"><span class="quick-icon" aria-hidden="true">!</span><span><small>WATCH OUT</small><strong>Hazards</strong></span></div>
+          <div class="quick-panel-heading"><span class="quick-icon section-art" aria-hidden="true">${sectionIconHtml('hazards', '!')}</span><span><small>WATCH OUT</small><strong>Hazards</strong></span></div>
           ${renderHazardTags(s.hazardTags || [])}
           <ul class="student-bullet-list hazard-list">${renderList(s.hazards)}</ul>
         </div>
 
         <div class="quick-panel ready-panel">
-          <div class="quick-panel-heading"><span class="quick-icon" aria-hidden="true">1</span><span><small>GET READY</small><strong>Before you start</strong></span></div>
+          <div class="quick-panel-heading"><span class="quick-icon section-art" aria-hidden="true">${sectionIconHtml('beforeStart', '1')}</span><span><small>GET READY</small><strong>Before you start</strong></span></div>
           <ul class="student-bullet-list tick-list">${renderList(s.beforeStart)}</ul>
         </div>
 
         <div class="quick-panel do-panel-v2">
-          <div class="quick-panel-heading"><span class="quick-icon" aria-hidden="true">✓</span><span><small>DO THIS</small><strong>Safe actions</strong></span></div>
+          <div class="quick-panel-heading"><span class="quick-icon section-art" aria-hidden="true">${sectionIconHtml('safeActions', '✓')}</span><span><small>DO THIS</small><strong>Safe actions</strong></span></div>
           <ul class="student-bullet-list tick-list">${renderList(s.dos)}</ul>
         </div>
 
         <div class="quick-panel never-panel">
-          <div class="quick-panel-heading"><span class="quick-icon" aria-hidden="true">×</span><span><small>NEVER</small><strong>Unsafe actions</strong></span></div>
+          <div class="quick-panel-heading"><span class="quick-icon section-art" aria-hidden="true">${sectionIconHtml('unsafeActions', '×')}</span><span><small>NEVER</small><strong>Unsafe actions</strong></span></div>
           <ul class="student-bullet-list cross-list">${renderList(s.donts)}</ul>
         </div>
       </section>
 
       <section class="student-stop-bar">
-        <div class="stop-title"><span class="stop-octagon" aria-hidden="true">STOP</span><span><small>STOP THE JOB</small><strong>Tell the teacher when:</strong></span></div>
+        <div class="stop-title"><span class="stop-icon" aria-hidden="true">${sectionIconHtml('stop', 'STOP')}</span><span><small>STOP THE JOB</small><strong>Tell the teacher when:</strong></span></div>
         <ul class="student-stop-list">${renderList(s.stop)}</ul>
       </section>
 
@@ -598,7 +612,7 @@ function renderTeacherSop(tool) {
 
       <section class="teacher-ppe-strip">
         <div class="teacher-strip-heading"><span class="teacher-strip-icon">PPE</span><span><small>PROTECTION</small><strong>Required PPE / preparation</strong></span></div>
-        <div class="ppe-grid teacher-ppe-grid">${renderPpe(t.ppe || tool.student?.ppe || [])}</div>
+        <div class="ppe-grid teacher-ppe-grid">${renderPpe(t.ppe?.length ? t.ppe : (tool.student?.ppe || []))}</div>
       </section>
 
       ${restrictionItems.length || tool.sourceAccess === 'teacher-only' ? `

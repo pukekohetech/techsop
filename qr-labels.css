@@ -32,6 +32,9 @@ main{max-width:1200px;margin:0 auto;padding:0 20px 40px}
 .label-brand small{font-size:.62rem;color:var(--muted)}
 .label-dept{margin:0 0 3px;color:var(--maroon);font-weight:850;font-size:.67rem;text-transform:uppercase;letter-spacing:.06em}
 .qr-label h2{font-size:1.08rem;line-height:1.08;margin:0 0 7px}
+.label-review{align-self:flex-start;margin:0 0 7px;padding:4px 7px;border-radius:999px;font-size:.58rem;line-height:1;font-weight:900;letter-spacing:.035em}
+.label-review.draft{background:#fff4d8;color:#6f4c00;border:1px solid #e8c979}
+.label-review.approved{background:#eaf5ee;color:#17603d;border:1px solid #bcdcc9}
 .scan-copy{margin:0 0 6px;font-size:.82rem;line-height:1.3}
 .safety-copy{margin:auto 0 0;padding-top:7px;border-top:1px solid var(--line);font-size:.69rem;line-height:1.25;color:#5e4308;font-weight:750}
 .qr-side{display:grid;align-content:center;justify-items:center;gap:5px}
@@ -49,5 +52,5 @@ main{max-width:1200px;margin:0 auto;padding:0 20px 40px}
   .qr-label-grid{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
   .qr-label{box-shadow:none;border-radius:3mm;border:0.3mm solid #a99fa2;border-top:2mm solid var(--maroon);padding:3.2mm;min-height:84mm;max-height:84mm;grid-template-columns:1fr 34mm;gap:3mm;page-break-inside:avoid;break-inside:avoid}
   .label-brand{padding-bottom:2mm;margin-bottom:2mm}.label-brand img{width:8mm;height:9.5mm}.label-brand strong{font-size:7.5pt}.label-brand small{font-size:6.4pt}
-  .label-dept{font-size:6.8pt}.qr-label h2{font-size:12pt;margin-bottom:2mm}.scan-copy{font-size:8.5pt}.safety-copy{font-size:7.2pt}.qr-side img{width:31mm;height:31mm}.qr-side strong{font-size:7pt}.short-route{font-size:5.8pt}
+  .label-dept{font-size:6.8pt}.qr-label h2{font-size:12pt;margin-bottom:1.5mm}.label-review{font-size:5.8pt;padding:.8mm 1.3mm;margin-bottom:1.5mm}.scan-copy{font-size:8.5pt}.safety-copy{font-size:7.2pt}.qr-side img{width:31mm;height:31mm}.qr-side strong{font-size:7pt}.short-route{font-size:5.8pt}
 }

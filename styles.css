@@ -525,6 +525,12 @@ ul { margin: 0; }
   line-height: 1;
 }
 .quick-icon::first-letter { color: #fff; }
+.quick-icon.section-art {
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+}
+.quick-icon.section-art img { width: 100%; height: 100%; object-fit: contain; }
 .watch-panel { color: var(--warn); background: #fffaf0; border-color: #efdaa6; }
 .ready-panel { color: var(--info); background: #f4f9fb; border-color: #d6e7ef; }
 .do-panel-v2 { color: var(--safe); background: #f2faf5; border-color: #cce5d6; }
@@ -571,7 +577,7 @@ ul { margin: 0; }
 .stop-title > span:last-child { display: grid; gap: 1px; }
 .stop-title small { color: var(--danger); font-weight: 950; letter-spacing: .08em; font-size: .65rem; }
 .stop-title strong { font-size: 1rem; color: #6f2420; line-height: 1.05; }
-.stop-octagon {
+.stop-icon {
   width: 52px;
   height: 52px;
   display: grid;
@@ -584,6 +590,7 @@ ul { margin: 0; }
   font-size: .72rem;
   letter-spacing: .03em;
 }
+.stop-icon img { width: 100%; height: 100%; object-fit: contain; }
 .student-stop-list {
   margin: 0;
   padding: 0;
@@ -688,7 +695,7 @@ ul { margin: 0; }
   .student-bullet-list li { padding-left: 3.4mm; font-size: 6.8pt; line-height: 1.18; }
   .student-stop-bar { grid-template-columns: 31% 69%; gap: 2.3mm; padding: 2.2mm 2.7mm; border-radius: 2.8mm; }
   .stop-title { gap: 2mm; }
-  .stop-octagon { width: 10mm; height: 10mm; font-size: 5.7pt; }
+  .stop-icon { width: 10mm; height: 10mm; font-size: 5.7pt; }
   .stop-title small { font-size: 5.5pt; }
   .stop-title strong { font-size: 7.6pt; }
   .student-stop-list { gap: 1.2mm 3mm; }
@@ -728,7 +735,7 @@ ul { margin: 0; }
   .student-bullet-list { gap: 2mm; }
   .student-bullet-list li { padding-left: 4mm; font-size: 8.45pt; line-height: 1.22; }
   .student-stop-bar { grid-template-columns: 27% 73%; gap: 3mm; padding: 3mm; }
-  .stop-octagon { width: 12mm; height: 12mm; font-size: 6.5pt; }
+  .stop-icon { width: 12mm; height: 12mm; font-size: 6.5pt; }
   .stop-title small { font-size: 6.2pt; }
   .stop-title strong { font-size: 8.8pt; }
   .student-stop-list { gap: 1.7mm 4mm; }
@@ -1427,7 +1434,7 @@ ul { margin: 0; }
     break-inside: avoid !important;
   }
   .stop-title { gap: 1.4mm !important; }
-  .stop-octagon { width: 9mm !important; height: 9mm !important; font-size: 5pt !important; }
+  .stop-icon { width: 9mm !important; height: 9mm !important; font-size: 5pt !important; }
   .stop-title small { font-size: 5.2pt !important; }
   .stop-title strong { font-size: 7.2pt !important; }
   .student-stop-list { gap: .9mm 2.4mm !important; }
@@ -1488,10 +1495,10 @@ ul { margin: 0; }
   font-weight: 750;
   cursor: pointer;
 }
-.section-chip:hover { border-color: var(--maroon); }
+.section-chip:hover { border-color: var(--phs-maroon); }
 .section-chip.active {
-  background: var(--maroon);
-  border-color: var(--maroon);
+  background: var(--phs-maroon);
+  border-color: var(--phs-maroon);
   color: white;
   box-shadow: 0 4px 12px rgba(123,31,58,.14);
 }

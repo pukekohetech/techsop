@@ -6,7 +6,9 @@
     "sharedDefinitions": "shared-definitions.json",
     "publicBaseUrl": "https://pukekohetech.github.io/techsop/",
     "routeStyle": "friendly-hash-v1",
-    "qrCodeDirectory": "assets/qrcodes/student"
+    "qrCodeDirectory": "assets/qrcodes/student",
+    "studentPublicationMode": "curated-drafts",
+    "showDraftStatusOnQrLabels": true
   },
   "datasets": [
     {

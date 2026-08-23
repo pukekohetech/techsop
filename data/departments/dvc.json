@@ -2463,7 +2463,7 @@
       "aliases": [],
       "name": "Adhesives: acrylic cement",
       "category": "Adhesives",
-      "image": "",
+      "image": "assets/images/dvc-acrylic-cement.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -2481,8 +2481,8 @@
       "student": {
         "headline": "Use acrylic cement in a ventilated area and keep it off your skin and eyes.",
         "ppe": [
-          "Apron",
-          "Ventilation / extraction"
+          "apron",
+          "ventilation"
         ],
         "hazards": [
           "Irritating vapour or fumes",
@@ -2596,8 +2596,8 @@
       "student": {
         "headline": "Super glue bonds skin quickly, so use tiny amounts and keep it away from eyes.",
         "ppe": [
-          "Apron",
-          "Ventilation / extraction"
+          "apron",
+          "ventilation"
         ],
         "hazards": [
           "Skin bonding",
@@ -2692,7 +2692,7 @@
       ],
       "name": "Adhesives: hot-melt glue guns",
       "category": "Adhesives",
-      "image": "",
+      "image": "assets/images/dvc-general-adhesives.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -2710,8 +2710,8 @@
       "student": {
         "headline": "The nozzle and melted glue are hot. Use the stand and keep fingers away from the hot tip.",
         "ppe": [
-          "Safety glasses",
-          "Apron"
+          "eye",
+          "apron"
         ],
         "hazards": [
           "Burns from the nozzle or melted glue",
@@ -2804,7 +2804,7 @@
       "aliases": [],
       "name": "Adhesives: hot-melt glue sticks",
       "category": "Adhesives",
-      "image": "",
+      "image": "assets/images/dvc-general-adhesives.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -3125,8 +3125,8 @@
       "student": {
         "headline": "Solvent-based adhesives need good ventilation and careful, small applications.",
         "ppe": [
-          "Apron",
-          "Ventilation / extraction"
+          "apron",
+          "ventilation"
         ],
         "hazards": [
           "Flammable vapours",
@@ -3237,8 +3237,8 @@
       "student": {
         "headline": "Repositionable spray or solvent adhesives still need ventilation and teacher direction.",
         "ppe": [
-          "Apron",
-          "Ventilation / extraction"
+          "apron",
+          "ventilation"
         ],
         "hazards": [
           "Flammable spray mist",
@@ -3325,7 +3325,7 @@
       "aliases": [],
       "name": "Adhesives: water-based, PVA, rubber latex",
       "category": "Adhesives",
-      "image": "",
+      "image": "assets/images/dvc-cardboard-model-making.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -3425,7 +3425,7 @@
       ],
       "name": "CNC machines",
       "category": "Digital fabrication",
-      "image": "",
+      "image": "assets/images/dvc-cnc-machines.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -3443,9 +3443,9 @@
       "student": {
         "headline": "Only use the CNC after teacher setup, toolpath checking and permission.",
         "ppe": [
-          "Safety glasses",
-          "Hair tied back",
-          "Closed shoes"
+          "eye",
+          "hair",
+          "shoes"
         ],
         "hazards": [
           "Moving parts and cutters",
@@ -3554,7 +3554,7 @@
       ],
       "name": "Craft knives, scalpels and scissors",
       "category": "Workshop",
-      "image": "assets/images/knives.webp",
+      "image": "assets/images/dvc-general-model-making.webp",
       "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
@@ -3572,8 +3572,8 @@
       "student": {
         "headline": "Cut away from yourself, use a cutting mat and keep fingers clear of the blade.",
         "ppe": [
-          "Cutting mat",
-          "Apron"
+          "cutting-mat",
+          "apron"
         ],
         "hazards": [
           "Cuts from sharp blades",
@@ -3683,8 +3683,8 @@
       "student": {
         "headline": "Keep the workspace dry and tidy, and only use approved low-voltage equipment and tools.",
         "ppe": [
-          "Safety glasses",
-          "Apron"
+          "eye",
+          "apron"
         ],
         "hazards": [
           "Electric shock from faulty equipment",
@@ -4004,7 +4004,7 @@
       ],
       "name": "Laser cutters",
       "category": "Digital fabrication",
-      "image": "",
+      "image": "assets/images/dvc-laser-cutters.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -4022,9 +4022,9 @@
       "student": {
         "headline": "Only use the laser cutter after teacher setup and never leave it running unattended.",
         "ppe": [
-          "Safety glasses",
-          "Hair tied back",
-          "Closed shoes"
+          "eye",
+          "hair",
+          "shoes"
         ],
         "hazards": [
           "Burns from hot parts or cut material",
@@ -4148,9 +4148,9 @@
       "student": {
         "headline": "Wear eye protection, control dust and keep hands clear of moving cutters or abrasive parts.",
         "ppe": [
-          "Safety glasses",
-          "Hair tied back",
-          "Apron / workshop coat"
+          "eye",
+          "hair",
+          "apron"
         ],
         "hazards": [
           "Contact with moving parts",
@@ -4286,9 +4286,9 @@
       "student": {
         "headline": "Use dust extraction and stop if dust, fumes or overheating become a problem.",
         "ppe": [
-          "Safety glasses",
-          "Hair tied back",
-          "Apron / workshop coat"
+          "eye",
+          "hair",
+          "apron"
         ],
         "hazards": [
           "Dust in eyes or lungs",
@@ -4740,7 +4740,7 @@
       "aliases": [],
       "name": "Plastics: hot-wire cutting, fumes",
       "category": "Plastics",
-      "image": "",
+      "image": "assets/images/dvc-hot-wire-cutting.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -4969,9 +4969,9 @@
       "student": {
         "headline": "Secure the work, wear eye protection and keep hands and loose items away from the polishing area.",
         "ppe": [
-          "Safety glasses",
-          "Hair tied back",
-          "Apron / workshop coat"
+          "eye",
+          "hair",
+          "apron"
         ],
         "hazards": [
           "Contact with moving parts",
@@ -5096,9 +5096,9 @@
       "student": {
         "headline": "Control polishing dust and stop if heat, dust or fumes start building up.",
         "ppe": [
-          "Safety glasses",
-          "Hair tied back",
-          "Apron / workshop coat"
+          "eye",
+          "hair",
+          "apron"
         ],
         "hazards": [
           "Dust in eyes or lungs",
@@ -5205,9 +5205,9 @@
       "student": {
         "headline": "Keep fingers clear of pinch points and bend only approved plastics.",
         "ppe": [
-          "Safety glasses",
-          "Hair tied back",
-          "Apron / workshop coat"
+          "eye",
+          "hair",
+          "apron"
         ],
         "hazards": [
           "Burns from heated elements",
@@ -5306,9 +5306,9 @@
       "student": {
         "headline": "Hot plastic and moving frames can burn or trap, so use this only with teacher supervision.",
         "ppe": [
-          "Safety glasses",
-          "Hair tied back",
-          "Apron / workshop coat"
+          "eye",
+          "hair",
+          "apron"
         ],
         "hazards": [
           "Burns from hot sheet plastic",
@@ -5409,9 +5409,9 @@
       "student": {
         "headline": "Never aim compressed air at people or skin, and use hoses and fittings carefully.",
         "ppe": [
-          "Safety glasses",
-          "Hair tied back",
-          "Apron / workshop coat"
+          "eye",
+          "hair",
+          "apron"
         ],
         "hazards": [
           "High-pressure air injury",
@@ -5638,7 +5638,7 @@
       "aliases": [],
       "name": "Surface finishes: air brushes and paint sprays",
       "category": "Surface finishes",
-      "image": "",
+      "image": "assets/images/dvc-air-brushes-and-paint-sprays.webp",
       "studentVisible": true,
       "sourceAccess": "age-or-maturity-restricted",
       "localReviewRequired": true,
@@ -5656,9 +5656,9 @@
       "student": {
         "headline": "Use only approved spray materials with ventilation and keep the spray aimed at the work.",
         "ppe": [
-          "Apron",
-          "Eye protection if instructed",
-          "Ventilation / extraction"
+          "apron",
+          "eye",
+          "ventilation"
         ],
         "hazards": [
           "Breathing in mist or fumes",
@@ -5998,9 +5998,9 @@
       "student": {
         "headline": "Use aerosol paint only where your teacher says, with ventilation and away from heat or flames.",
         "ppe": [
-          "Apron",
-          "Eye protection if instructed",
-          "Ventilation / extraction"
+          "apron",
+          "eye",
+          "ventilation"
         ],
         "hazards": [
           "Flammable vapour",
@@ -6106,9 +6106,9 @@
       "student": {
         "headline": "Use solvent-based paints with ventilation and keep containers closed when not in use.",
         "ppe": [
-          "Apron",
-          "Eye protection if instructed",
-          "Ventilation / extraction"
+          "apron",
+          "eye",
+          "ventilation"
         ],
         "hazards": [
           "Fumes",
@@ -6222,9 +6222,9 @@
       "student": {
         "headline": "Use finishes in a ventilated area, avoid skin contact and clean up spills straight away.",
         "ppe": [
-          "Apron",
-          "Eye protection if instructed",
-          "Ventilation / extraction"
+          "apron",
+          "eye",
+          "ventilation"
         ],
         "hazards": [
           "Fumes",
