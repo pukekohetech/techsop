@@ -3,79 +3,79 @@
   "ppe": {
     "eye": {
       "label": "Safety glasses",
-      "icon": "assets/icons/ppe/eye.webp"
+      "icon": "assets/icons/ppe/eye-v2.webp"
     },
     "ear": {
       "label": "Hearing protection",
-      "icon": "assets/icons/ppe/ear.webp"
+      "icon": "assets/icons/ppe/ear-v2.webp"
     },
     "apron": {
       "label": "Apron / protective clothing",
-      "icon": "assets/icons/ppe/apron.webp"
+      "icon": "assets/icons/ppe/apron-v2.webp"
     },
     "dust": {
       "label": "Dust / respiratory protection",
-      "icon": "assets/icons/ppe/dust.webp"
+      "icon": "assets/icons/ppe/dust-v2.webp"
     },
     "shoes": {
       "label": "Protective footwear",
-      "icon": "assets/icons/ppe/shoes.webp"
+      "icon": "assets/icons/ppe/shoes-v2.webp"
     },
     "gloves": {
       "label": "Protective gloves",
-      "icon": "assets/icons/ppe/gloves.webp"
+      "icon": "assets/icons/ppe/gloves-v2.webp"
     },
     "face": {
       "label": "Face shield",
-      "icon": "assets/icons/ppe/face.webp"
+      "icon": "assets/icons/ppe/face-v2.webp"
     },
     "hair": {
       "label": "Tie back hair",
-      "icon": "assets/icons/ppe/hair.webp"
+      "icon": "assets/icons/ppe/hair-v2.webp"
     },
     "heat": {
       "label": "Oven / heat gloves",
-      "icon": "assets/icons/ppe/heat.webp"
+      "icon": "assets/icons/ppe/heat-v2.webp"
     },
     "hygiene": {
       "label": "Clean hands / hygiene",
-      "icon": "assets/icons/ppe/hygiene.webp"
+      "icon": "assets/icons/ppe/hygiene-v2.webp"
     },
     "heat-eye": {
       "label": "Heat-resistant eye protection",
-      "icon": "assets/icons/ppe/heat-eye.webp"
+      "icon": "assets/icons/ppe/heat-eye-v2.webp"
     },
     "weld-face": {
       "label": "Welding helmet / shield",
-      "icon": "assets/icons/ppe/weld-face.webp"
+      "icon": "assets/icons/ppe/weld-face-v2.webp"
     },
     "heat-gloves": {
       "label": "Heat-resistant gloves",
-      "icon": "assets/icons/ppe/heat-gloves.webp"
+      "icon": "assets/icons/ppe/heat-gloves-v2.webp"
     },
     "sheet-gloves": {
       "label": "Sheet-handling gloves",
-      "icon": "assets/icons/ppe/sheet-gloves.webp"
+      "icon": "assets/icons/ppe/sheet-gloves-v2.webp"
     },
     "hardhat": {
       "label": "Hard hat when required",
-      "icon": "assets/icons/ppe/hardhat.webp"
+      "icon": "assets/icons/ppe/hardhat-v2.webp"
     },
     "hivis": {
       "label": "Hi-vis clothing when required",
-      "icon": "assets/icons/ppe/hivis.webp"
+      "icon": "assets/icons/ppe/hivis-v2.webp"
     },
     "sun": {
       "label": "Sun protection",
-      "icon": "assets/icons/ppe/sun.webp"
+      "icon": "assets/icons/ppe/sun-v2.webp"
     },
     "ventilation": {
       "label": "Ventilation / extraction",
-      "icon": "assets/icons/ppe/ventilation.webp"
+      "icon": "assets/icons/ppe/ventilation-v2.webp"
     },
     "cutting-mat": {
       "label": "Cutting mat",
-      "icon": "assets/icons/ppe/cutting-mat.webp"
+      "icon": "assets/icons/ppe/cutting-mat-v2.webp"
     }
   },
   "sectionIcons": {
