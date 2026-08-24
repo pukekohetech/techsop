@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#7b1f3a">
-  <title>Student SOP QR Labels • Pukekohe High School</title>
+  <title>Student SOP QR Label Printer • Pukekohe High School</title>
   <link rel="stylesheet" href="qr-labels.css">
 </head>
 <body>
@@ -12,24 +12,97 @@
     <a class="back-link" href="index.html#/teacher/engineering">← Safety Hub</a>
     <div>
       <p>PUKEKOHE HIGH SCHOOL</p>
-      <h1>Student SOP QR Labels</h1>
-<span>Print approved cards for the matching machines. Draft cards stay clearly marked until local review is complete.</span>
+      <h1>Student SOP QR Label Printer</h1>
+      <span>Select several SOPs, choose a fixed label-sheet preset, preview the exact positions, then print.</span>
     </div>
-    <button id="printLabelsBtn" type="button">Print labels</button>
+    <button id="printLabelsBtn" class="primary-action" type="button" disabled>Print selected labels</button>
   </header>
 
-  <main>
-    <section class="controls no-print">
-      <label>Find a label <input id="qrSearch" type="search" placeholder="Pillar drill, welder, lathe…"></label>
-      <label>Department <select id="qrDepartment"><option value="all">All departments</option></select></label>
-      <button id="showAllBtn" type="button">Show all</button>
-      <span id="qrCount"></span>
+  <main class="label-maker-layout">
+    <aside class="label-controls no-print" aria-label="QR label controls">
+      <section class="control-card">
+        <div class="control-heading">
+          <span class="step-number">1</span>
+          <div><h2>Label sheet</h2><p>Fixed positions from the supplied label program.</p></div>
+        </div>
+
+        <label class="field">Preset
+          <select id="labelPreset">
+            <option value="cupboard">Cupboard — 80 × 90 mm, 2 × 3</option>
+            <option value="student-fit" selected>Student — 99.1 × 38.1 mm, 2 × 7 (A4 fit)</option>
+            <option value="student-original">Student — supplied 3 mm centre gap</option>
+          </select>
+        </label>
+
+        <div id="presetSpecs" class="preset-specs"></div>
+        <div id="fitNotice" class="fit-notice" role="status"></div>
+
+        <div class="field-grid">
+          <label class="field">Start at label
+            <select id="startPosition"></select>
+          </label>
+          <label class="field">Copies of each
+            <input id="copiesPerSop" type="number" min="1" max="20" step="1" value="1">
+          </label>
+        </div>
+
+        <label class="check-row"><input id="showGuides" type="checkbox" checked> Show sheet positions in preview</label>
+      </section>
+
+      <section class="control-card selection-card">
+        <div class="control-heading">
+          <span class="step-number">2</span>
+          <div><h2>Select SOPs</h2><p>Each selected SOP prints once unless copies are increased.</p></div>
+        </div>
+
+        <label class="field">Find an SOP
+          <input id="qrSearch" type="search" placeholder="Pillar drill, welder, kitchen…">
+        </label>
+        <label class="field">Department
+          <select id="qrDepartment"><option value="all">All departments</option></select>
+        </label>
+
+        <div class="selection-actions">
+          <button id="selectVisibleBtn" type="button">Select visible</button>
+          <button id="clearSelectionBtn" type="button">Clear selection</button>
+        </div>
+
+        <div class="selection-summary">
+          <strong id="selectedCount">0 SOPs selected</strong>
+          <span id="visibleCount">0 shown</span>
+        </div>
+        <div id="qrPicker" class="qr-picker" aria-live="polite"></div>
+      </section>
+
+      <section class="control-card print-help">
+        <div class="control-heading">
+          <span class="step-number">3</span>
+          <div><h2>Print at actual size</h2><p>The browser print dialog still controls final scaling.</p></div>
+        </div>
+        <ol>
+          <li>Use A4 portrait paper.</li>
+          <li>Choose <strong>Actual size</strong> or <strong>100%</strong>.</li>
+          <li>Set margins to <strong>None</strong>.</li>
+          <li>Turn browser headers and footers off.</li>
+        </ol>
+        <button id="printLabelsSecondaryBtn" class="primary-action full-width" type="button" disabled>Print selected labels</button>
+      </section>
+    </aside>
+
+    <section class="sheet-preview" aria-label="Printable label-sheet preview">
+      <header class="preview-toolbar no-print">
+        <div><strong id="sheetCount">No sheets</strong><span id="labelCount">Select SOPs to build the print sheet.</span></div>
+        <span class="preview-key"><i></i> Empty label position</span>
+      </header>
+      <div id="printSheets" class="print-sheets" aria-live="polite"></div>
     </section>
-    <section id="qrGrid" class="qr-label-grid" aria-live="polite"></section>
   </main>
 
-  <template id="emptyQrTemplate">
-    <div class="empty-card">No matching Student SOP QR labels.</div>
+  <template id="emptyPickerTemplate">
+    <div class="empty-card">No matching Student SOPs.</div>
+  </template>
+  <template id="emptySheetsTemplate">
+    <div class="empty-sheet-message"><strong>No labels selected</strong><span>Select one or more SOPs to create fixed-position A4 sheets.</span></div>
   </template>
 
   <script src="qr-labels.js"></script>
