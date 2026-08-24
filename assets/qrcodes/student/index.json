@@ -192,6 +192,14 @@
     "approved": false
   },
   {
+    "id": "eng-general-workshop-safety",
+    "department": "engineering",
+    "name": "General workshop safety",
+    "url": "https://pukekohetech.github.io/techsop/#/engineering/general-workshop-safety",
+    "file": "assets/qrcodes/student/eng-general-workshop-safety.svg",
+    "approved": false
+  },
+  {
     "id": "eng-metal-hand-tools",
     "department": "engineering",
     "name": "Metal hand tools — hacksaw, file & cold chisel",
@@ -349,6 +357,14 @@
     "name": "Portable sheet-metal shears / nibbler",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/portable-sheet-shears",
     "file": "assets/qrcodes/student/eng-portable-sheet-shears.svg",
+    "approved": false
+  },
+  {
+    "id": "food-general-kitchen-safety",
+    "department": "food",
+    "name": "General kitchen safety",
+    "url": "https://pukekohetech.github.io/techsop/#/food/general-kitchen-safety",
+    "file": "assets/qrcodes/student/food-general-kitchen-safety.svg",
     "approved": false
   },
   {
@@ -605,6 +621,14 @@
     "name": "Food waste & bins",
     "url": "https://pukekohetech.github.io/techsop/#/food/3-034-waste-disposal",
     "file": "assets/qrcodes/student/3-034-waste-disposal.svg",
+    "approved": false
+  },
+  {
+    "id": "bld-general-worksite-safety",
+    "department": "building",
+    "name": "General worksite safety",
+    "url": "https://pukekohetech.github.io/techsop/#/building/general-worksite-safety",
+    "file": "assets/qrcodes/student/bld-general-worksite-safety.svg",
     "approved": false
   },
   {

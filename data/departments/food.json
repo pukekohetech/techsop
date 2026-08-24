@@ -14,6 +14,157 @@
   },
   "tools": [
     {
+      "id": "food-general-kitchen-safety",
+      "aliases": [
+        "kitchen safety",
+        "food room rules",
+        "general kitchen",
+        "kitchen induction"
+      ],
+      "name": "General kitchen safety",
+      "category": "General kitchen safety",
+      "image": "assets/images/general-kitchen-safety.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "PHS general kitchen safety draft",
+        "New Zealand Food Safety guidance"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "",
+        "supervision": "Teacher instruction, permission and active supervision are required.",
+        "notes": [
+          "Student wording curated 24 Aug 2026 from current New Zealand Food Safety guidance and established PHS food-room rules.",
+          "Local Pukekohe High School review of the room, allergies, emergency procedures, equipment and class is required before final approval."
+        ]
+      },
+      "student": {
+        "headline": "Clean, separate, cook and chill—while preventing cuts, burns, slips and allergic reactions.",
+        "ppe": [
+          "apron",
+          "hygiene",
+          "hair",
+          "shoes"
+        ],
+        "hazardTags": [
+          "biological",
+          "cut",
+          "burn",
+          "slip-trip"
+        ],
+        "hazards": [
+          "Knives, graters and broken items can cause cuts.",
+          "Hot surfaces, steam, boiling liquids and oil can cause serious burns.",
+          "Raw food, dirty hands and shared equipment can spread harmful germs or allergens.",
+          "Spills, wet floors, clutter and damaged electrical equipment can cause injury."
+        ],
+        "beforeStart": [
+          "Tell the teacher about allergies, illness, cuts or anything that could affect food safety.",
+          "Wash and dry your hands properly; tie back hair, secure sleeves and put on a clean apron.",
+          "Check that your bench, utensils and equipment are clean, complete and safe.",
+          "Read the method, identify hot/sharp steps, and separate raw food from ready-to-eat food."
+        ],
+        "dos": [
+          "Wash hands after touching raw food, rubbish, your face or anything dirty.",
+          "Use the correct knife and board; cut on a stable surface and carry knives safely.",
+          "Turn pan handles inward, use dry oven gloves, and lift lids away from your face.",
+          "Clean spills immediately, cook food as instructed, and chill or store it promptly."
+        ],
+        "donts": [
+          "Do not eat, taste or share food until the teacher says it is safe.",
+          "Do not use the same unwashed board, knife or utensil for raw and ready-to-eat food.",
+          "Do not leave knives in sinks, carry hot pans across a crowded room or put water on burning oil.",
+          "Do not use damaged electrical equipment or touch switches with wet hands."
+        ],
+        "stop": [
+          "There is a cut, burn, allergic reaction, illness or suspected contamination.",
+          "Oil, a pan, appliance or cloth begins to smoke or catch fire.",
+          "A knife, plug, lead, appliance, oven glove or piece of equipment is damaged.",
+          "Food temperatures, storage, labels or ingredients are uncertain, or anything feels unsafe."
+        ],
+        "summaryStatus": "curated",
+        "note": "General kitchen rules apply alongside the recipe, allergy controls and exact equipment SOP. They do not replace teacher instruction, permission or supervision."
+      },
+      "teacher": {
+        "overview": "General personal hygiene, food-safety, housekeeping and injury-prevention controls for student work in a school food-technology kitchen. This record supports, but does not replace, recipe-specific risk assessment, allergen management, equipment SOPs, the school emergency plan or applicable food-control requirements.",
+        "ppe": [
+          "apron",
+          "hygiene",
+          "hair",
+          "shoes"
+        ],
+        "hazards": [
+          "Cuts and punctures from knives, graters, broken glass, sharp tins and powered food-preparation equipment.",
+          "Burns and scalds from ovens, hobs, hot surfaces, steam, boiling liquids and hot oil.",
+          "Foodborne illness from poor hand hygiene, cross-contamination, inadequate cooking, unsafe cooling or unsuitable storage.",
+          "Allergic reaction caused by unidentified ingredients, cross-contact or incorrect serving.",
+          "Slips, trips, electric shock and fire arising from spills, clutter, wet hands, damaged equipment or poor supervision."
+        ],
+        "riskAssessment": [
+          "The recipe, ingredients, allergens, equipment, student competence and room layout change the risk and must be checked for every lesson.",
+          "Good personal hygiene and separation of raw and ready-to-eat foods are essential controls but do not replace validated cooking, cooling and storage instructions.",
+          "Students require close supervision for sharp, hot, powered or allergen-sensitive processes until competency is demonstrated."
+        ],
+        "preStart": [
+          "Check medical/allergy information, recipe ingredients, substitutions and cross-contact controls before food is issued.",
+          "Confirm handwashing facilities, cleaning materials, first aid, fire controls, refrigeration and required equipment are available and serviceable.",
+          "Set safe movement routes and work zones, allocate equipment, and remove damaged items from service.",
+          "Brief students on the recipe's critical hygiene, cooking, cooling, storage and emergency steps."
+        ],
+        "safeUse": [
+          "Require effective handwashing and clean protective clothing; exclude or manage students with symptoms, uncovered wounds or contamination risks according to local procedure.",
+          "Separate raw animal products from cooked and ready-to-eat food, including hands, boards, utensils, cloths and storage.",
+          "Teach and supervise safe knife, hot-liquid, oven, hob and powered-appliance techniques.",
+          "Use the recipe/local food-safety plan for required cooking, holding, cooling and refrigeration controls.",
+          "Maintain prompt spill control, waste removal, surface cleaning and uncluttered movement routes.",
+          "Prevent allergen cross-contact and verify ingredients before food is tasted, shared or served."
+        ],
+        "shutdown": [
+          "Switch off, unplug or isolate appliances as required and allow hot equipment to cool safely.",
+          "Store or dispose of food promptly using local time/temperature and labelling rules.",
+          "Wash, sanitise where required, dry and store equipment; remove waste and leave floors and benches clean and dry.",
+          "Report injuries, allergic reactions, contamination, equipment faults and temperature-control failures."
+        ],
+        "restrictions": [
+          "Students must not taste, share or serve food until the teacher confirms that hygiene, cooking, allergen and storage requirements have been met.",
+          "Deep frying, high-risk powered equipment and other restricted processes require their own approved SOP and supervision.",
+          "Recipe-specific, allergy-specific and local food-control requirements take priority over this general record."
+        ],
+        "disposal": [
+          "Dispose of food, broken glass, sharps, hot oil, chemicals and general waste using separate approved local procedures; never pour hot oil into a sink."
+        ],
+        "storage": [
+          "Cover, label and store food at the required temperature; keep raw animal products separated and below ready-to-eat food. Store knives, chemicals and appliances securely."
+        ],
+        "furtherInformation": [
+          "Use the current PHS allergy information, recipe plan, equipment SOPs and any applicable food-control documentation."
+        ],
+        "firstAid": [
+          "Stop the activity, make the area safe, alert the teacher and follow the PHS emergency/first-aid procedure for cuts, burns, electric shock, fire or illness.",
+          "Treat suspected anaphylaxis as an emergency and follow the student's individual health plan and school emergency procedure."
+        ],
+        "teacherChecks": [
+          "Adapt this record to the exact recipe, ingredients, allergens, equipment, room and student group.",
+          "Check current New Zealand Food Safety guidance and PHS procedures before approval.",
+          "Confirm students understand handwashing, raw/cooked separation, allergen controls and when to stop and report.",
+          "Do not treat this draft as automatic permission for student use."
+        ],
+        "references": [
+          "New Zealand Food Safety — Wash your hands before handling food: https://www.mpi.govt.nz/food-safety-home/preparing-and-storing-food-safely-at-home/wash-your-hands-before-handling-food",
+          "New Zealand Food Safety — Campylobacter and avoiding cross-contamination: https://www.mpi.govt.nz/food-safety-home/food-poisoning-symptoms-causes/campylobacter-infection-symptoms-advice",
+          "New Zealand Food Safety — Good Operating Practice: https://www.mpi.govt.nz/food-business/food-safety-codes-standards/good-operating-practice",
+          "New Zealand Food Safety — Simply Safe & Suitable template Food Control Plan: https://www.mpi.govt.nz/food-business/running-a-food-business/food-control-plans/use-a-template-food-control-plan"
+        ],
+        "supervision": "Active teacher supervision matched to sharp, hot, powered, allergen-sensitive and food-safety-critical steps.",
+        "training": "Kitchen induction plus task-specific instruction and demonstrated competency for each appliance, tool and food-safety process."
+      },
+      "slug": "general-kitchen-safety"
+    },
+    {
       "id": "3-001-blast-chillers",
       "aliases": [],
       "name": "Blast chiller",

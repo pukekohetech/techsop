@@ -24,6 +24,159 @@
   },
   "tools": [
     {
+      "id": "bld-general-worksite-safety",
+      "aliases": [
+        "worksite safety",
+        "construction site rules",
+        "general worksite",
+        "site induction"
+      ],
+      "name": "General worksite safety",
+      "category": "Worksite safety",
+      "image": "assets/images/general-worksite-safety.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "PHS general worksite safety draft",
+        "WorkSafe New Zealand construction guidance"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "",
+        "supervision": "Teacher instruction, permission and active supervision are required.",
+        "notes": [
+          "Student wording curated 24 Aug 2026 from current WorkSafe New Zealand guidance and established PHS building-site rules.",
+          "Local Pukekohe High School review of the site, weather, emergency arrangements, plant, services and planned work is required before final approval."
+        ]
+      },
+      "student": {
+        "headline": "Complete the site induction, wear the required PPE, stay in safe zones, and stop when conditions change.",
+        "ppe": [
+          "hardhat",
+          "hivis",
+          "eye",
+          "shoes",
+          "sun"
+        ],
+        "hazardTags": [
+          "slip-trip",
+          "manual-handling",
+          "impact",
+          "electric"
+        ],
+        "hazards": [
+          "Moving vehicles, falling objects and active work areas can cause serious injury.",
+          "Uneven ground, openings, ladders and poor housekeeping can cause falls.",
+          "Timber, tools and materials can cut, crush or strain you when carried badly.",
+          "Electricity, dust, noise, weather and hidden services can create changing hazards."
+        ],
+        "beforeStart": [
+          "Complete the site induction and know the boundaries, exits, assembly point and first-aid location.",
+          "Sign in when required and check in with the teacher before entering the work area.",
+          "Wear the PPE set for the site and task; check that it fits and is not damaged.",
+          "Check the route, ground, weather, tools and planned job before starting."
+        ],
+        "dos": [
+          "Use marked access routes and obey barriers, signs and teacher instructions.",
+          "Keep the site tidy and stack materials so they cannot fall or block access.",
+          "Plan lifts, use help or handling equipment, and keep clear of moving plant.",
+          "Stay aware of people working above, below and beside you."
+        ],
+        "donts": [
+          "Do not enter an exclusion zone or use plant, scaffolds or ladders without permission.",
+          "Do not run, play around, distract others or use headphones on the worksite.",
+          "Do not move barriers, guards, tags or safety signs.",
+          "Do not work near exposed services, unstable ground, an opening or an unprotected edge."
+        ],
+        "stop": [
+          "The weather, ground, lighting, access route or work plan changes.",
+          "A person, vehicle, load or tool enters your safe working space.",
+          "A barrier, ladder, scaffold, lead, tool or item of PPE is damaged or missing.",
+          "You find an unknown service, unstable material, injury, near miss or anything unsafe."
+        ],
+        "summaryStatus": "curated",
+        "note": "General worksite rules apply alongside the site induction and the exact task SOP. They do not replace teacher instruction, permission or supervision."
+      },
+      "teacher": {
+        "overview": "General induction, access, housekeeping and behavioural controls for students participating in a supervised school building worksite or construction training area. This record must be combined with a site-specific plan and task-specific SOP/RAMS.",
+        "ppe": [
+          "hardhat",
+          "hivis",
+          "eye",
+          "shoes",
+          "sun"
+        ],
+        "hazards": [
+          "Collision or impact involving vehicles, mobile plant, moving loads, falling objects or people working nearby.",
+          "Falls on uneven ground, from ladders or scaffolds, through openings or from unprotected edges.",
+          "Cuts, crush injuries and musculoskeletal harm from tools, materials and manual handling.",
+          "Electric shock or fire from temporary power, damaged equipment, wet conditions or hidden services.",
+          "Dust, noise, hazardous substances, UV exposure, heat, cold, wind and changing weather.",
+          "Unauthorised entry, poor communication or inadequate induction and supervision."
+        ],
+        "riskAssessment": [
+          "Every worksite changes as work progresses; hazards, access routes, exclusion zones and controls require ongoing review.",
+          "A generic induction cannot cover all tasks. Site-specific and task-specific risk assessment is required before each activity.",
+          "Students are inexperienced workers and require controls and supervision matched to age, competence and the work environment."
+        ],
+        "preStart": [
+          "Complete and record a brief site-specific induction covering boundaries, access, emergency arrangements, first aid, amenities, services and prohibited areas.",
+          "Inspect ground conditions, edges, openings, scaffolds, ladders, temporary power, storage, weather and adjacent activities.",
+          "Establish exclusion zones, safe pedestrian routes, supervision positions and communication signals.",
+          "Confirm the required PPE, task SOPs, competency, equipment checks and emergency contacts."
+        ],
+        "safeUse": [
+          "Maintain sign-in/accountability and prevent unauthorised access.",
+          "Separate pedestrians from vehicles, plant, suspended loads and active work zones.",
+          "Keep access and egress clear; maintain housekeeping and stable material storage throughout the activity.",
+          "Use planned lifting methods and mechanical aids where practicable.",
+          "Monitor weather, dust, noise, UV, fatigue and changes to the site or sequence of work.",
+          "Pause the activity and reassess whenever conditions, people, equipment or the work plan change."
+        ],
+        "shutdown": [
+          "Make tools and plant safe, isolate power where required and secure the site against unauthorised access.",
+          "Remove waste, store materials safely, restore barriers and leave access routes clear.",
+          "Account for students, visitors, tools and incidents before closing the site."
+        ],
+        "restrictions": [
+          "Students must not enter exclusion zones, work at height, operate plant or access electrical/underground services unless the activity has a specific approved risk assessment, training and direct supervision.",
+          "Age restrictions and prohibitions in current New Zealand regulations and school policy apply.",
+          "Site-specific controls and task SOPs take priority over this general record."
+        ],
+        "disposal": [
+          "Segregate sharp, treated, chemical, concrete, recyclable and general construction waste using the approved local process."
+        ],
+        "storage": [
+          "Stack and restrain materials on stable ground, protect them from weather where required, and keep them clear of access routes, edges and emergency equipment."
+        ],
+        "furtherInformation": [
+          "Use the current site plan, utility information, weather forecast and task-specific TechSOPs when planning the activity."
+        ],
+        "firstAid": [
+          "Stop work, prevent further harm, raise the alarm and follow the PHS/site emergency and first-aid procedure.",
+          "Do not move an injured person unless there is immediate danger; preserve the incident area for investigation where practicable."
+        ],
+        "teacherChecks": [
+          "Adapt this record to the exact site, weather, student group and planned sequence of work.",
+          "Review induction information whenever the site or activity changes.",
+          "Confirm students understand site boundaries, exclusion zones, stop-work authority and how to summon help.",
+          "Do not treat this draft as automatic permission for student work."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Inductions: https://www.worksafe.govt.nz/topic-and-industry/road-and-roadside/keeping-healthy-safe-working-road-or-roadside/part-d/29-0-inductions/",
+          "WorkSafe New Zealand — Electrical safety on small construction sites: https://www.worksafe.govt.nz/topic-and-industry/electricity/electrical-safety-on-construction-sites/",
+          "WorkSafe New Zealand — Personal protective equipment: a guide for workers: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/personal-protective-equipment-a-guide-for-workers/",
+          "WorkSafe New Zealand — Excavation safety good practice guidance: https://www.worksafe.govt.nz/topic-and-industry/excavation/excavation-safety-gpg/"
+        ],
+        "supervision": "Active, site-positioned teacher supervision matched to the changing hazards, student competence and task.",
+        "training": "Site induction plus task-specific instruction, demonstrated competency and permission before any practical activity."
+      },
+      "slug": "general-worksite-safety"
+    },
+    {
       "id": "bld-wood-dust",
       "aliases": [
         "wood dust",

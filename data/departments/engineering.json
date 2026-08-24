@@ -14,6 +14,154 @@
   },
   "tools": [
     {
+      "id": "eng-general-workshop-safety",
+      "aliases": [
+        "workshop safety",
+        "engineering workshop rules",
+        "general workshop",
+        "workshop induction"
+      ],
+      "name": "General workshop safety",
+      "category": "General workshop safety",
+      "image": "assets/images/general-workshop-safety.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "localReviewRequired": true,
+      "sourceSheets": [
+        "PHS general workshop safety draft",
+        "WorkSafe New Zealand machinery and PPE guidance"
+      ],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "",
+        "supervision": "Teacher instruction, permission and active supervision are required.",
+        "notes": [
+          "Student wording curated 24 Aug 2026 from current WorkSafe New Zealand guidance and established PHS workshop rules.",
+          "Local Pukekohe High School review of the room, emergency procedures, equipment, class and task-specific SOPs is required before final approval."
+        ]
+      },
+      "student": {
+        "headline": "Think first, wear the right PPE, keep the area tidy, and use only tools you have permission to use.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes",
+          "hair"
+        ],
+        "hazardTags": [
+          "entanglement",
+          "cut",
+          "impact",
+          "slip-trip"
+        ],
+        "hazards": [
+          "Moving machines, sharp tools and flying material can cause serious injury.",
+          "Loose hair, jewellery or clothing can become caught.",
+          "Dust, fumes and noise can harm your eyes, breathing or hearing.",
+          "Offcuts, spills and trailing leads can cause slips and trips."
+        ],
+        "beforeStart": [
+          "Listen to the teacher and know the emergency stop, exit and first-aid locations.",
+          "Put on the PPE required for the room and the task; tie back long hair and remove loose jewellery.",
+          "Check the tool, guard, lead, work area and material before use.",
+          "Get teacher permission and use only equipment you have been trained to use."
+        ],
+        "dos": [
+          "Keep guards in place and keep hands clear of blades, cutters and moving parts.",
+          "Clamp or support work securely and use the correct tool for the job.",
+          "Keep floors, benches and walkways tidy; use extraction or ventilation when instructed.",
+          "Focus on your own task and give other students safe working space."
+        ],
+        "donts": [
+          "Do not distract, rush, run, play around or use headphones in the workshop.",
+          "Do not operate a machine without training, permission and the task-specific SOP.",
+          "Do not bypass a guard, interlock or emergency control.",
+          "Do not clear jams, adjust, clean or repair powered equipment yourself."
+        ],
+        "stop": [
+          "A guard, tool, plug, lead or emergency control is damaged or missing.",
+          "The machine makes an unusual noise, vibration, smell or movement.",
+          "Someone enters the danger area or you lose control of the work.",
+          "There is an injury, spill, fire, power failure or anything feels unsafe."
+        ],
+        "summaryStatus": "curated",
+        "note": "General workshop rules apply alongside the exact tool or machine SOP. They do not replace teacher instruction, training, permission or supervision."
+      },
+      "teacher": {
+        "overview": "General entry, conduct and housekeeping controls for student work in a school engineering or materials workshop. This record supports, but does not replace, the task-specific SOP/RAMS, manufacturer instructions, machine guarding requirements, emergency plan or local school procedures.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes",
+          "hair"
+        ],
+        "hazards": [
+          "Contact, entanglement, cutting, crushing or impact from machinery, hand tools, sharp materials and ejected workpieces.",
+          "Electric shock, burns, fire or unexpected movement from damaged equipment or uncontrolled energy.",
+          "Harm from dust, fumes, chemicals, noise, heat and other task-specific exposures.",
+          "Slips, trips, collisions and manual-handling injuries caused by poor layout, congestion, spills or stored material.",
+          "Increased risk from distraction, unsuitable behaviour, insufficient training or inadequate supervision."
+        ],
+        "riskAssessment": [
+          "General controls cannot make every workshop task safe; the exact equipment, material, student competence and activity must be assessed separately.",
+          "PPE is a final layer of protection and does not replace elimination, guarding, extraction, isolation, safe systems of work or supervision.",
+          "Young or inexperienced users require clear instruction, demonstrated safe practice and a level of supervision matched to the risk."
+        ],
+        "preStart": [
+          "Complete a local workshop induction covering access rules, exits, alarms, emergency stops, first aid, fire equipment and reporting.",
+          "Confirm machine guards, interlocks, extraction, emergency controls, electrical equipment and access routes are serviceable.",
+          "Match PPE, training, supervision and exclusion zones to the actual task and student group.",
+          "Remove defective equipment from service and clearly identify it so it cannot be used."
+        ],
+        "safeUse": [
+          "Enforce permission and competency requirements for each tool or machine.",
+          "Maintain clear separation between operators, observers and passing students.",
+          "Keep guards and safety devices in place, and require secure workholding and correct tooling.",
+          "Maintain effective housekeeping, extraction, ventilation and safe storage throughout the lesson.",
+          "Stop work immediately when behaviour, equipment, supervision or environmental conditions are unsafe."
+        ],
+        "shutdown": [
+          "Isolate equipment using the approved procedure before clearing jams, cleaning, adjustment or maintenance.",
+          "Account for tools and materials, remove waste safely, clean the work area and leave walkways clear.",
+          "Report damage, faults, injuries, near misses and depleted safety supplies before the area is released."
+        ],
+        "restrictions": [
+          "Students may use only equipment and processes approved for their age, training, competence and level of supervision.",
+          "Students must not defeat guards or interlocks, perform electrical repairs, or undertake maintenance or lockout unless a specific approved learning activity and safe system allows it.",
+          "Task-specific SOPs and local restrictions take priority over this general record."
+        ],
+        "disposal": [
+          "Separate sharp scrap, hot material, chemical waste, oily waste and general waste using the local disposal procedure."
+        ],
+        "storage": [
+          "Store tools, materials, PPE and chemicals in their assigned locations so they cannot fall, block access or create unauthorised access."
+        ],
+        "furtherInformation": [
+          "Review the current manufacturer manual and the relevant task-specific TechSOP before work begins."
+        ],
+        "firstAid": [
+          "Stop the activity, make the area safe without placing others at risk, alert the teacher and follow the PHS emergency/first-aid procedure.",
+          "Do not restart equipment or disturb the incident area until authorised."
+        ],
+        "teacherChecks": [
+          "Adapt this general record to the actual room, class, equipment and planned activity.",
+          "Check current WorkSafe New Zealand guidance, PHS procedures and manufacturer instructions.",
+          "Verify that every student understands the stop-work rule and knows how to summon help.",
+          "Do not treat this draft as automatic permission for student use."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Personal protective equipment: a guide for workers: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/personal-protective-equipment-a-guide-for-workers/",
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts: https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts/",
+          "WorkSafe New Zealand — First aid at work: https://www.worksafe.govt.nz/managing-health-and-safety/businesses/general-requirements-for-workplaces/first-aid/"
+        ],
+        "supervision": "Active teacher supervision matched to the equipment, class, student competence and current task.",
+        "training": "Workshop induction plus demonstrated competency and permission for every specific tool, machine and process."
+      },
+      "slug": "general-workshop-safety"
+    },
+    {
       "id": "eng-metal-hand-tools",
       "aliases": [
         "hacksaw",
