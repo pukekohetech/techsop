@@ -96,6 +96,7 @@ const els = {
   printDialogSummary: document.getElementById('printDialogSummary'),
   printDialogNote: document.getElementById('printDialogNote'),
   twoUpPrintOption: document.getElementById('twoUpPrintOption'),
+  stackedPrintOption: document.getElementById('stackedPrintOption'),
   closePrintDialogBtn: document.getElementById('closePrintDialogBtn'),
   cancelPrintBtn: document.getElementById('cancelPrintBtn'),
   confirmPrintBtn: document.getElementById('confirmPrintBtn'),
@@ -582,7 +583,7 @@ function renderStudentSop(tool) {
     </div>`;
 }
 
-function renderStudentTwoUpSop(tool) {
+function renderStudentTwoUpSop(tool, layout = 'two-up') {
   const student = tool.student || {};
   const source = escapeHtml((tool.sourceSheets || []).join(', ') || 'local source');
   const approved = tool.local?.reviewed === true && tool.local?.studentUseApproved === true;
@@ -595,7 +596,7 @@ function renderStudentTwoUpSop(tool) {
     </section>`;
 
   return `
-    <article class="student-two-up-card">
+    <article class="student-two-up-card${layout === 'stacked' ? ' student-stacked-card' : ''}">
       <header class="two-up-brandline">
         <div><img src="assets/phs-shield.svg" alt="" aria-hidden="true"><span><strong>Pukekohe High School</strong><small>Technology • Student SOP</small></span></div>
         <span class="two-up-status ${approved ? 'approved' : 'draft'}">${approved ? 'PHS approved' : 'DRAFT • Review pending'}</span>
@@ -647,10 +648,10 @@ function chunkItems(items, size) {
 }
 
 function renderPrintSheets(tools, mode, layout) {
-  if (layout === 'two-up' && mode === 'student') {
+  if ((layout === 'two-up' || layout === 'stacked') && mode === 'student') {
     return chunkItems(tools, 2).map(pair => `
-      <section class="batch-print-sheet two-up-print-sheet">
-        ${pair.map(tool => renderStudentTwoUpSop(tool)).join('')}
+      <section class="batch-print-sheet ${layout === 'stacked' ? 'stacked-print-sheet' : 'two-up-print-sheet'}">
+        ${pair.map(tool => renderStudentTwoUpSop(tool, layout)).join('')}
       </section>`).join('');
   }
   return tools.map(tool => {
@@ -684,12 +685,13 @@ function openPrintDialog(scope = 'current') {
 
   const allowTwoUp = state.mode === 'student' && count > 1;
   els.twoUpPrintOption.classList.toggle('hidden', !allowTwoUp);
+  els.stackedPrintOption.classList.toggle('hidden', !allowTwoUp);
   const fullOption = els.printDialog.querySelector('input[name="printLayout"][value="full"]');
   if (fullOption) fullOption.checked = true;
   els.printDialogNote.textContent = state.mode === 'teacher'
     ? 'Teacher SOP / RAMS content is always printed at full width and may continue onto extra pages.'
     : (allowTwoUp
-        ? 'Both layouts retain every student safety section. One-per-page provides the clearest classroom copy.'
+        ? 'All three layouts retain every student safety section. One-per-page provides the clearest classroom copy.'
         : 'This SOP will expand to use the printable A4 page while retaining all safety content.');
 
   if (typeof els.printDialog.showModal === 'function') els.printDialog.showModal();
@@ -709,19 +711,19 @@ function installPrintPageStyle(layout) {
 
 function preparePrintSession(tools, mode, layout) {
   els.batchPrintRoot.innerHTML = renderPrintSheets(tools, mode, layout);
-  els.batchPrintRoot.className = `batch-print-root ${layout === 'two-up' ? 'two-up-layout' : 'full-layout'} ${mode}-batch`;
+  els.batchPrintRoot.className = `batch-print-root ${layout}-layout ${mode}-batch`;
   els.batchPrintRoot.setAttribute('aria-hidden', 'false');
   els.batchPrintRoot.querySelectorAll('details.teacher-accordion').forEach(item => { item.open = true; });
-  document.body.classList.remove('print-layout-full', 'print-layout-two-up', 'print-mode-student', 'print-mode-teacher');
+  document.body.classList.remove('print-layout-full', 'print-layout-two-up', 'print-layout-stacked', 'print-mode-student', 'print-mode-teacher');
   document.body.classList.add('print-session-active', `print-layout-${layout}`, `print-mode-${mode}`);
-  document.documentElement.classList.remove('print-layout-full', 'print-layout-two-up');
+  document.documentElement.classList.remove('print-layout-full', 'print-layout-two-up', 'print-layout-stacked');
   document.documentElement.classList.add(`print-layout-${layout}`);
   installPrintPageStyle(layout);
 }
 
 function clearPrintSession() {
-  document.body.classList.remove('print-session-active', 'print-layout-full', 'print-layout-two-up', 'print-mode-student', 'print-mode-teacher');
-  document.documentElement.classList.remove('print-layout-full', 'print-layout-two-up');
+  document.body.classList.remove('print-session-active', 'print-layout-full', 'print-layout-two-up', 'print-layout-stacked', 'print-mode-student', 'print-mode-teacher');
+  document.documentElement.classList.remove('print-layout-full', 'print-layout-two-up', 'print-layout-stacked');
   els.batchPrintRoot.className = 'batch-print-root';
   els.batchPrintRoot.innerHTML = '';
   els.batchPrintRoot.setAttribute('aria-hidden', 'true');
@@ -751,7 +753,10 @@ async function confirmPrintRequest() {
     .filter(tool => toolPrintableInMode(tool, mode));
   if (!tools.length) return;
   const requestedLayout = els.printDialog.querySelector('input[name="printLayout"]:checked')?.value || 'full';
-  const layout = requestedLayout === 'two-up' && mode === 'student' && tools.length > 1 ? 'two-up' : 'full';
+  const compactLayouts = ['two-up', 'stacked'];
+  const layout = compactLayouts.includes(requestedLayout) && mode === 'student' && tools.length > 1
+    ? requestedLayout
+    : 'full';
   closePrintDialog();
   preparePrintSession(tools, mode, layout);
   await waitForPrintImages(els.batchPrintRoot);

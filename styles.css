@@ -456,10 +456,9 @@ ul { margin: 0; }
   border: 1px solid #d8e5eb;
   border-radius: 12px;
   padding: 9px 11px;
-  grid-template-columns: 76px minmax(0, 1fr);
+  grid-template-columns: 76px minmax(0,1fr);
   gap: 12px;
 }
-
 .student-ppe-grid .ppe-icon {
   width: 76px;
   height: 76px;
@@ -634,6 +633,17 @@ ul { margin: 0; }
   .student-machine-summary { padding: 14px; }
   .student-machine-summary .tool-title-row h2 { font-size: 2rem; }
   .student-ppe-grid { grid-template-columns: 1fr; }
+  .student-ppe-grid .ppe-item {
+    min-height: 70px;
+    grid-template-columns: 56px minmax(0,1fr);
+    gap: 10px;
+    padding: 7px 9px;
+  }
+  .student-ppe-grid .ppe-icon {
+    width: 56px;
+    height: 56px;
+    padding: 10px;
+  }
   .student-quick-grid { grid-template-columns: 1fr; }
   .student-stop-bar { grid-template-columns: 1fr; }
   .student-stop-list { grid-template-columns: 1fr; }
@@ -1669,6 +1679,19 @@ ul { margin: 0; }
   .full-print-sheet { width: 196mm !important; }
   .full-print-sheet.student-print-sheet { min-height: 283mm !important; }
 
+  html.print-layout-stacked,
+  body.print-layout-stacked { width: 196mm !important; min-height: 283mm !important; }
+  .stacked-print-sheet {
+    width: 196mm !important;
+    height: 283mm !important;
+    display: grid !important;
+    grid-template-rows: repeat(2,minmax(0,1fr)) !important;
+    gap: 3mm !important;
+    align-items: stretch !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
   html.print-layout-two-up,
   body.print-layout-two-up { width: 285mm !important; min-height: 198mm !important; }
   .two-up-print-sheet {
@@ -1770,6 +1793,53 @@ ul { margin: 0; }
   .two-up-footer { display: flex !important; justify-content: space-between !important; gap: 2mm !important; color: var(--muted) !important; font-size: 4.4pt !important; line-height: 1.05 !important; }
   .two-up-footer span:first-child { color: var(--phs-maroon) !important; font-weight: 850 !important; white-space: nowrap !important; }
   .two-up-footer span:last-child { text-align: right !important; }
+
+  /* Portrait batch option: two complete compact cards, one under the other. */
+  .student-stacked-card {
+    min-height: 0 !important;
+    height: 140mm !important;
+    gap: .8mm !important;
+    padding: 1.6mm !important;
+  }
+  .student-stacked-card .two-up-brandline {
+    min-height: 6.5mm !important;
+    padding-bottom: .5mm !important;
+  }
+  .student-stacked-card .two-up-brandline img { width: 5mm !important; height: 6mm !important; }
+  .student-stacked-card .two-up-brandline div strong { font-size: 6pt !important; }
+  .student-stacked-card .two-up-brandline div small { font-size: 4.6pt !important; }
+  .student-stacked-card .two-up-status { padding: .5mm .9mm !important; font-size: 4.5pt !important; }
+  .student-stacked-card .two-up-hero { grid-template-columns: 42mm minmax(0,1fr) !important; min-height: 25mm !important; }
+  .student-stacked-card .two-up-machine-image,
+  .student-stacked-card .two-up-machine-image .hero-card,
+  .student-stacked-card .two-up-machine-image .fallback-image { height: 25mm !important; min-height: 25mm !important; }
+  .student-stacked-card .two-up-summary { padding: 1mm 1.4mm !important; }
+  .student-stacked-card .two-up-summary h2 { font-size: 11pt !important; }
+  .student-stacked-card .two-up-summary p { font-size: 5.7pt !important; }
+  .student-stacked-card .two-up-ppe { padding: .7mm !important; }
+  .student-stacked-card .two-up-ppe > header { margin-bottom: .4mm !important; }
+  .student-stacked-card .two-up-ppe .ppe-grid { grid-template-columns: repeat(3,minmax(0,1fr)) !important; gap: .45mm !important; }
+  .student-stacked-card .two-up-ppe .ppe-item { padding: .35mm .55mm !important; }
+  .student-stacked-card .two-up-ppe .ppe-item strong { font-size: 5.1pt !important; }
+  .student-stacked-card .two-up-alert { padding: .7mm 1mm !important; font-size: 4.8pt !important; }
+  .student-stacked-card .two-up-action-grid {
+    grid-template-columns: repeat(4,minmax(0,1fr)) !important;
+    grid-template-rows: minmax(0,1fr) !important;
+    gap: .7mm !important;
+  }
+  .student-stacked-card .two-up-action-panel { padding: .8mm !important; }
+  .student-stacked-card .two-up-action-panel > header { gap: .6mm !important; margin-bottom: .45mm !important; }
+  .student-stacked-card .two-up-section-icon { width: 4.5mm !important; height: 4.5mm !important; }
+  .student-stacked-card .two-up-action-panel header small { font-size: 3.9pt !important; }
+  .student-stacked-card .two-up-action-panel header strong { font-size: 5.6pt !important; }
+  .student-stacked-card .two-up-action-panel ul { padding-left: 2.7mm !important; gap: .3mm !important; }
+  .student-stacked-card .two-up-action-panel li { font-size: 5.2pt !important; line-height: 1.08 !important; }
+  .student-stacked-card .two-up-action-panel .hazard-tag { font-size: 3.8pt !important; }
+  .student-stacked-card .two-up-stop { grid-template-columns: 7mm minmax(0,1fr) !important; padding: .7mm 1mm !important; }
+  .student-stacked-card .two-up-stop-icon { width: 6.5mm !important; height: 6.5mm !important; }
+  .student-stacked-card .two-up-stop strong { font-size: 5.3pt !important; margin-bottom: .25mm !important; }
+  .student-stacked-card .two-up-stop li { font-size: 5.1pt !important; line-height: 1.07 !important; margin-bottom: .2mm !important; }
+  .student-stacked-card .two-up-footer { font-size: 4pt !important; }
 }
 
 /* =============================================================
