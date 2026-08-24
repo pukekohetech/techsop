@@ -28,7 +28,7 @@
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
-        "PHS general kitchen safety draft",
+        "PHS general kitchen safety SOP",
         "New Zealand Food Safety guidance"
       ],
       "local": {
@@ -87,7 +87,7 @@
           "Food temperatures, storage, labels or ingredients are uncertain, or anything feels unsafe."
         ],
         "summaryStatus": "curated",
-        "note": "General kitchen rules apply alongside the recipe, allergy controls and exact equipment SOP. They do not replace teacher instruction, permission or supervision."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "General personal hygiene, food-safety, housekeeping and injury-prevention controls for student work in a school food-technology kitchen. This record supports, but does not replace, recipe-specific risk assessment, allergen management, equipment SOPs, the school emergency plan or applicable food-control requirements.",
@@ -151,7 +151,7 @@
           "Adapt this record to the exact recipe, ingredients, allergens, equipment, room and student group.",
           "Check current New Zealand Food Safety guidance and PHS procedures before approval.",
           "Confirm students understand handwashing, raw/cooked separation, allergen controls and when to stop and report.",
-          "Do not treat this draft as automatic permission for student use."
+          "Do not treat publication as automatic permission for student use."
         ],
         "references": [
           "New Zealand Food Safety — Wash your hands before handling food: https://www.mpi.govt.nz/food-safety-home/preparing-and-storing-food-safely-at-home/wash-your-hands-before-handling-food",
@@ -223,7 +223,7 @@
           "Something looks, smells or feels unsafe."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Use of commercial blast chillers to reduce the temperature of food quickly.",
@@ -340,7 +340,7 @@
           "You are unsure which reagent or test to use."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Tests to identify the presence of sugars, starch, proteins, fats and vitamin C.",
@@ -374,7 +374,8 @@
           "The corrosive and toxic risks can be avoided by using alternatives.",
           "Solutions should be prepared by a trained technician wearing gloves and eye protection.",
           "Those using irritant solutions should wear eye protection.",
-          "Whenever ethanol is used, all naked flames and pilot lights in the vicinity should be extinguished."
+          "Whenever ethanol is used, all naked flames and pilot lights in the vicinity should be extinguished.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -421,7 +422,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 3.002 - Chemical testing of food"
+          "CLEAPSS Model Risk Assessment 3.002 - Chemical testing of food",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       }
     },
@@ -488,7 +490,7 @@
           "Someone slips, reacts to a product or feels unwell."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "General cleaning activities.",
@@ -528,7 +530,8 @@
           "Gloves and eye protection must be worn when using any agent with ‘corrosive’ on the label.",
           "An irritant agent should be handled with gloves.",
           "If possible, the use of cleaning agents in aerosol spray cans should be avoided but, if used, all naked flames should be extinguished.",
-          "Care should be taken to see that the contents are not sprayed into the eyes or where they will be inhaled."
+          "Care should be taken to see that the contents are not sprayed into the eyes or where they will be inhaled.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -562,7 +565,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 3.003 - Cleaning activities: general"
+          "CLEAPSS Model Risk Assessment 3.003 - Cleaning activities: general",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       }
     },
@@ -627,7 +631,7 @@
           "Someone feels short of breath or unwell."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Cleaning operations to remove stains using liquids, powders or tablet cleaners.",
@@ -657,7 +661,8 @@
           "Gloves are sufficient when using a scouring powder1.",
           "Bleaches that are labelled irritant require the eyes to be protected with safety spectacles and gloves should be worn to protect the skin.",
           "Marigold Suregrip GO4Y or Blue Nitrile G25B are recommended.",
-          "See CLEAPSS publication PS 50, Gloves as personal Protective Equipment for a full discussion."
+          "See CLEAPSS publication PS 50, Gloves as personal Protective Equipment for a full discussion.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -691,7 +696,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 3.004 - Cleaning agents for food handling areas: bleaches"
+          "CLEAPSS Model Risk Assessment 3.004 - Cleaning agents for food handling areas: bleaches",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       }
     },
@@ -756,7 +762,7 @@
           "You are unsure whether another cleaner has already been used."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The removal of scale from hard water from sinks, taps, toilet bowls, washbasins, baths, kettles and steam irons. All use some form of acid as the active ingredient.",
@@ -785,7 +791,8 @@
           "It is essential to wear gloves when using corrosive products.",
           "It is very strongly advised that the user wears a face shield when dispensing corrosive liquids and that these strong ones are avoided if this protection is not available.",
           "When using products which are powders, ensure that no dust is raised which could be inhaled or get into the eyes.",
-          "When using irritant descalers, it is recommended that gloves are worn and that the eyes should be protected with safety spectacles."
+          "When using irritant descalers, it is recommended that gloves are worn and that the eyes should be protected with safety spectacles.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -816,7 +823,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 3.005 - Cleaning agents for food handling areas: descalers"
+          "CLEAPSS Model Risk Assessment 3.005 - Cleaning agents for food handling areas: descalers",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       }
     },
@@ -883,7 +891,7 @@
           "The product is unlabelled or stronger than expected."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Cleaning of hard surfaces, washing up pots, pans and cutlery by hand or with a machine.",
@@ -911,7 +919,8 @@
           "When dispensing washing powders, avoid raising dust that might be inhaled or blow into the eyes.",
           "Although many detergent preparations are not classed as hazardous, it is strongly advised that all contact with the skin is avoided by wearing gloves, particularly for individuals who are recognised as having sensitive, damaged or dry skin.",
           "Where more aggressive cleaning agents marked ‘irritant’ are used, protection with gloves is essential.",
-          "The eyes should be protected with safety spectacles when detergent preparations marked ‘irritant’ are handled."
+          "The eyes should be protected with safety spectacles when detergent preparations marked ‘irritant’ are handled.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -940,7 +949,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 3.006 - Cleaning agents for food handling areas: detergents"
+          "CLEAPSS Model Risk Assessment 3.006 - Cleaning agents for food handling areas: detergents",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       }
     },
@@ -1005,7 +1015,7 @@
           "Someone has trouble breathing or feels unwell."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The use of disinfectants to attempt to destroy microorganisms which may be present on surfaces etc in food technology areas.",
@@ -1033,7 +1043,8 @@
         ],
         "safeUse": [
           "Gloves and safety spectacles should be worn if concentrated, harmful disinfectants are handled.",
-          "Handling phenolic disinfectants and preparing VirKon solutions also requires the use of gloves and safety spectacles."
+          "Handling phenolic disinfectants and preparing VirKon solutions also requires the use of gloves and safety spectacles.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -1082,7 +1093,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 3.007 - Cleaning agents for food handling areas: disinfectants"
+          "CLEAPSS Model Risk Assessment 3.007 - Cleaning agents for food handling areas: disinfectants",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       }
     },
@@ -1092,7 +1104,7 @@
       "name": "Cleaning agents for food handling areas: drain & sink cleaners",
       "category": "Cleaning",
       "image": "assets/images/food-drain-sink-cleaner.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -1100,14 +1112,14 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "",
         "notes": []
       },
       "student": {
-        "headline": "Use the right cleaner, protect yourself and never mix cleaning chemicals.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Use the right cleaner, protect yourself and never mix cleaning chemicals.",
         "ppe": [
           "eye",
           "face",
@@ -1120,7 +1132,8 @@
           "Explosion"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Read the teacher instructions before starting.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Wear the eye protection your teacher gives you.",
@@ -1128,16 +1141,18 @@
         ],
         "donts": [
           "Do not start until your teacher has shown you how to do the task safely.",
-          "Keep flames, sparks and ignition sources away."
+          "Keep flames, sparks and ignition sources away.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "You can smell strong fumes or the extraction is not working.",
           "There is unexpected smoke, fire or dangerous heat.",
           "Someone may be having an allergic reaction.",
-          "Something looks, sounds or feels unsafe."
+          "Something looks, sounds or feels unsafe.",
+          "The equipment or process is available without teacher control."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The use of chemical cleaning agents to improve the flow through the drain from a sink and remove stains from the sink itself; many use strong acids or alkalis, others contain enzymes or hypochlorite.",
@@ -1175,7 +1190,8 @@
           "When using sink or drain cleaners that are labelled irritant, safety spectacles should be worn if there is any risk of splashes to the eyes and gloves should be worn to protect the skin.",
           "All sources of ignition must be removed or extinguished when using cleaners that generate hydrogen.",
           "Marigold Suregrip GO4Y or Blue Nitrile G25B are recommended.",
-          "See CLEAPSS guidance leaflet PS 50, Gloves as personal Protective Equipment for a full discussion."
+          "See CLEAPSS guidance leaflet PS 50, Gloves as personal Protective Equipment for a full discussion.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -1203,7 +1219,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 3.008 - Cleaning agents for food handling areas: drain & sink cleaners"
+          "CLEAPSS Model Risk Assessment 3.008 - Cleaning agents for food handling areas: drain & sink cleaners",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       }
     },
@@ -1268,7 +1285,7 @@
           "The oven is still hot or the product instructions are unclear."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Cleaning the insides of ovens using powders, liquids, gels, sprays and pads.",
@@ -1305,7 +1322,8 @@
           "The skin must be adequately protected from all contact with irritant cleaning agents.",
           "Gloves should be long enough to cover the lower arm and the skin of the upper arm should not be exposed.",
           "With agents that are marked irritant and with solid preparations, safety spectacles should provide sufficient eye protection.",
-          "Gloves must be worn when using enzymic cleaners."
+          "Gloves must be worn when using enzymic cleaners.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -1337,7 +1355,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 3.009 - Cleaning agents for food handling areas: oven cleaners"
+          "CLEAPSS Model Risk Assessment 3.009 - Cleaning agents for food handling areas: oven cleaners",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       }
     },
@@ -1408,7 +1427,7 @@
           "Food has not heated properly."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The use of a conventional oven for initial cooking and reheating of precooked food. See sheet 3.011 for the hazards of food poisoning and 3.023 for heating on hobs.",
@@ -1566,7 +1585,7 @@
           "You are unsure whether the food is safe to eat."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The food poisoning hazards associated with use of any type of oven for initial cooking and reheating of precooked food. See sheet 3.010 for the burning and fire hazards.",
@@ -1695,7 +1714,7 @@
           "Someone is burned or the fryer is knocked."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Deep fat frying using a thermostatically controlled closed deep fat fryer.",
@@ -1846,7 +1865,7 @@
           "You are not sure whether the food is fully thawed."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Defrosting foods that are precooked and defrosting food that is to be cooked.",
@@ -2005,7 +2024,7 @@
           "Food may have been contaminated."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Tasting during preparation (for flavour adjustment) and consuming food after preparation and cooking as the end point of the activity. Sensory analysis activities.",
@@ -2134,7 +2153,9 @@
         "studentUseCandidate": true,
         "minimumYear": "",
         "supervision": "",
-        "notes": []
+        "notes": [
+          "Active RPE controls checked 24 Aug 2026 against current WorkSafe New Zealand guidance and AS/NZS 1715:2009 / AS/NZS 1716:2012 terminology; archived source extracts remain unchanged for provenance."
+        ]
       },
       "student": {
         "headline": "Enzymes used in food are usually low risk, but enzyme powder can cause allergies. Avoid dust and skin contact.",
@@ -2153,7 +2174,8 @@
           "Tell your teacher if you have a known enzyme allergy.",
           "Use only the enzyme and amount your teacher provides.",
           "Avoid making dust when working with powders.",
-          "Wear gloves and a suitable dust mask if your teacher requires them."
+          "Wear gloves and a suitable dust mask if your teacher requires them.",
+          "Use extraction or LEV first. If the teacher requires RPE, use only the respirator selected and fit-tested for you, and complete a seal check every time."
         ],
         "dos": [
           "Handle powders gently.",
@@ -2174,7 +2196,7 @@
           "You are unsure whether the culture or enzyme is safe."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Enzymes may be used in making cheese and junket, to tenderise meat, in extracting juice from fruit purées and for a variety of other tasks.",
@@ -2202,7 +2224,10 @@
           "Specialist advice and support should be sought (eg, from Science teachers or technicians)",
           "The new European Standard for ‘disposable particulate respirators’ is EN 149:2001.",
           "The older type number was FFP3S.",
-          "See CLEAPSS leaflet PS 50, Gloves as Personal Protective Equipment."
+          "See CLEAPSS leaflet PS 50, Gloves as Personal Protective Equipment.",
+          "Use elimination and effective local exhaust ventilation (LEV) or on-tool extraction before relying on RPE; RPE must not be the first or only control.",
+          "Where RPE is required, select it for the contaminant, exposure, task and wearer under AS/NZS 1715:2009, and use respiratory protective devices complying with AS/NZS 1716:2012.",
+          "Tight-fitting RPE must be fit-tested for the wearer by a competent person before first use and at least annually, or when fit changes; complete a seal check every use and do not rely on a tight-fitting facepiece over facial hair or stubble."
         ],
         "shutdown": [],
         "restrictions": [
@@ -2230,7 +2255,10 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 3.015 - Enzymes"
+          "CLEAPSS Model Risk Assessment 3.015 - Enzymes",
+          "WorkSafe New Zealand — Respiratory protective equipment: advice for businesses (current NZ selection, fit-testing and use guidance): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/advice-for-businesses/",
+          "WorkSafe New Zealand — Respiratory protective equipment: advice for workers (fit, seal checks, facial hair and maintenance): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/advice-for-workers/",
+          "WorkSafe New Zealand — Non-compliant respiratory protective equipment on the market (AS/NZS 1716 marking guidance): https://www.worksafe.govt.nz/about-us/news-and-media/non-compliant-respiratory-protective-equipment-on-the-market/"
         ]
       }
     },
@@ -2299,7 +2327,7 @@
           "You are cut or receive an electric shock."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Using food processors that are not held in the hand during use.",
@@ -2464,7 +2492,7 @@
           "You are unsure whether food is still safe."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Storage of dry food items such as flour, sugar, pulses, rice and canned foods.",
@@ -2579,7 +2607,7 @@
           "You are unsure how long the food has been held."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Keeping cooked food warm until it is to be consumed.",
@@ -2714,7 +2742,7 @@
           "Food is out of date, spoiled or has been left warm."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Preserving the quality of food by chilling and freezing.",
@@ -2881,7 +2909,7 @@
           "You get a cold burn or numb skin."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The use of domestic-type freezers and refrigerators for freezing raw and cooked foods.",
@@ -3051,7 +3079,7 @@
           "Food may not be cooked safely."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The use of a frying pan for shallow frying and a powered deep-fat fryer with or without a lid. The use of a gas- or electrically-heated grill.",
@@ -3088,7 +3116,8 @@
           "It is necessary to check that rings above gas burners are firmly in place before starting to use a hob.",
           "Although one would not normally use eye protection in a domestic kitchen, in a place of work such as a food technology department, protective spectacles should be worn to control the risk to the eyes.",
           "Chicken and pork are the foods most likely to contain Salmonella while any meat could be contaminated with E. coli 0157 and cooking these foods thoroughly is essential.",
-          "Pre-stuffed joints and poultry are sometimes difficult to heat throughout in a conventional oven and testing with a suitable, clean thermometer is advisable."
+          "Pre-stuffed joints and poultry are sometimes difficult to heat throughout in a conventional oven and testing with a suitable, clean thermometer is advisable.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -3135,7 +3164,8 @@
         ],
         "references": [
           "CLEAPSS Model Risk Assessment 3.021 - Frying and grilling food",
-          "CLEAPSS Model Risk Assessment 3.011 - Cooking and reheating, food poisoning"
+          "CLEAPSS Model Risk Assessment 3.011 - Cooking and reheating, food poisoning",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       }
     },
@@ -3203,7 +3233,7 @@
           "You are unsure about an allergen."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Handling all food substances and products.",
@@ -3352,7 +3382,7 @@
           "You are burned or scalded."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The use of a hob, either as a separate unit or as part of a ‘cooker’ powered by gas or electricity. The use of a kettle or urn for heating water.",
@@ -3488,7 +3518,7 @@
           "Someone is using a knife unsafely nearby."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Scraping, peeling and cutting vegetables, cutting and trimming meat, filleting and cutting fish, cutting bread.",
@@ -3659,7 +3689,7 @@
           "You are cut or receive an electric shock."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The use of table-top mixing machines with liquidising and mincing accessories.",
@@ -3780,7 +3810,7 @@
           "You are unsure whether a culture is food-safe."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Using culinary microbes such as yeast in baking, and bacteria in making yoghurt.",
@@ -3895,7 +3925,7 @@
           "Food is still cold in the middle after heating."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Heating and reheating food with microwaves in a microwave only oven or one with conventional and steam heating elements as well.",
@@ -3998,7 +4028,7 @@
       "name": "Pest control",
       "category": "Food Technology",
       "image": "assets/images/food-pest-control.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -4006,35 +4036,38 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "",
         "notes": []
       },
       "student": {
-        "headline": "Follow the hygiene and safety steps before you start.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Follow the hygiene and safety steps before you start.",
         "ppe": [],
         "hazards": [
           "Food poisoning from harmful germs",
           "Chemical or pest poison can contaminate food"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Read the teacher instructions before starting.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Secure the work before you start."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not start until your teacher has shown you how to do the task safely.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "You can smell strong fumes or the extraction is not working.",
           "Food may be contaminated or has been left at an unsafe temperature.",
-          "Something looks, sounds or feels unsafe."
+          "Something looks, sounds or feels unsafe.",
+          "The equipment or process is available without teacher control."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Pests that may become a problem in food technology rooms and storage areas include rodents: mice and rats; birds: pigeons and sparrows; insects and other arthropods: houseflies, wasps, ants, cockroaches, moths, silverfish, meal and bacon beetles, flour mites and weevils.",
@@ -4163,7 +4196,7 @@
           "Someone is cut or receives an electric shock."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The use of hand-held kitchen equipment which comes in several sizes from small battery-powered whisks to machines which really need a stand and table top blenders and smoothie makers",
@@ -4334,7 +4367,7 @@
           "You are not sure the pressure has fully released."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "General use of domestic-type pressure cookers.",
@@ -4488,7 +4521,7 @@
           "You are unsure whether an ingredient is safe."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Choice of supplier and selection of food items.",
@@ -4610,7 +4643,7 @@
           "You are burned or receive an electric shock."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The use of an electric toaster or a sandwich toaster as a stand-alone, electrically- powered unit.",
@@ -4752,7 +4785,7 @@
           "The machine gives an electric shock or smells electrical."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "A tunnel oven cooks food products by passing them through a chamber that is heated. The cooking time is influenced by the speed of the food passing through the oven.",
@@ -4874,7 +4907,7 @@
           "You are unsure where hazardous or sharp waste should go."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The disposal of food waste including cooked and uncooked material. Disposal of unwanted / irreparable equipment.",

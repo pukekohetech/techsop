@@ -390,6 +390,7 @@ ul { margin: 0; }
 .student-status-badge.draft { background: #f2eef0; color: #6d5f63; border: 1px solid #ddd3d6; }
 .student-status-badge.approved { background: var(--safe-soft); color: #17603d; border: 1px solid #c7e1d2; }
 .student-status-badge.caution { background: var(--warn-soft); color: #7b5700; border: 1px solid #efd89e; }
+.student-status-badge.danger { background: var(--danger-soft); color: #8b1e28; border: 1px solid #edbdc2; }
 
 .student-card-hero {
   display: grid;
@@ -1739,6 +1740,8 @@ ul { margin: 0; }
   .two-up-status { border-radius: 999px !important; padding: .7mm 1mm !important; font-size: 4.8pt !important; font-weight: 900 !important; white-space: nowrap !important; }
   .two-up-status.approved { background: var(--safe-soft) !important; color: #17603d !important; }
   .two-up-status.draft { background: #f2eef0 !important; color: #6d5f63 !important; }
+  .two-up-status.caution { background: var(--warn-soft) !important; color: #7b5700 !important; }
+  .two-up-status.danger { background: var(--danger-soft) !important; color: #8b1e28 !important; }
 
   .two-up-hero { display: grid !important; grid-template-columns: 42mm minmax(0,1fr) !important; gap: 1.5mm !important; min-height: 29mm !important; }
   .two-up-machine-image,

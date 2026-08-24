@@ -2507,7 +2507,7 @@
           "The container leaks or the ventilation is not working."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Spreading cement on joint surfaces; pouring from a large stock container to smaller ones. Tensol 12 cement contains methyl methacrylate in a solvent, usually methylene chloride or trichloroethylene (both non-flammable) but other cements could use highly flammable solvents. Tensol 70 is a two-pack adhesive: pack A is methyl methacrylate polymer dissolved in the unpolymerised substance; pack B is di-benzoyl peroxide in dimethyl phthalate",
@@ -2542,7 +2542,8 @@
           "Eye protection must be worn.",
           "Gloves are advisable for sensitive skin.",
           "The work must be at least 1 m from sources of ignition.",
-          "This includes pilot flames on heat treatment equipment."
+          "This includes pilot flames on heat treatment equipment.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -2568,7 +2569,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.001 - Adhesives: acrylic cement"
+          "CLEAPSS Model Risk Assessment 1.001 - Adhesives: acrylic cement",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "adhesives-acrylic-cement"
@@ -2580,21 +2582,23 @@
       "category": "Adhesives",
       "image": "assets/images/dvc-cyanoacrylate.webp",
       "studentVisible": true,
-      "sourceAccess": "local-review-required",
+      "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
         "1.002"
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "Teacher judgement",
         "supervision": "Teacher instruction and active supervision required.",
-        "notes": []
+        "notes": [
+          "Source-access restriction corrected to teacher-only on 24 Aug 2026 to match the archived RAMS source record."
+        ]
       },
       "student": {
-        "headline": "Super glue bonds skin quickly, so use tiny amounts and keep it away from eyes.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Super glue bonds skin quickly, so use tiny amounts and keep it away from eyes.",
         "ppe": [
           "apron",
           "ventilation"
@@ -2606,7 +2610,8 @@
         ],
         "beforeStart": [
           "Ask for teacher permission before opening the glue.",
-          "Have tissues or scrap card ready so you do not overuse it."
+          "Have tissues or scrap card ready so you do not overuse it.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Apply very small amounts.",
@@ -2615,14 +2620,16 @@
         ],
         "donts": [
           "Do not touch wet glue with your fingers.",
-          "Do not try to pull stuck skin apart roughly."
+          "Do not try to pull stuck skin apart roughly.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "Glue gets in an eye.",
-          "The nozzle blocks or splits."
+          "The nozzle blocks or splits.",
+          "The equipment or process is available without teacher control."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "These adhesives are used in very small amounts and set by virtue of a moisture-catalysed polymerisation process. They form very strong instant bonds between non-absorbent surfaces, eg, metal, glass, plastics, rubber and hardwoods.",
@@ -2651,7 +2658,8 @@
           "Wear eye protection at all times.",
           "The use of polyethylene or polypropylene gloves is recommended when handling large volumes.",
           "Other protective equipment is not required under the conditions of use reasonably to be expected.",
-          "Skin adhesion can be dealt with by suitable remedial measures provided the casualty does not panic."
+          "Skin adhesion can be dealt with by suitable remedial measures provided the casualty does not panic.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -2679,7 +2687,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.002 - Adhesives: cyanoacrylate"
+          "CLEAPSS Model Risk Assessment 1.002 - Adhesives: cyanoacrylate",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "adhesives-cyanoacrylate"
@@ -2735,7 +2744,7 @@
           "The lead, plug or stand is unsafe."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Hot-melt adhesives are supplied as sticks of copolymers of ethene and vinyl acetate. Heat is used to melt the adhesive in the ‘glue gun’ so that drops can be applied to the materials to be joined. Bonding results when the glue solidifies on cooling. Many different types of gun are available with electric or butane cartridge heating and supplying glue at different rates.",
@@ -2766,7 +2775,8 @@
           "If cordless types are stocked, it may be necessary to control access.",
           "Instruction and training in safe use will normally be sufficient to control the risk of burns but, with some classes, it could be advisable to restrict use to the low-temperature types (see sheet 1.004).",
           "Where glue guns are used throughout the year and they are used responsibly, a monthly inspection checking for damage should be sufficient.",
-          "If they are used intensively for a few weeks then it might be necessary to check them every time they are removed from the store."
+          "If they are used intensively for a few weeks then it might be necessary to check them every time they are removed from the store.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -2794,7 +2804,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.003 - Adhesives: hot-melt glue guns"
+          "CLEAPSS Model Risk Assessment 1.003 - Adhesives: hot-melt glue guns",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "adhesives-hot-melt-glue-guns"
@@ -2841,7 +2852,7 @@
           "The gun jams or overheats."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "These adhesives are supplied as sticks of copolymers of ethene and vinyl acetate. Polyamide is used in some specialist applications. Heat is used to melt the adhesive in the ‘glue gun’ so that drops can be applied to the materials to be joined. Bonding results when the glue solidifies on cooling. They form fairly strong bonds between many surfaces, eg, cardboard, wood and plastics. Metals present a problem because they conduct the heat away from the joint too quickly unless the metal is pre-heated.",
@@ -2901,7 +2912,7 @@
       "name": "Adhesives: reactive resins, epoxy, polyester",
       "category": "Adhesives",
       "image": "assets/images/dvc-reactive-resins-epoxy-polyester.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -2909,35 +2920,38 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "Teacher only or technician support until a local PHS review explicitly approves otherwise.",
         "notes": []
       },
       "student": {
-        "headline": "Protect your skin and eyes, use good ventilation and follow the product rules.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Protect your skin and eyes, use good ventilation and follow the product rules.",
         "ppe": [],
         "hazards": [
           "Can irritate skin, eyes or breathing",
           "Catches fire very easily"
         ],
         "beforeStart": [
-          "Get teacher permission before you start."
+          "Get teacher permission before you start.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Use the ventilation or extraction your teacher sets up."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not start until your teacher has shown you how to do the task safely.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "You can smell strong fumes or the extraction is not working.",
           "There is unexpected smoke, fire or dangerous heat.",
-          "Something looks, sounds or feels unsafe."
+          "Something looks, sounds or feels unsafe.",
+          "The equipment or process is available without teacher control."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "This wide range of epoxy adhesives and polyester resins is produced mostly as two- component systems. Curing is effected by the reactions of a resin and a hardener. Epoxy resins are used for the bonding of metals, ceramics, glass, rubber, plastics, wood, etc. Polyester resin has useful applications where glass fibre is involved and for bonding ceramics, some metals and rubbers.",
@@ -2993,7 +3007,7 @@
       "name": "Adhesives: reactive resins, formaldehyde",
       "category": "Adhesives",
       "image": "assets/images/dvc-reactive-resins-formaldehyde.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -3001,14 +3015,14 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "Teacher only or technician support until a local PHS review explicitly approves otherwise.",
         "notes": []
       },
       "student": {
-        "headline": "Protect your skin and eyes, use good ventilation and follow the product rules.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Protect your skin and eyes, use good ventilation and follow the product rules.",
         "ppe": [
           "gloves"
         ],
@@ -3020,22 +3034,25 @@
           "Can cause an allergic reaction"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Read the teacher instructions before starting.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Secure the work before you start.",
           "Use the ventilation or extraction your teacher sets up."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not start until your teacher has shown you how to do the task safely.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "You can smell strong fumes or the extraction is not working.",
           "There is unexpected smoke, fire or dangerous heat.",
-          "Something looks, sounds or feels unsafe."
+          "Something looks, sounds or feels unsafe.",
+          "The equipment or process is available without teacher control."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "These adhesives are essentially a resin bonding agent (liquid or powder) which sets as a result of chemical action with a hardener. A catalyst may be added to accelerate setting at room temperature.",
@@ -3150,7 +3167,7 @@
           "The adhesive is spilled or the lid will not close."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The adhesive is applied to both surfaces to be bonded, the solvent allowed to evaporate and the surfaces then joined. The solvents are usually highly flammable (hydrocarbons, esters or ketones) but are sometimes non-flammable chlorinated hydrocarbons. Cements used with polymers such as ABS and polystyrene are often just mixtures of solvents that are drawn into the joint by capillary action. This risk assessment also covers paint strippers that use similar solvents, eg, methylene chloride (dichloromethane).",
@@ -3179,7 +3196,8 @@
           "Good ventilation is required during application and drying to prevent the inhalation of solvent vapours.",
           "It is essential that the top is replaced on any adhesive container as soon as possible.",
           "Eye protection is needed when using adhesives from tubes.",
-          "The ventilation required will disperse potentially explosive concentrations of solvent vapour."
+          "The ventilation required will disperse potentially explosive concentrations of solvent vapour.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -3209,7 +3227,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.007 - Adhesives: solvent-based, cellulosics, polymer cements, rubber solution"
+          "CLEAPSS Model Risk Assessment 1.007 - Adhesives: solvent-based, cellulosics, polymer cements, rubber solution",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "adhesives-solvent-based-cellulosics-polymer-cements-rubber-solution"
@@ -3221,21 +3240,23 @@
       "category": "Adhesives",
       "image": "assets/images/dvc-repositionable-adhesive.webp",
       "studentVisible": true,
-      "sourceAccess": "local-review-required",
+      "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
         "1.008"
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "Teacher judgement",
         "supervision": "Teacher instruction and active supervision required.",
-        "notes": []
+        "notes": [
+          "Source-access restriction corrected to teacher-only on 24 Aug 2026 to match the archived RAMS source record."
+        ]
       },
       "student": {
-        "headline": "Repositionable spray or solvent adhesives still need ventilation and teacher direction.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Repositionable spray or solvent adhesives still need ventilation and teacher direction.",
         "ppe": [
           "apron",
           "ventilation"
@@ -3247,21 +3268,24 @@
         ],
         "beforeStart": [
           "Use only in the approved spraying area.",
-          "Protect nearby work from overspray."
+          "Protect nearby work from overspray.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Spray or apply away from your face.",
           "Keep the container upright and close it after use."
         ],
         "donts": [
-          "Do not spray near flames, sparks or heaters."
+          "Do not spray near flames, sparks or heaters.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "The nozzle spits or leaks.",
-          "Ventilation is poor or overspray spreads."
+          "Ventilation is poor or overspray spreads.",
+          "The equipment or process is available without teacher control."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The adhesive is sprayed onto one of the surfaces to be bonded; the drying time is long so that repositioning is possible. The adhesive is supplied as a solution in organic solvents and delivered as an aerosol with propane / butane propellant.",
@@ -3362,7 +3386,7 @@
           "A glue container is split or contaminated."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "These adhesives are sold as emulsions and are ready to use.",
@@ -3470,7 +3494,7 @@
           "Extraction or guards are not working."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The cutting and shaping of compliant and resistant materials using machines controlled by a computer (‘CNC machines’). Cutting / soluble oil is often used when metals are being shaped.",
@@ -3507,7 +3531,8 @@
           "The larger CNC machines are usually fully enclosed, with an electrical interlock fitted to the enclosure.",
           "There is no hazard from these machines since access is not possible when the machine is running and any dust that is produced will be contained within the enclosure.",
           "If the machine is not connected to a dust-extraction system, a vacuum cleaner will be required to remove the dust once cutting is complete.",
-          "Machines that are used extensively to shape MDF or modelling foam should be connected to a dust-extraction system."
+          "Machines that are used extensively to shape MDF or modelling foam should be connected to a dust-extraction system.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -3540,7 +3565,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.010 - CNC machines"
+          "CLEAPSS Model Risk Assessment 1.010 - CNC machines",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "cnc-machines"
@@ -3598,7 +3624,7 @@
           "You cannot hold the work safely."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The use of scissors for cutting paper and boards. The use of craft knives and scalpels, with and without cutting mats.",
@@ -3708,7 +3734,7 @@
           "A lead, plug or power supply is damaged."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The design and construction of items which will be connected to the mains supply where the use of electricity is peripheral (eg, lamps) or fundamental (eg, low-voltage power supplies for electronics). Instruction in the repair and maintenance of high-voltage equipment. The construction of electronics circuits from prepared modules or components.",
@@ -3736,7 +3762,8 @@
           "Where this is not appropriate, the design and construction must be carefully checked and tested using a commercial safety test set and the work carried out by a person trained to do portable appliance testing. (See CLEAPSS guide L242.) Instruction in repair work should stress the importance of earth-free environments whenever tests on live equipment are to be made.",
           "The risk of explosion is so low that even the wearing of eye protection seems difficult to justify.",
           "Most events are due to reversed connection or bad practice (eg, mixing cells of different types in one appliance or circuit).",
-          "Electrolytic capacitors may also fail if the significance of the ‘ripple current rating’ is not understood or if they have been stored for too long."
+          "Electrolytic capacitors may also fail if the significance of the ‘ripple current rating’ is not understood or if they have been stored for too long.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -3762,7 +3789,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.013 - Electrical and electronics work"
+          "CLEAPSS Model Risk Assessment 1.013 - Electrical and electronics work",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "electrical-and-electronics-work"
@@ -3773,7 +3801,7 @@
       "name": "Electronics: chemicals for Printed Circuit Board etching",
       "category": "Electronics",
       "image": "assets/images/dvc-pcb-etching.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -3781,14 +3809,14 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "Teacher only or technician support until a local PHS review explicitly approves otherwise.",
         "notes": []
       },
       "student": {
-        "headline": "Protect your skin and eyes, use good ventilation and follow the product rules.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Protect your skin and eyes, use good ventilation and follow the product rules.",
         "ppe": [
           "eye",
           "gloves"
@@ -3800,7 +3828,8 @@
           "Catches fire very easily"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Read the teacher instructions before starting.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Wear the eye protection your teacher gives you.",
@@ -3809,15 +3838,17 @@
         ],
         "donts": [
           "Do not start until your teacher has shown you how to do the task safely.",
-          "Keep flames, sparks and ignition sources away."
+          "Keep flames, sparks and ignition sources away.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "You can smell strong fumes or the extraction is not working.",
           "There is unexpected smoke, fire or dangerous heat.",
-          "Something looks, sounds or feels unsafe."
+          "Something looks, sounds or feels unsafe.",
+          "The equipment or process is available without teacher control."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "To produce, by etching away unwanted copper, an electronic circuit board designed to meet a specific requirement. The prepared board is immersed in ferric chloride [iron(III) chloride] solution or sodium peroxodisulfate (persulfate) solution to etch away the copper. The board is sometimes cleaned with a solvent before or after soldering, formerly mainly 1,1,1-trichloroethane, now propan-2-ol (isopropanol) or other alcohols (eg, ethanol).",
@@ -3853,7 +3884,8 @@
           "Users with cuts or sensitive skin must wear disposable gloves.",
           "The wet boards must always be handled with plastic tongs.",
           "Sources of ignition should be removed from the area when using highly flammable solvents and natural ventilation is required to keep the level of vapour as low as practicable.",
-          "Since 1994, the recommended spelling of sulfur and sulfate etc has been with an ‘f’ not ‘ph’."
+          "Since 1994, the recommended spelling of sulfur and sulfate etc has been with an ‘f’ not ‘ph’.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -3881,7 +3913,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.014 - Electronics: chemicals for Printed Circuit Board etching"
+          "CLEAPSS Model Risk Assessment 1.014 - Electronics: chemicals for Printed Circuit Board etching",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "electronics-chemicals-for-printed-circuit-board-etching"
@@ -3892,7 +3925,7 @@
       "name": "Electronics: chemicals for Printed Circuit Board preparation",
       "category": "Electronics",
       "image": "assets/images/dvc-pcb-preparation.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -3900,14 +3933,14 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "Teacher only or technician support until a local PHS review explicitly approves otherwise.",
         "notes": []
       },
       "student": {
-        "headline": "Protect your skin and eyes, use good ventilation and follow the product rules.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Protect your skin and eyes, use good ventilation and follow the product rules.",
         "ppe": [
           "eye",
           "gloves"
@@ -3918,21 +3951,24 @@
           "Can irritate skin, eyes or breathing"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Read the teacher instructions before starting.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Wear the eye protection your teacher gives you."
         ],
         "donts": [
           "Do not start until your teacher has shown you how to do the task safely.",
-          "Do not use the wrong material, tool or chemical for the job."
+          "Do not use the wrong material, tool or chemical for the job.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "There is unexpected smoke, fire or dangerous heat.",
-          "Something looks, sounds or feels unsafe."
+          "Something looks, sounds or feels unsafe.",
+          "The equipment or process is available without teacher control."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "To produce the track layout on a copper-clad board so that an electronic circuit can be made by etching away unwanted copper. This may be done by hand with an etch-resist ink pen or photographically using a transparent mask and a board coated with photoresist. The board may be precoated or sprayed when required. After exposure to ultra-violet radiation (UV), the photoresist coating is developed using a dilute solution of sodium hydroxide (0.4 M or 16 g/l) or sodium silicate (5%). After etching, a more concentrated solution of sodium hydroxide (2 M or 80 g/l) may be used to strip away the coating or it can be removed with a proprietary stripper (eg, ethanolamine in 2-butoxyethanol).",
@@ -3960,7 +3996,8 @@
         "safeUse": [
           "When preparing solutions, emptying tanks and using manual developing trays, chemical goggles and protective gloves must be worn.",
           "If the processes are carried out in bubble tanks, the lids must be fitted while operating to contain any mist.",
-          "The measures used to control the other risks will also limit the irritant ones."
+          "The measures used to control the other risks will also limit the irritant ones.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -3992,7 +4029,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.015 - Electronics: chemicals for Printed Circuit Board preparation"
+          "CLEAPSS Model Risk Assessment 1.015 - Electronics: chemicals for Printed Circuit Board preparation",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "electronics-chemicals-for-printed-circuit-board-preparation"
@@ -4048,7 +4086,7 @@
           "The material warps, burns excessively or smells wrong."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Use of a high-power laser to cut plastics, rubber, wood, card and textiles under computer control as an example of CAD / CAM.",
@@ -4082,7 +4120,8 @@
           "PVC and polyurethane foams should not be cut even with LEV in use.",
           "Other materials require efficient dust and fume control.",
           "Suppliers may recommend special filters for certain tasks, eg, cutting rubber.",
-          "The power setting and speed of cut must be set correctly to minimise the risk of ignition of the workpeices."
+          "The power setting and speed of cut must be set correctly to minimise the risk of ignition of the workpeices.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -4119,7 +4158,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.032 - Laser cutters"
+          "CLEAPSS Model Risk Assessment 1.032 - Laser cutters",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "laser-cutters"
@@ -4143,14 +4183,18 @@
         "studentUseCandidate": true,
         "minimumYear": "Teacher judgement / senior students as appropriate",
         "supervision": "Direct teacher supervision and local approval required.",
-        "notes": []
+        "notes": [
+          "Active RPE controls updated 24 Aug 2026 to current WorkSafe New Zealand guidance and AS/NZS 1715:2009 / AS/NZS 1716:2012 terminology; archived source extracts remain unchanged for provenance.",
+          "Active RPE controls checked 24 Aug 2026 against current WorkSafe New Zealand guidance and AS/NZS 1715:2009 / AS/NZS 1716:2012 terminology; archived source extracts remain unchanged for provenance."
+        ]
       },
       "student": {
         "headline": "Wear eye protection, control dust and keep hands clear of moving cutters or abrasive parts.",
         "ppe": [
           "eye",
           "hair",
-          "apron"
+          "apron",
+          "dust"
         ],
         "hazards": [
           "Contact with moving parts",
@@ -4159,7 +4203,8 @@
         ],
         "beforeStart": [
           "Tie hair back and remove loose items.",
-          "Check guards, extraction and the work support."
+          "Check guards, extraction and the work support.",
+          "Use extraction or LEV first. If the teacher requires RPE, use only the respirator selected and fit-tested for you, and complete a seal check every time."
         ],
         "dos": [
           "Feed the work steadily.",
@@ -4174,7 +4219,7 @@
           "A guard or extraction system is not working."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Shaping and cutting plastic materials by hand and by machine (bandsaw, drilling, metal centre lathe, moulding trimmer).",
@@ -4203,13 +4248,11 @@
         "preStart": [
           "Instructions concerning specific hazards associated with particular materials issued by manufacturers must be followed scrupulously.",
           "Water should be used as a lubricant where possible without introducing electrical hazards, to keep production of dust to a minimum.",
-          "The wearing of nuisance dust masks is advised when machining.",
           "Suitable eye protection must be worn."
         ],
         "safeUse": [
           "Instructions concerning specific hazards associated with particular materials issued by manufacturers must be followed scrupulously.",
           "Water should be used as a lubricant where possible without introducing electrical hazards, to keep production of dust to a minimum.",
-          "The wearing of nuisance dust masks is advised when machining.",
           "Suitable eye protection must be worn.",
           "When using a circular saw or bandsaw to cut plastic sheet, the material should be fed slowly and steadily to the blade to minimise heating.",
           "To prevent the cut being re-welded by melted dust, the surface of the sheet can be covered with sticky tape or paper (eg, masking tape).",
@@ -4222,7 +4265,11 @@
           "Re-grinding the drill bit to give a zero rake angle, and changing the point angle of the drill to about 130° will also reduce the risk of shattering. ‘Soluble oil’ can be used as a coolant.",
           "Guards around rotating parts will reduce the risk of hand or finger injury but training and experience are essential in reducing risks.",
           "When drilling plastics, a slow speed should be used so as not to increase the temperature of the material unduly.",
-          "Long hair must be tied back; jewellery should be removed or covered and loose clothing covered by a secure apron or overall."
+          "Long hair must be tied back; jewellery should be removed or covered and loose clothing covered by a secure apron or overall.",
+          "Use elimination and effective local exhaust ventilation (LEV) or on-tool extraction before relying on RPE; RPE must not be the first or only control.",
+          "Where RPE is required, select it for the contaminant, exposure, task and wearer under AS/NZS 1715:2009, and use respiratory protective devices complying with AS/NZS 1716:2012.",
+          "Tight-fitting RPE must be fit-tested for the wearer by a competent person before first use and at least annually, or when fit changes; complete a seal check every use and do not rely on a tight-fitting facepiece over facial hair or stubble.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -4258,7 +4305,11 @@
         ],
         "references": [
           "CLEAPSS Model Risk Assessment 1.052 - Plastics: abrading and trimming equipment",
-          "CLEAPSS Model Risk Assessment 1.053 - Plastics: abrading, dust and fumes"
+          "CLEAPSS Model Risk Assessment 1.053 - Plastics: abrading, dust and fumes",
+          "WorkSafe New Zealand — Respiratory protective equipment: advice for businesses (current NZ selection, fit-testing and use guidance): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/advice-for-businesses/",
+          "WorkSafe New Zealand — Respiratory protective equipment: advice for workers (fit, seal checks, facial hair and maintenance): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/advice-for-workers/",
+          "WorkSafe New Zealand — Non-compliant respiratory protective equipment on the market (AS/NZS 1716 marking guidance): https://www.worksafe.govt.nz/about-us/news-and-media/non-compliant-respiratory-protective-equipment-on-the-market/",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "plastics-abrading-and-trimming-equipment"
@@ -4312,7 +4363,7 @@
           "You can smell fumes or see smoke."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Shaping and cutting plastic materials by machine (bandsaw, drilling, metal centre lathe and moulding trimmer).",
@@ -4345,7 +4396,8 @@
           "Re-grinding the drill bit to give a zero rake angle, and changing the point angle of the drill to about 130° will also reduce the risk of shattering. ‘Soluble oil’ can be used as a coolant.",
           "Guards around rotating parts will reduce the risk of hand or finger injury but training and experience are essential in reducing risks.",
           "When drilling plastics, a slow speed should be used so as not to increase the temperature of the material unduly.",
-          "Long hair must be tied back; jewellery should be removed or covered and loose clothing covered by a secure apron or overall."
+          "Long hair must be tied back; jewellery should be removed or covered and loose clothing covered by a secure apron or overall.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -4370,7 +4422,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.053 - Plastics: abrading, dust and fumes"
+          "CLEAPSS Model Risk Assessment 1.053 - Plastics: abrading, dust and fumes",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "plastics-abrading-dust-and-fumes"
@@ -4381,7 +4434,7 @@
       "name": "Plastics: glass-reinforced plastic, resin casting, chemicals and fumes",
       "category": "Plastics",
       "image": "assets/images/dvc-grp-resin-casting.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -4389,14 +4442,16 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "Teacher only or technician support until a local PHS review explicitly approves otherwise.",
-        "notes": []
+        "notes": [
+          "Active RPE controls checked 24 Aug 2026 against current WorkSafe New Zealand guidance and AS/NZS 1715:2009 / AS/NZS 1716:2012 terminology; archived source extracts remain unchanged for provenance."
+        ]
       },
       "student": {
-        "headline": "Heat, sparks and fumes can hurt you. Use the right PPE and follow the teacher.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Heat, sparks and fumes can hurt you. Use the right PPE and follow the teacher.",
         "ppe": [
           "eye",
           "dust",
@@ -4410,7 +4465,9 @@
           "Catches fire very easily"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Read the teacher instructions before starting.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions.",
+          "Use extraction or LEV first. If the teacher requires RPE, use only the respirator selected and fit-tested for you, and complete a seal check every time."
         ],
         "dos": [
           "Wear the eye protection your teacher gives you.",
@@ -4418,14 +4475,16 @@
         ],
         "donts": [
           "Do not start until your teacher has shown you how to do the task safely.",
-          "Keep flames, sparks and ignition sources away."
+          "Keep flames, sparks and ignition sources away.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "You can smell strong fumes or the extraction is not working.",
-          "Something looks, sounds or feels unsafe."
+          "Something looks, sounds or feels unsafe.",
+          "The equipment or process is available without teacher control."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "A polyester resin, dissolved in styrene, is hardened by mixing with a catalyst. It sets in 10 to 30 minutes. All mixing vessels, etc, are disposable and are not cleaned with solvents. The resin is often used with glass-fibre reinforcement to give glass-reinforced plastic (GRP) which may be machined, cut or abraded. Small scale repair kits use similar materials but with the catalyst supplied as a paste.",
@@ -4462,7 +4521,11 @@
           "A nuisance-dust mask may be helpful when laying up moulds with some types of cut glass-fibre mat.",
           "Trimming of GRP may be done out-of-doors or in rooms with a floor area exceeding 80 m2 with all available windows open.",
           "Eye protection and disposable gloves must be worn.",
-          "All sources of ignition must be kept away, especially when cleaning brushes."
+          "All sources of ignition must be kept away, especially when cleaning brushes.",
+          "Use elimination and effective local exhaust ventilation (LEV) or on-tool extraction before relying on RPE; RPE must not be the first or only control.",
+          "Where RPE is required, select it for the contaminant, exposure, task and wearer under AS/NZS 1715:2009, and use respiratory protective devices complying with AS/NZS 1716:2012.",
+          "Tight-fitting RPE must be fit-tested for the wearer by a competent person before first use and at least annually, or when fit changes; complete a seal check every use and do not rely on a tight-fitting facepiece over facial hair or stubble.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -4496,7 +4559,11 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.054 - Plastics: glass-reinforced plastic, resin casting, chemicals and fumes"
+          "CLEAPSS Model Risk Assessment 1.054 - Plastics: glass-reinforced plastic, resin casting, chemicals and fumes",
+          "WorkSafe New Zealand — Respiratory protective equipment: advice for businesses (current NZ selection, fit-testing and use guidance): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/advice-for-businesses/",
+          "WorkSafe New Zealand — Respiratory protective equipment: advice for workers (fit, seal checks, facial hair and maintenance): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/advice-for-workers/",
+          "WorkSafe New Zealand — Non-compliant respiratory protective equipment on the market (AS/NZS 1716 marking guidance): https://www.worksafe.govt.nz/about-us/news-and-media/non-compliant-respiratory-protective-equipment-on-the-market/",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "plastics-glass-reinforced-plastic-resin-casting-chemicals-and-fumes"
@@ -4507,7 +4574,7 @@
       "name": "Plastics: hazards of materials",
       "category": "Plastics",
       "image": "assets/images/dvc-plastics-material-hazards.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -4515,14 +4582,14 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "Teacher only or technician support until a local PHS review explicitly approves otherwise.",
         "notes": []
       },
       "student": {
-        "headline": "Use the correct tool, keep the area tidy and follow your teacher’s safety steps.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Use the correct tool, keep the area tidy and follow your teacher’s safety steps.",
         "ppe": [
           "eye",
           "gloves"
@@ -4534,7 +4601,8 @@
           "Can irritate skin, eyes or breathing"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Read the teacher instructions before starting.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Wear the eye protection your teacher gives you.",
@@ -4542,15 +4610,17 @@
           "Wash and dry your hands after the task."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not start until your teacher has shown you how to do the task safely.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "You can smell strong fumes or the extraction is not working.",
           "There is unexpected smoke, fire or dangerous heat.",
-          "Something looks, sounds or feels unsafe."
+          "Something looks, sounds or feels unsafe.",
+          "The equipment or process is available without teacher control."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "All plastics (polymers) degrade at sufficiently high temperatures, producing fumes with various hazards. Those materials presenting hazards at lower temperatures are discussed here.",
@@ -4586,7 +4656,8 @@
           "ABS should not be heated above its softening point.",
           "Powdered plastics should be handled carefully to avoid the formation of dust clouds but abrading PVC or nylon with hand tools will not cause a problem.",
           "Hands should be washed thoroughly after handling the powder.",
-          "Eye protection and protective gloves should be worn when pouring."
+          "Eye protection and protective gloves should be worn when pouring.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -4614,7 +4685,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.055 - Plastics: hazards of materials"
+          "CLEAPSS Model Risk Assessment 1.055 - Plastics: hazards of materials",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "plastics-hazards-of-materials"
@@ -4625,7 +4697,7 @@
       "name": "Plastics: hot-air welding",
       "category": "Plastics",
       "image": "assets/images/dvc-hot-air-plastic-welding.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -4633,14 +4705,14 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "Teacher only or technician support until a local PHS review explicitly approves otherwise.",
         "notes": []
       },
       "student": {
-        "headline": "Heat, sparks and fumes can hurt you. Use the right PPE and follow the teacher.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Heat, sparks and fumes can hurt you. Use the right PPE and follow the teacher.",
         "ppe": [
           "eye"
         ],
@@ -4654,22 +4726,25 @@
         ],
         "beforeStart": [
           "Get teacher permission before you start.",
-          "Put on eye protection."
+          "Put on eye protection.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Wear the eye protection your teacher gives you."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not start until your teacher has shown you how to do the task safely.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "A plug, lead or electrical part is damaged.",
           "You can smell strong fumes or the extraction is not working.",
           "There is unexpected smoke, fire or dangerous heat.",
-          "Something looks, sounds or feels unsafe."
+          "Something looks, sounds or feels unsafe.",
+          "The equipment or process is available without teacher control."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Thermoplastic materials (eg, polyethylene, polyproylene, ABS or, exceptionally, PVC) are joined using a jet of hot air to melt and fuse the plastics material. A filler rod of the same material may be used to reinforce the joint. The blower may be integral with or remote from the welding nozzle.",
@@ -4706,7 +4781,8 @@
           "Suitable eye protection should be worn and training provided in the use of the equipment.",
           "Both work and equipment should supported adequately.",
           "The route of power leads and hoses should be chosen to minimise the tripping hazard.",
-          "Regular inspection and testing of electrical equipment minimises the risks."
+          "Regular inspection and testing of electrical equipment minimises the risks.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -4730,7 +4806,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.056 - Plastics: hot-air welding"
+          "CLEAPSS Model Risk Assessment 1.056 - Plastics: hot-air welding",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "plastics-hot-air-welding"
@@ -4782,7 +4859,7 @@
           "Ventilation or extraction is not working."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The cutting of expanded polystyrene by means of a wire heated to about 300 °C. NB Only expanded polystyrene may be cut using this equipment, NOT polyurethane foam; rigid polyurethane may be cut and shaped by abrasion in a well-ventilated area while springy polyurethane can be cut by knife. The electrical supply to the cutting wire should not exceed 25 volts and should be supplied through a separated extra-low voltage (SELV) source.",
@@ -4892,7 +4969,7 @@
           "A guard or control does not work correctly."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Plastic materials are heated to such a temperature that they will flow and are then forced under pressure into a metal mould or through a die. Nylon and polyethylene are the materials most commonly used.",
@@ -4920,7 +4997,8 @@
           "Guards should be fitted to prevent plastic being ejected at the user.",
           "The guards must be adequate to withstand explosive failure of the mould or its clamp.",
           "Nylon must be dried before use, following the manufacturer’s instructions.",
-          "Eye protection should be worn when moulding nylon."
+          "Eye protection should be worn when moulding nylon.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -4945,7 +5023,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.058 - Plastics: injection-moulding equipment"
+          "CLEAPSS Model Risk Assessment 1.058 - Plastics: injection-moulding equipment",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "plastics-injection-moulding-equipment"
@@ -4969,14 +5048,18 @@
         "studentUseCandidate": true,
         "minimumYear": "Teacher judgement / senior students as appropriate",
         "supervision": "Direct teacher supervision and local approval required.",
-        "notes": []
+        "notes": [
+          "Active RPE controls updated 24 Aug 2026 to current WorkSafe New Zealand guidance and AS/NZS 1715:2009 / AS/NZS 1716:2012 terminology; archived source extracts remain unchanged for provenance.",
+          "Active RPE controls checked 24 Aug 2026 against current WorkSafe New Zealand guidance and AS/NZS 1715:2009 / AS/NZS 1716:2012 terminology; archived source extracts remain unchanged for provenance."
+        ]
       },
       "student": {
         "headline": "Secure the work, wear eye protection and keep hands and loose items away from the polishing area.",
         "ppe": [
           "eye",
           "hair",
-          "apron"
+          "apron",
+          "dust"
         ],
         "hazards": [
           "Contact with moving parts",
@@ -4985,7 +5068,8 @@
         ],
         "beforeStart": [
           "Check the polishing surface and guards.",
-          "Hold or support the work as shown by your teacher."
+          "Hold or support the work as shown by your teacher.",
+          "Use extraction or LEV first. If the teacher requires RPE, use only the respirator selected and fit-tested for you, and complete a seal check every time."
         ],
         "dos": [
           "Keep a firm grip and polish lightly.",
@@ -5000,7 +5084,7 @@
           "A guard is loose or the machine vibrates badly."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Production of a high-quality surface finish using polishing compounds and a power- driven mop. Final finishing by hand using liquid polish and cloth.",
@@ -5045,7 +5129,10 @@
           "Goggles or a face shield must be worn to protect eyes in mechanical operations.",
           "Hands should be washed thoroughly after using any polishing liquid or compound.",
           "The use of a cleansing cream is advised.",
-          "A nuisance dust mask should be worn in cases of prolonged use or if excessive amount of dust or lint are being shed from a mop."
+          "Use elimination and effective local exhaust ventilation (LEV) or on-tool extraction before relying on RPE; RPE must not be the first or only control.",
+          "Where RPE is required, select it for the contaminant, exposure, task and wearer under AS/NZS 1715:2009, and use respiratory protective devices complying with AS/NZS 1716:2012.",
+          "Tight-fitting RPE must be fit-tested for the wearer by a competent person before first use and at least annually, or when fit changes; complete a seal check every use and do not rely on a tight-fitting facepiece over facial hair or stubble.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -5073,7 +5160,11 @@
         ],
         "references": [
           "CLEAPSS Model Risk Assessment 1.059 - Plastics: polishers",
-          "CLEAPSS Model Risk Assessment 1.060 - Plastics: polishing dusts"
+          "CLEAPSS Model Risk Assessment 1.060 - Plastics: polishing dusts",
+          "WorkSafe New Zealand — Respiratory protective equipment: advice for businesses (current NZ selection, fit-testing and use guidance): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/advice-for-businesses/",
+          "WorkSafe New Zealand — Respiratory protective equipment: advice for workers (fit, seal checks, facial hair and maintenance): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/advice-for-workers/",
+          "WorkSafe New Zealand — Non-compliant respiratory protective equipment on the market (AS/NZS 1716 marking guidance): https://www.worksafe.govt.nz/about-us/news-and-media/non-compliant-respiratory-protective-equipment-on-the-market/",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "plastics-polishers"
@@ -5096,14 +5187,18 @@
         "studentUseCandidate": false,
         "minimumYear": "Teacher judgement / senior students as appropriate",
         "supervision": "Direct teacher supervision and local approval required.",
-        "notes": []
+        "notes": [
+          "Active RPE controls updated 24 Aug 2026 to current WorkSafe New Zealand guidance and AS/NZS 1715:2009 / AS/NZS 1716:2012 terminology; archived source extracts remain unchanged for provenance.",
+          "Active RPE controls checked 24 Aug 2026 against current WorkSafe New Zealand guidance and AS/NZS 1715:2009 / AS/NZS 1716:2012 terminology; archived source extracts remain unchanged for provenance."
+        ]
       },
       "student": {
         "headline": "Control polishing dust and stop if heat, dust or fumes start building up.",
         "ppe": [
           "eye",
           "hair",
-          "apron"
+          "apron",
+          "dust"
         ],
         "hazards": [
           "Dust in eyes or lungs",
@@ -5111,7 +5206,8 @@
           "Mess from polishing compound or waste"
         ],
         "beforeStart": [
-          "Set up extraction and bench protection first."
+          "Set up extraction and bench protection first.",
+          "Use extraction or LEV first. If the teacher requires RPE, use only the respirator selected and fit-tested for you, and complete a seal check every time."
         ],
         "dos": [
           "Use light pressure and keep the work moving.",
@@ -5125,7 +5221,7 @@
           "Too much dust or heat is building up."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Production of a high-quality surface finish using polishing compounds and a power- driven mop. Final finishing by hand using liquid polish and cloth.",
@@ -5157,7 +5253,10 @@
           "Goggles or a face shield must be worn to protect eyes in mechanical operations.",
           "Hands should be washed thoroughly after using any polishing liquid or compound.",
           "The use of a cleansing cream is advised.",
-          "A nuisance dust mask should be worn in cases of prolonged use or if excessive amount of dust or lint are being shed from a mop."
+          "Use elimination and effective local exhaust ventilation (LEV) or on-tool extraction before relying on RPE; RPE must not be the first or only control.",
+          "Where RPE is required, select it for the contaminant, exposure, task and wearer under AS/NZS 1715:2009, and use respiratory protective devices complying with AS/NZS 1716:2012.",
+          "Tight-fitting RPE must be fit-tested for the wearer by a competent person before first use and at least annually, or when fit changes; complete a seal check every use and do not rely on a tight-fitting facepiece over facial hair or stubble.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -5182,7 +5281,11 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.060 - Plastics: polishing dusts"
+          "CLEAPSS Model Risk Assessment 1.060 - Plastics: polishing dusts",
+          "WorkSafe New Zealand — Respiratory protective equipment: advice for businesses (current NZ selection, fit-testing and use guidance): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/advice-for-businesses/",
+          "WorkSafe New Zealand — Respiratory protective equipment: advice for workers (fit, seal checks, facial hair and maintenance): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/advice-for-workers/",
+          "WorkSafe New Zealand — Non-compliant respiratory protective equipment on the market (AS/NZS 1716 marking guidance): https://www.worksafe.govt.nz/about-us/news-and-media/non-compliant-respiratory-protective-equipment-on-the-market/",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "plastics-polishing-dusts"
@@ -5236,7 +5339,7 @@
           "You cannot hold the work safely."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Thermoplastic sheet is heated along a straight line so that it can be folded through a controlled angle. The heat may be supplied by a silica-insulated mains element, one or more bare wires or by ceramic-insulated elements. Line bending heaters with heated tensioned resistance wire have the wire supplied with a current through a separated extra-low voltage (SELV) source.",
@@ -5259,7 +5362,8 @@
         "safeUse": [
           "Normal maintenance is sufficient to control the risk of electric shock.",
           "Some pupils will need warnings not to touch the hot element.",
-          "Heat-proof gloves should be available for handling hot plastic forms."
+          "Heat-proof gloves should be available for handling hot plastic forms.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -5283,7 +5387,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.061 - Plastics: sheet benders"
+          "CLEAPSS Model Risk Assessment 1.061 - Plastics: sheet benders",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "plastics-sheet-benders"
@@ -5337,7 +5442,7 @@
           "The frame, heater or controls do not operate normally."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "In both processes, a thermoplastic sheet is clamped around its edges and heated. In vacuum forming, the air between the mould and the work is evacuated. The mould is then elevated into the sheet. Atmospheric pressure on the material then presses it onto the mould. In pressure forming, air pressure is applied to the underside of the hot sheet forming it into part of a sphere. Some plastics must be pre-heated to dry them.",
@@ -5360,7 +5465,8 @@
         "safeUse": [
           "Simple maintenance checks are sufficient to deal with the pressure system risks.",
           "Heat-resistant gauntlet gloves must be used when moving hot plastic sheets.",
-          "Care should be taken to select the heating rate and/or timer setting to be appropriate for the plastic in use, following the manufacturer’s instructions."
+          "Care should be taken to select the heating rate and/or timer setting to be appropriate for the plastic in use, following the manufacturer’s instructions.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -5386,7 +5492,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.062 - Plastics: vacuum- and pressure-forming equipment"
+          "CLEAPSS Model Risk Assessment 1.062 - Plastics: vacuum- and pressure-forming equipment",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "plastics-vacuum-and-pressure-forming-equipment"
@@ -5440,7 +5547,7 @@
           "The regulator, trigger or fitting is faulty."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The use of compressed air to drive portable power tools. The use of compressed air and related equipment to teach the use of pneumatics.",
@@ -5484,7 +5591,8 @@
           "In some circumstances the teacher may also need to check before air is turned on.",
           "Air receivers should conform to BS 5169 and should be subject to regular internal examination.",
           "There should be a system for draining any condensate from the receiver.",
-          "The receiver must be drained of moisture after use to minimise corrosion."
+          "The receiver must be drained of moisture after use to minimise corrosion.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -5509,7 +5617,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.063 - Pneumatics equipment and compressed air"
+          "CLEAPSS Model Risk Assessment 1.063 - Pneumatics equipment and compressed air",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "pneumatics-equipment-and-compressed-air"
@@ -5520,7 +5629,7 @@
       "name": "Surface finishes: acid treatments (pickling & sample etching)",
       "category": "Surface finishes",
       "image": "assets/images/dvc-acid-pickling-etching.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -5528,14 +5637,14 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "Teacher only or technician support until a local PHS review explicitly approves otherwise.",
         "notes": []
       },
       "student": {
-        "headline": "Protect your skin and eyes, use good ventilation and follow the product rules.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Protect your skin and eyes, use good ventilation and follow the product rules.",
         "ppe": [
           "eye"
         ],
@@ -5547,22 +5656,25 @@
           "Catches fire very easily"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Read the teacher instructions before starting.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Wear the eye protection your teacher gives you."
         ],
         "donts": [
           "Do not start until your teacher has shown you how to do the task safely.",
-          "Keep flames, sparks and ignition sources away."
+          "Keep flames, sparks and ignition sources away.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "You can smell strong fumes or the extraction is not working.",
           "There is unexpected smoke, fire or dangerous heat.",
-          "Something looks, sounds or feels unsafe."
+          "Something looks, sounds or feels unsafe.",
+          "The equipment or process is available without teacher control."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The corrosion resistance of iron and steel can be improved by treatment with sulfuric and phosphoric acids. The Footner process uses immersion in 5% (about 0.5 M) sulfuric acid at 60 °C for 15 minutes, two rinses in hot water and then five minutes in 2% (about 0.2 M) phosphoric acid. When beating copper or gilding metal, it is heated to anneal it from time to time. The copper oxide can be removed by immersing the copper in 0.5 M sulfuric acid for a few minutes. If specimens are being prepared for examination under a metallurgical microscope, the polished surface is often etched with particular solutions to reveal the crystal structure. SEE OVERLEAF FOR DETAILS OF SOLUTIONS.",
@@ -5594,7 +5706,8 @@
           "When staff are diluting the acids they must wear eye protection and add the acid slowly to the water.",
           "The sulfuric acid will need cooling between additions.",
           "When staff are preparing, and students are using, the etching solutions, they MUST wear eye protection.",
-          "When adding nitric acid to ethanol, there should be no naked flames in the room."
+          "When adding nitric acid to ethanol, there should be no naked flames in the room.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -5633,7 +5746,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.064 - Surface finishes: acid treatments (pickling & sample etching)"
+          "CLEAPSS Model Risk Assessment 1.064 - Surface finishes: acid treatments (pickling & sample etching)",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "surface-finishes-acid-treatments-pickling-and-sample-etching"
@@ -5687,7 +5801,7 @@
           "The sprayer spits, leaks or the extraction fails."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The application of paints to 3D graphics models. The application of paint, inks and similar liquids to graphic art work. The air source for an air brush can be one of the following: • a can of air-brush propellant similar to a standard aerosol can; • a car tyre; • a reciprocating air compressor fitted directly to the air-brush hose; • an air compressor with air receiver and suitable regulator. This last method may be through a fixed compressed air line.",
@@ -5731,7 +5845,8 @@
           "Refer to sheet 1.063 for information about the use of air lines and air compressors.",
           "All naked flames and other sources of ignition should be removed before spraying oil-based, spirit-based and other solvent-based liquids.",
           "A suitable extraction system will reduce some of the problems caused by excessive mist.",
-          "Beware of vapour that may remain in the air after spraying is finished."
+          "Beware of vapour that may remain in the air after spraying is finished.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -5772,7 +5887,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.065 - Surface finishes: air brushes and paint sprays"
+          "CLEAPSS Model Risk Assessment 1.065 - Surface finishes: air brushes and paint sprays",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "surface-finishes-air-brushes-and-paint-sprays"
@@ -5783,7 +5899,7 @@
       "name": "Surface finishes: enamelling kilns",
       "category": "Surface finishes",
       "image": "assets/images/dvc-enamelling-kiln.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -5791,14 +5907,14 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "Teacher only or technician support until a local PHS review explicitly approves otherwise.",
         "notes": []
       },
       "student": {
-        "headline": "Heat, sparks and fumes can hurt you. Use the right PPE and follow the teacher.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Heat, sparks and fumes can hurt you. Use the right PPE and follow the teacher.",
         "ppe": [],
         "hazards": [
           "Toxic substance",
@@ -5806,21 +5922,24 @@
           "Burns from hot parts or material"
         ],
         "beforeStart": [
-          "Get teacher permission before you start."
+          "Get teacher permission before you start.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Use the ventilation or extraction your teacher sets up."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not start until your teacher has shown you how to do the task safely.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "You can smell strong fumes or the extraction is not working.",
           "There is unexpected smoke, fire or dangerous heat.",
-          "Something looks, sounds or feels unsafe."
+          "Something looks, sounds or feels unsafe.",
+          "The equipment or process is available without teacher control."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Finely-ground borosilicate glass (coloured by trace metallic compounds) which melts at 800 to 820 °C is fused to the surface of certain metals. Kilns may be either electric or gas fired but some work is done with a blowpipe (torch).",
@@ -5879,7 +5998,7 @@
       "name": "Surface finishes: enamelling materials",
       "category": "Surface finishes",
       "image": "assets/images/enamelling-materials.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -5887,14 +6006,14 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "Teacher only or technician support until a local PHS review explicitly approves otherwise.",
         "notes": []
       },
       "student": {
-        "headline": "Protect your skin and eyes, use good ventilation and follow the product rules.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Protect your skin and eyes, use good ventilation and follow the product rules.",
         "ppe": [
           "eye"
         ],
@@ -5904,21 +6023,24 @@
           "Can irritate skin, eyes or breathing"
         ],
         "beforeStart": [
-          "Read the teacher instructions before starting."
+          "Read the teacher instructions before starting.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Wear the eye protection your teacher gives you.",
           "Wash and dry your hands after the task."
         ],
         "donts": [
-          "Do not start until your teacher has shown you how to do the task safely."
+          "Do not start until your teacher has shown you how to do the task safely.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
           "You can smell strong fumes or the extraction is not working.",
-          "Something looks, sounds or feels unsafe."
+          "Something looks, sounds or feels unsafe.",
+          "The equipment or process is available without teacher control."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Finely-ground borosilicate glass (coloured by trace metallic compounds) which melts at 800 to 820 °C is fused to the surface of certain metals.",
@@ -5947,7 +6069,8 @@
           "Ensure chosen enamels are lead-free.",
           "Do not eat, drink, smoke or apply cosmetics in areas where the material is being used.",
           "Wash hands thoroughly after handling.",
-          "Wear eye protection when heating enamelled surfaces by blowpipe (torch)."
+          "Wear eye protection when heating enamelled surfaces by blowpipe (torch).",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -5975,7 +6098,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.067 - Surface finishes: enamelling materials"
+          "CLEAPSS Model Risk Assessment 1.067 - Surface finishes: enamelling materials",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "surface-finishes-enamelling-materials"
@@ -6029,7 +6153,7 @@
           "Ventilation is poor or you feel unwell."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Many different paints are available in cans to be applied as aerosols. These finishes are very convenient for objects small enough to be placed in a large cardboard box (on its side) to contain the over-spray. Zinc-rich primers often contain toluene in the solvent mixture, others contain up to 35% of xylene. Possible other constituents include MEK, acetone, alcohols and less- hazardous components. The propellant is usually butane.",
@@ -6058,7 +6182,8 @@
           "The use of zinc-rich primer should be avoided unless local exhaust ventilation is available or it is practicable to work in the open air.",
           "Other paints can be used on a small scale in areas with good general ventilation.",
           "Eye protection must be worn and skin contact avoided.",
-          "All naked flames and other sources of ignition must be removed before using aerosol finishes."
+          "All naked flames and other sources of ignition must be removed before using aerosol finishes.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -6083,7 +6208,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.068 - Surface finishes: solvent-based paints (aerosol)"
+          "CLEAPSS Model Risk Assessment 1.068 - Surface finishes: solvent-based paints (aerosol)",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "surface-finishes-solvent-based-paints-aerosol"
@@ -6137,7 +6263,7 @@
           "You feel dizzy or unwell."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Sanding Sealer is a popular wood finish that dries quickly to give a shiny and attractive surface. The main constituent of the recommended thinner is toluene. Hammerite paints (and other ‘hammer finish’ or ‘wrinkle’ paints), often used on metals, contain ground glass in resin with xylene as a major constituent of the solvent. Brushing cellulose also uses a solvent based on xylene.",
@@ -6166,7 +6292,8 @@
           "The use of sanding sealer should be avoided unless local exhaust ventilation is available or it is practicable to work in the open air.",
           "Hammerite paints and brushing cellulose can be used on a small scale in areas with good general ventilation.",
           "Eye protection (spectacles) must be worn and skin contact avoided.",
-          "All naked flames and other sources of ignition must be removed before pouring toluene thinner or toluene-based finishes."
+          "All naked flames and other sources of ignition must be removed before pouring toluene thinner or toluene-based finishes.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -6199,7 +6326,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.069 - Surface finishes: solvent-based paints (liquid)"
+          "CLEAPSS Model Risk Assessment 1.069 - Surface finishes: solvent-based paints (liquid)",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "surface-finishes-solvent-based-paints-liquid"
@@ -6252,7 +6380,7 @@
           "There is a spill, strong smell or unsafe waste build-up."
         ],
         "summaryStatus": "curated",
-        "note": "Student wording is a short PHS-friendly summary. It supports, but does not replace, the full teacher RAMS, local rules, and machine-specific instruction."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Traditional polishes are formulated for multiple thin-coat application to wood to give, with suitable manual polishing, a high-quality finish. They are not intended for exterior use. Polyurethane varnish gives a tough and resistant finish in indoor and outdoor applications. (Some twin-pack polyurethane finishes are not considered suitable for school use: see overleaf.)",
@@ -6282,7 +6410,8 @@
           "Cellulose-based finishes, including sanding sealer and final coats applied as aerosols, should be avoided unless local exhaust ventilation is available.",
           "Eye protection must be worn and skin contact avoided.",
           "All sources of ignition must be removed when using these varnishes.",
-          "White spirit is a mixture of varying composition and the limit value has to be calculated according to the proportions of hazardous components present."
+          "White spirit is a mixture of varying composition and the limit value has to be calculated according to the proportions of hazardous components present.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -6315,7 +6444,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.070 - Surface finishes: varnishes and wood polishes"
+          "CLEAPSS Model Risk Assessment 1.070 - Surface finishes: varnishes and wood polishes",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "surface-finishes-varnishes-and-wood-polishes"

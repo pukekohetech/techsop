@@ -45,7 +45,7 @@ const state = {
   search: '',
   defaultDepartment: 'engineering',
   defaultMode: 'student',
-  studentPublicationMode: 'curated-drafts',
+  studentPublicationMode: 'all-sops',
   view: 'home',
   publicBaseUrl: 'https://pukekohetech.github.io/techsop/',
   printSelectionMode: false,
@@ -114,7 +114,7 @@ async function loadAllData() {
   const site = manifest.site || {};
   state.defaultDepartment = site.defaultDepartment || manifest.defaultDepartment || 'engineering';
   state.defaultMode = site.defaultMode === 'teacher' ? 'teacher' : 'student';
-  state.studentPublicationMode = site.studentPublicationMode === 'approved-only' ? 'approved-only' : 'curated-drafts';
+  state.studentPublicationMode = site.studentPublicationMode || 'all-sops';
   state.publicBaseUrl = normaliseBaseUrl(site.publicBaseUrl || state.publicBaseUrl);
   state.departmentFilter = state.defaultDepartment;
   state.mode = state.defaultMode;
@@ -176,15 +176,11 @@ function datasetAllowsMode(tool, mode) {
 }
 
 function canShowInStudentMode(tool) {
-  // Conservative safety rule: local approval may restrict access, but it cannot
-  // override a teacher-only source, a hidden tool, or an uncurated summary.
+  // Every department SOP is available to students for safety awareness.
+  // Access does not authorise use: restriction badges and SOP wording identify
+  // teacher-only processes and tasks that require permission or supervision.
   if (!datasetAllowsMode(tool, 'student')) return false;
-  if (tool.sourceAccess === 'teacher-only') return false;
-  if (tool.studentVisible === false) return false;
-  if (tool.student?.summaryStatus !== 'curated') return false;
-  if (tool.local?.studentUseApproved === false) return false;
-  if (state.studentPublicationMode === 'approved-only' && tool.local?.studentUseApproved !== true) return false;
-  return true;
+  return Boolean(tool.student);
 }
 
 function departmentCount(departmentId) {
@@ -229,9 +225,7 @@ function renderMode() {
   els.studentModeBtn.setAttribute('aria-pressed', String(student));
   els.teacherModeBtn.setAttribute('aria-pressed', String(!student));
   els.modeHint.textContent = student
-    ? (state.studentPublicationMode === 'approved-only'
-        ? 'Student mode shows locally approved student SOPs only.'
-        : 'Student mode shows curated SOPs; items awaiting local review remain clearly marked DRAFT.')
+    ? 'Student mode shows every SOP for safety awareness. Restricted pages do not authorise students to operate equipment or carry out the task.'
     : 'Teacher mode shows the full RAMS / SOP library with access and local-review status.';
   if (els.qrLabelsBtn) els.qrLabelsBtn.classList.toggle('hidden', student);
 }
@@ -321,6 +315,32 @@ function teacherHomeStatus(tool) {
   if (local.studentUseApproved === false) return { label: 'Student use not approved', cls: 'danger' };
   if (!local.reviewed || tool.localReviewRequired) return { label: 'Local review needed', cls: 'warn' };
   return { label: 'Teacher reference', cls: 'neutral' };
+}
+
+function studentAccessStatus(tool) {
+  const local = tool.local || {};
+  if (tool.sourceAccess === 'teacher-only' || local.studentUseApproved === false) {
+    return {
+      label: 'REFERENCE ONLY • STUDENTS DO NOT OPERATE',
+      cls: 'danger',
+      alert: '<strong>Student safety reference only:</strong> do not operate this equipment or carry out this process. A teacher must control the activity.'
+    };
+  }
+  if (tool.sourceAccess === 'age-or-maturity-restricted') {
+    return {
+      label: 'TEACHER PERMISSION REQUIRED',
+      cls: 'caution',
+      alert: '<strong>Teacher permission required:</strong> age, maturity, training or supervision limits apply. Follow your teacher’s instructions.'
+    };
+  }
+  if (local.studentUseCandidate === false) {
+    return {
+      label: 'TEACHER DIRECTION REQUIRED',
+      cls: 'caution',
+      alert: '<strong>Teacher direction required:</strong> read this page for safety awareness, then follow the local instructions given by your teacher.'
+    };
+  }
+  return { label: 'PUBLISHED STUDENT SOP', cls: 'approved', alert: '' };
 }
 
 function toolPrintableInMode(tool, mode = state.mode) {
@@ -510,14 +530,10 @@ function studentPrintDensity(tool) {
 function renderStudentSop(tool) {
   const s = tool.student || {};
   const source = escapeHtml((tool.sourceSheets || []).join(', '));
-  const reviewBadge = tool.local?.reviewed === true && tool.local?.studentUseApproved === true
-    ? '<span class="student-status-badge approved">PHS approved</span>'
-    : '<span class="student-status-badge draft">DRAFT • PHS review pending</span>';
-  const restrictionBadge = tool.sourceAccess === 'age-or-maturity-restricted'
-    ? '<span class="student-status-badge caution">Teacher approval required</span>'
-    : '';
-  const restrictionNote = tool.sourceAccess === 'age-or-maturity-restricted'
-    ? '<div class="student-alert"><strong>Teacher check:</strong> this activity has age, maturity, training or supervision limits. Follow your teacher’s instructions.</div>'
+  const access = studentAccessStatus(tool);
+  const statusBadge = `<span class="student-status-badge ${access.cls}">${access.label}</span>`;
+  const restrictionNote = access.alert
+    ? `<div class="student-alert ${access.cls}">${access.alert}</div>`
     : '';
 
   return `
@@ -527,7 +543,7 @@ function renderStudentSop(tool) {
           <img src="assets/phs-shield.svg" alt="" aria-hidden="true">
           <span><strong>Pukekohe High School</strong><small>Technology • Student SOP</small></span>
         </div>
-        <div class="student-card-status">${restrictionBadge}${reviewBadge}</div>
+        <div class="student-card-status">${statusBadge}</div>
       </header>
 
       <section class="student-card-hero">
@@ -586,8 +602,7 @@ function renderStudentSop(tool) {
 function renderStudentTwoUpSop(tool, layout = 'two-up') {
   const student = tool.student || {};
   const source = escapeHtml((tool.sourceSheets || []).join(', ') || 'local source');
-  const approved = tool.local?.reviewed === true && tool.local?.studentUseApproved === true;
-  const restricted = tool.sourceAccess === 'age-or-maturity-restricted';
+  const access = studentAccessStatus(tool);
   const actionPanel = (className, iconKey, fallback, kicker, title, items, extra = '') => `
     <section class="two-up-action-panel ${className}">
       <header><span class="two-up-section-icon" aria-hidden="true">${sectionIconHtml(iconKey, fallback)}</span><span><small>${kicker}</small><strong>${title}</strong></span></header>
@@ -599,7 +614,7 @@ function renderStudentTwoUpSop(tool, layout = 'two-up') {
     <article class="student-two-up-card${layout === 'stacked' ? ' student-stacked-card' : ''}">
       <header class="two-up-brandline">
         <div><img src="assets/phs-shield.svg" alt="" aria-hidden="true"><span><strong>Pukekohe High School</strong><small>Technology • Student SOP</small></span></div>
-        <span class="two-up-status ${approved ? 'approved' : 'draft'}">${approved ? 'PHS approved' : 'DRAFT • Review pending'}</span>
+        <span class="two-up-status ${access.cls}">${access.label}</span>
       </header>
 
       <section class="two-up-hero">
@@ -616,7 +631,7 @@ function renderStudentTwoUpSop(tool, layout = 'two-up') {
         <div class="ppe-grid">${renderPpe(student.ppe || [])}</div>
       </section>
 
-      ${restricted ? '<p class="two-up-alert"><strong>Teacher approval required:</strong> follow all training, maturity and supervision limits.</p>' : ''}
+      ${access.alert ? `<p class="two-up-alert ${access.cls}">${access.alert}</p>` : ''}
 
       <section class="two-up-action-grid">
         ${actionPanel('watch', 'hazards', '!', 'WATCH OUT', 'Hazards', student.hazards, renderHazardTags(student.hazardTags || []))}

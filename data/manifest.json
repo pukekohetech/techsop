@@ -7,8 +7,8 @@
     "publicBaseUrl": "https://pukekohetech.github.io/techsop/",
     "routeStyle": "friendly-hash-v1",
     "qrCodeDirectory": "assets/qrcodes/student",
-    "studentPublicationMode": "curated-drafts",
-    "showDraftStatusOnQrLabels": true
+    "studentPublicationMode": "all-sops",
+    "showDraftStatusOnQrLabels": false
   },
   "datasets": [
     {
@@ -57,6 +57,7 @@
       "enabled": true,
       "order": 900,
       "modes": [
+        "student",
         "teacher"
       ]
     }

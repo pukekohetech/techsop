@@ -28,7 +28,7 @@
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
-        "PHS general workshop safety draft",
+        "PHS general workshop safety SOP",
         "WorkSafe New Zealand machinery and PPE guidance"
       ],
       "local": {
@@ -87,7 +87,7 @@
           "There is an injury, spill, fire, power failure or anything feels unsafe."
         ],
         "summaryStatus": "curated",
-        "note": "General workshop rules apply alongside the exact tool or machine SOP. They do not replace teacher instruction, training, permission or supervision."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "General entry, conduct and housekeeping controls for student work in a school engineering or materials workshop. This record supports, but does not replace, the task-specific SOP/RAMS, manufacturer instructions, machine guarding requirements, emergency plan or local school procedures.",
@@ -120,7 +120,8 @@
           "Maintain clear separation between operators, observers and passing students.",
           "Keep guards and safety devices in place, and require secure workholding and correct tooling.",
           "Maintain effective housekeeping, extraction, ventilation and safe storage throughout the lesson.",
-          "Stop work immediately when behaviour, equipment, supervision or environmental conditions are unsafe."
+          "Stop work immediately when behaviour, equipment, supervision or environmental conditions are unsafe.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [
           "Isolate equipment using the approved procedure before clearing jams, cleaning, adjustment or maintenance.",
@@ -149,12 +150,13 @@
           "Adapt this general record to the actual room, class, equipment and planned activity.",
           "Check current WorkSafe New Zealand guidance, PHS procedures and manufacturer instructions.",
           "Verify that every student understands the stop-work rule and knows how to summon help.",
-          "Do not treat this draft as automatic permission for student use."
+          "Do not treat publication as automatic permission for student use."
         ],
         "references": [
           "WorkSafe New Zealand — Personal protective equipment: a guide for workers: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/personal-protective-equipment-a-guide-for-workers/",
           "WorkSafe New Zealand — Keeping workers safe with machine lockouts: https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts/",
-          "WorkSafe New Zealand — First aid at work: https://www.worksafe.govt.nz/managing-health-and-safety/businesses/general-requirements-for-workplaces/first-aid/"
+          "WorkSafe New Zealand — First aid at work: https://www.worksafe.govt.nz/managing-health-and-safety/businesses/general-requirements-for-workplaces/first-aid/",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Active teacher supervision matched to the equipment, class, student competence and current task.",
         "training": "Workshop induction plus demonstrated competency and permission for every specific tool, machine and process."
@@ -224,7 +226,7 @@
           "Something looks or feels unsafe."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The use of hacksaws to cut metal. The use of cold chisels to cut metal. The use of files on metal.",
@@ -256,7 +258,8 @@
           "Care should be taken to ensure that at no time is the saw cutting towards any part of the body of the operator, or any assistant who may be holding the work.",
           "Wooden file handles should be checked regularly for tightness or for splits and should be replaced when necessary.",
           "Plastic handles are usually more robust and are less likely to work loose.",
-          "Students should be instructed to seek assistance from a teacher or technician should they find that a file handle is loose."
+          "Students should be instructed to seek assistance from a teacher or technician should they find that a file handle is loose.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -280,7 +283,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.012 - Cutting and shaping metal by hand"
+          "CLEAPSS Model Risk Assessment 1.012 - Cutting and shaping metal by hand",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -352,7 +356,7 @@
           "You are burned or something feels unsafe."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The creation of a joint between either the faces of sheet metal components or between wires and terminals using molten solder with a flux. Soft solder is an alloy of tin and lead with traces of other metals. The flux may be in cores in the solder or supplied as a liquid or jelly. The most common materials are: rosin (also called colophony) - a compound which decomposes at high temperatures; halides, eg, ammonium chloride and zinc chloride (‘active fluxes’). Newer fluxes (eg, Multicore Ecosol 105 or Omega) are based on organic acids. Pyrography is the creation of patterns, using heat, mainly on wood and leather. The creation of a joint between either the faces of sheet metal components or between wires and terminals using molten solder with a flux. Soft solder is an alloy of tin and lead with traces of other metals. The flux may be in cores in the solder or supplied as a liquid or jelly. The most common materials are: rosin (also called colophony) - a compound which decomposes at high temperatures; halides, eg, ammonium chloride and zinc chloride (‘active fluxes’). Newer fluxes (eg, Multicore Ecosol 105 or Omega) are based on organic acids. There is an increasing use of lead free solder and it is likely that solder containing lead will be phased out.",
@@ -398,7 +402,8 @@
           "When using rosin-free (colophony-free) fluxes, ventilation produced by opening windows near the working area will normally be sufficient to control the fumes.",
           "If work with rosin flux continues, local exhaust ventilation will be required.",
           "The only way of controlling the sensitisation risk is to stop using rosin-based fluxes.",
-          "Simple protective spectacles should be adequate."
+          "Simple protective spectacles should be adequate.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -440,7 +445,8 @@
         ],
         "references": [
           "CLEAPSS Model Risk Assessment 1.026 - Heat processes: soldering irons",
-          "CLEAPSS Model Risk Assessment 1.025 - Heat processes: soft-soldering, fumes and fluxes"
+          "CLEAPSS Model Risk Assessment 1.025 - Heat processes: soft-soldering, fumes and fluxes",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -472,7 +478,8 @@
         "supervision": "Teacher instruction and supervision required.",
         "notes": [
           "Student wording curated 22 Aug 2026 from the listed source material.",
-          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval.",
+          "Active welding eye-protection and fume controls updated 24 Aug 2026 to current WorkSafe New Zealand guidance; archived source extracts remain unchanged for provenance."
         ]
       },
       "student": {
@@ -514,7 +521,7 @@
           "A hot item is not safely controlled."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The bonding together of two pieces of metal, the joint being created by a layer of molten alloy, the flow of which is assisted by a flux. Brazing utilises a filler alloy having copper as the major constituent and is a higher-temperature process than silver soldering, where the filler alloy contains a high proportion of silver.",
@@ -555,7 +562,10 @@
           "If powder fluxes are used, they should be mixed in a special flux tray positioned to minimise dispersion of the powder into the air.",
           "Preference should be for ready-mixed paste.",
           "Thoroughly wash hands after work or prior to visiting the toilet.",
-          "Boron trifluoride does not have an official WEL: this is based on that for the tribromide."
+          "Boron trifluoride does not have an official WEL: this is based on that for the tribromide.",
+          "Select eye and face protection for the process and exposure in accordance with AS/NZS 1337/1337.1 and AS/NZS 1338.1, the equipment manufacturer instructions and the local risk assessment.",
+          "WorkSafe states that all welding fume is carcinogenic and there is no known safe exposure level. Use effective source capture/LEV and determine any additional RPE through the local risk assessment.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -590,7 +600,10 @@
         ],
         "references": [
           "CLEAPSS Model Risk Assessment 1.016 - Heat processes: brazing, silver soldering",
-          "CLEAPSS Model Risk Assessment 1.017 - Heat processes: brazing, silver soldering, fumes and fluxes"
+          "CLEAPSS Model Risk Assessment 1.017 - Heat processes: brazing, silver soldering, fumes and fluxes",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/",
+          "WorkSafe New Zealand — Welding health and safety good practice guidelines (welding fume and PPE standards): https://www.worksafe.govt.nz/assets/dmsassets/WKS-13-Welding-GPG.pdf",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -657,7 +670,7 @@
           "There is fire outside the work area."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Small soldering jobs requiring a flame or the annealing of small metal objects with a blowtorch attached to a small cartridge of butane.",
@@ -686,7 +699,8 @@
           "Cartridges must be checked for leakage after use and stored correctly.",
           "Even small blowtorches must be used in a non-flammable area.",
           "Heat-protective goggles are not likely to be necessary.",
-          "Heat-proof gloves should be available for handling the work and for dismantling the blowtorch."
+          "Heat-proof gloves should be available for handling the work and for dismantling the blowtorch.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -709,7 +723,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.018 - Heat processes: butane blowtorch"
+          "CLEAPSS Model Risk Assessment 1.018 - Heat processes: butane blowtorch",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -783,7 +798,7 @@
           "The route around the pour is not clear."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The production of a one-piece component, often of complex shape, from molten metal poured into the cavity of a mould which may be of sand, steel, plaster or cuttlefish ‘bone’. Composite moulds, eg, thin MDF forms between steel plates, are sometimes used for one-off exercises, especially when using low-melting point metals.",
@@ -827,7 +842,8 @@
           "Local exhaust ventilation to the outside air is required which, under COSHH Regulations, must be tested every 14 months.",
           "Smoke release, occasioned by separating the casting and the oil-bonded sand mould can, if time allows, be effectively reduced by extending the cooling period to hours rather than minutes.",
           "Those having hypersensitive skin should use an appropriate barrier cream or industrial gloves when creating a mould.",
-          "Hands should be washed following completion of any part of the process and prior to using the toilets."
+          "Hands should be washed following completion of any part of the process and prior to using the toilets.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -876,7 +892,8 @@
         ],
         "references": [
           "CLEAPSS Model Risk Assessment 1.019 - Heat processes: casting",
-          "CLEAPSS Model Risk Assessment 1.020 - Heat processes: casting, fumes and sand"
+          "CLEAPSS Model Risk Assessment 1.020 - Heat processes: casting, fumes and sand",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -907,7 +924,8 @@
         "supervision": "Teacher instruction and supervision required.",
         "notes": [
           "Student wording curated 22 Aug 2026 from the listed source material.",
-          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval.",
+          "Active welding eye-protection and fume controls updated 24 Aug 2026 to current WorkSafe New Zealand guidance; archived source extracts remain unchanged for provenance."
         ]
       },
       "student": {
@@ -949,7 +967,7 @@
           "There is unexpected smoke, steam or fire."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The forming of shapes, possibly incorporating irregular and variable cross-section, by the application of localised heat which allows relatively easy transformation by mechanically- or physically-applied effort.",
@@ -982,7 +1000,10 @@
           "It will also protect against sparks and hot scale.",
           "Eye protection is marked with a number which describes the darkness of the filter, a manufacturer’s mark and a robustness code which may be a number or a letter and number.",
           "For forge work, it should have the following codes on each ocular (lens) where X is the manufacturer’s mark: 4 or 5 X 1 or 2 B or F 9.",
-          "Extraction equipment exhausting to the outside air is required and must, under the COSHH Regulations, be tested every 14 months."
+          "Extraction equipment exhausting to the outside air is required and must, under the COSHH Regulations, be tested every 14 months.",
+          "Select eye and face protection for the process and exposure in accordance with AS/NZS 1337/1337.1 and AS/NZS 1338.1, the equipment manufacturer instructions and the local risk assessment.",
+          "WorkSafe states that all welding fume is carcinogenic and there is no known safe exposure level. Use effective source capture/LEV and determine any additional RPE through the local risk assessment.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -1008,7 +1029,10 @@
         ],
         "references": [
           "CLEAPSS Model Risk Assessment 1.021 - Heat processes: forging",
-          "CLEAPSS Model Risk Assessment 1.022 - Heat processes: forging, fumes"
+          "CLEAPSS Model Risk Assessment 1.022 - Heat processes: forging, fumes",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/",
+          "WorkSafe New Zealand — Welding health and safety good practice guidelines (welding fume and PPE standards): https://www.worksafe.govt.nz/assets/dmsassets/WKS-13-Welding-GPG.pdf",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -1040,7 +1064,8 @@
         "supervision": "Teacher instruction and supervision required.",
         "notes": [
           "Student wording curated 22 Aug 2026 from the listed source material.",
-          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval.",
+          "Active welding eye-protection and fume controls updated 24 Aug 2026 to current WorkSafe New Zealand guidance; archived source extracts remain unchanged for provenance."
         ]
       },
       "student": {
@@ -1083,7 +1108,7 @@
           "There is a fire or unexpected arcing."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The creation of a joint using a filler (welding rod) of similar composition to the metal being joined. The electric arc gives rise to fumes from the electrode coatings, metallic oxides, any paint or surface contaminant and possibly to ozone and nitrogen oxides.",
@@ -1126,14 +1151,15 @@
           "Earthing is not necessary if the current supply has reinforced insulation as shown by the identification symbol consisting of two circles within a shield.",
           "Welding should be carried away from combustible materials, including timber.",
           "Eye protection is marked with a number which describes the darkness of the filter, a manufacturer’s mark and a robustness code which may be a number or a letter and number.",
-          "Face shields for arc welding should now have the following codes on the ocular (lens) where X is the manufacturer’s mark: 10, 11 or 12 X 1 or 2 B or S EN169.",
-          "Older ones should carry the code EW 10, 11 or 12 and the old BS number 679.",
           "The filters specified for gas welding are adequate for observers.",
           "Heat processes: Welding - Electric Arc Continued)",
           "Good general ventilation, which must be maintained at all times, will keep fume levels down as well as removing any ozone.",
           "Painted surfaces should be chemically stripped (see dichloromethane on sheet 1.007) before welding in case the paint contains lead.",
           "The ventilation required to control the toxic hazard also eliminates the irritant one.",
-          "See sheet 1.027 for eye protection requirements."
+          "See sheet 1.027 for eye protection requirements.",
+          "Select eye and face protection for the process and exposure in accordance with AS/NZS 1337/1337.1 and AS/NZS 1338.1, the equipment manufacturer instructions and the local risk assessment.",
+          "WorkSafe states that all welding fume is carcinogenic and there is no known safe exposure level. Use effective source capture/LEV and determine any additional RPE through the local risk assessment.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -1176,7 +1202,10 @@
         ],
         "references": [
           "CLEAPSS Model Risk Assessment 1.027 - Heat processes: welding - electric arc",
-          "CLEAPSS Model Risk Assessment 1.028 - Heat processes: welding - electric arc fumes"
+          "CLEAPSS Model Risk Assessment 1.028 - Heat processes: welding - electric arc fumes",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/",
+          "WorkSafe New Zealand — Welding health and safety good practice guidelines (welding fume and PPE standards): https://www.worksafe.govt.nz/assets/dmsassets/WKS-13-Welding-GPG.pdf",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -1207,7 +1236,8 @@
         "supervision": "Teacher instruction and supervision required.",
         "notes": [
           "Student wording curated 22 Aug 2026 from the listed source material.",
-          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval.",
+          "Active welding eye-protection and fume controls updated 24 Aug 2026 to current WorkSafe New Zealand guidance; archived source extracts remain unchanged for provenance."
         ]
       },
       "student": {
@@ -1250,7 +1280,7 @@
           "There is a fire or unexpected fault."
         ],
         "summaryStatus": "curated",
-        "note": "Curated from the supplied electric-arc welding RAMS. The source gives core arc/fume controls but not a complete MIG-specific machine setup, so the exact manufacturer manual and local procedure are essential."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The creation of a joint using a filler (welding rod) of similar composition to the metal being joined. The electric arc gives rise to fumes from the electrode coatings, metallic oxides, any paint or surface contaminant and possibly to ozone and nitrogen oxides.",
@@ -1293,14 +1323,15 @@
           "Earthing is not necessary if the current supply has reinforced insulation as shown by the identification symbol consisting of two circles within a shield.",
           "Welding should be carried away from combustible materials, including timber.",
           "Eye protection is marked with a number which describes the darkness of the filter, a manufacturer’s mark and a robustness code which may be a number or a letter and number.",
-          "Face shields for arc welding should now have the following codes on the ocular (lens) where X is the manufacturer’s mark: 10, 11 or 12 X 1 or 2 B or S EN169.",
-          "Older ones should carry the code EW 10, 11 or 12 and the old BS number 679.",
           "The filters specified for gas welding are adequate for observers.",
           "Heat processes: Welding - Electric Arc Continued)",
           "Good general ventilation, which must be maintained at all times, will keep fume levels down as well as removing any ozone.",
           "Painted surfaces should be chemically stripped (see dichloromethane on sheet 1.007) before welding in case the paint contains lead.",
           "The ventilation required to control the toxic hazard also eliminates the irritant one.",
-          "See sheet 1.027 for eye protection requirements."
+          "See sheet 1.027 for eye protection requirements.",
+          "Select eye and face protection for the process and exposure in accordance with AS/NZS 1337/1337.1 and AS/NZS 1338.1, the equipment manufacturer instructions and the local risk assessment.",
+          "WorkSafe states that all welding fume is carcinogenic and there is no known safe exposure level. Use effective source capture/LEV and determine any additional RPE through the local risk assessment.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -1344,7 +1375,10 @@
         ],
         "references": [
           "CLEAPSS Model Risk Assessment 1.027 - Heat processes: welding - electric arc",
-          "CLEAPSS Model Risk Assessment 1.028 - Heat processes: welding - electric arc fumes"
+          "CLEAPSS Model Risk Assessment 1.028 - Heat processes: welding - electric arc fumes",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/",
+          "WorkSafe New Zealand — Welding health and safety good practice guidelines (welding fume and PPE standards): https://www.worksafe.govt.nz/assets/dmsassets/WKS-13-Welding-GPG.pdf",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -1377,7 +1411,8 @@
         "supervision": "Teacher instruction and supervision required.",
         "notes": [
           "Student wording curated 22 Aug 2026 from the listed source material.",
-          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval.",
+          "Active welding eye-protection and fume controls updated 24 Aug 2026 to current WorkSafe New Zealand guidance; archived source extracts remain unchanged for provenance."
         ]
       },
       "student": {
@@ -1420,7 +1455,7 @@
           "Ventilation is poor or a fire starts."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The combustion of any fuel, eg, acetylene, propane or methane, with oxygen from a cylinder rather than air at normal or increased pressure, gives a hotter flame that is often easier to control. The creation of a joint using a filler (welding rod) of similar composition to the metal being joined. The combustion of the fuel gives rise to hazardous fumes.",
@@ -1482,7 +1517,10 @@
           "Good general ventilation must be maintained at all times which will keep fume levels well below the value for general welding fumes which may produce problems..",
           "Painted surfaces should be stripped before welding in case the paint contains lead.",
           "Local exhaust ventilation will be necessary only where the general ventilation cannot be described as ‘good’.",
-          "The ventilation required to control the toxic hazard also eliminates the irritant one."
+          "The ventilation required to control the toxic hazard also eliminates the irritant one.",
+          "Select eye and face protection for the process and exposure in accordance with AS/NZS 1337/1337.1 and AS/NZS 1338.1, the equipment manufacturer instructions and the local risk assessment.",
+          "WorkSafe states that all welding fume is carcinogenic and there is no known safe exposure level. Use effective source capture/LEV and determine any additional RPE through the local risk assessment.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -1539,7 +1577,10 @@
         "references": [
           "CLEAPSS Model Risk Assessment 1.023 - Heat processes: oxygen and oxygen cylinders",
           "CLEAPSS Model Risk Assessment 1.029 - Heat processes: welding - oxy-acetylene",
-          "CLEAPSS Model Risk Assessment 1.030 - Heat processes: welding - oxy-acetylene fumes"
+          "CLEAPSS Model Risk Assessment 1.030 - Heat processes: welding - oxy-acetylene fumes",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/",
+          "WorkSafe New Zealand — Welding health and safety good practice guidelines (welding fume and PPE standards): https://www.worksafe.govt.nz/assets/dmsassets/WKS-13-Welding-GPG.pdf",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -1558,7 +1599,7 @@
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
-        "PHS local draft"
+        "PHS local SOP"
       ],
       "local": {
         "reviewed": false,
@@ -1611,7 +1652,7 @@
           "Welds repeatedly fail or something feels wrong."
         ],
         "summaryStatus": "curated",
-        "note": "Carried forward from the prior PHS 2026 workshop SOP library. No dedicated spot-welder sheet was found in the supplied CLEAPSS Technology RAMS, so the exact model manual and local PHS assessment are required."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Resistance spot welding of approved clean sheet metal. This entry is carried forward from the prior Pukekohe High School workshop SOP library. The supplied CLEAPSS Technology RAMS does not contain a dedicated spot-welder sheet, so the exact machine manual and a local PHS risk assessment remain essential.",
@@ -1641,7 +1682,8 @@
           "Only the authorised operator controls the machine.",
           "Keep fingers and body parts clear of the electrode closing and clamping zone.",
           "Prevent accidental pedal operation while positioning work.",
-          "Stop and report sticking electrodes, overheating, unusual noise, damaged controls or repeated poor welds."
+          "Stop and report sticking electrodes, overheating, unusual noise, damaged controls or repeated poor welds.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [
           "Isolate the machine before clearing, adjusting, changing electrodes, cleaning or maintenance."
@@ -1661,7 +1703,8 @@
         ],
         "references": [
           "Prior PHS Workshop Tool SOP Library 2026 (supplemental local source).",
-          "No dedicated spot-welder sheet was found in the supplied CLEAPSS RAMS TECHNOLOGY.pdf; general hot-work principles alone are not sufficient for final approval."
+          "No dedicated spot-welder sheet was found in the supplied CLEAPSS RAMS TECHNOLOGY.pdf; general hot-work principles alone are not sufficient for final approval.",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "spot-welder"
@@ -1694,7 +1737,9 @@
         "supervision": "Teacher instruction and supervision required.",
         "notes": [
           "Student wording curated 22 Aug 2026 from the listed source material.",
-          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval.",
+          "Active RPE controls updated 24 Aug 2026 to current WorkSafe New Zealand guidance and AS/NZS 1715:2009 / AS/NZS 1716:2012 terminology; archived source extracts remain unchanged for provenance.",
+          "Active RPE controls checked 24 Aug 2026 against current WorkSafe New Zealand guidance and AS/NZS 1715:2009 / AS/NZS 1716:2012 terminology; archived source extracts remain unchanged for provenance."
         ]
       },
       "student": {
@@ -1702,7 +1747,8 @@
         "ppe": [
           "eye",
           "apron",
-          "hair"
+          "hair",
+          "dust"
         ],
         "hazards": [
           "A damaged grinding wheel can break and throw pieces",
@@ -1715,7 +1761,8 @@
           "Get teacher permission and wear eye protection.",
           "Check guards are in place.",
           "Check the grinder tool rest is close to the wheel; tell the teacher if the gap is more than 3 mm.",
-          "Tie back hair and secure jewellery and loose clothing."
+          "Tie back hair and secure jewellery and loose clothing.",
+          "Use extraction or LEV first. If the teacher requires RPE, use only the respirator selected and fit-tested for you, and complete a seal check every time."
         ],
         "dos": [
           "Use the rest or fence set for the job.",
@@ -1736,7 +1783,7 @@
           "The work gets too hot to hold safely."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Surface grinding The completion of a workpiece to a very high standard of surface finish and flatness to close tolerance. Tool grinding: The profiling and sharpening of tool bits for metal turning and shaping operations and the sharpening of twist drills. Production of a high-quality surface finish using an abrasive belt (linisher), graded polishing wheels or polishing compounds and a power-driven mop. Final finishing could be done by hand using liquid polish and a cloth.",
@@ -1794,7 +1841,6 @@
           "The gap between the rest and the wheel should not exceed 3 mm.",
           "The guard should also cover the spindle ends.",
           "Long hair must be tied back; jewellery should be removed or covered and loose clothing covered by a secure apron or overall.",
-          "A dust mask to standard FFP1 must be used when the risk assessment requires it.",
           "Eye protection giving protection to at least BS EN 166 F2 must be worn when grinding.",
           "If the grinder is not fitted with a transparent guard, goggles to the higher standard BS EN 166 B 4 must be used.",
           "Eye protection originating outside the UK may not be marked ‘BS’ (British Standard) but should include ‘EN’ (European Norm).",
@@ -1803,10 +1849,13 @@
           "Eye protection should always be worn.",
           "Guards should be used to reduce the risk when the assessment shows them to be practicable.",
           "The whole of the exposed spindle on both sides of the polishing mop should always be guarded, eg, by the use of adjustable telescopic guards.",
-          "A nuisance dust mask should be worn in cases of prolonged use or if excessive amounts of dust or lint are being shed from a mop.",
           "Goggles or a face shield must be worn to protect eyes, particularly when using cold- adhesive cement.",
           "Safer alternative adhesives are available for abrasive discs (eg, Evo-Stik Impact 2).",
-          "Hands should be washed thoroughly after using any polishing compound."
+          "Hands should be washed thoroughly after using any polishing compound.",
+          "Use elimination and effective local exhaust ventilation (LEV) or on-tool extraction before relying on RPE; RPE must not be the first or only control.",
+          "Where RPE is required, select it for the contaminant, exposure, task and wearer under AS/NZS 1715:2009, and use respiratory protective devices complying with AS/NZS 1716:2012.",
+          "Tight-fitting RPE must be fit-tested for the wearer by a competent person before first use and at least annually, or when fit changes; complete a seal check every use and do not rely on a tight-fitting facepiece over facial hair or stubble.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -1859,7 +1908,11 @@
           "CLEAPSS Model Risk Assessment 1.035 - Metal working: grinding, surface and tool",
           "CLEAPSS Model Risk Assessment 1.034 - Metal working: dust from grinding",
           "CLEAPSS Model Risk Assessment 1.040 - Metal working: polishing and linishing",
-          "CLEAPSS Model Risk Assessment 1.041 - Metal working: polishing dust and polishing materials"
+          "CLEAPSS Model Risk Assessment 1.041 - Metal working: polishing dust and polishing materials",
+          "WorkSafe New Zealand — Respiratory protective equipment: advice for businesses (current NZ selection, fit-testing and use guidance): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/advice-for-businesses/",
+          "WorkSafe New Zealand — Respiratory protective equipment: advice for workers (fit, seal checks, facial hair and maintenance): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/advice-for-workers/",
+          "WorkSafe New Zealand — Non-compliant respiratory protective equipment on the market (AS/NZS 1716 marking guidance): https://www.worksafe.govt.nz/about-us/news-and-media/non-compliant-respiratory-protective-equipment-on-the-market/",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -1928,7 +1981,7 @@
           "Someone enters the operating area."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Guillotines: Both hand-operated and treadle-operated, scissor-action guillotines (shears) are used in education for cutting sheet metal. Notchers or nibblers: This type of guillotine works by removing a slice of material (kerf) allowing the cut to be achieved without distortion. Since the kerf is cropped off at each stroke, the machine can produce notches of rectangular and other shapes in both metals and plastics. Hand-held nibblers may consist of an accessory fitted to a portable drill. Folding machines: These machines are used to bend sheet metal. Rolling machines: When fitted with three rollers, these machines may be used to roll sheet metal into a cylindrical shape. Machines with two rollers are used to make sheet and wires thinner. Universal machines: Combine cutting, folding and rolling operations in one machine.",
@@ -2060,7 +2113,7 @@
           "Something feels unsafe."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Guillotines: Both hand-operated and treadle-operated, scissor-action guillotines (shears) are used in education for cutting sheet metal. Notchers or nibblers: This type of guillotine works by removing a slice of material (kerf) allowing the cut to be achieved without distortion. Since the kerf is cropped off at each stroke, the machine can produce notches of rectangular and other shapes in both metals and plastics. Hand-held nibblers may consist of an accessory fitted to a portable drill. Folding machines: These machines are used to bend sheet metal. Rolling machines: When fitted with three rollers, these machines may be used to roll sheet metal into a cylindrical shape. Machines with two rollers are used to make sheet and wires thinner. Universal machines: Combine cutting, folding and rolling operations in one machine.",
@@ -2160,7 +2213,7 @@
       "student": {
         "headline": "Keep fingers out of the rollers and closing points. Control the sheet and keep other people clear.",
         "ppe": [
-          "sheet-gloves"
+          "eye"
         ],
         "hazards": [
           "Rollers and closing points can trap fingers",
@@ -2177,7 +2230,8 @@
           "Keep fingers clear of the rollers and nip points.",
           "Feed and support the sheet only by the method shown.",
           "Keep others clear of the handle and moving sheet.",
-          "Use sheet-handling gloves for large sharp sheets when directed."
+          "Handle stationary sharp sheet with suitable gloves only when directed; remove full-finger gloves before feeding sheet into rollers.",
+          "If the assessed feeding method requires hand protection near the rollers, use only suitable fingerless gloves as directed by the teacher."
         ],
         "donts": [
           "Do not reach between rollers.",
@@ -2192,11 +2246,13 @@
           "You cannot control the work safely."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Guillotines: Both hand-operated and treadle-operated, scissor-action guillotines (shears) are used in education for cutting sheet metal. Notchers or nibblers: This type of guillotine works by removing a slice of material (kerf) allowing the cut to be achieved without distortion. Since the kerf is cropped off at each stroke, the machine can produce notches of rectangular and other shapes in both metals and plastics. Hand-held nibblers may consist of an accessory fitted to a portable drill. Folding machines: These machines are used to bend sheet metal. Rolling machines: When fitted with three rollers, these machines may be used to roll sheet metal into a cylindrical shape. Machines with two rollers are used to make sheet and wires thinner. Universal machines: Combine cutting, folding and rolling operations in one machine.",
-        "ppe": [],
+        "ppe": [
+          "eye"
+        ],
         "hazards": [
           "Trapping: Movement between cutting or closing surfaces can result in serious injury.",
           "User injury: Contact with the operating handle or treadle can cause an impact injury.",
@@ -2226,7 +2282,9 @@
           "All types of sheet metal cutting, folding and rolling machines should be locked in a safe condition when not in use.",
           "Industrial-type gloves should be used to handle large sheets of materials with sharp edges.",
           "Individual tasks involving large or heavy sheets must be assessed for manual handling risks and assistance obtained where necessary.",
-          "Tools with integral re-chargeable batteries or powered by compressed air minimise the electric shock risk."
+          "Tools with integral re-chargeable batteries or powered by compressed air minimise the electric shock risk.",
+          "Full-finger gloves must not be worn while feeding sheet into rollers because glove fingers can be caught and draw the hand into the machine. If the task-specific assessment requires hand protection during feeding, use suitable fingerless gloves only.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -2256,7 +2314,9 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.036 - Metal working: guillotines, folding and rolling equipment"
+          "CLEAPSS Model Risk Assessment 1.036 - Metal working: guillotines, folding and rolling equipment",
+          "WorkSafe New Zealand — Three-roll bending machines (roller hazards and fingerless-glove guidance): https://www.worksafe.govt.nz/topic-and-industry/machinery/three-roll-bending-machines/",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -2329,7 +2389,7 @@
           "Anything looks, sounds or feels wrong."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Turning: The production by turning, facing, boring, screw cutting, centre drilling and knurling of primarily cylindrical or spherical forms from both ferrous and non-ferrous raw material, or appropriate plastics possibly using oil-based coolants.",
@@ -2379,7 +2439,8 @@
           "The instructions stated by the suppliers of the coolants must be followed, particularly when diluting for use and pouring from one container to another.",
           "Eye protection (against swarf and coolant spray) must be worn at all times.",
           "Hands should be washed after work and prior to using the toilets.",
-          "The risk of harm from Legionella bacteria and other organisms can be reduced by regular draining and cleaning of cutting oil systems and replacement with fresh oil."
+          "The risk of harm from Legionella bacteria and other organisms can be reduced by regular draining and cleaning of cutting oil systems and replacement with fresh oil.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -2431,7 +2492,8 @@
         ],
         "references": [
           "CLEAPSS Model Risk Assessment 1.037 - Metal working: lathes - metal turning",
-          "CLEAPSS Model Risk Assessment 1.033 - Metal working: cutting oils"
+          "CLEAPSS Model Risk Assessment 1.033 - Metal working: cutting oils",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "metal-lathe"
@@ -2503,7 +2565,7 @@
           "You are unsure about the setup."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Milling: The removal of material to provide a finished form of close tolerance and good surface finish. Milling may be used to form flat surfaces, grooves or recesses.",
@@ -2554,7 +2616,8 @@
           "The instructions stated by the suppliers of the coolants must be followed, particularly when diluting for use and pouring from one container to another.",
           "Eye protection (against swarf and coolant spray) must be worn at all times.",
           "Hands should be washed after work and prior to using the toilets.",
-          "The risk of harm from Legionella bacteria and other organisms can be reduced by regular draining and cleaning of cutting oil systems and replacement with fresh oil."
+          "The risk of harm from Legionella bacteria and other organisms can be reduced by regular draining and cleaning of cutting oil systems and replacement with fresh oil.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -2607,7 +2670,8 @@
         ],
         "references": [
           "CLEAPSS Model Risk Assessment 1.038 - Metal working: milling machines",
-          "CLEAPSS Model Risk Assessment 1.033 - Metal working: cutting oils"
+          "CLEAPSS Model Risk Assessment 1.033 - Metal working: cutting oils",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "milling-machine"
@@ -2678,7 +2742,7 @@
           "A guard or stop control is not working."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The cutting of holes in sheet or block materials. Cutting oils or other lubricants may sometimes be required particularly when drilling mild steel.",
@@ -2728,7 +2792,8 @@
           "The instructions stated by the suppliers of the coolants must be followed, particularly when diluting for use and pouring from one container to another.",
           "Eye protection (against swarf and coolant spray) must be worn at all times.",
           "Hands should be washed after work and prior to using the toilets.",
-          "The risk of harm from Legionella bacteria and other organisms can be reduced by regular draining and cleaning of cutting oil systems and replacement with fresh oil."
+          "The risk of harm from Legionella bacteria and other organisms can be reduced by regular draining and cleaning of cutting oil systems and replacement with fresh oil.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -2783,7 +2848,8 @@
         ],
         "references": [
           "CLEAPSS Model Risk Assessment 1.039 - Metal working: pillar and bench drilling machines",
-          "CLEAPSS Model Risk Assessment 1.033 - Metal working: cutting oils"
+          "CLEAPSS Model Risk Assessment 1.033 - Metal working: cutting oils",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       },
       "slug": "pillar-drill"
@@ -2852,7 +2918,7 @@
           "You lose secure control of the work or tool."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Used to remove small amounts of waste material and for cleaning up of welded joints. Normally an impregnated cutting or abrasive disc is used, rather than a conventional grinding wheel. Most portable power tools are electrically operated but pneumatic tools are used where compressed air is available. The use of tools with integral low-voltage battery packs is increasing.",
@@ -2890,12 +2956,14 @@
           "The tool should be used so that sparks are not directed towards others in the vicinity.",
           "Eye protection is needed.",
           "Guards around rotating parts will reduce the risk of hand or finger injury but training and experience are essential in reducing risks.",
-          "The route of power leads and pipes should be chosen to minimise the tripping hazard.",
-          "Battery-powered tools avoid this problem.",
+          "For mains-powered or pneumatic tools, route leads and hoses to prevent tripping and damage.",
+          "Battery-powered tools remove the trailing mains-lead hazard, but the battery remains an energy source and must be removed or otherwise isolated before blade, bit or accessory changes where the manufacturer requires it.",
           "Long hair must be tied back; jewellery should be removed or covered and loose clothing covered by a secure apron or overall.",
           "The risk of back injury is reduced if two persons handle heavy items.",
           "The strength of young persons using portable tools must be assessed to be adequate before they are allowed to use them.",
-          "Heat resistant gloves could be used to handle any material that might be hot."
+          "Heat resistant gloves could be used to handle any material that might be hot.",
+          "Before clearing a jam, changing an accessory or maintaining the tool, switch off and isolate every fitted energy source: unplug mains power, remove or isolate the battery, and disconnect and discharge compressed air as applicable; follow the manufacturer instructions.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -2928,7 +2996,9 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.042 - Metal working: portable power tools - angle grinders"
+          "CLEAPSS Model Risk Assessment 1.042 - Metal working: portable power tools - angle grinders",
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts (isolate mains, battery, pneumatic and other energy sources): https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -2981,11 +3051,11 @@
           "Use only after the teacher has assessed your maturity, strength and control.",
           "Choose the correct bit and speed as directed.",
           "Secure the work.",
-          "Check the tool, bit and lead/hose, then put on eye protection and secure hair/clothing."
+          "Check the tool, bit, battery, power lead or air hose—whichever is fitted—then put on eye protection and secure hair/clothing."
         ],
         "dos": [
           "Keep firm control of the drill.",
-          "Keep the lead or hose out of walkways and away from the work.",
+          "For corded or pneumatic tools, keep the power lead or air hose out of walkways and away from the work.",
           "Release the trigger and stop if the bit jams.",
           "Let hot bits and work cool before touching."
         ],
@@ -2998,11 +3068,11 @@
         "stop": [
           "The bit jams, bends or breaks.",
           "The work moves.",
-          "The lead, hose or tool is damaged.",
+          "The tool, battery, power lead or air hose—whichever is fitted—is damaged.",
           "The drill twists beyond your control."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Drilling holes in resistant materials. Cutting oils or other lubricants may sometimes be required. Most portable power tools are electrically operated but pneumatic tools are used where compressed air is available. The use of tools with integral low-voltage battery packs is increasing.",
@@ -3038,12 +3108,14 @@
           "Correct selection of the bit speed will reduce the risk of drill breakage.",
           "Eye protection is needed.",
           "Guards around rotating parts will reduce the risk of hand or finger injury but training and experience are essential in reducing risks.",
-          "The route of power leads and pipes should be chosen to minimise the tripping hazard.",
-          "Battery-powered tools avoid this problem.",
+          "For mains-powered or pneumatic tools, route leads and hoses to prevent tripping and damage.",
+          "Battery-powered tools remove the trailing mains-lead hazard, but the battery remains an energy source and must be removed or otherwise isolated before blade, bit or accessory changes where the manufacturer requires it.",
           "Long hair must be tied back; jewellery should be removed or covered and loose clothing covered by a secure apron or overall.",
           "The risk of back injury is reduced if two persons handle heavy items.",
           "The strength of young persons using portable tools must be assessed.",
-          "Low voltage battery operated tools generate less torque and are more suitable for younger pupils."
+          "Low voltage battery operated tools generate less torque and are more suitable for younger pupils.",
+          "Before clearing a jam, changing an accessory or maintaining the tool, switch off and isolate every fitted energy source: unplug mains power, remove or isolate the battery, and disconnect and discharge compressed air as applicable; follow the manufacturer instructions.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -3077,7 +3149,9 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.043 - Metal working: portable power tools - drills"
+          "CLEAPSS Model Risk Assessment 1.043 - Metal working: portable power tools - drills",
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts (isolate mains, battery, pneumatic and other energy sources): https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -3133,7 +3207,7 @@
         ],
         "dos": [
           "Keep fingers away from the cutting head.",
-          "Handle sharp sheet and offcuts with the gloves the teacher directs.",
+          "Wear suitable gloves only while handling stationary sharp sheet or offcuts; remove them before operating the tool if they could contact moving parts.",
           "Stop the tool before clearing or changing the setup.",
           "Get help with heavy or awkward sheets."
         ],
@@ -3150,7 +3224,7 @@
           "You cannot keep fingers safely clear."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The cutting of sheet metal using power-operated shears, nibblers or notchers, either mains- or battery-driven, which work with a shearing action. Hand-held nibblers may consist of an accessory fitted to a portable drill. Most portable power tools are electrically operated but pneumatic tools are used where compressed air is available. The use of tools with integral low-voltage battery packs is increasing. Guillotines: Both hand-operated and treadle-operated, scissor-action guillotines (shears) are used in education for cutting sheet metal. Notchers or nibblers: This type of guillotine works by removing a slice of material (kerf) allowing the cut to be achieved without distortion. Since the kerf is cropped off at each stroke, the machine can produce notches of rectangular and other shapes in both metals and plastics. Hand-held nibblers may consist of an accessory fitted to a portable drill. Folding machines: These machines are used to bend sheet metal. Rolling machines: When fitted with three rollers, these machines may be used to roll sheet metal into a cylindrical shape. Machines with two rollers are used to make sheet and wires thinner. Universal machines: Combine cutting, folding and rolling operations in one machine.",
@@ -3185,7 +3259,7 @@
           "It is impracticable to guard all the hazardous areas when using this type of equipment, however, all guards supplied with the machine should be used.",
           "Immature pupils should not use portable power tools.",
           "Gloves should be used when handling metal with sharp edges.",
-          "The route of power leads and pipes should be chosen to minimise the tripping hazard.",
+          "For mains-powered or pneumatic tools, route leads and hoses to prevent tripping and damage.",
           "Guillotines with a worktable should have guards that prevent access to the shearing points (front and rear).",
           "Bench shears are difficult to guard.",
           "Careful instruction should reduce the risk of trapping when folding or rolling machines are used.",
@@ -3195,8 +3269,8 @@
           "It is impracticable to guard all the hazardous areas when using this type of equipment, however, all guards supplied with the machine should be used.",
           "Immature pupils should not use portable power tools.",
           "Gloves should be used when handling metal with sharp edges.",
-          "The route of power leads and pipes should be chosen to minimise the tripping hazard.",
-          "Battery-powered tools avoid this problem.",
+          "For mains-powered or pneumatic tools, route leads and hoses to prevent tripping and damage.",
+          "Battery-powered tools remove the trailing mains-lead hazard, but the battery remains an energy source and must be removed or otherwise isolated before blade, bit or accessory changes where the manufacturer requires it.",
           "Long hair must be tied back; jewellery should be removed or covered and loose clothing covered by a secure apron or overall.",
           "The risk of back injury is reduced if two persons handle heavy items.",
           "The strength of young persons using portable tools must be assessed.",
@@ -3210,7 +3284,9 @@
           "All types of sheet metal cutting, folding and rolling machines should be locked in a safe condition when not in use.",
           "Industrial-type gloves should be used to handle large sheets of materials with sharp edges.",
           "Individual tasks involving large or heavy sheets must be assessed for manual handling risks and assistance obtained where necessary.",
-          "Tools with integral re-chargeable batteries or powered by compressed air minimise the electric shock risk."
+          "Tools with integral re-chargeable batteries or powered by compressed air minimise the electric shock risk.",
+          "Before clearing a jam, changing an accessory or maintaining the tool, switch off and isolate every fitted energy source: unplug mains power, remove or isolate the battery, and disconnect and discharge compressed air as applicable; follow the manufacturer instructions.",
+          "Use gloves only for handling stationary sharp sheet or offcuts, and keep them away from moving blades, nibblers and other entanglement points."
         ],
         "shutdown": [],
         "restrictions": [
@@ -3253,7 +3329,8 @@
         ],
         "references": [
           "CLEAPSS Model Risk Assessment 1.044 - Metal working: portable power tools - sheet metal shears",
-          "CLEAPSS Model Risk Assessment 1.036 - Metal working: guillotines, folding and rolling equipment"
+          "CLEAPSS Model Risk Assessment 1.036 - Metal working: guillotines, folding and rolling equipment",
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts (isolate mains, battery, pneumatic and other energy sources): https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -3268,7 +3345,7 @@
       "name": "Plasma cutter",
       "category": "Restricted / staff-only",
       "image": "assets/images/plasma-cutter.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -3276,17 +3353,18 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "Source restriction: equipment should only be used by suitably trained staff.",
         "notes": [
           "Student wording curated 22 Aug 2026 from the listed source material.",
-          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval."
+          "Local Pukekohe High School review of the actual room, equipment, class and manufacturer instructions is still required before final approval.",
+          "Active welding eye-protection and fume controls updated 24 Aug 2026 to current WorkSafe New Zealand guidance; archived source extracts remain unchanged for provenance."
         ]
       },
       "student": {
-        "headline": "Staff-only in the supplied source. Students should not operate this machine.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. Staff-only in the supplied source. Students should not operate this machine.",
         "ppe": [
           "weld-face",
           "apron",
@@ -3301,19 +3379,22 @@
           "Hot metal and sparks can burn or start fires"
         ],
         "beforeStart": [
-          "Student operation is not permitted by the supplied source."
+          "Student operation is not permitted by the supplied source.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Keep clear of the cutting area unless the teacher has set a safe observer position and PPE."
         ],
         "donts": [
-          "Do not operate the plasma cutter."
+          "Do not operate the plasma cutter.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
-          "Tell the teacher if guards, extraction or equipment appear damaged."
+          "Tell the teacher if guards, extraction or equipment appear damaged.",
+          "The equipment or process is available without teacher control."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "The cutting of metals by means of a plasma arc that produces a high-temperature stream of ionised gas capable of cutting metal. Hand-held torches usually use compressed air as the gas but mixtures of argon and either hydrogen or nitrogen may occasionally be used. In some instances, a second stream of gas may also be employed to cool the torch, act as a shielding gas and combine with the plasma gas to assist in slag removal.",
@@ -3352,9 +3433,10 @@
           "Where hot metal is left to cool, a warning notice should be displayed.",
           "Care should be taken to ensure that slag and sparks cannot ignite flammable materials in the vicinity.",
           "Eye protection is marked with a number which describes the darkness of the filter, a manufacturer’s mark and a robustness code which may be a number or a letter and number.",
-          "Face shields for plasma cutting should now have the following codes on the ocular (lens) where X is the manufacturer’s mark: 10, 11 or 12 X 1 or 2 B or S EN169.",
-          "Older ones should carry the code EW 10, 11 or 12 and the old BS number 679.",
-          "The filters specified for gas welding are adequate for observers."
+          "The filters specified for gas welding are adequate for observers.",
+          "Select eye and face protection for the process and exposure in accordance with AS/NZS 1337/1337.1 and AS/NZS 1338.1, the equipment manufacturer instructions and the local risk assessment.",
+          "WorkSafe states that all welding fume is carcinogenic and there is no known safe exposure level. Use effective source capture/LEV and determine any additional RPE through the local risk assessment.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -3383,7 +3465,10 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.024 - Heat processes: plasma cutting"
+          "CLEAPSS Model Risk Assessment 1.024 - Heat processes: plasma cutting",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/",
+          "WorkSafe New Zealand — Welding health and safety good practice guidelines (welding fume and PPE standards): https://www.worksafe.govt.nz/assets/dmsassets/WKS-13-Welding-GPG.pdf",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ],
         "supervision": "Set locally from source restrictions, student maturity, class size, exact equipment and Pukekohe High School procedure.",
         "training": "Confirm practical instruction, competency and local authorisation before student use."
@@ -3399,7 +3484,7 @@
       "name": "Horizontal metal band saw",
       "category": "Restricted / staff-only",
       "image": "assets/images/horizontal-band-saw.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -3407,7 +3492,7 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "Source restriction: students should not use metal-cutting band saws.",
@@ -3417,7 +3502,7 @@
         ]
       },
       "student": {
-        "headline": "The supplied source says students should not use metal-cutting band saws.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. The supplied source says students should not use metal-cutting band saws.",
         "ppe": [
           "apron",
           "hair"
@@ -3430,19 +3515,22 @@
           "Heavy stock"
         ],
         "beforeStart": [
-          "Student operation is not permitted by the supplied source."
+          "Student operation is not permitted by the supplied source.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Keep clear unless a teacher directs a safe observer position."
         ],
         "donts": [
-          "Do not operate the metal-cutting band saw."
+          "Do not operate the metal-cutting band saw.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
-          "Tell the teacher if the machine, guard or workholding looks unsafe."
+          "Tell the teacher if the machine, guard or workholding looks unsafe.",
+          "The equipment or process is available without teacher control."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Power sawing: The cutting to required length of workpieces from stock bars or rods of both ferrous and non-ferrous material using a power saw, possibly with coolant / cutting oil. Power sawing can be done by reciprocating power hacksaws, by metal cutting band saws and by special chop saws designed for cutting metal. This last type of machine may be fitted with an abrasive cutting disc rotating at high speed or by a saw type cutter that rotates at a slow speed.",
@@ -3530,7 +3618,7 @@
       "name": "Abrasive cut-off saw",
       "category": "Restricted / staff-only",
       "image": "assets/images/abrasive-cut-off-saw.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "teacher-only",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -3538,7 +3626,7 @@
       ],
       "local": {
         "reviewed": false,
-        "studentUseApproved": null,
+        "studentUseApproved": false,
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "Source: metal power saws normally for qualified staff; abrasive cutting discs must be fitted by a suitably qualified person.",
@@ -3548,7 +3636,7 @@
         ]
       },
       "student": {
-        "headline": "The supplied source keeps metal power saws with qualified staff; students should not operate this saw.",
+        "headline": "REFERENCE ONLY — Students must not operate this equipment or carry out this process. The supplied source keeps metal power saws with qualified staff; students should not operate this saw.",
         "ppe": [
           "apron",
           "hair"
@@ -3561,20 +3649,23 @@
           "Heavy stock"
         ],
         "beforeStart": [
-          "Student operation is not permitted by the supplied source."
+          "Student operation is not permitted by the supplied source.",
+          "Do not begin this activity. Read this page only for hazard awareness and follow the teacher’s directions."
         ],
         "dos": [
           "Keep clear unless a teacher directs a safe observer position."
         ],
         "donts": [
           "Do not operate the abrasive cut-off saw.",
-          "Do not fit or change the abrasive disc."
+          "Do not fit or change the abrasive disc.",
+          "Do not operate, use or perform this activity as a student."
         ],
         "stop": [
-          "Tell the teacher if the disc, guard or workholding looks unsafe."
+          "Tell the teacher if the disc, guard or workholding looks unsafe.",
+          "The equipment or process is available without teacher control."
         ],
         "summaryStatus": "curated",
-        "note": "Curated student teaching summary. It does not replace the full teacher RAMS, exact equipment manual or local school procedure."
+        "note": "Published Student safety summary. Access supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, the exact equipment manual, local RAMS and school procedure remain authoritative."
       },
       "teacher": {
         "overview": "Power sawing: The cutting to required length of workpieces from stock bars or rods of both ferrous and non-ferrous material using a power saw, possibly with coolant / cutting oil. Power sawing can be done by reciprocating power hacksaws, by metal cutting band saws and by special chop saws designed for cutting metal. This last type of machine may be fitted with an abrasive cutting disc rotating at high speed or by a saw type cutter that rotates at a slow speed.",

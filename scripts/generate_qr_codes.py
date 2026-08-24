@@ -20,32 +20,14 @@ def load_json(path: Path) -> dict:
 
 
 def student_visible(tool: dict, modes: list[str], publication_mode: str) -> bool:
-    if "student" not in modes:
-        return False
-    if tool.get("sourceAccess") == "teacher-only":
-        return False
-    if tool.get("studentVisible") is False:
-        return False
-    if tool.get("student", {}).get("summaryStatus") != "curated":
-        return False
-
-    approval = tool.get("local", {}).get("studentUseApproved")
-    if approval is False:
-        return False
-    if publication_mode == "approved-only" and approval is not True:
-        return False
-    return True
+    return "student" in modes and bool(tool.get("student"))
 
 
 def main() -> None:
     manifest = load_json(MANIFEST_PATH)
     site = manifest.get("site", {})
     base_url = str(site.get("publicBaseUrl", "")).rstrip("/") + "/"
-    publication_mode = (
-        "approved-only"
-        if site.get("studentPublicationMode") == "approved-only"
-        else "curated-drafts"
-    )
+    publication_mode = str(site.get("studentPublicationMode", "all-sops"))
     output_dir = ROOT / site.get("qrCodeDirectory", "assets/qrcodes/student")
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -100,6 +82,16 @@ def main() -> None:
                     "url": url,
                     "file": f"{site.get('qrCodeDirectory', 'assets/qrcodes/student')}/{file_name}",
                     "approved": approved,
+                    "access": (
+                        "reference-only"
+                        if tool.get("sourceAccess") == "teacher-only"
+                        or tool.get("local", {}).get("studentUseApproved") is False
+                        else "teacher-permission"
+                        if tool.get("sourceAccess") == "age-or-maturity-restricted"
+                        else "teacher-direction"
+                        if tool.get("local", {}).get("studentUseCandidate") is False
+                        else "published"
+                    ),
                 }
             )
 

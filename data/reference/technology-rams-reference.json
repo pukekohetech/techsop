@@ -8,9 +8,9 @@
   "meta": {
     "sourceTitle": "RAMS TECHNOLOGY.pdf",
     "sourceEdition": "CLEAPSS model risk assessments, principally 2009; some sheets in the supplied PDF show later revision dates.",
-    "conversionPurpose": "Reference-only library for technology RAMS items not yet moved into a live department dataset.",
+    "conversionPurpose": "Published safety-awareness library for technology RAMS items not assigned to a live teaching department. Access does not authorise student operation or use.",
     "localAdaptationRequired": true,
-    "legalContextNote": "The supplied source is UK guidance. It must be reviewed against current New Zealand law, Pukekohe High School policy, actual equipment, rooms and student groups before publication or use."
+    "legalContextNote": "The supplied source is historical UK guidance. Active controls have been checked where current WorkSafe New Zealand PPE guidance is available, but every record still requires local review against current New Zealand law, Pukekohe High School policy, actual equipment, rooms and student groups before practical use."
   },
   "tools": [
     {
@@ -19,7 +19,7 @@
       "name": "Lapidary equipment: cutters and grinders",
       "category": "Lapidary equipment",
       "image": "assets/images/technology-lapidary-equipment.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -28,10 +28,12 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": true,
+        "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "",
-        "notes": []
+        "notes": [
+          "Published for Student safety awareness on 24 Aug 2026. Teacher direction and local PHS review remain required before practical use."
+        ]
       },
       "student": {
         "headline": "Use the correct tool, keep the area tidy and follow your teacher’s safety steps.",
@@ -66,8 +68,8 @@
           "A blade, wheel, drill bit or cutter looks damaged.",
           "Something looks, sounds or feels unsafe."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This RAMS-derived reference supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, current NZ requirements, the exact equipment manual and local RAMS remain authoritative."
       },
       "teacher": {
         "overview": "Stone cutting: A diamond-impregnated saw blade is used to cut semi-precious stones and minerals. Stone grinding: The cut stone is ground and polished to a high surface finish.",
@@ -104,7 +106,8 @@
           "Each grinding wheel should be surrounded by a guard that is only open at the front in order to allow access for the workpiece.",
           "A dop stick (see over) must be used to hold the stone for grinding.",
           "The guard should also cover the spindle ends.",
-          "Long hair must be tied back; jewellery should be removed or covered and loose clothing covered by a secure apron or overall."
+          "Long hair must be tied back; jewellery should be removed or covered and loose clothing covered by a secure apron or overall.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -129,7 +132,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.031 - Lapidary equipment: cutters and grinders"
+          "CLEAPSS Model Risk Assessment 1.031 - Lapidary equipment: cutters and grinders",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       }
     },
@@ -139,7 +143,7 @@
       "name": "Metal working: cutting oils",
       "category": "Metal working",
       "image": "assets/images/technology-cutting-oils.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -151,7 +155,9 @@
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "",
-        "notes": []
+        "notes": [
+          "Published for Student safety awareness on 24 Aug 2026. Teacher direction and local PHS review remain required before practical use."
+        ]
       },
       "student": {
         "headline": "Use the correct tool, keep the area tidy and follow your teacher’s safety steps.",
@@ -177,8 +183,8 @@
           "A blade, wheel, drill bit or cutter looks damaged.",
           "Something looks, sounds or feels unsafe."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This RAMS-derived reference supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, current NZ requirements, the exact equipment manual and local RAMS remain authoritative."
       },
       "teacher": {
         "overview": "Cutting oils are used in surface grinding, drilling, turning, milling and power-sawing metals.",
@@ -205,7 +211,8 @@
           "The instructions stated by the suppliers of the coolants must be followed, particularly when diluting for use and pouring from one container to another.",
           "Eye protection (against swarf and coolant spray) must be worn at all times.",
           "Hands should be washed after work and prior to using the toilets.",
-          "The risk of harm from Legionella bacteria and other organisms can be reduced by regular draining and cleaning of cutting oil systems and replacement with fresh oil."
+          "The risk of harm from Legionella bacteria and other organisms can be reduced by regular draining and cleaning of cutting oil systems and replacement with fresh oil.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [],
@@ -241,7 +248,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.033 - Metal working: cutting oils"
+          "CLEAPSS Model Risk Assessment 1.033 - Metal working: cutting oils",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       }
     },
@@ -251,7 +259,7 @@
       "name": "Motor vehicle engineering: asbestos",
       "category": "Motor vehicle engineering",
       "image": "assets/images/technology-asbestos-awareness.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -263,7 +271,9 @@
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "",
-        "notes": []
+        "notes": [
+          "Published for Student safety awareness on 24 Aug 2026. Teacher direction and local PHS review remain required before practical use."
+        ]
       },
       "student": {
         "headline": "Use the correct tool, keep the area tidy and follow your teacher’s safety steps.",
@@ -286,8 +296,8 @@
           "You can smell strong fumes or the extraction is not working.",
           "Something looks, sounds or feels unsafe."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This RAMS-derived reference supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, current NZ requirements, the exact equipment manual and local RAMS remain authoritative."
       },
       "teacher": {
         "overview": "Demonstrations and exercises done by students on old motor vehicles may reveal asbestos products particularly as disc pads, brake linings, clutch linings and heat insulation around exhaust pipes.",
@@ -337,7 +347,7 @@
       "name": "Motor vehicle engineering: batteries, electrolyte and fumes",
       "category": "Motor vehicle engineering",
       "image": "assets/images/technology-battery-electrolyte.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -349,7 +359,9 @@
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "",
-        "notes": []
+        "notes": [
+          "Published for Student safety awareness on 24 Aug 2026. Teacher direction and local PHS review remain required before practical use."
+        ]
       },
       "student": {
         "headline": "Use the correct tool, keep the area tidy and follow your teacher’s safety steps.",
@@ -374,8 +386,8 @@
           "There is unexpected smoke, fire or dangerous heat.",
           "Something looks, sounds or feels unsafe."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This RAMS-derived reference supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, current NZ requirements, the exact equipment manual and local RAMS remain authoritative."
       },
       "teacher": {
         "overview": "The provision of an electric current at fixed voltage from a number of lead-acid cells in series. The use and maintenance of this equipment.",
@@ -396,7 +408,8 @@
         ],
         "safeUse": [
           "Eye protection must be worn when handling and maintaining lead-acid batteries.",
-          "Rubber gloves and aprons are needed for the preparation of battery acid and for the filling of new batteries."
+          "Rubber gloves and aprons are needed for the preparation of battery acid and for the filling of new batteries.",
+          "Select, fit, use and maintain eye protection for the assessed hazard in accordance with AS/NZS 1336:2014 and AS/NZS 1337.1:2010."
         ],
         "shutdown": [],
         "restrictions": [
@@ -429,7 +442,8 @@
           "Do not treat this converted entry as automatic permission for student use."
         ],
         "references": [
-          "CLEAPSS Model Risk Assessment 1.047 - Motor vehicle engineering: batteries, electrolyte and fumes"
+          "CLEAPSS Model Risk Assessment 1.047 - Motor vehicle engineering: batteries, electrolyte and fumes",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014, AS/NZS 1337.1:2010 and AS/NZS 1338.1:2012): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
         ]
       }
     },
@@ -439,7 +453,7 @@
       "name": "Motor vehicle engineering: demonstration engines",
       "category": "Motor vehicle engineering",
       "image": "assets/images/technology-demonstration-engine.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -448,10 +462,12 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": true,
+        "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "",
-        "notes": []
+        "notes": [
+          "Published for Student safety awareness on 24 Aug 2026. Teacher direction and local PHS review remain required before practical use."
+        ]
       },
       "student": {
         "headline": "Use the correct tool, keep the area tidy and follow your teacher’s safety steps.",
@@ -477,8 +493,8 @@
           "There is unexpected smoke, fire or dangerous heat.",
           "Something looks, sounds or feels unsafe."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This RAMS-derived reference supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, current NZ requirements, the exact equipment manual and local RAMS remain authoritative."
       },
       "teacher": {
         "overview": "Schools have built and run small engine test beds to allow study of torque: speed characteristics and fuel consumption. These typically use a small lawn-mower engine but much smaller systems have used model aircraft engines.",
@@ -543,7 +559,7 @@
       "name": "Motor vehicle engineering: engine fuels, engine oils",
       "category": "Motor vehicle engineering",
       "image": "assets/images/technology-engine-fuels-oils.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -555,7 +571,9 @@
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "",
-        "notes": []
+        "notes": [
+          "Published for Student safety awareness on 24 Aug 2026. Teacher direction and local PHS review remain required before practical use."
+        ]
       },
       "student": {
         "headline": "Use the correct tool, keep the area tidy and follow your teacher’s safety steps.",
@@ -584,8 +602,8 @@
           "There is unexpected smoke, fire or dangerous heat.",
           "Something looks, sounds or feels unsafe."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This RAMS-derived reference supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, current NZ requirements, the exact equipment manual and local RAMS remain authoritative."
       },
       "teacher": {
         "overview": "Motor vehicle engineering is taught mainly in colleges of FE where it is necessary to handle fuels and lubricants. Oils are used to reduce friction and improve piston seals. Pupils in schools may however experience motor vehicle work, either in the school or at a local college.",
@@ -659,7 +677,7 @@
       "name": "Motor vehicle engineering: exhaust fumes",
       "category": "Motor vehicle engineering",
       "image": "assets/images/technology-exhaust-extraction.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -671,7 +689,9 @@
         "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "",
-        "notes": []
+        "notes": [
+          "Published for Student safety awareness on 24 Aug 2026. Teacher direction and local PHS review remain required before practical use."
+        ]
       },
       "student": {
         "headline": "Use the correct tool, keep the area tidy and follow your teacher’s safety steps.",
@@ -694,8 +714,8 @@
           "There is unexpected smoke, fire or dangerous heat.",
           "Something looks, sounds or feels unsafe."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This RAMS-derived reference supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, current NZ requirements, the exact equipment manual and local RAMS remain authoritative."
       },
       "teacher": {
         "overview": "The testing or demonstration of tuning procedures on two- or four-stroke internal combustion engines. Products generated by the combustion of fuels are mainly carbon dioxide and water together with traces of carbon monoxide, hydrocarbons, nitrogen oxides, sulfur oxides and organic lead compounds.",
@@ -744,7 +764,7 @@
       "name": "Motor vehicle engineering: lifting and holding equipment",
       "category": "Motor vehicle engineering",
       "image": "assets/images/technology-vehicle-lifting.webp",
-      "studentVisible": false,
+      "studentVisible": true,
       "sourceAccess": "local-review-required",
       "localReviewRequired": true,
       "sourceSheets": [
@@ -753,10 +773,12 @@
       "local": {
         "reviewed": false,
         "studentUseApproved": null,
-        "studentUseCandidate": true,
+        "studentUseCandidate": false,
         "minimumYear": "",
         "supervision": "",
-        "notes": []
+        "notes": [
+          "Published for Student safety awareness on 24 Aug 2026. Teacher direction and local PHS review remain required before practical use."
+        ]
       },
       "student": {
         "headline": "Use the correct tool, keep the area tidy and follow your teacher’s safety steps.",
@@ -782,8 +804,8 @@
           "You can smell strong fumes or the extraction is not working.",
           "Something looks, sounds or feels unsafe."
         ],
-        "summaryStatus": "generated-draft",
-        "note": "Student wording is a condensed teaching summary. It does not replace the full teacher RAMS or local school procedure."
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This RAMS-derived reference supports hazard awareness and does not itself authorise equipment use or a process. Teacher instruction, permission, supervision, current NZ requirements, the exact equipment manual and local RAMS remain authoritative."
       },
       "teacher": {
         "overview": "It is often necessary to have access to the underside of vehicles or all-round assemblies such as engines, gear-boxes, etc. All of these are heavy so hoists, jacks, cranes and lifts are needed.",

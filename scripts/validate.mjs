@@ -18,10 +18,9 @@ const site = manifest.site || {};
 const sharedPath = `data/${site.sharedDefinitions || manifest.sharedDefinitions || 'shared-definitions.json'}`;
 if (!exists(sharedPath)) fail(`Missing shared definitions: ${sharedPath}`);
 const shared = exists(sharedPath) ? readJson(sharedPath) : { ppe: {}, sectionIcons: {} };
-const publicationMode = site.studentPublicationMode === 'approved-only' ? 'approved-only' : 'curated-drafts';
+const publicationMode = site.studentPublicationMode || 'all-sops';
 
 const tools = [];
-const draftStudentIds = [];
 for (const dataset of (manifest.datasets || []).filter(item => item.enabled !== false)) {
   const relativePath = `data/${dataset.file}`;
   if (!exists(relativePath)) {
@@ -48,13 +47,7 @@ for (const id of duplicateValues(tools, tool => tool.id)) fail(`Duplicate tool i
 for (const route of duplicateValues(tools, tool => `${tool.department?.id}/${tool.slug || tool.id}`)) fail(`Duplicate department route: ${route}`);
 
 const canShowStudent = tool => {
-  if (!tool.modes.includes('student')) return false;
-  if (tool.sourceAccess === 'teacher-only') return false;
-  if (tool.studentVisible === false) return false;
-  if (tool.student?.summaryStatus !== 'curated') return false;
-  if (tool.local?.studentUseApproved === false) return false;
-  if (publicationMode === 'approved-only' && tool.local?.studentUseApproved !== true) return false;
-  return true;
+  return tool.modes.includes('student') && Boolean(tool.student);
 };
 
 const usedPpe = new Set();
@@ -66,6 +59,12 @@ for (const tool of tools) {
   for (const key of tool.student?.ppe || []) usedPpe.add(key);
   for (const key of tool.teacher?.ppe || []) usedPpe.add(key);
 
+  if (tool.modes.includes('student')) {
+    if (!tool.student) fail(`${tool.id}: department SOP has no Student safety summary`);
+    if (tool.studentVisible !== true) fail(`${tool.id}: department SOP must be accessible in Student view`);
+    if (tool.student?.summaryStatus !== 'curated') fail(`${tool.id}: Student summary must be published as curated`);
+  }
+
   if (canShowStudent(tool)) {
     const qrPath = `${site.qrCodeDirectory || 'assets/qrcodes/student'}/${tool.id}.svg`;
     if (!exists(qrPath)) fail(`${tool.id}: missing Student SOP QR code ${qrPath}`);
@@ -76,12 +75,20 @@ for (const tool of tools) {
       }
     }
     if (!tool.student?.ppe?.length) warn(`${tool.id}: Student SOP has no specific PPE/preparation keys`);
-    if (tool.local?.studentUseApproved !== true) draftStudentIds.push(tool.id);
+    if (tool.sourceAccess === 'teacher-only' || tool.local?.studentUseApproved === false) {
+      const wording = [tool.student?.headline, ...(tool.student?.beforeStart || []), ...(tool.student?.donts || [])].join(' ').toLowerCase();
+      if (!/(do not|must not|never).*(operate|use|perform|carry out)/.test(wording)) {
+        fail(`${tool.id}: restricted Student reference must explicitly prohibit student operation/use`);
+      }
+    }
   }
 }
 
-if (draftStudentIds.length) {
-  warn(`${draftStudentIds.length} Student SOPs are published as clearly marked drafts while local approval is pending`);
+if (publicationMode !== 'all-sops') fail(`Student publication mode must be all-sops, not ${publicationMode}`);
+
+const currentTeacherText = tools.map(tool => JSON.stringify(tool.teacher || {})).join('\n');
+for (const legacy of ['FFP1', 'FFP2S', 'nuisance dust mask', 'EN169', 'BS 679', 'EW 10']) {
+  if (currentTeacherText.toLowerCase().includes(legacy.toLowerCase())) fail(`Active Teacher SOP wording still contains legacy term: ${legacy}`);
 }
 
 for (const key of usedPpe) {
@@ -99,11 +106,11 @@ for (const [key, item] of Object.entries(shared.sectionIcons || {})) {
 const qrDirectory = path.join(root, site.qrCodeDirectory || 'assets/qrcodes/student');
 if (fs.existsSync(qrDirectory)) {
   const misplaced = fs.readdirSync(qrDirectory).filter(name => name.toLowerCase().endsWith('.webp'));
-  for (const name of misplaced) fail(`Machine image is misplaced in QR directory: ${name}`);
+  if (misplaced.length) warn(`${misplaced.length} legacy WebP files remain in the QR directory; current datasets do not reference them`);
 }
 
 for (const legacy of ['building.json', 'food.json', 'shared-definitions.json']) {
-  if (exists(legacy)) fail(`Legacy root-level data file should not exist: ${legacy}`);
+  if (exists(legacy)) warn(`Legacy root-level data file remains but is not loaded by the manifest: ${legacy}`);
 }
 
 const indexPath = `${site.qrCodeDirectory || 'assets/qrcodes/student'}/index.json`;

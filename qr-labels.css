@@ -33,8 +33,9 @@ main{max-width:1200px;margin:0 auto;padding:0 20px 40px}
 .label-dept{margin:0 0 3px;color:var(--maroon);font-weight:850;font-size:.67rem;text-transform:uppercase;letter-spacing:.06em}
 .qr-label h2{font-size:1.08rem;line-height:1.08;margin:0 0 7px}
 .label-review{align-self:flex-start;margin:0 0 7px;padding:4px 7px;border-radius:999px;font-size:.58rem;line-height:1;font-weight:900;letter-spacing:.035em}
-.label-review.draft{background:#fff4d8;color:#6f4c00;border:1px solid #e8c979}
-.label-review.approved{background:#eaf5ee;color:#17603d;border:1px solid #bcdcc9}
+.label-review.published{background:#eaf5ee;color:#17603d;border:1px solid #bcdcc9}
+.label-review.caution{background:#fff4d8;color:#6f4c00;border:1px solid #e8c979}
+.label-review.danger{background:#fce9eb;color:#8b1e28;border:1px solid #edbdc2}
 .scan-copy{margin:0 0 6px;font-size:.82rem;line-height:1.3}
 .safety-copy{margin:auto 0 0;padding-top:7px;border-top:1px solid var(--line);font-size:.69rem;line-height:1.25;color:#5e4308;font-weight:750}
 .qr-side{display:grid;align-content:center;justify-items:center;gap:5px}

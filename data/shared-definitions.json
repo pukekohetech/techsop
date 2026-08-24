@@ -54,7 +54,7 @@
       "icon": "assets/icons/ppe/heat-gloves-v2.webp"
     },
     "sheet-gloves": {
-      "label": "Sheet-handling gloves",
+      "label": "Sheet-handling gloves — stationary material only",
       "icon": "assets/icons/ppe/sheet-gloves-v2.webp"
     },
     "hardhat": {
