@@ -32,6 +32,16 @@
       ]
     },
     {
+      "id": "electrical",
+      "file": "departments/electrical.json",
+      "enabled": true,
+      "order": 12,
+      "modes": [
+        "student",
+        "teacher"
+      ]
+    },
+    {
       "id": "automotive",
       "file": "departments/automotive.json",
       "enabled": true,
