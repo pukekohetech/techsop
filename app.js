@@ -1058,7 +1058,12 @@ function routeSlug(tool) {
 }
 
 function findToolByRoute(departmentId, slugOrId) {
-  return state.tools.find(tool => tool.department?.id === departmentId && (routeSlug(tool) === slugOrId || tool.id === slugOrId)) || null;
+  return state.tools.find(tool => {
+    const currentDepartment = tool.department?.id === departmentId;
+    const legacyDepartment = Array.isArray(tool.legacyDepartmentIds) && tool.legacyDepartmentIds.includes(departmentId);
+    const routeMatches = routeSlug(tool) === slugOrId || tool.id === slugOrId;
+    return (currentDepartment || legacyDepartment) && routeMatches;
+  }) || null;
 }
 
 function hashForTool(tool, mode = 'student') {
@@ -1140,9 +1145,13 @@ function restoreFromHash() {
   state.departmentFilter = departmentId === 'all' || state.departments.some(d => d.id === departmentId) ? departmentId : state.defaultDepartment;
 
   if (slug) {
-    const tool = findToolByRoute(state.departmentFilter, slug);
+    // Resolve against the requested department before falling back to the home
+    // department. This keeps previously printed QR codes working when an SOP is
+    // moved into a new department and declares the old id in legacyDepartmentIds.
+    const tool = findToolByRoute(departmentId, slug);
     const allowed = tool && (state.mode === 'teacher' ? datasetAllowsMode(tool, 'teacher') : canShowInStudentMode(tool));
     if (allowed) {
+      state.departmentFilter = tool.department?.id || state.defaultDepartment;
       state.selectedToolId = tool.id;
       state.view = 'detail';
     }
