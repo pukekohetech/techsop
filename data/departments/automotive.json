@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 2,
+  "department": {
+    "id": "automotive",
+    "name": "Automotive Trades",
+    "icon": "🚗"
+  },
+  "meta": {
+    "sourceTitle": "Supplied motor-vehicle RAMS reference records plus current WorkSafe New Zealand guidance",
+    "sourceEdition": "Six supplied CLEAPSS-derived motor-vehicle records were rebuilt for the New Zealand school context on 25 Aug 2026; seven missing automotive topics were added.",
+    "conversionPurpose": "Published Student safety summaries paired with fuller Teacher controls for the Automotive Trades programme.",
+    "localAdaptationRequired": true,
+    "legalContextNote": "These SOPs are safety-awareness and teaching controls, not automatic authority for a specific vehicle or task. Teachers must check current WorkSafe guidance, exact manufacturer information, local RAMS, facilities, products and student competence."
+  },
+  "tools": [
+    {
+      "id": "auto-general-workshop-safety",
+      "aliases": [
+        "automotive workshop rules",
+        "vehicle workshop induction",
+        "automotive safety"
+      ],
+      "name": "General automotive workshop safety",
+      "category": "General workshop safety",
+      "image": "assets/images/automotive-general-workshop.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "PHS general workshop safety controls",
+        "WorkSafe New Zealand machinery, PPE, hazardous substances and lockout guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the automotive programme and task risk assessment.",
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "notes": [
+          "Automotive Trades publication prepared 25 Aug 2026 from the supplied RAMS source material and current WorkSafe New Zealand guidance.",
+          "Publication means the safety content is available to students. It does not replace the teacher’s check of the exact vehicle, equipment, products, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Work only with permission: secure the vehicle, control every energy source and keep the bay clear.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes",
+          "hair"
+        ],
+        "hazardTags": [
+          "crush",
+          "entanglement",
+          "fire",
+          "slip-trip"
+        ],
+        "hazards": [
+          "Vehicles and heavy components can move, fall or crush.",
+          "Rotating, hot, sharp or pressurised parts can injure you.",
+          "Fuel, batteries, oils, cleaners, fumes and dust can burn, poison or start a fire.",
+          "Tools, hoses, leads and spills can create impact, cut, slip and trip hazards."
+        ],
+        "beforeStart": [
+          "Complete the automotive workshop induction and identify exits, alarms, emergency stops, spill kit and first-aid location.",
+          "Wear task-appropriate PPE, tie back hair and remove jewellery or loose clothing.",
+          "Get teacher permission and identify the vehicle’s fuel, electrical, pneumatic, hydraulic, spring and gravity hazards.",
+          "Check the bay, tools, guards, supports and ventilation before work starts."
+        ],
+        "dos": [
+          "Keep the ignition/key under teacher control and prevent unexpected vehicle movement.",
+          "Use the correct SOP, tool and support method for each task.",
+          "Keep parts, hoses, leads and spills out of walkways; clean as you go.",
+          "Stop, isolate and ask the teacher before changing the task or clearing a fault."
+        ],
+        "donts": [
+          "Do not start or move a vehicle, use a hoist, jack, powered tool or hazardous product without permission.",
+          "Do not work beneath a vehicle or suspended component unless an approved support system is correctly engaged.",
+          "Do not bypass guards, safety locks, extraction, fuses or isolation steps.",
+          "Do not run, distract others, wear headphones or use compressed air to clean skin or clothing."
+        ],
+        "stop": [
+          "The vehicle or load moves, settles or is not securely supported.",
+          "You find an unknown battery, orange high-voltage cable, airbag component, fuel leak or suspected asbestos material.",
+          "There is smoke, fire, a strong odour, fluid under pressure, damaged equipment or failed extraction.",
+          "Someone enters the exclusion zone or anything differs from the teacher’s demonstrated setup."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact vehicle or equipment instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "General entry and conduct controls for an educational automotive workshop. Task-specific SOPs, vehicle service information, equipment manuals, hazardous-substance controls and local RAMS remain necessary.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes",
+          "hair"
+        ],
+        "hazards": [
+          "Vehicles and heavy components can move, fall or crush.",
+          "Rotating, hot, sharp or pressurised parts can injure you.",
+          "Fuel, batteries, oils, cleaners, fumes and dust can burn, poison or start a fire.",
+          "Tools, hoses, leads and spills can create impact, cut, slip and trip hazards."
+        ],
+        "riskAssessment": [
+          "Treat each vehicle as a system containing multiple energy sources and stored energy; a key removed from the ignition is not a complete isolation.",
+          "Young or inexperienced learners require task boundaries, demonstrated competence and supervision matched to the consequences of failure."
+        ],
+        "preStart": [
+          "Complete a task-specific assessment of vehicle condition, energy sources, products, lifting/support requirements and student capability.",
+          "Control vehicle access and keys; establish exclusion zones and verify emergency equipment, ventilation and housekeeping."
+        ],
+        "safeUse": [
+          "Apply the hierarchy of controls before relying on PPE.",
+          "Use the documented isolation method for the vehicle and task; release or secure stored energy and test the isolation where applicable.",
+          "Maintain supervision, safe separation and housekeeping for the whole lesson."
+        ],
+        "shutdown": [
+          "Return all controls to a safe state, account for tools and parts, remove waste and spills, and leave the vehicle securely parked.",
+          "Record faults, incidents, near misses and any equipment removed from service."
+        ],
+        "restrictions": [
+          "This general SOP does not authorise high-voltage EV/HEV work, pyrotechnic restraint systems, refrigerant work, spring compressors, tyre machines, hoists or hot work.",
+          "Any restricted process requires its own approved SOP, competent supervision and suitable equipment."
+        ],
+        "disposal": [
+          "Segregate used oils, coolants, fuels, contaminated absorbents, batteries, metal and general waste under the local hazardous-waste plan."
+        ],
+        "storage": [
+          "Store chemicals in labelled compatible containers and secured cabinets; store keys, lifting accessories, tools and chargers to prevent unauthorised use."
+        ],
+        "furtherInformation": [
+          "Map the actual workshop equipment to the SOP library before starting a new unit."
+        ],
+        "firstAid": [
+          "Stop work, isolate energy only if it is safe to do so, alert the teacher and follow the PHS emergency and first-aid procedure.",
+          "For serious injury, fire, hazardous exposure or breathing difficulty, call emergency services and preserve the scene when safe."
+        ],
+        "teacherChecks": [
+          "Check the exact vehicle/equipment manufacturer information and the task-specific local RAMS before the lesson.",
+          "Confirm guards, isolation, ventilation/extraction, PPE, emergency equipment, supervision and student competency are appropriate.",
+          "Remove defective or uncertain equipment from service; do not improvise a repair or control."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Safe use of machinery: https://www.worksafe.govt.nz/topic-and-industry/machinery/safe-use-of-machinery/",
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts (includes batteries, fuel, pressure, springs, hydraulics and gravity): https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts",
+          "WorkSafe New Zealand — Personal protective equipment: a guide for workers: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/personal-protective-equipment-a-guide-for-workers/",
+          "WorkSafe New Zealand — Your practical guide to working safely with hazardous substances: https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/guidance/your-practical-guide/"
+        ],
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "training": "Automotive workshop induction, teacher demonstration, hazard check and demonstrated competency for the exact task and equipment."
+      },
+      "slug": "general-automotive-workshop-safety"
+    },
+    {
+      "id": "1-046-motor-vehicle-engineering-asbestos",
+      "legacyDepartmentIds": [
+        "technology-reference"
+      ],
+      "aliases": [
+        "brake dust",
+        "clutch dust",
+        "asbestos friction material"
+      ],
+      "name": "Brake and clutch dust / asbestos awareness",
+      "category": "Hazardous dusts",
+      "image": "assets/images/automotive-brake-clutch-dust.webp",
+      "studentVisible": true,
+      "sourceAccess": "teacher-only",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "CLEAPSS Model Risk Assessment 1.046 — Motor vehicle engineering: asbestos (supplied source)",
+        "WorkSafe New Zealand — Inspecting asbestos composite friction materials"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": false,
+        "studentUseCandidate": false,
+        "minimumYear": "Set by the automotive programme and task risk assessment.",
+        "supervision": "Teacher control only; students may view this SOP for awareness but must not perform work on suspect material.",
+        "notes": [
+          "Automotive Trades publication prepared 25 Aug 2026 from the supplied RAMS source material and current WorkSafe New Zealand guidance.",
+          "Publication means the safety content is available to students. It does not replace the teacher’s check of the exact vehicle, equipment, products, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Do not perform brake or clutch dust work until the teacher has confirmed the material and approved the method.",
+        "ppe": [
+          "eye",
+          "dust",
+          "apron",
+          "shoes"
+        ],
+        "hazardTags": [
+          "dust",
+          "toxic",
+          "carcinogen"
+        ],
+        "hazards": [
+          "Older or imported brake pads, linings and clutch parts may contain asbestos.",
+          "Asbestos fibres are too small to see and can cause serious disease years after exposure.",
+          "Brushing, dry wiping or compressed air can spread harmful dust through the workshop."
+        ],
+        "beforeStart": [
+          "Do not use, disturb or clean a suspect friction component.",
+          "Ask the teacher to confirm the part’s identity and whether an approved asbestos-free learning task is available.",
+          "Keep other people away from any damaged or dusty suspect material."
+        ],
+        "dos": [
+          "Follow the teacher’s controlled wet-cleaning or suitable vacuum method only after the material has been confirmed and the task approved.",
+          "Treat unknown friction materials as suspect and report them immediately.",
+          "Keep removed parts and contaminated cleaning materials contained as directed."
+        ],
+        "donts": [
+          "Do not use compressed air, a brush, dry rag or ordinary vacuum on brake or clutch dust.",
+          "Do not sand, grind, drill, break or otherwise disturb suspect asbestos material.",
+          "Do not take contaminated clothing, dust, parts or waste out of the controlled area."
+        ],
+        "stop": [
+          "The age, origin or composition of the friction material is unknown.",
+          "You see damaged, loose or dusty friction material.",
+          "Dust is released, containment fails or the specified control equipment is unavailable.",
+          "Anyone may have been exposed."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact vehicle or equipment instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Awareness and stop-work controls for possible asbestos-containing composite friction materials in automotive components. Suspect material is not a normal student task.",
+        "ppe": [
+          "eye",
+          "dust",
+          "apron",
+          "shoes"
+        ],
+        "hazards": [
+          "Inhalation of asbestos fibres from friction materials can cause fatal disease after a long latency period.",
+          "Secondary contamination can expose other students, staff and cleaners."
+        ],
+        "riskAssessment": [
+          "Eliminate exposure by identifying and replacing suspect components before student activity wherever reasonably practicable.",
+          "Do not infer that a part is asbestos-free from appearance alone; use reliable documentation or competent assessment."
+        ],
+        "preStart": [
+          "Check vehicle/component age, origin, supplier information and the current WorkSafe inspection guidance.",
+          "Exclude students from suspect material and establish the school asbestos response/management process."
+        ],
+        "safeUse": [
+          "Do not use compressed air, brushing or dry cleaning on suspect friction material.",
+          "Arrange competent assessment and any required asbestos work under current New Zealand requirements.",
+          "If RPE is required for an authorised task, select it through a competent assessment; AS/NZS 1715 selection/use and AS/NZS 1716 performance, fit testing, facial-hair compatibility and training apply."
+        ],
+        "shutdown": [
+          "Contain the area and materials, prevent re-entry and follow the asbestos management/emergency procedure after any suspected release."
+        ],
+        "restrictions": [
+          "Students must not remove, abrade, clean or dispose of suspected asbestos-containing components.",
+          "An RPE icon or respirator does not make unapproved asbestos work safe."
+        ],
+        "disposal": [
+          "Treat suspect asbestos components and contaminated materials as asbestos waste; use an authorised disposal pathway and required documentation."
+        ],
+        "storage": [
+          "Quarantine suspect components in sealed, identified packaging in a controlled location pending competent advice."
+        ],
+        "furtherInformation": [
+          "The supplied CLEAPSS entry was a source lead only; its UK exposure limits, regulations and mask terminology have not been carried into this NZ SOP."
+        ],
+        "firstAid": [
+          "If a release or suspected exposure occurs, stop work, keep people out, avoid further disturbance and notify the teacher/management immediately.",
+          "Seek competent asbestos advice; record the incident and follow the school exposure and emergency procedures."
+        ],
+        "teacherChecks": [
+          "Check the exact vehicle/equipment manufacturer information and the task-specific local RAMS before the lesson.",
+          "Confirm guards, isolation, ventilation/extraction, PPE, emergency equipment, supervision and student competency are appropriate.",
+          "Remove defective or uncertain equipment from service; do not improvise a repair or control."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Inspecting asbestos composite friction materials: https://www.worksafe.govt.nz/dmsdocument/72560-inspecting-asbestos-composite-friction-materials/latest/",
+          "WorkSafe New Zealand — Respiratory protective equipment and AS/NZS 1715 / AS/NZS 1716 expectations: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/",
+          "WorkSafe New Zealand — Respirator selection tool: https://www.worksafe.govt.nz/tools-registers-resources/tools/respirator-selection-tool/"
+        ],
+        "supervision": "Teacher control only; students may view this SOP for awareness but must not perform work on suspect material.",
+        "training": "Staff responsible for assessment or asbestos work must have the competence required by current New Zealand requirements."
+      },
+      "slug": "brake-clutch-dust-asbestos"
+    },
+    {
+      "id": "1-047-motor-vehicle-engineering-batteries-electrolyte-and-fumes",
+      "legacyDepartmentIds": [
+        "technology-reference"
+      ],
+      "aliases": [
+        "car battery",
+        "battery charger",
+        "lead acid",
+        "lithium battery"
+      ],
+      "name": "Vehicle batteries and charging",
+      "category": "Electrical and chemical safety",
+      "image": "assets/images/automotive-batteries-charging.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "CLEAPSS Model Risk Assessment 1.047 — batteries, electrolyte and fumes (supplied source)",
+        "WorkSafe New Zealand lithium-ion battery and lockout guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the automotive programme and task risk assessment.",
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "notes": [
+          "Automotive Trades publication prepared 25 Aug 2026 from the supplied RAMS source material and current WorkSafe New Zealand guidance.",
+          "Publication means the safety content is available to students. It does not replace the teacher’s check of the exact vehicle, equipment, products, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Identify the battery type, protect against short circuits and use only the correct charger in a ventilated area.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "apron",
+          "shoes",
+          "ventilation"
+        ],
+        "hazardTags": [
+          "chemical-burn",
+          "fire",
+          "electric"
+        ],
+        "hazards": [
+          "Lead-acid electrolyte can cause serious eye and skin burns.",
+          "A short circuit can produce very high current, molten metal, burns and fire.",
+          "Charging may release flammable gas; damaged or incorrectly charged lithium batteries can burn fiercely and release toxic smoke.",
+          "Batteries are heavy and can be damaged by dropping or incorrect lifting."
+        ],
+        "beforeStart": [
+          "Get teacher permission and identify the battery chemistry, voltage, polarity and manufacturer charging instructions.",
+          "Remove jewellery and check the case, terminals, leads and charger for damage, swelling, leakage or corrosion.",
+          "Set up in the teacher-approved ventilated charging area, clear of ignition sources and combustibles.",
+          "Confirm the charger is correct and switched off or disconnected before making connections."
+        ],
+        "dos": [
+          "Use insulated tools and terminal covers; keep metal objects away from the terminals.",
+          "Connect and disconnect in the sequence demonstrated by the teacher and prevent reversed polarity.",
+          "Keep the battery upright and observe it during charging.",
+          "Wash hands after handling batteries and use the approved lifting method."
+        ],
+        "donts": [
+          "Do not short the terminals, bypass a fuse, smoke, create sparks or place tools on a battery.",
+          "Do not charge a hot, swollen, leaking, punctured, frozen, unidentified or otherwise damaged battery.",
+          "Do not use an improvised or incompatible charger, or leave charging unattended or overnight.",
+          "Do not open, modify, repair or dismantle a battery."
+        ],
+        "stop": [
+          "The battery becomes hot, swells, hisses, leaks, smells unusual, smokes or changes shape.",
+          "The charger, lead or connection becomes hot or damaged.",
+          "There is a spark, reversed connection, acid splash or charging fault.",
+          "The battery chemistry, voltage or condition is uncertain."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact vehicle or equipment instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Safe educational handling, isolation and charging of common 12/24 V vehicle batteries. Chemistry-specific manufacturer instructions and a local charging area assessment are essential.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "apron",
+          "shoes",
+          "ventilation"
+        ],
+        "hazards": [
+          "Lead-acid electrolyte can cause serious eye and skin burns.",
+          "A short circuit can produce very high current, molten metal, burns and fire.",
+          "Charging may release flammable gas; damaged or incorrectly charged lithium batteries can burn fiercely and release toxic smoke.",
+          "Batteries are heavy and can be damaged by dropping or incorrect lifting."
+        ],
+        "riskAssessment": [
+          "Lead-acid and lithium batteries present different chemical, fire and charging hazards; the battery chemistry must be positively identified.",
+          "Low nominal voltage does not remove high-current short-circuit and arc/burn risk."
+        ],
+        "preStart": [
+          "Provide the correct compatible charger, inspected leads, ventilation, acid spill response and non-combustible charging location.",
+          "Assess manual handling and secure the battery against falling or terminal contact."
+        ],
+        "safeUse": [
+          "Supervise polarity verification and connections; charger output must be off before connection changes.",
+          "Control ignition sources and monitor temperature, condition and charging status.",
+          "Follow manufacturer instructions and WorkSafe advice for damaged lithium batteries; do not move a battery that is actively venting or burning unless the emergency plan specifically permits it."
+        ],
+        "shutdown": [
+          "Switch off/disconnect the charger before removing leads, then secure terminal covers and return the battery to approved storage.",
+          "Clean minor corrosion or spills only under the product SDS and local spill procedure."
+        ],
+        "restrictions": [
+          "Students must not fill dry batteries with acid, repair batteries, improvise chargers or work on EV/HEV traction batteries.",
+          "Damaged lithium batteries require the school emergency plan and competent advice."
+        ],
+        "disposal": [
+          "Recycle batteries through an approved battery collection route; treat leaked electrolyte and contaminated absorbents as hazardous waste. Do not put batteries in general waste."
+        ],
+        "storage": [
+          "Store upright, secure from impact and terminal shorting, in the chemistry-appropriate ventilated area away from heat and ignition sources."
+        ],
+        "furtherInformation": [
+          "Keep SDSs for electrolyte and any battery products used in the programme."
+        ],
+        "firstAid": [
+          "Stop work, isolate energy only if it is safe to do so, alert the teacher and follow the PHS emergency and first-aid procedure.",
+          "For serious injury, fire, hazardous exposure or breathing difficulty, call emergency services and preserve the scene when safe."
+        ],
+        "teacherChecks": [
+          "Check the exact vehicle/equipment manufacturer information and the task-specific local RAMS before the lesson.",
+          "Confirm guards, isolation, ventilation/extraction, PPE, emergency equipment, supervision and student competency are appropriate.",
+          "Remove defective or uncertain equipment from service; do not improvise a repair or control."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Safe use of lithium-ion batteries and battery products: https://www.worksafe.govt.nz/topic-and-industry/energy-safety/safe-use-of-lithium-ion-batteries-and-battery-products/",
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts (includes batteries, fuel, pressure, springs, hydraulics and gravity): https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014 and AS/NZS 1337.1:2010): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/",
+          "WorkSafe New Zealand — Your practical guide to working safely with hazardous substances: https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/guidance/your-practical-guide/"
+        ],
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "training": "Automotive workshop induction, teacher demonstration, hazard check and demonstrated competency for the exact task and equipment."
+      },
+      "slug": "vehicle-batteries-charging"
+    },
+    {
+      "id": "1-048-motor-vehicle-engineering-demonstration-engines",
+      "legacyDepartmentIds": [
+        "technology-reference"
+      ],
+      "aliases": [
+        "engine test stand",
+        "start engine",
+        "run engine"
+      ],
+      "name": "Starting and running engines",
+      "category": "Engine operation",
+      "image": "assets/images/automotive-engine-starting.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "CLEAPSS Model Risk Assessment 1.048 — demonstration engines (supplied source)",
+        "WorkSafe New Zealand machinery, lockout and hazardous-substance guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the automotive programme and task risk assessment.",
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "notes": [
+          "Automotive Trades publication prepared 25 Aug 2026 from the supplied RAMS source material and current WorkSafe New Zealand guidance.",
+          "Publication means the safety content is available to students. It does not replace the teacher’s check of the exact vehicle, equipment, products, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Secure the engine or vehicle, guard moving parts, connect exhaust extraction and clear the area before starting.",
+        "ppe": [
+          "eye",
+          "ear",
+          "shoes",
+          "hair",
+          "ventilation"
+        ],
+        "hazardTags": [
+          "entanglement",
+          "burn",
+          "fire",
+          "fumes"
+        ],
+        "hazards": [
+          "A vehicle or test stand can move unexpectedly when an engine starts.",
+          "Belts, fans and pulleys can catch hair, clothing, tools or fingers.",
+          "Exhaust fumes can poison; hot parts, fuel and ignition systems can burn or start a fire.",
+          "Noise and ejected parts or fluids can cause injury."
+        ],
+        "beforeStart": [
+          "Get teacher permission and complete the exact start checklist.",
+          "Confirm the vehicle is secured, transmission is in the approved safe position and the parking/holding controls are applied.",
+          "Check guards, fluid levels, leaks, exhaust extraction, ventilation and the exclusion zone.",
+          "Remove tools and loose items; tie hair back and warn everyone before starting."
+        ],
+        "dos": [
+          "Start only from the normal operator position or approved test control.",
+          "Keep hands, clothing, leads and tools clear of moving and hot parts.",
+          "Use tailpipe/local exhaust extraction whenever an engine runs indoors.",
+          "Monitor gauges, noises, movement, leaks and extraction continuously."
+        ],
+        "donts": [
+          "Do not bypass an interlock, start in gear or reach into a running engine bay.",
+          "Do not run an engine indoors without effective exhaust capture and ventilation.",
+          "Do not refuel a running or hot engine.",
+          "Do not leave a running engine unattended."
+        ],
+        "stop": [
+          "The vehicle/test stand moves or the engine speed changes unexpectedly.",
+          "Extraction fails or anyone develops headache, dizziness, nausea or breathing discomfort.",
+          "There is a fuel/fluid leak, unusual noise, vibration, smoke, overheating or fire.",
+          "A guard is missing or anyone enters the exclusion zone."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact vehicle or equipment instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Controls for starting and running vehicles or securely mounted demonstration engines in a teaching workshop.",
+        "ppe": [
+          "eye",
+          "ear",
+          "shoes",
+          "hair",
+          "ventilation"
+        ],
+        "hazards": [
+          "A vehicle or test stand can move unexpectedly when an engine starts.",
+          "Belts, fans and pulleys can catch hair, clothing, tools or fingers.",
+          "Exhaust fumes can poison; hot parts, fuel and ignition systems can burn or start a fire.",
+          "Noise and ejected parts or fluids can cause injury."
+        ],
+        "riskAssessment": [
+          "Starting creates multiple simultaneous risks: movement, entanglement, exhaust, noise, heat, fuel and electrical energy.",
+          "Natural ventilation alone should not be treated as exhaust capture for indoor engine running."
+        ],
+        "preStart": [
+          "Use a vehicle/test-stand-specific checklist covering restraint, neutral/park verification, guards, exhaust extraction, fuel containment, cooling and emergency shutdown.",
+          "Verify the exhaust system discharges safely outside without re-entry and that the space remains adequately ventilated."
+        ],
+        "safeUse": [
+          "Keep a competent operator at the control, maintain an exclusion zone and supervise continuously.",
+          "Use remote observation or test connections where reasonably practicable instead of reaching into a running system.",
+          "Shut down before adjustments unless a documented competent-person procedure specifically requires operation."
+        ],
+        "shutdown": [
+          "Stop the engine, remove/control the key or start device, allow hot parts to cool and isolate required energy before further work.",
+          "Ventilate the area and inspect for leaks, faults or loose components."
+        ],
+        "restrictions": [
+          "Students must not defeat guards/interlocks, tune near exposed rotating parts or run unapproved engines.",
+          "Engine dynamometers or powered rolling-road equipment require a separate equipment-specific SOP."
+        ],
+        "disposal": [
+          "Contain and dispose of leaked fluids and contaminated absorbents through approved streams."
+        ],
+        "storage": [
+          "Secure keys/start controls, fuel and portable test stands against unauthorised use."
+        ],
+        "furtherInformation": [
+          "Pair this page with the separate exhaust-fume SOP and the manufacturer service procedure."
+        ],
+        "firstAid": [
+          "Stop work, isolate energy only if it is safe to do so, alert the teacher and follow the PHS emergency and first-aid procedure.",
+          "For serious injury, fire, hazardous exposure or breathing difficulty, call emergency services and preserve the scene when safe."
+        ],
+        "teacherChecks": [
+          "Check the exact vehicle/equipment manufacturer information and the task-specific local RAMS before the lesson.",
+          "Confirm guards, isolation, ventilation/extraction, PPE, emergency equipment, supervision and student competency are appropriate.",
+          "Remove defective or uncertain equipment from service; do not improvise a repair or control."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts (includes batteries, fuel, pressure, springs, hydraulics and gravity): https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts",
+          "WorkSafe New Zealand — Safe use of machinery: https://www.worksafe.govt.nz/topic-and-industry/machinery/safe-use-of-machinery/",
+          "WorkSafe New Zealand — Your practical guide to working safely with hazardous substances: https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/guidance/your-practical-guide/"
+        ],
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "training": "Automotive workshop induction, teacher demonstration, hazard check and demonstrated competency for the exact task and equipment."
+      },
+      "slug": "starting-running-engines"
+    },
+    {
+      "id": "1-049-motor-vehicle-engineering-engine-fuels-engine-oils",
+      "legacyDepartmentIds": [
+        "technology-reference"
+      ],
+      "aliases": [
+        "petrol",
+        "diesel",
+        "engine oil",
+        "coolant",
+        "automotive fluids"
+      ],
+      "name": "Fuels, oils, coolants and spills",
+      "category": "Hazardous substances",
+      "image": "assets/images/automotive-fluids-spills.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "CLEAPSS Model Risk Assessment 1.049 — engine fuels and oils (supplied source)",
+        "WorkSafe New Zealand hazardous substances, collision repair and used-oil guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the automotive programme and task risk assessment.",
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "notes": [
+          "Automotive Trades publication prepared 25 Aug 2026 from the supplied RAMS source material and current WorkSafe New Zealand guidance.",
+          "Publication means the safety content is available to students. It does not replace the teacher’s check of the exact vehicle, equipment, products, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Identify the product, control ignition and skin contact, and contain every fluid in the correct tray and waste stream.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "apron",
+          "shoes",
+          "ventilation"
+        ],
+        "hazardTags": [
+          "flammable",
+          "toxic",
+          "chemical",
+          "slip-trip"
+        ],
+        "hazards": [
+          "Petrol and some cleaners produce easily ignited vapours.",
+          "Fuels, used oils and coolants can harm skin, eyes, lungs or internal organs.",
+          "Spills can spread fire, contaminate drains and cause slips.",
+          "Hot or pressurised systems can spray fluid and cause burns."
+        ],
+        "beforeStart": [
+          "Get teacher permission and read the product label/SDS and vehicle instructions.",
+          "Identify the fluid, correct container, drain point, required PPE and waste route.",
+          "Let hot systems cool and release pressure only by the approved procedure.",
+          "Remove ignition sources and place the correct drain pan and spill materials before opening anything."
+        ],
+        "dos": [
+          "Keep fluids in labelled, closed, compatible containers and use the smallest practical quantity.",
+          "Avoid skin contact and wash promptly after handling used oil or chemicals.",
+          "Catch drips, clean spills immediately under teacher direction and keep fluids out of drains.",
+          "Use ventilation and the transfer method demonstrated by the teacher."
+        ],
+        "donts": [
+          "Do not use petrol or fuel as a cleaner or start a siphon by mouth.",
+          "Do not mix fuels, oils, coolant, brake fluid, solvents or waste streams.",
+          "Do not open a hot cooling system or work near ignition sources.",
+          "Do not put automotive fluids or contaminated absorbents in sinks or general waste."
+        ],
+        "stop": [
+          "The product is unidentified, unlabelled or the SDS is unavailable.",
+          "There is a large spill, strong vapour, fire, splash or suspected inhalation/ingestion.",
+          "A system remains hot or pressurised, or fluid sprays unexpectedly.",
+          "The correct waste container, ventilation or spill equipment is unavailable."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact vehicle or equipment instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Handling and spill controls for common automotive fuels, new/used oils, coolants and related workshop fluids.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "apron",
+          "shoes",
+          "ventilation"
+        ],
+        "hazards": [
+          "Petrol and some cleaners produce easily ignited vapours.",
+          "Fuels, used oils and coolants can harm skin, eyes, lungs or internal organs.",
+          "Spills can spread fire, contaminate drains and cause slips.",
+          "Hot or pressurised systems can spray fluid and cause burns."
+        ],
+        "riskAssessment": [
+          "Controls must be based on the actual product classification and SDS; automotive fluids are not interchangeable.",
+          "Used oil may contain harmful contaminants and should be kept off skin and managed as a controlled waste stream."
+        ],
+        "preStart": [
+          "Inventory and label products, maintain SDS access, determine storage/quantity controls and segregated waste streams.",
+          "Provide compatible trays, transfer equipment, ventilation, PPE and a spill response matched to the maximum credible spill."
+        ],
+        "safeUse": [
+          "Eliminate open fuel handling where practicable and control all ignition sources.",
+          "Minimise quantities and exposure time; enforce hygiene and prompt decontamination.",
+          "Do not use compressed air to transfer, atomise or clean hazardous fluids."
+        ],
+        "shutdown": [
+          "Close and return containers, inspect the work area, clean tools under the approved method and record/replenish spill supplies."
+        ],
+        "restrictions": [
+          "Students must not decant bulk fuel, enter vapour-contaminated areas, or respond to spills beyond their training and the local plan.",
+          "Vehicle fuel-system work beyond a small approved teaching task requires a specific RAMS."
+        ],
+        "disposal": [
+          "Use clearly identified segregated waste containers and an approved hazardous-waste/recycling contractor. Never discharge fuels, oil or coolant to stormwater or drains."
+        ],
+        "storage": [
+          "Store in closed, compatible, labelled containers within the required hazardous-substance cabinets/areas and quantity controls."
+        ],
+        "furtherInformation": [
+          "The old supplied UK quantities and disposal instructions are intentionally not reproduced; apply current NZ hazardous-substance controls and local waste arrangements."
+        ],
+        "firstAid": [
+          "Stop work, isolate energy only if it is safe to do so, alert the teacher and follow the PHS emergency and first-aid procedure.",
+          "For serious injury, fire, hazardous exposure or breathing difficulty, call emergency services and preserve the scene when safe."
+        ],
+        "teacherChecks": [
+          "Check the exact vehicle/equipment manufacturer information and the task-specific local RAMS before the lesson.",
+          "Confirm guards, isolation, ventilation/extraction, PPE, emergency equipment, supervision and student competency are appropriate.",
+          "Remove defective or uncertain equipment from service; do not improvise a repair or control."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Your practical guide to working safely with hazardous substances: https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/guidance/your-practical-guide/",
+          "WorkSafe New Zealand — Working safely with hazardous substances in collision repair workshops: https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/guidance/industry-guidance/collision-repair-workshops/",
+          "WorkSafe New Zealand — Used or waste oil: https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/guidance/substances/used-or-waste-oil",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014 and AS/NZS 1337.1:2010): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
+        ],
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "training": "Automotive workshop induction, teacher demonstration, hazard check and demonstrated competency for the exact task and equipment."
+      },
+      "slug": "fuels-oils-coolants-spills"
+    },
+    {
+      "id": "1-050-motor-vehicle-engineering-exhaust-fumes",
+      "legacyDepartmentIds": [
+        "technology-reference"
+      ],
+      "aliases": [
+        "carbon monoxide",
+        "tailpipe extraction",
+        "engine fumes"
+      ],
+      "name": "Vehicle exhaust fumes and extraction",
+      "category": "Airborne contaminants",
+      "image": "assets/images/automotive-exhaust-extraction.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "CLEAPSS Model Risk Assessment 1.050 — exhaust fumes (supplied source)",
+        "WorkSafe New Zealand hazardous-substance and ventilation guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the automotive programme and task risk assessment.",
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "notes": [
+          "Automotive Trades publication prepared 25 Aug 2026 from the supplied RAMS source material and current WorkSafe New Zealand guidance.",
+          "Publication means the safety content is available to students. It does not replace the teacher’s check of the exact vehicle, equipment, products, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Do not run an engine indoors unless the tailpipe extraction is fitted, operating and discharging safely outside.",
+        "ppe": [
+          "ventilation",
+          "eye",
+          "shoes"
+        ],
+        "hazardTags": [
+          "toxic",
+          "fumes",
+          "carbon-monoxide"
+        ],
+        "hazards": [
+          "Carbon monoxide is poisonous and cannot be reliably seen or smelled.",
+          "Other exhaust contaminants can irritate or harm the lungs.",
+          "A loose or failed hose can release fumes into occupied areas.",
+          "Hot exhaust parts and hoses can burn."
+        ],
+        "beforeStart": [
+          "Get teacher permission and connect the correct extraction adaptor before starting.",
+          "Check the hose, fan/airflow indicator, outdoor discharge and open make-up air path.",
+          "Keep doors, walkways and the hose route safe and clear.",
+          "Confirm no one is near the tailpipe or discharge point."
+        ],
+        "dos": [
+          "Use source capture at the tailpipe and keep it running for the whole engine-running period.",
+          "Keep the run as short as the approved test allows and monitor the hose/airflow.",
+          "Tell the teacher immediately if you feel headache, dizziness, nausea or unusual tiredness.",
+          "Allow hot parts and the extraction adaptor to cool before removal."
+        ],
+        "donts": [
+          "Do not rely on smell, an open door or a respirator instead of exhaust capture.",
+          "Do not run an engine in a closed or poorly ventilated space.",
+          "Do not disconnect extraction while the engine is running.",
+          "Do not position the outdoor discharge where fumes can re-enter a building."
+        ],
+        "stop": [
+          "Extraction airflow stops, the hose leaks/disconnects or fumes may be entering the room.",
+          "Anyone develops headache, dizziness, nausea, confusion or breathing discomfort.",
+          "The engine, exhaust or hose overheats or the vehicle moves.",
+          "The outdoor discharge area becomes occupied or obstructed."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact vehicle or equipment instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Source-capture and ventilation controls for internal-combustion engine exhaust in an automotive teaching workshop.",
+        "ppe": [
+          "ventilation",
+          "eye",
+          "shoes"
+        ],
+        "hazards": [
+          "Acute carbon-monoxide poisoning and exposure to other combustion contaminants.",
+          "Thermal burns, vehicle movement and trip hazards from extraction equipment."
+        ],
+        "riskAssessment": [
+          "Eliminate indoor running where practicable. When required, use effective source capture plus adequate make-up air and safe discharge.",
+          "Do not use odour as evidence of safe air; assess whether fixed or portable monitoring is required for the actual facility."
+        ],
+        "preStart": [
+          "Verify extraction airflow, hose compatibility/condition, discharge location, make-up air, emergency response and any monitoring before each session."
+        ],
+        "safeUse": [
+          "Maintain source capture continuously and supervise engine operation and room occupancy.",
+          "Position hoses to avoid damage and trips, and prevent exhaust re-entry through doors, windows or air intakes."
+        ],
+        "shutdown": [
+          "Stop the engine before disconnecting extraction; purge/ventilate as the local procedure requires and check for heat damage."
+        ],
+        "restrictions": [
+          "No indoor engine running without proven effective extraction and ventilation.",
+          "RPE is not a substitute for controlling vehicle exhaust at source."
+        ],
+        "disposal": [
+          "Replace damaged hoses/filters through the approved maintenance or waste route."
+        ],
+        "storage": [
+          "Store cooled hoses and adaptors so they cannot be crushed, contaminated or used without authorisation."
+        ],
+        "furtherInformation": [
+          "The old supplied UK time-based natural-ventilation allowance is intentionally not carried forward."
+        ],
+        "firstAid": [
+          "Stop work, isolate energy only if it is safe to do so, alert the teacher and follow the PHS emergency and first-aid procedure.",
+          "For serious injury, fire, hazardous exposure or breathing difficulty, call emergency services and preserve the scene when safe."
+        ],
+        "teacherChecks": [
+          "Check the exact vehicle/equipment manufacturer information and the task-specific local RAMS before the lesson.",
+          "Confirm guards, isolation, ventilation/extraction, PPE, emergency equipment, supervision and student competency are appropriate.",
+          "Remove defective or uncertain equipment from service; do not improvise a repair or control."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Your practical guide to working safely with hazardous substances: https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/guidance/your-practical-guide/",
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts (includes batteries, fuel, pressure, springs, hydraulics and gravity): https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts",
+          "WorkSafe New Zealand — Respiratory protective equipment and AS/NZS 1715 / AS/NZS 1716 expectations: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/"
+        ],
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "training": "Automotive workshop induction, teacher demonstration, hazard check and demonstrated competency for the exact task and equipment."
+      },
+      "slug": "vehicle-exhaust-fumes-extraction"
+    },
+    {
+      "id": "1-051-motor-vehicle-engineering-lifting-and-holding-equipment",
+      "legacyDepartmentIds": [
+        "technology-reference"
+      ],
+      "aliases": [
+        "vehicle hoist",
+        "trolley jack",
+        "axle stands",
+        "lift car"
+      ],
+      "name": "Vehicle hoists, jacks and axle stands",
+      "category": "Vehicle lifting and support",
+      "image": "assets/images/automotive-vehicle-lifting.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "CLEAPSS Model Risk Assessment 1.051 — lifting and holding equipment (supplied source)",
+        "WorkSafe New Zealand lifting, machinery and lockout guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the automotive programme and task risk assessment.",
+        "supervision": "Hoist/jack setup, test lift and support verification require direct teacher control and supervision.",
+        "notes": [
+          "Automotive Trades publication prepared 25 Aug 2026 from the supplied RAMS source material and current WorkSafe New Zealand guidance.",
+          "Publication means the safety content is available to students. It does not replace the teacher’s check of the exact vehicle, equipment, products, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Use approved lift points and rated equipment; test stability before anyone approaches or works beneath a raised vehicle.",
+        "ppe": [
+          "eye",
+          "shoes"
+        ],
+        "hazardTags": [
+          "crush",
+          "falling-load",
+          "vehicle-movement"
+        ],
+        "hazards": [
+          "A raised vehicle can fall, roll or shift and cause fatal crushing injuries.",
+          "Wrong lift points can damage the vehicle or cause it to slip.",
+          "Hoists, jacks, stands or locks can fail if damaged, overloaded or incorrectly positioned.",
+          "Hands, feet, tools and people can be trapped during raising or lowering."
+        ],
+        "beforeStart": [
+          "Get teacher permission and follow the exact hoist/jack checklist and vehicle lift-point information.",
+          "Confirm the equipment rating, inspection status and condition are suitable for the vehicle and load distribution.",
+          "Clear the vehicle, close doors/bonnet as required, secure against rolling and establish an exclusion zone.",
+          "Position lift arms, pads, jack or stands only at approved points."
+        ],
+        "dos": [
+          "Raise a short distance, stop and have the teacher verify contact and stability before continuing.",
+          "Engage the hoist’s mechanical safety locks or approved supports.",
+          "Keep everyone clear while raising or lowering and communicate before movement.",
+          "Use a jack only for lifting; support the vehicle with correctly rated stands before work beneath it."
+        ],
+        "donts": [
+          "Do not go under a vehicle supported only by a jack or hydraulic pressure.",
+          "Do not exceed ratings, use makeshift blocks, lift on damaged structure or move lift points while loaded.",
+          "Do not rock the vehicle, climb on it or remove major components without reassessing balance.",
+          "Do not operate controls unless authorised and able to see the full danger area."
+        ],
+        "stop": [
+          "A pad, arm, stand, wheel restraint or lift point moves or appears incorrect.",
+          "The vehicle is unbalanced, overloaded, structurally damaged or its centre of gravity will change.",
+          "A lock does not engage, equipment leaks, deforms, makes an unusual sound or lacks a current inspection status.",
+          "Anyone enters the danger area."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact vehicle or equipment instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Controls for raising and supporting vehicles with hoists, trolley jacks and axle stands in a teaching workshop.",
+        "ppe": [
+          "eye",
+          "shoes"
+        ],
+        "hazards": [
+          "A raised vehicle can fall, roll or shift and cause fatal crushing injuries.",
+          "Wrong lift points can damage the vehicle or cause it to slip.",
+          "Hoists, jacks, stands or locks can fail if damaged, overloaded or incorrectly positioned.",
+          "Hands, feet, tools and people can be trapped during raising or lowering."
+        ],
+        "riskAssessment": [
+          "A lifting device and a support device are not automatically the same; hydraulic pressure alone is not an approved support for work beneath a vehicle.",
+          "Removing engines, gearboxes, batteries or other major components can materially change balance and lift loading."
+        ],
+        "preStart": [
+          "Verify equipment rating, inspection/maintenance records, vehicle mass and lift points, floor condition and intended changes to load distribution.",
+          "Use a documented pre-use checklist and control access to operating controls."
+        ],
+        "safeUse": [
+          "A competent person must direct positioning, test lift, lock engagement and stability verification.",
+          "Use secondary/approved support and restraints required by the equipment/vehicle manufacturer and local assessment.",
+          "Keep the exclusion zone clear during all movement."
+        ],
+        "shutdown": [
+          "Lower onto a clear level area, remove equipment only when unloaded and return controls/keys to secure storage.",
+          "Quarantine and report any equipment that leaked, slipped, overloaded or failed a check."
+        ],
+        "restrictions": [
+          "Students must not work under a vehicle supported only by a jack, operate unapproved lifting equipment or improvise supports.",
+          "Inspection pits, mobile column lifts and unusual vehicles require separate local assessment."
+        ],
+        "disposal": [
+          "Dispose of contaminated hydraulic absorbents and failed lifting accessories through approved routes; prevent reuse of condemned gear."
+        ],
+        "storage": [
+          "Store stands, pads, chocks and lifting accessories clean, dry, identified and protected from damage."
+        ],
+        "furtherInformation": [
+          "The supplied UK LOLER/PUWER references have been removed; the local lifting-equipment inspection and maintenance programme must follow current NZ duties and competent-person advice."
+        ],
+        "firstAid": [
+          "For a crushing incident, do not move the vehicle/load unless necessary to prevent immediate further harm and directed by competent emergency responders.",
+          "Call emergency services immediately, keep the area controlled and follow first-aid instructions."
+        ],
+        "teacherChecks": [
+          "Check the exact vehicle/equipment manufacturer information and the task-specific local RAMS before the lesson.",
+          "Confirm guards, isolation, ventilation/extraction, PPE, emergency equipment, supervision and student competency are appropriate.",
+          "Remove defective or uncertain equipment from service; do not improvise a repair or control."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Load-lifting and rigging: https://www.worksafe.govt.nz/topic-and-industry/load-lifting-and-rigging/",
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts (includes batteries, fuel, pressure, springs, hydraulics and gravity): https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts",
+          "WorkSafe New Zealand — Safe use of machinery: https://www.worksafe.govt.nz/topic-and-industry/machinery/safe-use-of-machinery/"
+        ],
+        "supervision": "Hoist/jack setup, test lift and support verification require direct teacher control and supervision.",
+        "training": "Automotive workshop induction, teacher demonstration, hazard check and demonstrated competency for the exact task and equipment."
+      },
+      "slug": "vehicle-hoists-jacks-axle-stands"
+    },
+    {
+      "id": "auto-hand-tools-torque-pullers",
+      "aliases": [
+        "spanners",
+        "sockets",
+        "torque wrench",
+        "bearing puller"
+      ],
+      "name": "Hand tools, torque wrenches and pullers",
+      "category": "Hand tools",
+      "image": "assets/images/automotive-hand-tools-torque.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "WorkSafe New Zealand machinery and PPE guidance",
+        "Manufacturer instructions for torque tools and pullers"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the automotive programme and task risk assessment.",
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "notes": [
+          "Automotive Trades publication prepared 25 Aug 2026 from the supplied RAMS source material and current WorkSafe New Zealand guidance.",
+          "Publication means the safety content is available to students. It does not replace the teacher’s check of the exact vehicle, equipment, products, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Use the correct undamaged tool, keep it square to the fastener and control the force and release path.",
+        "ppe": [
+          "eye",
+          "shoes"
+        ],
+        "hazardTags": [
+          "impact",
+          "cut",
+          "pinch"
+        ],
+        "hazards": [
+          "A slipping spanner, socket or puller can cause impact, cuts and trapped fingers.",
+          "Incorrect tools or improvised extensions can break or damage fasteners and components.",
+          "Stored force in pullers or tight fasteners can release suddenly.",
+          "Incorrect torque can cause later component failure."
+        ],
+        "beforeStart": [
+          "Get teacher permission and identify the correct tool, size, drive type, puller and specified torque.",
+          "Inspect handles, jaws, sockets, ratchets and torque tools for wear, cracks or damage.",
+          "Secure and support the component; clear the force and release path.",
+          "Check the torque wrench range, units and current calibration/verification status."
+        ],
+        "dos": [
+          "Seat tools fully and pull with a stable stance where practicable.",
+          "Keep puller jaws even, centred and securely engaged.",
+          "Use specified tightening sequence and torque; reset/store the torque tool as its manufacturer requires.",
+          "Return tools clean and report damage or overload."
+        ],
+        "donts": [
+          "Do not use pipes, hammer blows, mismatched sockets or improvised adapters unless the approved procedure specifically provides them.",
+          "Do not use a torque wrench as a breaker bar.",
+          "Do not stand in line with a loaded puller or place fingers behind a component that may release.",
+          "Do not use damaged, rounded or incorrectly sized tools."
+        ],
+        "stop": [
+          "A tool slips, flexes, cracks, jams or does not seat correctly.",
+          "The component moves, stored force is uncontrolled or the specified torque is uncertain.",
+          "The puller cannot be centred or its rating/condition is unknown.",
+          "Excessive force seems necessary."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact vehicle or equipment instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Selection and controlled use of common automotive hand tools, torque wrenches and mechanical pullers.",
+        "ppe": [
+          "eye",
+          "shoes"
+        ],
+        "hazards": [
+          "A slipping spanner, socket or puller can cause impact, cuts and trapped fingers.",
+          "Incorrect tools or improvised extensions can break or damage fasteners and components.",
+          "Stored force in pullers or tight fasteners can release suddenly.",
+          "Incorrect torque can cause later component failure."
+        ],
+        "riskAssessment": [
+          "Match the tool, rating and drive system to the fastener and expected force; consider the release direction before loading.",
+          "Correct assembly torque is a service specification, not a guess."
+        ],
+        "preStart": [
+          "Provide service information, suitable workholding, inspected tools and verified/calibrated torque equipment where accuracy is safety-critical."
+        ],
+        "safeUse": [
+          "Demonstrate body position, controlled force, correct puller setup and torque sequence.",
+          "Remove damaged or overloaded tools from service."
+        ],
+        "shutdown": [
+          "Release tool loads safely, clean and inspect tools, reset/store torque wrenches according to manufacturer instructions."
+        ],
+        "restrictions": [
+          "Do not permit improvised extensions, striking of non-impact tools or use beyond ratings.",
+          "Safety-critical fasteners require teacher verification and manufacturer specifications."
+        ],
+        "disposal": [
+          "Quarantine broken tools and dispose of sharp fragments safely."
+        ],
+        "storage": [
+          "Store clean, dry and organised; protect torque tools from impact and follow calibration/verification intervals."
+        ],
+        "furtherInformation": [
+          "Use the exact vehicle service procedure for safety-critical fasteners and assemblies."
+        ],
+        "firstAid": [
+          "Stop work, isolate energy only if it is safe to do so, alert the teacher and follow the PHS emergency and first-aid procedure.",
+          "For serious injury, fire, hazardous exposure or breathing difficulty, call emergency services and preserve the scene when safe."
+        ],
+        "teacherChecks": [
+          "Check the exact vehicle/equipment manufacturer information and the task-specific local RAMS before the lesson.",
+          "Confirm guards, isolation, ventilation/extraction, PPE, emergency equipment, supervision and student competency are appropriate.",
+          "Remove defective or uncertain equipment from service; do not improvise a repair or control."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Safe use of machinery: https://www.worksafe.govt.nz/topic-and-industry/machinery/safe-use-of-machinery/",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014 and AS/NZS 1337.1:2010): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/",
+          "WorkSafe New Zealand — Personal protective equipment: a guide for workers: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/personal-protective-equipment-a-guide-for-workers/"
+        ],
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "training": "Automotive workshop induction, teacher demonstration, hazard check and demonstrated competency for the exact task and equipment."
+      },
+      "slug": "hand-tools-torque-wrenches-pullers"
+    },
+    {
+      "id": "auto-compressed-air-tyre-inflation",
+      "aliases": [
+        "air tools",
+        "air hose",
+        "inflate tyre",
+        "compressed air"
+      ],
+      "name": "Compressed air and tyre inflation",
+      "category": "Pneumatic systems",
+      "image": "assets/images/automotive-compressed-air-tyres.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "WorkSafe New Zealand — Compressed air",
+        "Manufacturer instructions for the compressor, regulator, tools and tyre equipment"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the automotive programme and task risk assessment.",
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "notes": [
+          "Automotive Trades publication prepared 25 Aug 2026 from the supplied RAMS source material and current WorkSafe New Zealand guidance.",
+          "Publication means the safety content is available to students. It does not replace the teacher’s check of the exact vehicle, equipment, products, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Check the equipment and rated pressure, keep out of the tyre trajectory zone and never direct compressed air at a person.",
+        "ppe": [
+          "eye",
+          "ear",
+          "shoes"
+        ],
+        "hazardTags": [
+          "pressure",
+          "noise",
+          "flying-particles"
+        ],
+        "hazards": [
+          "Compressed air can penetrate skin and cause severe internal injury.",
+          "Hoses, fittings, tools or tyre components can whip, burst or eject parts.",
+          "Incorrect gauges or pressure can overinflate a tyre and cause failure.",
+          "Compressed air can spread harmful dust and create high noise."
+        ],
+        "beforeStart": [
+          "Get teacher permission and identify the approved pressure and equipment for the task.",
+          "Inspect hose, couplings, chuck, regulator, gauge, tyre, rim and valve for damage.",
+          "Secure hoses and the work; establish the tyre trajectory exclusion zone and restraint method required.",
+          "Fit eye/hearing protection and keep bystanders clear."
+        ],
+        "dos": [
+          "Use regulated pressure, an accurate gauge and the approved clip-on/remote inflation method.",
+          "Stand out of the trajectory zone and monitor pressure continuously.",
+          "Isolate and bleed pressure before disconnecting, clearing a jam or changing a tool.",
+          "Use wet wiping or a suitable vacuum for dust cleaning."
+        ],
+        "donts": [
+          "Do not aim compressed air at skin, clothing, hair or another person.",
+          "Do not use compressed air to clean brake/clutch dust or unknown dust.",
+          "Do not inflate a damaged, mismatched, incorrectly seated or unidentified tyre/rim assembly.",
+          "Do not kink hoses, defeat regulators or exceed any component rating."
+        ],
+        "stop": [
+          "A hose whips, coupling leaks, gauge is unreliable or pressure behaves unexpectedly.",
+          "The tyre, rim, valve or bead is damaged, distorted, mismatched or does not seat normally.",
+          "Any person enters the trajectory zone.",
+          "The correct restraint, regulator or remote gauge is unavailable."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact vehicle or equipment instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Safe use of workshop compressed air, pneumatic tools and controlled tyre inflation.",
+        "ppe": [
+          "eye",
+          "ear",
+          "shoes"
+        ],
+        "hazards": [
+          "Compressed air can penetrate skin and cause severe internal injury.",
+          "Hoses, fittings, tools or tyre components can whip, burst or eject parts.",
+          "Incorrect gauges or pressure can overinflate a tyre and cause failure.",
+          "Compressed air can spread harmful dust and create high noise."
+        ],
+        "riskAssessment": [
+          "Pressure must be limited to the lowest effective value and every component must be rated for it.",
+          "Tyre/rim failures can be catastrophic; damaged or multi-piece assemblies require competent specialist controls beyond this general SOP."
+        ],
+        "preStart": [
+          "Maintain compressor, receiver, regulators, hoses, couplings and calibrated/verified gauges; set task-appropriate pressure limits.",
+          "Assess whether a restraint/cage and remote inflation are required for the tyre/rim assembly."
+        ],
+        "safeUse": [
+          "Supervise inflation from outside the trajectory zone and prevent bypass of regulators.",
+          "Isolate and depressurise before maintenance or connection changes."
+        ],
+        "shutdown": [
+          "Close/isolate the supply, bleed downstream pressure, inspect and store hoses/tools without trip or damage hazards."
+        ],
+        "restrictions": [
+          "Students must not inflate split/multi-piece rims, damaged assemblies or commercial/heavy-vehicle tyres under this SOP.",
+          "Never use compressed air for body or clothing cleaning."
+        ],
+        "disposal": [
+          "Quarantine damaged hoses, fittings, tyres and rims so they cannot be reused; use approved recycling/disposal."
+        ],
+        "storage": [
+          "Coil hoses without tight bends, protect gauges and couplings, and secure the air system from unauthorised use."
+        ],
+        "furtherInformation": [
+          "WorkSafe specifically recommends wet wiping or vacuuming rather than using compressed air to remove dust."
+        ],
+        "firstAid": [
+          "Treat any suspected compressed-air injection injury as a medical emergency even if the skin wound looks small; call emergency services.",
+          "For eye or hearing injury, stop work and obtain immediate first aid/medical assessment."
+        ],
+        "teacherChecks": [
+          "Check the exact vehicle/equipment manufacturer information and the task-specific local RAMS before the lesson.",
+          "Confirm guards, isolation, ventilation/extraction, PPE, emergency equipment, supervision and student competency are appropriate.",
+          "Remove defective or uncertain equipment from service; do not improvise a repair or control."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Compressed air: https://www.worksafe.govt.nz/topic-and-industry/compressed-air/",
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts (includes batteries, fuel, pressure, springs, hydraulics and gravity): https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014 and AS/NZS 1337.1:2010): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
+        ],
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "training": "Automotive workshop induction, teacher demonstration, hazard check and demonstrated competency for the exact task and equipment."
+      },
+      "slug": "compressed-air-tyre-inflation"
+    },
+    {
+      "id": "auto-low-voltage-electrical",
+      "aliases": [
+        "12 volt wiring",
+        "24 volt wiring",
+        "multimeter",
+        "vehicle electrics"
+      ],
+      "name": "12/24 V vehicle electrical work",
+      "category": "Vehicle electrical systems",
+      "image": "assets/images/automotive-low-voltage-electrical.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "WorkSafe New Zealand machinery lockout and electricity guidance",
+        "Vehicle manufacturer service information"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the automotive programme and task risk assessment.",
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "notes": [
+          "Automotive Trades publication prepared 25 Aug 2026 from the supplied RAMS source material and current WorkSafe New Zealand guidance.",
+          "Publication means the safety content is available to students. It does not replace the teacher’s check of the exact vehicle, equipment, products, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Low voltage can still deliver very high current: isolate, cover terminals, fuse test circuits and verify before touching.",
+        "ppe": [
+          "eye",
+          "shoes"
+        ],
+        "hazardTags": [
+          "electric",
+          "burn",
+          "fire"
+        ],
+        "hazards": [
+          "Battery short circuits can cause burns, molten metal and fire.",
+          "Unexpected cranking, fans, actuators or vehicle movement can crush or entangle.",
+          "Incorrect meter settings or probe placement can damage equipment and create a fault.",
+          "Airbags, pretensioners and EV/HEV high-voltage systems may remain hazardous after normal power is switched off."
+        ],
+        "beforeStart": [
+          "Get teacher permission and confirm the task is limited to the approved 12/24 V circuit.",
+          "Use the correct wiring diagram and identify batteries, capacitors, actuators and other stored energy.",
+          "Switch off, control the key and isolate as the manufacturer procedure requires; verify the safe state.",
+          "Inspect insulated leads, meter, fuse protection and terminal covers."
+        ],
+        "dos": [
+          "Use fused test leads or current limiting where the teaching setup provides them.",
+          "Select the meter function and range before connecting; keep fingers behind probe guards.",
+          "Cover exposed battery terminals and keep tools/jewellery away.",
+          "Reconnect only after a teacher check that tools are removed and people are clear."
+        ],
+        "donts": [
+          "Do not work on orange cables, EV/HEV traction systems, airbags, pretensioners, mains circuits or inside chargers.",
+          "Do not bypass fuses, probe unknown connectors or measure current directly across a battery.",
+          "Do not disconnect/reconnect circuits with power applied unless the approved test specifically requires it.",
+          "Do not assume a circuit is safe because it is labelled low voltage."
+        ],
+        "stop": [
+          "You find orange high-voltage cable, yellow restraint connectors or an unidentified energy source.",
+          "A component moves, sparks, heats, smells, smokes or draws unexpected current.",
+          "The wiring diagram, isolation state, meter category/rating or test point is uncertain.",
+          "A battery is damaged, leaking, swollen or hot."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact vehicle or equipment instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Bounded student work on approved conventional 12/24 V vehicle circuits and de-energised training rigs.",
+        "ppe": [
+          "eye",
+          "shoes"
+        ],
+        "hazards": [
+          "Battery short circuits can cause burns, molten metal and fire.",
+          "Unexpected cranking, fans, actuators or vehicle movement can crush or entangle.",
+          "Incorrect meter settings or probe placement can damage equipment and create a fault.",
+          "Airbags, pretensioners and EV/HEV high-voltage systems may remain hazardous after normal power is switched off."
+        ],
+        "riskAssessment": [
+          "Nominal voltage alone does not represent short-circuit energy or unexpected-movement risk.",
+          "Vehicle safety systems and EV/HEV traction systems require specialist competence, equipment and manufacturer procedures."
+        ],
+        "preStart": [
+          "Define the permitted circuit boundary, supply current limit/fusing, isolation and verification steps, and check test-equipment suitability.",
+          "Identify and exclude high-voltage and pyrotechnic systems."
+        ],
+        "safeUse": [
+          "Control keys and all energy sources; verify isolation and secure moving or gravity-loaded parts.",
+          "Supervise meter setup and reconnection; use current-limited training supplies where practicable."
+        ],
+        "shutdown": [
+          "Power down, isolate, remove test leads, account for tools and restore covers/guards before controlled reconnection."
+        ],
+        "restrictions": [
+          "This SOP excludes mains electrical work, EV/HEV traction systems, airbags, pretensioners and internal charger repair.",
+          "Only a registered electrical worker may undertake prescribed electrical work where New Zealand law requires it."
+        ],
+        "disposal": [
+          "Recycle batteries/electronic parts through approved streams; contain damaged battery products under the emergency plan."
+        ],
+        "storage": [
+          "Store meters, insulated leads, fuses and training supplies protected from damage and unauthorised use."
+        ],
+        "furtherInformation": [
+          "Use the vehicle manufacturer’s service information; isolation times and procedures vary by system."
+        ],
+        "firstAid": [
+          "Stop work, isolate energy only if it is safe to do so, alert the teacher and follow the PHS emergency and first-aid procedure.",
+          "For serious injury, fire, hazardous exposure or breathing difficulty, call emergency services and preserve the scene when safe."
+        ],
+        "teacherChecks": [
+          "Check the exact vehicle/equipment manufacturer information and the task-specific local RAMS before the lesson.",
+          "Confirm guards, isolation, ventilation/extraction, PPE, emergency equipment, supervision and student competency are appropriate.",
+          "Remove defective or uncertain equipment from service; do not improvise a repair or control."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts (includes batteries, fuel, pressure, springs, hydraulics and gravity): https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts",
+          "WorkSafe New Zealand — Electricity: https://www.worksafe.govt.nz/topic-and-industry/electricity/",
+          "WorkSafe New Zealand — Safe use of lithium-ion batteries and battery products: https://www.worksafe.govt.nz/topic-and-industry/energy-safety/safe-use-of-lithium-ion-batteries-and-battery-products/",
+          "WorkSafe New Zealand — Protecting your workers’ eyes (AS/NZS 1336:2014 and AS/NZS 1337.1:2010): https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
+        ],
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "training": "Automotive workshop induction, teacher demonstration, hazard check and demonstrated competency for the exact task and equipment."
+      },
+      "slug": "12-24v-vehicle-electrical-work"
+    },
+    {
+      "id": "auto-parts-cleaning-degreasing",
+      "aliases": [
+        "parts washer",
+        "degreaser",
+        "solvent cleaning"
+      ],
+      "name": "Parts cleaning and degreasing",
+      "category": "Hazardous substances",
+      "image": "assets/images/automotive-parts-cleaning.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "WorkSafe New Zealand hazardous-substance and collision repair guidance",
+        "Product SDS and parts-washer manufacturer instructions"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the automotive programme and task risk assessment.",
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "notes": [
+          "Automotive Trades publication prepared 25 Aug 2026 from the supplied RAMS source material and current WorkSafe New Zealand guidance.",
+          "Publication means the safety content is available to students. It does not replace the teacher’s check of the exact vehicle, equipment, products, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Use only the approved cleaner in the parts washer, keep the lid/control system working and prevent skin, eye and vapour exposure.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "apron",
+          "ventilation",
+          "shoes"
+        ],
+        "hazardTags": [
+          "chemical",
+          "flammable",
+          "fumes"
+        ],
+        "hazards": [
+          "Cleaners can irritate or burn skin and eyes and may produce harmful vapour.",
+          "Some solvents are flammable and can be ignited by sparks, flames or hot surfaces.",
+          "Spraying or compressed air can spread cleaner and contamination.",
+          "A parts washer can create splash, pinch, spill and electrical hazards."
+        ],
+        "beforeStart": [
+          "Get teacher permission and read the cleaner label/SDS and machine instructions.",
+          "Confirm the cleaner is approved for the machine and the part.",
+          "Check lid, pump, lead, hose, ventilation and fluid level/condition.",
+          "Put on specified PPE and place the part so it cannot fall or splash."
+        ],
+        "dos": [
+          "Keep the lid as closed as the process permits and use the brush/flow gently.",
+          "Let parts drain into the washer and use trays for transfer.",
+          "Wash hands after the task and report skin contact or symptoms.",
+          "Keep ignition sources and incompatible products away."
+        ],
+        "donts": [
+          "Do not add petrol, fuel, thinners or an unapproved chemical to the washer.",
+          "Do not spray cleaner, use compressed air to dry parts or direct flow at a person.",
+          "Do not put hot parts, batteries, sealed/pressurised items or reactive materials in the washer.",
+          "Do not bypass the lid, fusible link, ventilation or other safety device."
+        ],
+        "stop": [
+          "The product is unidentified, the SDS is unavailable or the wrong cleaner may be present.",
+          "Ventilation/pump/lid fails, the machine leaks or fluid becomes unusually hot.",
+          "There is strong vapour, dizziness, skin/eye irritation, fire or a significant spill.",
+          "The part may react with or be damaged by the cleaner."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact vehicle or equipment instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Use of an approved aqueous or other assessed parts-cleaning system in an automotive teaching workshop.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "apron",
+          "ventilation",
+          "shoes"
+        ],
+        "hazards": [
+          "Cleaners can irritate or burn skin and eyes and may produce harmful vapour.",
+          "Some solvents are flammable and can be ignited by sparks, flames or hot surfaces.",
+          "Spraying or compressed air can spread cleaner and contamination.",
+          "A parts washer can create splash, pinch, spill and electrical hazards."
+        ],
+        "riskAssessment": [
+          "The actual cleaner SDS and machine design determine controls; do not assume all parts washers are non-flammable or low-hazard.",
+          "Substitution with an aqueous/low-volatility product and enclosed cleaning should be considered before PPE."
+        ],
+        "preStart": [
+          "Approve the cleaner for the machine/material, maintain SDS access, ventilation and spill/fire controls, and inspect the lid and electrical equipment."
+        ],
+        "safeUse": [
+          "Minimise open exposure, prevent aerosol generation and enforce glove compatibility, hygiene and change-out procedures.",
+          "Select RPE only after a competent assessment using WorkSafe guidance; RPE does not replace substitution or ventilation."
+        ],
+        "shutdown": [
+          "Allow parts to drain, close/switch off the washer, wipe external drips under the procedure and wash hands."
+        ],
+        "restrictions": [
+          "Students must not change cleaning fluid, service the washer or use flammable/unapproved solvents.",
+          "Do not use RPE as the sole control for an unsuitable cleaner or failed ventilation."
+        ],
+        "disposal": [
+          "Manage spent cleaner, sludge, contaminated wipes and absorbents under the SDS and approved hazardous-waste contractor process."
+        ],
+        "storage": [
+          "Keep cleaners closed, labelled and in compatible hazardous-substance storage; secure the washer against unauthorised use."
+        ],
+        "furtherInformation": [
+          "Confirm glove material and breakthrough time against the exact SDS; a generic glove icon is not a chemical compatibility decision."
+        ],
+        "firstAid": [
+          "Stop work, isolate energy only if it is safe to do so, alert the teacher and follow the PHS emergency and first-aid procedure.",
+          "For serious injury, fire, hazardous exposure or breathing difficulty, call emergency services and preserve the scene when safe."
+        ],
+        "teacherChecks": [
+          "Check the exact vehicle/equipment manufacturer information and the task-specific local RAMS before the lesson.",
+          "Confirm guards, isolation, ventilation/extraction, PPE, emergency equipment, supervision and student competency are appropriate.",
+          "Remove defective or uncertain equipment from service; do not improvise a repair or control."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Working safely with hazardous substances in collision repair workshops: https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/guidance/industry-guidance/collision-repair-workshops/",
+          "WorkSafe New Zealand — Your practical guide to working safely with hazardous substances: https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/guidance/your-practical-guide/",
+          "WorkSafe New Zealand — Respiratory protective equipment and AS/NZS 1715 / AS/NZS 1716 expectations: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/",
+          "WorkSafe New Zealand — Respirator selection tool: https://www.worksafe.govt.nz/tools-registers-resources/tools/respirator-selection-tool/"
+        ],
+        "supervision": "Direct teacher instruction and active supervision are required throughout the task.",
+        "training": "Automotive workshop induction, teacher demonstration, hazard check and demonstrated competency for the exact task and equipment."
+      },
+      "slug": "parts-cleaning-degreasing"
+    },
+    {
+      "id": "auto-hot-work-around-vehicles",
+      "aliases": [
+        "welding vehicle",
+        "grinding near car",
+        "cutting vehicle",
+        "hot work"
+      ],
+      "name": "Hot work around vehicles",
+      "category": "Welding, cutting and grinding",
+      "image": "assets/images/automotive-hot-work.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "WorkSafe New Zealand welding good-practice guidance",
+        "WorkSafe New Zealand machinery lockout and hazardous-substance guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the automotive programme and task risk assessment.",
+        "supervision": "Direct teacher supervision plus the process-specific welding/cutting/grinding controls and fire watch.",
+        "notes": [
+          "Automotive Trades publication prepared 25 Aug 2026 from the supplied RAMS source material and current WorkSafe New Zealand guidance.",
+          "Publication means the safety content is available to students. It does not replace the teacher’s check of the exact vehicle, equipment, products, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Hot work needs its own permit/check: isolate energy, remove combustibles, control fumes and protect the vehicle and everyone nearby.",
+        "ppe": [
+          "eye",
+          "weld-face",
+          "heat-gloves",
+          "apron",
+          "shoes",
+          "ventilation",
+          "hair"
+        ],
+        "hazardTags": [
+          "fire",
+          "fumes",
+          "burn",
+          "electric"
+        ],
+        "hazards": [
+          "Sparks and hot metal can ignite fuel, trim, underseal, batteries and hidden combustibles.",
+          "Welding and cutting fumes can harm lungs; coatings may produce highly toxic contaminants.",
+          "Current, heat and voltage spikes can damage vehicle electronics or create shock/burn hazards.",
+          "Cylinders, tyres, pressurised systems and enclosed spaces can fail violently when heated."
+        ],
+        "beforeStart": [
+          "Do not carry out hot work until the teacher approves the task-specific hot-work check and the separate welding/grinding SOP.",
+          "Identify and isolate batteries, fuel, LPG, refrigerant, pressure, airbags/pretensioners and hidden combustible materials.",
+          "Move the work to a detached clean part where practicable; clean coatings only by the approved method.",
+          "Set screens, extraction, fire equipment, exclusion zone and a fire watch."
+        ],
+        "dos": [
+          "Use source extraction close to the fume and the PPE specified for the exact process/material.",
+          "Protect nearby people from arc radiation, sparks and noise.",
+          "Keep leads/earth return arranged as the manufacturer procedure requires and away from sensitive systems.",
+          "Inspect both sides and hidden spaces during work and the defined fire-watch period."
+        ],
+        "donts": [
+          "Do not weld, cut or grind a tank, drum, fuel line or unknown sealed container.",
+          "Do not perform hot work near leaks, vapours, batteries on charge, airbags, tyres or pressurised systems.",
+          "Do not rely on a respirator instead of removing coatings and using effective extraction.",
+          "Do not leave hot material or a completed hot-work area unattended."
+        ],
+        "stop": [
+          "Fuel/solvent odour, smoke, hidden heating, fire or a failed fire watch occurs.",
+          "Extraction, screening, isolation or equipment fails.",
+          "The material/coating is unknown or suspected to contain a highly hazardous substance.",
+          "A pressurised, fuelled, pyrotechnic or high-voltage system may be affected."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact vehicle or equipment instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Additional vehicle-specific controls that must be applied alongside the relevant welding, cutting or grinding SOP.",
+        "ppe": [
+          "eye",
+          "weld-face",
+          "heat-gloves",
+          "apron",
+          "shoes",
+          "ventilation",
+          "hair"
+        ],
+        "hazards": [
+          "Sparks and hot metal can ignite fuel, trim, underseal, batteries and hidden combustibles.",
+          "Welding and cutting fumes can harm lungs; coatings may produce highly toxic contaminants.",
+          "Current, heat and voltage spikes can damage vehicle electronics or create shock/burn hazards.",
+          "Cylinders, tyres, pressurised systems and enclosed spaces can fail violently when heated."
+        ],
+        "riskAssessment": [
+          "Prefer removing and cleaning the component before hot work; vehicles contain hidden combustible, pressurised, electrical and pyrotechnic systems.",
+          "Assess coatings and fume composition before work; extraction at source is a primary control."
+        ],
+        "preStart": [
+          "Use a documented hot-work check/permit covering vehicle information, both sides of the work, isolation, cleaning, extraction, screens, fire equipment and fire-watch duration.",
+          "Confirm competent supervision and that the process-specific SOP and equipment checks are complete."
+        ],
+        "safeUse": [
+          "Maintain source extraction, exclusion and fire watch; continuously inspect adjacent/hidden areas.",
+          "Follow manufacturer procedures for battery/electronic-system protection and welding return location."
+        ],
+        "shutdown": [
+          "Isolate equipment, secure cylinders, remove hot waste safely and complete the defined post-work fire watch and final inspection."
+        ],
+        "restrictions": [
+          "No hot work on tanks, drums, fuel containers, refrigerant systems, batteries, airbags/pretensioners, EV/HEV systems or unknown coated parts under this general SOP.",
+          "Students require the separate approved process SOP and direct supervision."
+        ],
+        "disposal": [
+          "Collect hot metal, grinding dust, removed coatings and contaminated cleaning materials in compatible approved waste streams."
+        ],
+        "storage": [
+          "Return hot-work equipment and cylinders under their specific SOPs; keep completed parts isolated until cool."
+        ],
+        "furtherInformation": [
+          "Use the WorkSafe RPE selector only after the contaminant and other controls are assessed; fit testing and clean-shaven sealing surfaces may be required for tight-fitting RPE."
+        ],
+        "firstAid": [
+          "Stop work, isolate energy only if it is safe to do so, alert the teacher and follow the PHS emergency and first-aid procedure.",
+          "For serious injury, fire, hazardous exposure or breathing difficulty, call emergency services and preserve the scene when safe."
+        ],
+        "teacherChecks": [
+          "Check the exact vehicle/equipment manufacturer information and the task-specific local RAMS before the lesson.",
+          "Confirm guards, isolation, ventilation/extraction, PPE, emergency equipment, supervision and student competency are appropriate.",
+          "Remove defective or uncertain equipment from service; do not improvise a repair or control."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Welding health and safety good practice guide: https://www.worksafe.govt.nz/assets/dmsassets/WKS-13-Welding-GPG.pdf",
+          "WorkSafe New Zealand — Welding and local exhaust ventilation: https://www.worksafe.govt.nz/topic-and-industry/welding/welding-and-local-exhaust-ventilation/",
+          "WorkSafe New Zealand — Cutting and welding drums and tanks: https://www.worksafe.govt.nz/topic-and-industry/welding/cutting-and-welding-drums-and-tanks/",
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts (includes batteries, fuel, pressure, springs, hydraulics and gravity): https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts",
+          "WorkSafe New Zealand — Respirator selection tool: https://www.worksafe.govt.nz/tools-registers-resources/tools/respirator-selection-tool/"
+        ],
+        "supervision": "Direct teacher supervision plus the process-specific welding/cutting/grinding controls and fire watch.",
+        "training": "Automotive induction plus demonstrated competence for the exact hot-work process; teacher must control the hot-work check."
+      },
+      "slug": "hot-work-around-vehicles"
+    },
+    {
+      "id": "auto-heavy-component-lifting",
+      "aliases": [
+        "engine crane",
+        "engine hoist",
+        "gearbox jack",
+        "lifting engine"
+      ],
+      "name": "Lifting engines and heavy components",
+      "category": "Load lifting and handling",
+      "image": "assets/images/automotive-component-lifting.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "WorkSafe New Zealand load-lifting and rigging guidance",
+        "Equipment and vehicle manufacturer instructions"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the automotive programme and task risk assessment.",
+        "supervision": "Teacher-directed lift plan and direct supervision for attachment, test lift, movement and landing.",
+        "notes": [
+          "Automotive Trades publication prepared 25 Aug 2026 from the supplied RAMS source material and current WorkSafe New Zealand guidance.",
+          "Publication means the safety content is available to students. It does not replace the teacher’s check of the exact vehicle, equipment, products, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Plan the lift, use rated gear and attachment points, balance the load and keep everyone out of the drop zone.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "shoes"
+        ],
+        "hazardTags": [
+          "crush",
+          "falling-load",
+          "manual-handling"
+        ],
+        "hazards": [
+          "Engines, gearboxes and assemblies can fall, swing, tip or trap hands and feet.",
+          "Cranes, stands, chains, slings and attachment points can fail if damaged, overloaded or wrongly used.",
+          "Removing a heavy component can change the stability of the vehicle or stand.",
+          "Manual handling can strain the back, shoulders and hands."
+        ],
+        "beforeStart": [
+          "Get teacher permission and follow a written lift plan for the exact component.",
+          "Know the load mass and centre of gravity; check crane, stand, sling/chain, attachments and ratings.",
+          "Confirm manufacturer lifting points, crane-leg position, vehicle support and clear travel path.",
+          "Set an exclusion zone and agree one person to direct the lift."
+        ],
+        "dos": [
+          "Take up slack slowly, make a short test lift and verify balance/attachments before continuing.",
+          "Keep the load as low as practicable and move slowly on a suitable level floor.",
+          "Use tag/control methods approved in the lift plan; keep hands clear of pinch points.",
+          "Lower onto a stable rated stand/support before adjustment or work."
+        ],
+        "donts": [
+          "Do not stand, reach or work under a suspended load.",
+          "Do not exceed ratings, side-load a crane, use makeshift attachments or shock-load lifting gear.",
+          "Do not leave a suspended load unattended.",
+          "Do not move a loaded crane over uneven floors, drains, ramps or obstructions."
+        ],
+        "stop": [
+          "The load tilts, swings, snags, shifts or cannot be balanced.",
+          "A chain, sling, hook, crane, stand or lifting point is damaged, unmarked or outside rating.",
+          "The vehicle/support becomes unstable or the planned path is not clear.",
+          "Anyone enters the drop/crush zone."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact vehicle or equipment instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Planning and controlled lifting of engines, gearboxes and other heavy automotive components using workshop cranes, stands and rated accessories.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "shoes"
+        ],
+        "hazards": [
+          "Engines, gearboxes and assemblies can fall, swing, tip or trap hands and feet.",
+          "Cranes, stands, chains, slings and attachment points can fail if damaged, overloaded or wrongly used.",
+          "Removing a heavy component can change the stability of the vehicle or stand.",
+          "Manual handling can strain the back, shoulders and hands."
+        ],
+        "riskAssessment": [
+          "The complete lifting system is limited by its lowest-rated component and by crane capacity at the selected boom extension.",
+          "Removal of a component can change vehicle and stand centres of gravity; assess both the load and what remains."
+        ],
+        "preStart": [
+          "Prepare the lift plan, verify mass/centre of gravity, ratings, inspection records, lifting points, support arrangement, floor and travel path.",
+          "Assign one lift director and establish communication and exclusion controls."
+        ],
+        "safeUse": [
+          "Supervise attachment, test lift, balance, travel and landing; keep the load low and no person beneath it.",
+          "Use manufacturer load charts and instructions; do not rely on appearance or assumed component mass."
+        ],
+        "shutdown": [
+          "Land and secure the component on a rated stand, fully unload gear, inspect after use and record/quarantine any concern."
+        ],
+        "restrictions": [
+          "Students must not direct or perform an unplanned lift, ride a load, work beneath it or use unmarked/makeshift lifting gear.",
+          "Complex rigging or lifting outside workshop-crane arrangements requires a competent lifting specialist."
+        ],
+        "disposal": [
+          "Quarantine condemned lifting gear and destroy/control it so it cannot return to service; recycle/dispose through an approved route."
+        ],
+        "storage": [
+          "Store cranes, stands and accessories clean, dry, identified and protected; keep inspection status traceable."
+        ],
+        "furtherInformation": [
+          "Manufacturer load charts take priority; WorkSafe notes that generic sling charts may contain errors."
+        ],
+        "firstAid": [
+          "For a crushing incident, call emergency services immediately and do not release or move the load unless needed to prevent immediate further harm and directed by competent responders.",
+          "Keep the scene controlled and provide first aid within training."
+        ],
+        "teacherChecks": [
+          "Check the exact vehicle/equipment manufacturer information and the task-specific local RAMS before the lesson.",
+          "Confirm guards, isolation, ventilation/extraction, PPE, emergency equipment, supervision and student competency are appropriate.",
+          "Remove defective or uncertain equipment from service; do not improvise a repair or control."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Load-lifting and rigging: https://www.worksafe.govt.nz/topic-and-industry/load-lifting-and-rigging/",
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts (includes batteries, fuel, pressure, springs, hydraulics and gravity): https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts",
+          "WorkSafe New Zealand — Personal protective equipment: a guide for workers: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/personal-protective-equipment-a-guide-for-workers/"
+        ],
+        "supervision": "Teacher-directed lift plan and direct supervision for attachment, test lift, movement and landing.",
+        "training": "Automotive workshop induction, teacher demonstration, hazard check and demonstrated competency for the exact task and equipment."
+      },
+      "slug": "lifting-engines-heavy-components"
+    }
+  ]
+}
+
