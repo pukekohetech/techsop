@@ -92,6 +92,7 @@ const els = {
   selectVisiblePrintBtn: document.getElementById('selectVisiblePrintBtn'),
   clearPrintSelectionBtn: document.getElementById('clearPrintSelectionBtn'),
   openBatchPrintBtn: document.getElementById('openBatchPrintBtn'),
+  openBatchQrLabelsBtn: document.getElementById('openBatchQrLabelsBtn'),
   printDialog: document.getElementById('printDialog'),
   printDialogSummary: document.getElementById('printDialogSummary'),
   printDialogNote: document.getElementById('printDialogNote'),
@@ -368,7 +369,21 @@ function renderBatchPrintControls() {
   els.openBatchPrintBtn.classList.toggle('hidden', count === 0);
   els.openBatchPrintBtn.disabled = count === 0;
   els.openBatchPrintBtn.textContent = `Print selected (${count})`;
+  const canPrintQrLabels = state.mode === 'student' && count > 0;
+  els.openBatchQrLabelsBtn?.classList.toggle('hidden', !canPrintQrLabels);
+  if (els.openBatchQrLabelsBtn) {
+    els.openBatchQrLabelsBtn.disabled = !canPrintQrLabels;
+    els.openBatchQrLabelsBtn.textContent = `Print QR labels (${count})`;
+  }
   els.toolGrid.classList.toggle('selection-mode', state.printSelectionMode);
+}
+
+function openSelectedQrLabels() {
+  const ids = selectedPrintTools('student').map(tool => tool.id);
+  if (!ids.length) return;
+  const params = new URLSearchParams();
+  params.set('tools', ids.join(','));
+  window.open(`qr-labels.html#${params.toString()}`, '_blank', 'noopener');
 }
 
 function setPrintSelectionMode(enabled) {
@@ -1232,6 +1247,7 @@ els.togglePrintSelectBtn?.addEventListener('click', () => setPrintSelectionMode(
 els.selectVisiblePrintBtn?.addEventListener('click', selectAllVisibleForPrint);
 els.clearPrintSelectionBtn?.addEventListener('click', clearPrintSelection);
 els.openBatchPrintBtn?.addEventListener('click', () => openPrintDialog('selected'));
+els.openBatchQrLabelsBtn?.addEventListener('click', openSelectedQrLabels);
 els.closePrintDialogBtn?.addEventListener('click', closePrintDialog);
 els.cancelPrintBtn?.addEventListener('click', closePrintDialog);
 els.confirmPrintBtn?.addEventListener('click', confirmPrintRequest);

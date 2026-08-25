@@ -1221,6 +1221,12 @@ ul { margin: 0; }
   background: var(--phs-gold-soft);
   color: #5e4308;
 }
+.small-btn.qr-label-action {
+  border-color: #ccb67d;
+  background: var(--phs-gold-soft);
+  color: #5e4308;
+}
+.small-btn.qr-label-action:hover:not(:disabled) { background: #f2e4bc; }
 .share-dialog {
   width: min(760px, calc(100vw - 28px));
   max-height: calc(100vh - 28px);

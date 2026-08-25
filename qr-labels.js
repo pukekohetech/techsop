@@ -92,9 +92,17 @@ function accessStatus(tool) {
   return { tone: 'published', label: 'PUBLISHED STUDENT SOP' };
 }
 
-function parseToolFilter() {
+function parseToolRequest() {
   const params = new URLSearchParams(location.hash.replace(/^#/, ''));
-  return params.get('tool');
+  const multiple = params.get('tools');
+  if (multiple) {
+    return {
+      ids: [...new Set(multiple.split(',').map(id => id.trim()).filter(Boolean))],
+      restrictList: false
+    };
+  }
+  const single = params.get('tool');
+  return { ids: single ? [single] : [], restrictList: Boolean(single) };
 }
 
 function currentPreset() {
@@ -212,8 +220,12 @@ async function init() {
   els.department.innerHTML = '<option value="all">All departments</option>' + departments
     .map(department => `<option value="${esc(department.id)}">${esc(department.name)}</option>`).join('');
 
-  state.filterTool = parseToolFilter();
-  if (state.filterTool && state.items.some(item => item.id === state.filterTool)) state.selected.add(state.filterTool);
+  const toolRequest = parseToolRequest();
+  const validIds = new Set(state.items.map(item => item.id));
+  toolRequest.ids.filter(id => validIds.has(id)).forEach(id => state.selected.add(id));
+  state.filterTool = toolRequest.restrictList && toolRequest.ids.length === 1 && validIds.has(toolRequest.ids[0])
+    ? toolRequest.ids[0]
+    : null;
   applyPresetVariables();
   applyFilters();
 }
