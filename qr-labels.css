@@ -13,10 +13,8 @@
   --label-height-mm: 38.1;
   --label-gap-x-mm: 1.8;
   --label-gap-y-mm: 0;
-  --page-pad-left-mm: 5;
-  --page-pad-right-mm: 5;
-  --page-pad-top-mm: 15;
-  --page-pad-bottom-mm: 15;
+  --page-offset-left-mm: 5;
+  --page-offset-top-mm: 15.15;
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
@@ -26,6 +24,7 @@ body { min-height: 100vh; }
 button, input, select { font: inherit; }
 button { cursor: pointer; }
 button:disabled { cursor: not-allowed; opacity: .5; }
+.hidden { display: none !important; }
 
 .qr-page-header {
   max-width: 1500px;
@@ -106,6 +105,22 @@ button:disabled { cursor: not-allowed; opacity: .5; }
 .field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .check-row { display: flex; gap: 8px; align-items: center; color: var(--muted); font-size: .78rem; font-weight: 700; }
 .check-row input { accent-color: var(--maroon); }
+.custom-preset-fields {
+  margin: 0 0 12px;
+  padding: 11px;
+  border: 1px solid #ddcfd3;
+  border-radius: 12px;
+  background: #fbf7f8;
+}
+.custom-preset-heading { display: grid; gap: 2px; margin-bottom: 10px; }
+.custom-preset-heading strong { color: var(--maroon); font-size: .82rem; }
+.custom-preset-heading span,
+.custom-help { color: var(--muted); font-size: .68rem; line-height: 1.35; }
+.compact-grid { gap: 7px; }
+.compact-grid .field { margin-bottom: 2px; }
+.custom-centre-row { margin: 9px 0; color: var(--maroon); }
+.custom-preset-fields input[readonly] { background: #eee9eb; color: #51484b; cursor: default; }
+.custom-help { margin: 7px 0 0; }
 
 .preset-specs { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin: 0 0 10px; }
 .preset-specs span { padding: 7px; border-radius: 8px; background: #f7f4f5; color: var(--muted); font-size: .68rem; line-height: 1.25; }
@@ -166,17 +181,17 @@ button:disabled { cursor: not-allowed; opacity: .5; }
 .print-sheet {
   width: 210mm;
   height: 297mm;
-  padding:
-    calc(var(--page-pad-top-mm) * 1mm)
-    calc(var(--page-pad-right-mm) * 1mm)
-    calc(var(--page-pad-bottom-mm) * 1mm)
-    calc(var(--page-pad-left-mm) * 1mm);
+  padding: 0;
+  position: relative;
   overflow: hidden;
   background: #fff;
   box-shadow: 0 14px 42px rgba(35, 31, 32, .16);
   transform-origin: top center;
 }
 .print-label-grid {
+  position: absolute;
+  left: calc(var(--page-offset-left-mm) * 1mm);
+  top: calc(var(--page-offset-top-mm) * 1mm);
   display: grid;
   grid-template-columns: repeat(var(--label-cols), calc(var(--label-width-mm) * 1mm));
   grid-auto-rows: calc(var(--label-height-mm) * 1mm);
@@ -206,8 +221,8 @@ button:disabled { cursor: not-allowed; opacity: .5; }
   color: var(--ink);
 }
 .print-label-brand {
-  height: 6.1mm;
-  padding: .7mm 1.7mm .55mm;
+  height: 7mm;
+  padding: .5mm 1.7mm .4mm;
   display: flex;
   align-items: center;
   gap: 1.2mm;
@@ -215,8 +230,8 @@ button:disabled { cursor: not-allowed; opacity: .5; }
 }
 .print-label-brand img { width: 4.2mm; height: 4.8mm; object-fit: contain; }
 .print-label-brand span { display: grid; line-height: 1.02; }
-.print-label-brand strong { color: var(--maroon); font-size: 5.4pt; letter-spacing: .035em; }
-.print-label-brand small { color: var(--muted); font-size: 4.6pt; }
+.print-label-brand strong { color: var(--maroon); font-size: 7.4pt; letter-spacing: .025em; }
+.print-label-brand small { color: var(--muted); font-size: 6.6pt; }
 .print-label-body {
   min-height: 0;
   padding: 1.2mm 1.6mm 1.25mm;
@@ -226,14 +241,14 @@ button:disabled { cursor: not-allowed; opacity: .5; }
   align-items: stretch;
 }
 .print-label-copy { min-width: 0; display: flex; flex-direction: column; overflow: hidden; }
-.print-label-dept { color: var(--maroon); font-size: 5pt; line-height: 1; font-weight: 850; letter-spacing: .04em; text-transform: uppercase; }
-.print-label-card h2 { margin: .7mm 0 .8mm; font-size: 9pt; line-height: 1.04; }
+.print-label-dept { color: var(--maroon); font-size: 7pt; line-height: 1; font-weight: 850; letter-spacing: .035em; text-transform: uppercase; }
+.print-label-card h2 { margin: .7mm 0 .8mm; font-size: 11pt; line-height: 1.02; }
 .print-label-status {
   align-self: flex-start;
   max-width: 100%;
   padding: .55mm .9mm;
   border-radius: 3mm;
-  font-size: 4.65pt;
+  font-size: 6.65pt;
   line-height: 1.08;
   font-weight: 900;
   letter-spacing: .018em;
@@ -241,24 +256,25 @@ button:disabled { cursor: not-allowed; opacity: .5; }
 .print-label-card.published .print-label-status { background: #eaf5ee; color: #17603d; border: .18mm solid #bcdcc9; }
 .print-label-card.caution .print-label-status { background: #fff4d8; color: #6f4c00; border: .18mm solid #e8c979; }
 .print-label-card.danger .print-label-status { background: #fce9eb; color: #8b1e28; border: .18mm solid #edbdc2; }
-.print-label-instruction { margin: auto 0 0; color: var(--muted); font-size: 5.4pt; line-height: 1.16; }
-.print-label-qr { min-width: 0; display: grid; justify-items: center; align-content: center; gap: .5mm; }
-.print-label-qr img { display: block; width: 25.2mm; height: 25.2mm; object-fit: contain; background: #fff; }
-.print-label-qr strong { color: var(--maroon); font-size: 5.2pt; line-height: 1; text-align: center; }
+.print-label-instruction { margin: auto 0 0; color: var(--muted); font-size: 7.4pt; line-height: 1.16; }
+.print-label-qr { min-width: 0; display: grid; justify-items: center; align-content: center; gap: .3mm; }
+.print-label-qr img { display: block; width: 23.8mm; height: 23.8mm; object-fit: contain; background: #fff; }
+.print-label-qr strong { color: var(--maroon); font-size: 7.2pt; line-height: 1; text-align: center; }
+.preset-student .print-label-instruction { display: none; }
 
 /* The taller cupboard label uses the same visual system at a larger scale. */
 .preset-cupboard .print-label-brand { height: 9mm; padding: 1mm 2.5mm .8mm; gap: 1.7mm; }
 .preset-cupboard .print-label-brand img { width: 6mm; height: 7mm; }
-.preset-cupboard .print-label-brand strong { font-size: 7.4pt; }
-.preset-cupboard .print-label-brand small { font-size: 6.2pt; }
+.preset-cupboard .print-label-brand strong { font-size: 9.4pt; }
+.preset-cupboard .print-label-brand small { font-size: 8.2pt; }
 .preset-cupboard .print-label-body { padding: 2.5mm 3mm 2.8mm; grid-template-columns: minmax(0, 1fr) 42mm; gap: 3mm; }
-.preset-cupboard .print-label-dept { font-size: 7pt; }
-.preset-cupboard .print-label-card h2 { margin: 1.5mm 0 2mm; font-size: 14pt; line-height: 1.08; }
-.preset-cupboard .print-label-status { padding: .9mm 1.4mm; font-size: 6.4pt; }
-.preset-cupboard .print-label-instruction { font-size: 8pt; line-height: 1.28; }
+.preset-cupboard .print-label-dept { font-size: 9pt; }
+.preset-cupboard .print-label-card h2 { margin: 1.5mm 0 2mm; font-size: 16pt; line-height: 1.08; }
+.preset-cupboard .print-label-status { padding: .9mm 1.4mm; font-size: 8.4pt; }
+.preset-cupboard .print-label-instruction { display: block; font-size: 10pt; line-height: 1.28; }
 .preset-cupboard .print-label-qr { gap: 1mm; }
 .preset-cupboard .print-label-qr img { width: 39mm; height: 39mm; }
-.preset-cupboard .print-label-qr strong { font-size: 7.5pt; }
+.preset-cupboard .print-label-qr strong { font-size: 9.5pt; }
 
 @media (max-width: 1180px) {
   .label-maker-layout { grid-template-columns: 340px minmax(0, 1fr); }

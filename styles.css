@@ -1900,3 +1900,71 @@ ul { margin: 0; }
     padding: 1.2mm !important;
   }
 }
+
+/* =============================================================
+   SOP READABILITY PASS — 25 AUG 2026
+   Raise the readable SOP content by 2pt on screen and on the
+   full-size A4 layouts. Compact two-up layouts retain their
+   purpose-built typography so complete safety content still fits.
+   ============================================================= */
+.student-machine-summary .student-lead { font-size: clamp(calc(1rem + 2pt),calc(1.3vw + 2pt),calc(1.16rem + 2pt)); }
+.student-section-label strong { font-size: calc(.98rem + 2pt); }
+.student-ppe-grid .ppe-item strong { font-size: calc(.83rem + 2pt); }
+.student-alert { font-size: calc(.9rem + 2pt); }
+.quick-panel-heading small { font-size: calc(.64rem + 2pt); }
+.quick-panel-heading strong { font-size: calc(1rem + 2pt); }
+.student-bullet-list li { font-size: calc(.9rem + 2pt); }
+.stop-title small { font-size: calc(.65rem + 2pt); }
+.stop-title strong { font-size: calc(1rem + 2pt); }
+.student-stop-list li { font-size: calc(.88rem + 2pt); }
+.student-card-footer { font-size: calc(.72rem + 2pt); }
+
+.teacher-machine-summary .teacher-lead,
+.teacher-critical-banner p,
+.teacher-critical-list,
+.teacher-local-warning,
+.teacher-list,
+.reference-list { font-size: calc(1rem + 2pt); }
+.teacher-status-card strong { font-size: calc(.9rem + 2pt); }
+.teacher-status-card span { font-size: calc(.76rem + 2pt); }
+.teacher-accordion-title strong { font-size: calc(.96rem + 2pt); }
+.teacher-accordion-title small { font-size: calc(.76rem + 2pt); }
+.teacher-two-column-detail h4,
+.teacher-subsection h4,
+.teacher-local-grid h4 { font-size: calc(.88rem + 2pt); }
+
+@media print {
+  .student-safety-card { font-size: 10pt !important; }
+  .student-card-school strong { font-size: 10.4pt !important; }
+  .student-card-school small { font-size: 8.6pt !important; }
+  .student-status-badge { font-size: 8.2pt !important; }
+  .student-machine-summary .dept-kicker { font-size: 8pt !important; }
+  .student-machine-summary .tool-title-row h2 { font-size: 19pt !important; }
+  .student-machine-summary .category-chip { font-size: 7.8pt !important; }
+  .student-machine-summary .student-lead { font-size: 10pt !important; line-height: 1.2 !important; }
+  .section-number.wear { font-size: 7.4pt !important; }
+  .student-section-label strong { font-size: 8.9pt !important; }
+  .student-safety-card .student-ppe-grid .ppe-item strong { font-size: 8.2pt !important; line-height: 1.08 !important; }
+  .student-alert { font-size: 8.4pt !important; }
+  .student-safety-card .hazard-tag { font-size: 7.5pt !important; }
+  .quick-panel-heading small { font-size: 7.2pt !important; }
+  .quick-panel-heading strong { font-size: 9.2pt !important; }
+  .student-bullet-list li { font-size: 9.1pt !important; line-height: 1.16 !important; }
+  .stop-title small { font-size: 7.2pt !important; }
+  .stop-title strong { font-size: 9.2pt !important; }
+  .student-stop-list li { font-size: 8.8pt !important; line-height: 1.14 !important; }
+  .student-card-footer { font-size: 7.8pt !important; }
+
+  .teacher-machine-summary .teacher-lead { font-size: 10.5pt !important; }
+  .teacher-status-card small { font-size: 7.8pt !important; }
+  .teacher-status-card strong { font-size: 9.4pt !important; }
+  .teacher-status-card span { font-size: 8.5pt !important; }
+  .teacher-local-warning,
+  .teacher-critical-banner p,
+  .teacher-critical-list,
+  .teacher-list,
+  .reference-list { font-size: 10pt !important; line-height: 1.38 !important; }
+  .teacher-accordion-title strong { font-size: 10.7pt !important; }
+  .teacher-accordion-title small { font-size: 8.5pt !important; }
+  .teacher-card-footer { font-size: 8.5pt !important; }
+}

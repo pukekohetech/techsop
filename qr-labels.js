@@ -1,26 +1,26 @@
 const PRESETS = {
   cupboard: {
-    label: 'Cupboard 80 × 90 mm',
+    label: 'Cupboard 80 × 90 mm — centred',
     cols: 2, rows: 3,
     labelW: 80, labelH: 90,
     gapX: 2, gapY: 2,
-    padL: 10, padR: 10, padT: 10, padB: 10,
+    padL: 24, padR: 24, padT: 11.5, padB: 11.5,
     tone: 'cupboard'
   },
   'student-fit': {
-    label: 'Student 99.1 × 38.1 mm — A4 fit',
+    label: 'Student 99.1 × 38.1 mm — centred',
     cols: 2, rows: 7,
     labelW: 99.1, labelH: 38.1,
     gapX: 1.8, gapY: 0,
-    padL: 5, padR: 5, padT: 15, padB: 15,
+    padL: 5, padR: 5, padT: 15.15, padB: 15.15,
     tone: 'student'
   },
-  'student-original': {
-    label: 'Student 99.1 × 38.1 mm — supplied settings',
+  custom: {
+    label: 'Custom label sheet',
     cols: 2, rows: 7,
     labelW: 99.1, labelH: 38.1,
     gapX: 3, gapY: 0,
-    padL: 5, padR: 5, padT: 15, padB: 15,
+    padL: 4.4, padR: 4.4, padT: 15.15, padB: 15.15,
     tone: 'student'
   }
 };
@@ -36,7 +36,14 @@ const state = {
   presetId: 'student-fit',
   startPosition: 1,
   copies: 1,
-  showGuides: true
+  showGuides: true,
+  custom: {
+    cols: 2, rows: 7,
+    labelW: 99.1, labelH: 38.1,
+    gapX: 3, gapY: 0,
+    leftGap: 4.4, topGap: 15.15,
+    autoCentre: true
+  }
 };
 
 const els = {
@@ -45,6 +52,18 @@ const els = {
   search: document.getElementById('qrSearch'),
   department: document.getElementById('qrDepartment'),
   preset: document.getElementById('labelPreset'),
+  customFields: document.getElementById('customPresetFields'),
+  customLabelW: document.getElementById('customLabelWidth'),
+  customLabelH: document.getElementById('customLabelHeight'),
+  customCols: document.getElementById('customColumns'),
+  customRows: document.getElementById('customRows'),
+  customGapX: document.getElementById('customGapX'),
+  customGapY: document.getElementById('customGapY'),
+  customAutoCentre: document.getElementById('customAutoCentre'),
+  customLeftGap: document.getElementById('customLeftGap'),
+  customRightGap: document.getElementById('customRightGap'),
+  customTopGap: document.getElementById('customTopGap'),
+  customBottomGap: document.getElementById('customBottomGap'),
   specs: document.getElementById('presetSpecs'),
   fit: document.getElementById('fitNotice'),
   start: document.getElementById('startPosition'),
@@ -106,7 +125,88 @@ function parseToolRequest() {
 }
 
 function currentPreset() {
+  if (state.presetId === 'custom') {
+    return {
+      ...PRESETS.custom,
+      ...state.custom,
+      padL: state.custom.leftGap,
+      padR: 0,
+      padT: state.custom.topGap,
+      padB: 0,
+      tone: state.custom.labelH >= 60 ? 'cupboard' : 'student'
+    };
+  }
   return PRESETS[state.presetId] || PRESETS['student-fit'];
+}
+
+function rounded(value) {
+  return Math.round(value * 100) / 100;
+}
+
+function numberFrom(input, fallback, min, max, whole = false) {
+  let value = Number(input.value);
+  if (!Number.isFinite(value)) value = fallback;
+  value = Math.min(max, Math.max(min, value));
+  return whole ? Math.round(value) : rounded(value);
+}
+
+function calculateCentredGaps(custom = state.custom) {
+  const gridW = custom.cols * custom.labelW + (custom.cols - 1) * custom.gapX;
+  const gridH = custom.rows * custom.labelH + (custom.rows - 1) * custom.gapY;
+  return {
+    leftGap: rounded(Math.max(0, (210 - gridW) / 2)),
+    topGap: rounded(Math.max(0, (297 - gridH) / 2))
+  };
+}
+
+function positionedGaps(preset = currentPreset()) {
+  const gridW = preset.cols * preset.labelW + (preset.cols - 1) * preset.gapX;
+  const gridH = preset.rows * preset.labelH + (preset.rows - 1) * preset.gapY;
+  return {
+    gridW,
+    gridH,
+    leftGap: preset.padL,
+    rightGap: rounded(210 - preset.padL - gridW),
+    topGap: preset.padT,
+    bottomGap: rounded(297 - preset.padT - gridH)
+  };
+}
+
+function syncCustomControls() {
+  const custom = state.custom;
+  els.customLabelW.value = custom.labelW;
+  els.customLabelH.value = custom.labelH;
+  els.customCols.value = custom.cols;
+  els.customRows.value = custom.rows;
+  els.customGapX.value = custom.gapX;
+  els.customGapY.value = custom.gapY;
+  els.customAutoCentre.checked = custom.autoCentre;
+  els.customLeftGap.readOnly = custom.autoCentre;
+  els.customTopGap.readOnly = custom.autoCentre;
+  els.customLeftGap.value = rounded(custom.leftGap);
+  els.customTopGap.value = rounded(custom.topGap);
+  const positioned = positionedGaps(currentPreset());
+  els.customRightGap.value = rounded(positioned.rightGap);
+  els.customBottomGap.value = rounded(positioned.bottomGap);
+  els.customFields.classList.toggle('hidden', state.presetId !== 'custom');
+}
+
+function readCustomControls() {
+  const previous = state.custom;
+  const next = {
+    cols: numberFrom(els.customCols, previous.cols, 1, 8, true),
+    rows: numberFrom(els.customRows, previous.rows, 1, 20, true),
+    labelW: numberFrom(els.customLabelW, previous.labelW, 10, 210),
+    labelH: numberFrom(els.customLabelH, previous.labelH, 10, 297),
+    gapX: numberFrom(els.customGapX, previous.gapX, 0, 50),
+    gapY: numberFrom(els.customGapY, previous.gapY, 0, 50),
+    leftGap: numberFrom(els.customLeftGap, previous.leftGap, 0, 200),
+    topGap: numberFrom(els.customTopGap, previous.topGap, 0, 140),
+    autoCentre: els.customAutoCentre.checked
+  };
+  if (next.autoCentre) Object.assign(next, calculateCentredGaps(next));
+  state.custom = next;
+  syncCustomControls();
 }
 
 function presetCapacity() {
@@ -115,25 +215,36 @@ function presetCapacity() {
 }
 
 function layoutFit(preset = currentPreset()) {
-  const gridW = preset.cols * preset.labelW + (preset.cols - 1) * preset.gapX;
-  const gridH = preset.rows * preset.labelH + (preset.rows - 1) * preset.gapY;
-  const usableW = 210 - preset.padL - preset.padR;
-  const usableH = 297 - preset.padT - preset.padB;
+  const placed = positionedGaps(preset);
+  const overflowLeft = Math.max(0, -placed.leftGap);
+  const overflowRight = Math.max(0, -placed.rightGap);
+  const overflowTop = Math.max(0, -placed.topGap);
+  const overflowBottom = Math.max(0, -placed.bottomGap);
   return {
-    fits: gridW <= usableW + 0.001 && gridH <= usableH + 0.001,
-    gridW, gridH, usableW, usableH,
-    overflowW: Math.max(0, gridW - usableW),
-    overflowH: Math.max(0, gridH - usableH)
+    fits: overflowLeft <= 0.001 && overflowRight <= 0.001 && overflowTop <= 0.001 && overflowBottom <= 0.001,
+    ...placed,
+    overflowW: overflowLeft + overflowRight,
+    overflowH: overflowTop + overflowBottom
   };
 }
 
 function loadSettings() {
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
-    if (PRESETS[saved.presetId]) state.presetId = saved.presetId;
+    if (saved.presetId === 'student-original') state.presetId = 'custom';
+    else if (PRESETS[saved.presetId]) state.presetId = saved.presetId;
     state.startPosition = Math.max(1, Number(saved.startPosition) || 1);
     state.copies = Math.min(20, Math.max(1, Number(saved.copies) || 1));
     state.showGuides = saved.showGuides !== false;
+    if (saved.custom && typeof saved.custom === 'object') {
+      const migrated = {
+        ...saved.custom,
+        leftGap: saved.custom.leftGap ?? saved.custom.sideGap ?? state.custom.leftGap
+      };
+      delete migrated.sideGap;
+      state.custom = { ...state.custom, ...migrated };
+      if (state.custom.autoCentre !== false) Object.assign(state.custom, calculateCentredGaps(state.custom));
+    }
   } catch {}
 }
 
@@ -143,13 +254,16 @@ function saveSettings() {
       presetId: state.presetId,
       startPosition: state.startPosition,
       copies: state.copies,
-      showGuides: state.showGuides
+      showGuides: state.showGuides,
+      custom: state.custom
     }));
   } catch {}
 }
 
 function applyPresetVariables() {
+  syncCustomControls();
   const preset = currentPreset();
+  const fit = layoutFit(preset);
   const root = document.documentElement;
   for (const [name, value] of Object.entries({
     '--label-cols': preset.cols,
@@ -158,23 +272,25 @@ function applyPresetVariables() {
     '--label-height-mm': preset.labelH,
     '--label-gap-x-mm': preset.gapX,
     '--label-gap-y-mm': preset.gapY,
-    '--page-pad-left-mm': preset.padL,
-    '--page-pad-right-mm': preset.padR,
-    '--page-pad-top-mm': preset.padT,
-    '--page-pad-bottom-mm': preset.padB
+    '--page-offset-left-mm': fit.leftGap,
+    '--page-offset-top-mm': fit.topGap
   })) root.style.setProperty(name, value);
 
   els.specs.innerHTML = `
     <span><strong>${preset.cols} × ${preset.rows}</strong> labels</span>
     <span><strong>${preset.labelW} × ${preset.labelH} mm</strong> each</span>
-    <span><strong>${preset.padL}/${preset.padT} mm</strong> left/top</span>
-    <span><strong>${preset.gapX}/${preset.gapY} mm</strong> horizontal/vertical gap</span>`;
+    <span><strong>${rounded(fit.leftGap)} / ${rounded(fit.rightGap)} mm</strong> left/right gaps</span>
+    <span><strong>${rounded(fit.topGap)} / ${rounded(fit.bottomGap)} mm</strong> top/bottom gaps</span>
+    <span><strong>${preset.gapX} mm</strong> centre/column gap</span>
+    <span><strong>${preset.gapY} mm</strong> gap between rows</span>`;
 
-  const fit = layoutFit(preset);
+  const centred = state.presetId !== 'custom' || state.custom.autoCentre;
   els.fit.className = `fit-notice ${fit.fits ? 'good' : 'warning'}`;
   els.fit.innerHTML = fit.fits
-    ? `<strong>Fits A4 at 100%.</strong> Grid ${fit.gridW.toFixed(1)} × ${fit.gridH.toFixed(1)} mm inside ${fit.usableW.toFixed(1)} × ${fit.usableH.toFixed(1)} mm usable space.`
-    : `<strong>Supplied measurements exceed A4 by ${fit.overflowW.toFixed(1)} mm.</strong> Use this only if it matches the old program/printer driver; otherwise choose the A4-fit preset.`;
+    ? centred
+      ? `<strong>Centred and fits A4 at 100%.</strong> The outside gaps are equal on both sides and equal at the top and bottom.`
+      : `<strong>Fits A4 at 100%.</strong> The custom left and top starting position is being used; right and bottom gaps are calculated automatically.`
+    : `<strong>These measurements do not fit A4.</strong> Reduce the label size, number of labels, or gaps by ${Math.max(fit.overflowW, fit.overflowH).toFixed(1)} mm or more.`;
 
   renderStartPositions();
 }
@@ -290,7 +406,7 @@ function labelHtml(item) {
           <small class="print-label-dept">${esc(item.department.name)}</small>
           <h2>${esc(item.name)}</h2>
           <span class="print-label-status">${esc(item.access.label)}</span>
-          <p class="print-label-instruction">Scan for the Student safety SOP. Teacher permission and supervision are still required.</p>
+          <p class="print-label-instruction">Scan for the Student SOP. Follow teacher instructions and supervision.</p>
         </div>
         <div class="print-label-qr">
           <img src="${esc(item.qr)}" alt="QR code for ${esc(item.name)}">
@@ -359,6 +475,26 @@ els.preset.addEventListener('change', () => {
   saveSettings();
   renderSheets();
 });
+
+function updateCustomPreset() {
+  readCustomControls();
+  state.startPosition = Math.min(state.startPosition, presetCapacity());
+  applyPresetVariables();
+  saveSettings();
+  renderSheets();
+}
+
+[
+  els.customLabelW,
+  els.customLabelH,
+  els.customCols,
+  els.customRows,
+  els.customGapX,
+  els.customGapY,
+  els.customLeftGap,
+  els.customTopGap
+].forEach(input => input.addEventListener('change', updateCustomPreset));
+els.customAutoCentre.addEventListener('change', updateCustomPreset);
 
 els.start.addEventListener('change', () => {
   state.startPosition = Number(els.start.value) || 1;

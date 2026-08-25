@@ -29,10 +29,53 @@
         <label class="field">Preset
           <select id="labelPreset">
             <option value="cupboard">Cupboard — 80 × 90 mm, 2 × 3</option>
-            <option value="student-fit" selected>Student — 99.1 × 38.1 mm, 2 × 7 (A4 fit)</option>
-            <option value="student-original">Student — supplied 3 mm centre gap</option>
+            <option value="student-fit" selected>Student — 99.1 × 38.1 mm, 2 × 7</option>
+            <option value="custom">Custom labels — size, grid, gaps and position</option>
           </select>
         </label>
+
+        <div id="customPresetFields" class="custom-preset-fields hidden" aria-label="Custom label sheet settings">
+          <div class="custom-preset-heading">
+            <strong>Custom sheet measurements</strong>
+            <span>All measurements are millimetres.</span>
+          </div>
+          <div class="field-grid compact-grid">
+            <label class="field">Label width
+              <input id="customLabelWidth" type="number" min="10" max="210" step="0.1" value="99.1">
+            </label>
+            <label class="field">Label height
+              <input id="customLabelHeight" type="number" min="10" max="297" step="0.1" value="38.1">
+            </label>
+            <label class="field">Labels across
+              <input id="customColumns" type="number" min="1" max="8" step="1" value="2">
+            </label>
+            <label class="field">Labels down
+              <input id="customRows" type="number" min="1" max="20" step="1" value="7">
+            </label>
+            <label class="field">Centre / column gap
+              <input id="customGapX" type="number" min="0" max="50" step="0.1" value="3">
+            </label>
+            <label class="field">Gap between rows
+              <input id="customGapY" type="number" min="0" max="50" step="0.1" value="0">
+            </label>
+          </div>
+          <label class="check-row custom-centre-row"><input id="customAutoCentre" type="checkbox" checked> Centre the complete label grid on A4</label>
+          <div class="field-grid compact-grid">
+            <label class="field">Left page gap
+              <input id="customLeftGap" type="number" min="0" max="200" step="0.1" value="4.4" readonly>
+            </label>
+            <label class="field">Right page gap
+              <input id="customRightGap" type="number" step="0.1" value="4.4" readonly>
+            </label>
+            <label class="field">Top page gap
+              <input id="customTopGap" type="number" min="0" max="140" step="0.1" value="15.2" readonly>
+            </label>
+            <label class="field">Bottom page gap
+              <input id="customBottomGap" type="number" step="0.1" value="15.2" readonly>
+            </label>
+          </div>
+          <p class="custom-help">When centred, all four outside gaps are calculated automatically. Turn centring off to set the left and top starting position; the right and bottom gaps remain calculated so you can see whether the grid fits.</p>
+        </div>
 
         <div id="presetSpecs" class="preset-specs"></div>
         <div id="fitNotice" class="fit-notice" role="status"></div>
