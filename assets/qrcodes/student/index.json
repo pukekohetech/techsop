@@ -99,33 +99,6 @@
     "access": "published"
   },
   {
-    "id": "1-013-electrical-and-electronics-work",
-    "department": "dvc",
-    "name": "Electrical and electronics work",
-    "url": "https://pukekohetech.github.io/techsop/#/dvc/electrical-and-electronics-work",
-    "file": "assets/qrcodes/student/1-013-electrical-and-electronics-work.svg",
-    "approved": false,
-    "access": "published"
-  },
-  {
-    "id": "1-014-electronics-chemicals-for-printed-circuit-board-etching",
-    "department": "dvc",
-    "name": "Electronics: chemicals for Printed Circuit Board etching",
-    "url": "https://pukekohetech.github.io/techsop/#/dvc/electronics-chemicals-for-printed-circuit-board-etching",
-    "file": "assets/qrcodes/student/1-014-electronics-chemicals-for-printed-circuit-board-etching.svg",
-    "approved": false,
-    "access": "reference-only"
-  },
-  {
-    "id": "1-015-electronics-chemicals-for-printed-circuit-board-preparation",
-    "department": "dvc",
-    "name": "Electronics: chemicals for Printed Circuit Board preparation",
-    "url": "https://pukekohetech.github.io/techsop/#/dvc/electronics-chemicals-for-printed-circuit-board-preparation",
-    "file": "assets/qrcodes/student/1-015-electronics-chemicals-for-printed-circuit-board-preparation.svg",
-    "approved": false,
-    "access": "reference-only"
-  },
-  {
     "id": "1-032-laser-cutters",
     "department": "dvc",
     "name": "Laser cutters",
@@ -518,6 +491,123 @@
     "name": "Abrasive cut-off saw",
     "url": "https://pukekohetech.github.io/techsop/#/engineering/abrasive-cutoff-saw",
     "file": "assets/qrcodes/student/eng-abrasive-cutoff-saw.svg",
+    "approved": false,
+    "access": "reference-only"
+  },
+  {
+    "id": "elec-general-workshop-safety",
+    "department": "electrical",
+    "name": "General electrical workshop safety",
+    "url": "https://pukekohetech.github.io/techsop/#/electrical/general-electrical-workshop-safety",
+    "file": "assets/qrcodes/student/elec-general-workshop-safety.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "elec-isolation-lockout",
+    "department": "electrical",
+    "name": "Electrical isolation, lockout and prove de-energised",
+    "url": "https://pukekohetech.github.io/techsop/#/electrical/electrical-isolation-lockout-and-prove-de-energised",
+    "file": "assets/qrcodes/student/elec-isolation-lockout.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "elec-test-instruments",
+    "department": "electrical",
+    "name": "Electrical test instruments and voltage testing",
+    "url": "https://pukekohetech.github.io/techsop/#/electrical/electrical-test-instruments-and-voltage-testing",
+    "file": "assets/qrcodes/student/elec-test-instruments.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "elec-elv-prototyping",
+    "department": "electrical",
+    "name": "Extra-low-voltage circuits and prototyping",
+    "url": "https://pukekohetech.github.io/techsop/#/electrical/extra-low-voltage-circuits-and-prototyping",
+    "file": "assets/qrcodes/student/elec-elv-prototyping.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "elec-soldering-desoldering",
+    "department": "electrical",
+    "name": "Soldering and desoldering electronic connections",
+    "url": "https://pukekohetech.github.io/techsop/#/electrical/soldering-and-desoldering-electronic-connections",
+    "file": "assets/qrcodes/student/elec-soldering-desoldering.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "elec-leads-rcds",
+    "department": "electrical",
+    "name": "Portable equipment, leads and RCDs",
+    "url": "https://pukekohetech.github.io/techsop/#/electrical/portable-equipment-leads-and-rcds",
+    "file": "assets/qrcodes/student/elec-leads-rcds.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "elec-testing-tagging-awareness",
+    "department": "electrical",
+    "name": "Pre-use checks and testing/tagging awareness",
+    "url": "https://pukekohetech.github.io/techsop/#/electrical/pre-use-checks-and-testing-tagging-awareness",
+    "file": "assets/qrcodes/student/elec-testing-tagging-awareness.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "elec-cable-terminations",
+    "department": "electrical",
+    "name": "Cable preparation and extra-low-voltage terminations",
+    "url": "https://pukekohetech.github.io/techsop/#/electrical/cable-preparation-and-extra-low-voltage-terminations",
+    "file": "assets/qrcodes/student/elec-cable-terminations.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "elec-stored-energy",
+    "department": "electrical",
+    "name": "Capacitors and stored electrical energy",
+    "url": "https://pukekohetech.github.io/techsop/#/electrical/capacitors-and-stored-electrical-energy",
+    "file": "assets/qrcodes/student/elec-stored-energy.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "elec-batteries-dc",
+    "department": "electrical",
+    "name": "Batteries and current-limited DC supplies",
+    "url": "https://pukekohetech.github.io/techsop/#/electrical/batteries-and-current-limited-dc-supplies",
+    "file": "assets/qrcodes/student/elec-batteries-dc.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "1-014-electronics-chemicals-for-printed-circuit-board-etching",
+    "department": "electrical",
+    "name": "PCB etching chemicals",
+    "url": "https://pukekohetech.github.io/techsop/#/electrical/electronics-chemicals-for-printed-circuit-board-etching",
+    "file": "assets/qrcodes/student/1-014-electronics-chemicals-for-printed-circuit-board-etching.svg",
+    "approved": false,
+    "access": "reference-only"
+  },
+  {
+    "id": "1-015-electronics-chemicals-for-printed-circuit-board-preparation",
+    "department": "electrical",
+    "name": "PCB preparation chemicals",
+    "url": "https://pukekohetech.github.io/techsop/#/electrical/electronics-chemicals-for-printed-circuit-board-preparation",
+    "file": "assets/qrcodes/student/1-015-electronics-chemicals-for-printed-circuit-board-preparation.svg",
+    "approved": false,
+    "access": "reference-only"
+  },
+  {
+    "id": "1-013-electrical-and-electronics-work",
+    "department": "electrical",
+    "name": "Prescribed electrical work and mains training",
+    "url": "https://pukekohetech.github.io/techsop/#/electrical/electrical-and-electronics-work",
+    "file": "assets/qrcodes/student/1-013-electrical-and-electronics-work.svg",
     "approved": false,
     "access": "reference-only"
   },
