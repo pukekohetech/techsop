@@ -1,0 +1,1678 @@
+{
+  "schemaVersion": 2,
+  "department": {
+    "id": "electrical",
+    "name": "Electrical Trades",
+    "icon": "⚡"
+  },
+  "meta": {
+    "sourceTitle": "Supplied electronics RAMS records plus current WorkSafe New Zealand and Electrical Workers Registration Board guidance",
+    "sourceEdition": "Three supplied electronics records were rebuilt for the New Zealand school context on 25 Aug 2026; ten missing Electrical Trades topics were added.",
+    "conversionPurpose": "Published Student safety summaries paired with fuller Teacher controls for the Electrical Trades programme.",
+    "localAdaptationRequired": true,
+    "legalContextNote": "These SOPs provide safety-awareness and teaching controls. They do not authorise prescribed electrical work. Current legislation, EWRB requirements, standards access, exact equipment/product information, local RAMS and competent supervision remain authoritative."
+  },
+  "tools": [
+    {
+      "id": "elec-general-workshop-safety",
+      "aliases": [
+        "electrical workshop rules",
+        "electrical induction"
+      ],
+      "name": "General electrical workshop safety",
+      "category": "General workshop safety",
+      "image": "assets/images/electrical-general-workshop.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "PHS Electrical Trades controls",
+        "Current WorkSafe New Zealand and EWRB guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the Electrical Trades programme and task risk assessment.",
+        "supervision": "Teacher instruction, permission and active supervision are required.",
+        "notes": [
+          "Electrical Trades publication prepared 25 Aug 2026 from the supplied RAMS records and current New Zealand guidance.",
+          "Publication does not replace a check of the exact equipment, circuit, product, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Keep the bench dry and orderly, use only the approved supply, and stop before changing a circuit.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes",
+          "hair"
+        ],
+        "hazardTags": [
+          "electric-shock",
+          "burn",
+          "fire",
+          "slip-trip"
+        ],
+        "hazards": [
+          "Electric shock or burns from damaged equipment, exposed conductors or an unsuitable supply.",
+          "Short circuits and incorrect polarity can overheat wires, components or batteries and start a fire.",
+          "Hot tools, sharp wire ends, loose leads and crowded benches can cause burns, cuts and trips."
+        ],
+        "beforeStart": [
+          "Complete the electrical workshop induction and locate the isolator, emergency stop, fire equipment, first aid and exits.",
+          "Get teacher permission for the exact circuit and use only the approved current-limited extra-low-voltage supply unless the task is specifically restricted and controlled.",
+          "Check leads, plugs, tools, guards and insulation; keep liquids away and remove metal jewellery."
+        ],
+        "dos": [
+          "Switch off and confirm the circuit is de-energised before building, changing or inspecting connections.",
+          "Use insulated, correctly rated tools and test equipment as demonstrated.",
+          "Keep leads short and tidy, protect bare conductors, and report every fault or near miss."
+        ],
+        "donts": [
+          "Do not work on mains wiring, switchboards, fixed installations or exposed live parts.",
+          "Do not bypass a fuse, RCD, guard, interlock, earth or current limit.",
+          "Do not use damaged equipment, wet hands, drinks, improvised adapters or overloaded outlets."
+        ],
+        "stop": [
+          "A lead, plug, enclosure, tool or test instrument is damaged, hot, wet or modified.",
+          "There is a spark, shock, smell, smoke, unexpected reading or repeated protection trip.",
+          "You are unsure of the voltage, circuit state, polarity, rating or teacher instruction."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact equipment or product instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Baseline controls for entry, conduct and supervised learning in the Electrical Trades workshop. It favours current-limited extra-low-voltage activities and does not authorise prescribed electrical work.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes",
+          "hair"
+        ],
+        "hazards": [
+          "Electric shock or burns from damaged equipment, exposed conductors or an unsuitable supply.",
+          "Short circuits and incorrect polarity can overheat wires, components or batteries and start a fire.",
+          "Hot tools, sharp wire ends, loose leads and crowded benches can cause burns, cuts and trips."
+        ],
+        "riskAssessment": [
+          "Apply the hierarchy of controls and keep student work within the demonstrated, assessed task boundary.",
+          "Electrical energy, stored energy, heat, chemicals and unexpected energisation must be considered together."
+        ],
+        "preStart": [
+          "Define the permitted voltage/energy envelope and isolate mains training equipment from general student access.",
+          "Verify protective devices, emergency isolation, ventilation, housekeeping and dry conditions."
+        ],
+        "safeUse": [
+          "Prefer battery or current-limited ELV systems where learning outcomes allow.",
+          "Control energisation through the teacher and use fault-finding methods appropriate to the assessed circuit.",
+          "Keep mains, EV high-voltage and other restricted systems outside the general student task boundary."
+        ],
+        "shutdown": [
+          "De-energise supplies, disconnect batteries where specified, discharge stored energy by the approved method, and leave controls at zero/off.",
+          "Account for tools and components, clean the bench, and quarantine faults."
+        ],
+        "restrictions": [
+          "This SOP does not authorise prescribed electrical work, live work, switchboard access, mains construction or repair, EV/HEV high-voltage work, or work on unknown equipment."
+        ],
+        "disposal": [
+          "Segregate electronic, battery, chemical and general waste under the school waste plan; do not place hazardous waste in ordinary bins or drains."
+        ],
+        "storage": [
+          "Store equipment isolated, dry and protected from damage; secure restricted tools, components and substances from unauthorised access."
+        ],
+        "furtherInformation": [
+          "Review the local RAMS whenever the equipment, circuit, product, room or learner group changes."
+        ],
+        "firstAid": [
+          "Stop work and alert the teacher. Isolate the supply only when it is safe to do so; do not touch a person who may still be in contact with electricity.",
+          "Call emergency services for electric shock, burns, fire, breathing difficulty, collapse or significant chemical exposure, and follow the PHS first-aid procedure."
+        ],
+        "teacherChecks": [
+          "Confirm the exact task is permitted, the equipment and controls are suitable, and the learner has been instructed and assessed.",
+          "Remove damaged, modified, wet, overheated or uncertain equipment from service and label/report it."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Electricity: https://www.worksafe.govt.nz/topic-and-industry/electricity/",
+          "WorkSafe New Zealand — Checking your electrical equipment is safe: https://www.worksafe.govt.nz/dmsdocument/86-checking-your-electrical-equipment-is-safe/",
+          "WorkSafe New Zealand — PPE guide: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/personal-protective-equipment-a-guide-for-workers/"
+        ],
+        "supervision": "Teacher instruction, permission and active supervision matched to the task and learner.",
+        "training": "Electrical workshop induction, teacher demonstration and demonstrated competency for the exact task."
+      },
+      "slug": "general-electrical-workshop-safety"
+    },
+    {
+      "id": "elec-isolation-lockout",
+      "aliases": [
+        "lockout tagout electrical",
+        "isolate and test"
+      ],
+      "name": "Electrical isolation, lockout and prove de-energised",
+      "category": "Isolation and energy control",
+      "image": "assets/images/electrical-isolation-lockout.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "PHS Electrical Trades controls",
+        "Current WorkSafe New Zealand and EWRB guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the Electrical Trades programme and task risk assessment.",
+        "supervision": "Teacher instruction, permission and active supervision are required.",
+        "notes": [
+          "Electrical Trades publication prepared 25 Aug 2026 from the supplied RAMS records and current New Zealand guidance.",
+          "Publication does not replace a check of the exact equipment, circuit, product, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Identify every energy source, isolate it, prevent reconnection and prove the approved training circuit is de-energised.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes"
+        ],
+        "hazardTags": [
+          "electric-shock",
+          "stored-energy",
+          "unexpected-start"
+        ],
+        "hazards": [
+          "A circuit can remain energised through the wrong isolator, backfeed, battery, capacitor or another supply.",
+          "Someone can restore power while work is in progress.",
+          "An unsuitable or unverified tester can give a false “dead” result."
+        ],
+        "beforeStart": [
+          "Use this process only on the teacher-approved training system and follow the demonstrated isolation plan.",
+          "Identify all sources, including batteries, capacitors, generators, UPS units and mechanical stored energy.",
+          "Obtain the specified lock/tag and approved test instrument."
+        ],
+        "dos": [
+          "Switch off loads, isolate every source, lock/tag where provided and control the key as directed.",
+          "Prove the tester on a known source, test the required points, then re-prove the tester.",
+          "Treat the circuit as energised until the teacher confirms the isolation and stored energy is controlled."
+        ],
+        "donts": [
+          "Do not perform isolation on a mains installation, switchboard or equipment outside the approved training task.",
+          "Do not rely on a switch position, indicator lamp, software command or someone else’s word.",
+          "Do not remove another person’s lock/tag or reconnect a supply without the teacher’s release process."
+        ],
+        "stop": [
+          "The diagram, source, isolator, lock point or test point does not match the plan.",
+          "The tester fails its proving check or any reading is unexpected.",
+          "A second source, damaged conductor or uncontrolled stored energy is found."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact equipment or product instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "A supervised isolation workflow for approved training systems. It teaches source identification, prevention of reconnection and verified de-energisation without authorising work on mains installations.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes"
+        ],
+        "hazards": [
+          "A circuit can remain energised through the wrong isolator, backfeed, battery, capacitor or another supply.",
+          "Someone can restore power while work is in progress.",
+          "An unsuitable or unverified tester can give a false “dead” result."
+        ],
+        "riskAssessment": [
+          "Apply the hierarchy of controls and keep student work within the demonstrated, assessed task boundary.",
+          "Electrical energy, stored energy, heat, chemicals and unexpected energisation must be considered together."
+        ],
+        "preStart": [
+          "Prepare a circuit-specific isolation plan and define the competent person responsible for verification.",
+          "Provide suitable lockout devices and an appropriately rated, verified tester; separate general student access from restricted systems."
+        ],
+        "safeUse": [
+          "Use a documented identify–isolate–secure–test–re-test sequence appropriate to the system.",
+          "Control stored electrical and non-electrical energy before contact.",
+          "Only the authorised person may release the isolation after the work area has been checked."
+        ],
+        "shutdown": [
+          "Confirm guards/covers are restored, tools and people are clear, and the circuit is safe before controlled re-energisation.",
+          "Record and quarantine any discrepancy or failed test instrument."
+        ],
+        "restrictions": [
+          "Students must not isolate, test or work on mains installations or carry out prescribed electrical work under this general SOP."
+        ],
+        "disposal": [
+          "Segregate electronic, battery, chemical and general waste under the school waste plan; do not place hazardous waste in ordinary bins or drains."
+        ],
+        "storage": [
+          "Store equipment isolated, dry and protected from damage; secure restricted tools, components and substances from unauthorised access."
+        ],
+        "furtherInformation": [
+          "Review the local RAMS whenever the equipment, circuit, product, room or learner group changes."
+        ],
+        "firstAid": [
+          "Stop work and alert the teacher. Isolate the supply only when it is safe to do so; do not touch a person who may still be in contact with electricity.",
+          "Call emergency services for electric shock, burns, fire, breathing difficulty, collapse or significant chemical exposure, and follow the PHS first-aid procedure."
+        ],
+        "teacherChecks": [
+          "Confirm the exact task is permitted, the equipment and controls are suitable, and the learner has been instructed and assessed.",
+          "Remove damaged, modified, wet, overheated or uncertain equipment from service and label/report it."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Keeping workers safe with machine lockouts: https://www.worksafe.govt.nz/topic-and-industry/machinery/keeping-workers-safe-with-machine-lockouts",
+          "EWRB — AS/NZS 4836:2023 information: https://www.ewrb.govt.nz/about-us/news-and-notices/standard-of-the-month-asnzs-48362023/",
+          "WorkSafe New Zealand — Electricity: https://www.worksafe.govt.nz/topic-and-industry/electricity/"
+        ],
+        "supervision": "Teacher instruction, permission and active supervision matched to the task and learner.",
+        "training": "Electrical workshop induction, teacher demonstration and demonstrated competency for the exact task."
+      },
+      "slug": "electrical-isolation-lockout-and-prove-de-energised"
+    },
+    {
+      "id": "elec-test-instruments",
+      "aliases": [
+        "multimeter safety",
+        "voltage testing"
+      ],
+      "name": "Electrical test instruments and voltage testing",
+      "category": "Test and measurement",
+      "image": "assets/images/electrical-test-instruments.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "PHS Electrical Trades controls",
+        "Current WorkSafe New Zealand and EWRB guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the Electrical Trades programme and task risk assessment.",
+        "supervision": "Teacher instruction, permission and active supervision are required.",
+        "notes": [
+          "Electrical Trades publication prepared 25 Aug 2026 from the supplied RAMS records and current New Zealand guidance.",
+          "Publication does not replace a check of the exact equipment, circuit, product, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Select the right meter and range, inspect the leads, and connect only to the teacher-approved circuit.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes"
+        ],
+        "hazardTags": [
+          "electric-shock",
+          "arc",
+          "incorrect-reading"
+        ],
+        "hazards": [
+          "Wrong terminals, range or function can short the circuit, damage the meter or expose the user to energy.",
+          "Damaged probes or leads can expose conductors.",
+          "A misleading reading can cause unsafe decisions."
+        ],
+        "beforeStart": [
+          "Confirm the circuit is within the approved ELV/current-limited training range.",
+          "Check the meter, fuse, category/rating, probes, shrouds and insulation for the task.",
+          "Set the function, range and lead sockets before approaching the circuit."
+        ],
+        "dos": [
+          "Hold probes behind the finger guards and keep exposed metal to a minimum.",
+          "De-energise before moving leads for current or resistance measurements unless the demonstrated method requires an energised ELV reading.",
+          "Compare the result with the expected range and stop on any mismatch."
+        ],
+        "donts": [
+          "Do not use a multimeter on mains, switchboards, unknown supplies, EV/HEV high-voltage systems or exposed live parts.",
+          "Do not measure resistance/continuity on an energised circuit.",
+          "Do not change range, socket or connections carelessly while probes are in contact."
+        ],
+        "stop": [
+          "The meter rating, circuit voltage or energy is unknown.",
+          "The display, fuse, lead or probe is damaged or the reading is unstable/unexpected.",
+          "A protection device operates, a component heats or the circuit behaves differently from the diagram."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact equipment or product instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Selection and supervised use of electrical test instruments on approved training circuits. Measurement on higher-energy or prescribed systems is excluded.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes"
+        ],
+        "hazards": [
+          "Wrong terminals, range or function can short the circuit, damage the meter or expose the user to energy.",
+          "Damaged probes or leads can expose conductors.",
+          "A misleading reading can cause unsafe decisions."
+        ],
+        "riskAssessment": [
+          "Apply the hierarchy of controls and keep student work within the demonstrated, assessed task boundary.",
+          "Electrical energy, stored energy, heat, chemicals and unexpected energisation must be considered together."
+        ],
+        "preStart": [
+          "Match the instrument, probes, ratings and protection to the circuit; verify meter fuses and condition.",
+          "Set the permitted measurement methods and require teacher control of energisation."
+        ],
+        "safeUse": [
+          "Use the lowest-energy practical source and test points designed for training.",
+          "Teach function/range/socket checks, probe placement and interpretation before independent handling.",
+          "For any prove-dead process, use the instrument and proving method required by the applicable procedure."
+        ],
+        "shutdown": [
+          "Remove probes safely, switch off the circuit, return leads to the normal voltage/ohms sockets and store the meter protected."
+        ],
+        "restrictions": [
+          "Students must not perform voltage testing on mains, switchboards, fixed wiring, unknown equipment or EV/HEV high-voltage systems."
+        ],
+        "disposal": [
+          "Segregate electronic, battery, chemical and general waste under the school waste plan; do not place hazardous waste in ordinary bins or drains."
+        ],
+        "storage": [
+          "Store equipment isolated, dry and protected from damage; secure restricted tools, components and substances from unauthorised access."
+        ],
+        "furtherInformation": [
+          "Review the local RAMS whenever the equipment, circuit, product, room or learner group changes."
+        ],
+        "firstAid": [
+          "Stop work and alert the teacher. Isolate the supply only when it is safe to do so; do not touch a person who may still be in contact with electricity.",
+          "Call emergency services for electric shock, burns, fire, breathing difficulty, collapse or significant chemical exposure, and follow the PHS first-aid procedure."
+        ],
+        "teacherChecks": [
+          "Confirm the exact task is permitted, the equipment and controls are suitable, and the learner has been instructed and assessed.",
+          "Remove damaged, modified, wet, overheated or uncertain equipment from service and label/report it."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Electricity: https://www.worksafe.govt.nz/topic-and-industry/electricity/",
+          "EWRB — AS/NZS 4836:2023 information: https://www.ewrb.govt.nz/about-us/news-and-notices/standard-of-the-month-asnzs-48362023/",
+          "WorkSafe New Zealand — Checking equipment is safe: https://www.worksafe.govt.nz/dmsdocument/86-checking-your-electrical-equipment-is-safe/"
+        ],
+        "supervision": "Teacher instruction, permission and active supervision matched to the task and learner.",
+        "training": "Electrical workshop induction, teacher demonstration and demonstrated competency for the exact task."
+      },
+      "slug": "electrical-test-instruments-and-voltage-testing"
+    },
+    {
+      "id": "elec-elv-prototyping",
+      "aliases": [
+        "breadboard circuits",
+        "ELV electronics"
+      ],
+      "name": "Extra-low-voltage circuits and prototyping",
+      "category": "Electronics",
+      "image": "assets/images/electrical-elv-prototyping.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "PHS Electrical Trades controls",
+        "Current WorkSafe New Zealand and EWRB guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the Electrical Trades programme and task risk assessment.",
+        "supervision": "Teacher instruction, permission and active supervision are required.",
+        "notes": [
+          "Electrical Trades publication prepared 25 Aug 2026 from the supplied RAMS records and current New Zealand guidance.",
+          "Publication does not replace a check of the exact equipment, circuit, product, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Build with the supply off, check every connection, then energise the current-limited circuit with teacher permission.",
+        "ppe": [
+          "eye",
+          "apron",
+          "hair"
+        ],
+        "hazardTags": [
+          "short-circuit",
+          "hot-component",
+          "polarity"
+        ],
+        "hazards": [
+          "Reversed polarity, wrong component values or wiring errors can overheat or rupture components.",
+          "Short circuits can heat wires, batteries and power supplies.",
+          "Sharp leads, hot components and loose wires can injure or create faults."
+        ],
+        "beforeStart": [
+          "Confirm the schematic, maximum voltage/current and component ratings with the teacher.",
+          "Set the current-limited supply to zero/off and inspect the breadboard, leads and components.",
+          "Identify polarised parts and check capacitor, diode, LED and IC orientation."
+        ],
+        "dos": [
+          "Build and alter connections only with power off.",
+          "Use colour-coded leads, trim/cover sharp ends, and keep wiring readable.",
+          "Ask the teacher to check the circuit before first energisation and after major changes."
+        ],
+        "donts": [
+          "Do not connect the prototype directly to mains or an unapproved high-current battery.",
+          "Do not defeat current limiting or substitute a component with an unknown rating.",
+          "Do not touch or move a component that is hot, swollen, leaking or damaged."
+        ],
+        "stop": [
+          "A component heats, swells, vents, smells, discolours or makes noise.",
+          "Current is higher or voltage lower than expected.",
+          "The circuit diagram, polarity or component rating is uncertain."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact equipment or product instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Supervised construction and testing of current-limited ELV electronic circuits using breadboards or approved modules.",
+        "ppe": [
+          "eye",
+          "apron",
+          "hair"
+        ],
+        "hazards": [
+          "Reversed polarity, wrong component values or wiring errors can overheat or rupture components.",
+          "Short circuits can heat wires, batteries and power supplies.",
+          "Sharp leads, hot components and loose wires can injure or create faults."
+        ],
+        "riskAssessment": [
+          "Apply the hierarchy of controls and keep student work within the demonstrated, assessed task boundary.",
+          "Electrical energy, stored energy, heat, chemicals and unexpected energisation must be considered together."
+        ],
+        "preStart": [
+          "Define voltage/current limits and select a protected supply that limits fault energy.",
+          "Check components for ratings, polarity, storage condition and suitability for learners."
+        ],
+        "safeUse": [
+          "Require a power-off build/check stage before controlled energisation.",
+          "Use staged tests and current limits to contain wiring/component faults.",
+          "Maintain eye protection where components could fragment or vent."
+        ],
+        "shutdown": [
+          "Switch off, allow hot parts to cool, discharge stored energy by the approved method and disconnect the source.",
+          "Remove failed components for investigation; do not return them to storage."
+        ],
+        "restrictions": [
+          "No mains-derived exposed circuitry, improvised mains supplies, high-energy battery packs or pyrotechnic components."
+        ],
+        "disposal": [
+          "Segregate electronic, battery, chemical and general waste under the school waste plan; do not place hazardous waste in ordinary bins or drains."
+        ],
+        "storage": [
+          "Store equipment isolated, dry and protected from damage; secure restricted tools, components and substances from unauthorised access."
+        ],
+        "furtherInformation": [
+          "Review the local RAMS whenever the equipment, circuit, product, room or learner group changes."
+        ],
+        "firstAid": [
+          "Stop work and alert the teacher. Isolate the supply only when it is safe to do so; do not touch a person who may still be in contact with electricity.",
+          "Call emergency services for electric shock, burns, fire, breathing difficulty, collapse or significant chemical exposure, and follow the PHS first-aid procedure."
+        ],
+        "teacherChecks": [
+          "Confirm the exact task is permitted, the equipment and controls are suitable, and the learner has been instructed and assessed.",
+          "Remove damaged, modified, wet, overheated or uncertain equipment from service and label/report it."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Electricity: https://www.worksafe.govt.nz/topic-and-industry/electricity/",
+          "WorkSafe New Zealand — PPE guide: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/personal-protective-equipment-a-guide-for-workers/"
+        ],
+        "supervision": "Teacher instruction, permission and active supervision matched to the task and learner.",
+        "training": "Electrical workshop induction, teacher demonstration and demonstrated competency for the exact task."
+      },
+      "slug": "extra-low-voltage-circuits-and-prototyping"
+    },
+    {
+      "id": "elec-soldering-desoldering",
+      "aliases": [
+        "electronics soldering",
+        "desoldering"
+      ],
+      "name": "Soldering and desoldering electronic connections",
+      "category": "Soldering",
+      "image": "assets/images/electrical-soldering.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "PHS Electrical Trades controls",
+        "Current WorkSafe New Zealand and EWRB guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the Electrical Trades programme and task risk assessment.",
+        "supervision": "Teacher instruction, permission and active supervision are required.",
+        "notes": [
+          "Electrical Trades publication prepared 25 Aug 2026 from the supplied RAMS records and current New Zealand guidance.",
+          "Publication does not replace a check of the exact equipment, circuit, product, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Use extraction at the joint, return the iron to its stand, and wash hands after handling solder.",
+        "ppe": [
+          "eye",
+          "apron",
+          "hair",
+          "ventilation"
+        ],
+        "hazardTags": [
+          "burn",
+          "fume",
+          "fire",
+          "lead"
+        ],
+        "hazards": [
+          "The iron, molten solder and recently heated parts can cause burns or ignite materials.",
+          "Flux fumes can irritate or sensitise the airways; solder/residue can contaminate hands and surfaces.",
+          "Solder splashes, clipped leads and desoldering tools can injure eyes."
+        ],
+        "beforeStart": [
+          "Use the approved temperature-controlled iron, stable stand and local extraction.",
+          "Check the cable, plug, tip, stand and extraction; clear paper, solvents and other combustibles.",
+          "Confirm the solder/flux product and any hygiene or RPE controls from the SDS and local assessment."
+        ],
+        "dos": [
+          "Position extraction close enough to capture fume without cooling the joint excessively.",
+          "Hold work securely, keep hands clear and return the iron to the stand whenever it is not in use.",
+          "Wash hands after soldering and before eating; clean residues using only the approved method/product."
+        ],
+        "donts": [
+          "Do not touch the tip, flick solder, leave the iron unattended or place it on the bench.",
+          "Do not eat, drink, touch your face or use an unknown solder/flux/cleaner.",
+          "Do not rely on a respirator instead of effective extraction; use RPE only when the assessed programme requires it."
+        ],
+        "stop": [
+          "Extraction stops or fumes move into the breathing zone.",
+          "The iron, cable, stand or control is damaged or overheats.",
+          "Solder spits, a battery/component becomes hot, or you feel eye/airway irritation."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact equipment or product instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Soldering and desoldering of electronic connections on approved low-voltage assemblies with heat, fume and contamination controls.",
+        "ppe": [
+          "eye",
+          "apron",
+          "hair",
+          "ventilation"
+        ],
+        "hazards": [
+          "The iron, molten solder and recently heated parts can cause burns or ignite materials.",
+          "Flux fumes can irritate or sensitise the airways; solder/residue can contaminate hands and surfaces.",
+          "Solder splashes, clipped leads and desoldering tools can injure eyes."
+        ],
+        "riskAssessment": [
+          "Apply the hierarchy of controls and keep student work within the demonstrated, assessed task boundary.",
+          "Electrical energy, stored energy, heat, chemicals and unexpected energisation must be considered together."
+        ],
+        "preStart": [
+          "Review solder/flux/cleaner SDSs and assess fume capture at the actual bench.",
+          "Provide stable stands, temperature control, heat-resistant work surfaces, eye protection and hand-washing facilities."
+        ],
+        "safeUse": [
+          "Capture flux fume at source and keep the operator out of the plume.",
+          "If RPE remains necessary after higher-order controls, select and manage it through a competent assessment in line with AS/NZS 1715 and use a product meeting AS/NZS 1716; fit testing, training, storage and facial-hair compatibility apply.",
+          "Treat lead-containing solder and residues as a hygiene/contamination issue; prefer approved lead-free processes where suitable."
+        ],
+        "shutdown": [
+          "Return the iron to the stand, switch off/unplug as directed, allow it to cool and clean the bench without spreading residue."
+        ],
+        "restrictions": [
+          "No soldering on energised equipment, batteries, mains assemblies or unknown circuits."
+        ],
+        "disposal": [
+          "Segregate electronic, battery, chemical and general waste under the school waste plan; do not place hazardous waste in ordinary bins or drains."
+        ],
+        "storage": [
+          "Store equipment isolated, dry and protected from damage; secure restricted tools, components and substances from unauthorised access."
+        ],
+        "furtherInformation": [
+          "Review the local RAMS whenever the equipment, circuit, product, room or learner group changes."
+        ],
+        "firstAid": [
+          "Stop work and alert the teacher. Isolate the supply only when it is safe to do so; do not touch a person who may still be in contact with electricity.",
+          "Call emergency services for electric shock, burns, fire, breathing difficulty, collapse or significant chemical exposure, and follow the PHS first-aid procedure."
+        ],
+        "teacherChecks": [
+          "Confirm the exact task is permitted, the equipment and controls are suitable, and the learner has been instructed and assessed.",
+          "Remove damaged, modified, wet, overheated or uncertain equipment from service and label/report it."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Respiratory protective equipment: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/",
+          "WorkSafe New Zealand — Respirator selection tool: https://www.worksafe.govt.nz/tools-registers-resources/tools/respirator-selection-tool/",
+          "WorkSafe New Zealand — Protecting workers’ eyes: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/",
+          "WorkSafe New Zealand — Checking electrical equipment: https://www.worksafe.govt.nz/dmsdocument/86-checking-your-electrical-equipment-is-safe/"
+        ],
+        "supervision": "Teacher instruction, permission and active supervision matched to the task and learner.",
+        "training": "Electrical workshop induction, teacher demonstration and demonstrated competency for the exact task."
+      },
+      "slug": "soldering-and-desoldering-electronic-connections"
+    },
+    {
+      "id": "elec-leads-rcds",
+      "aliases": [
+        "extension lead safety",
+        "RCD safety"
+      ],
+      "name": "Portable equipment, leads and RCDs",
+      "category": "Electrical equipment",
+      "image": "assets/images/electrical-leads-rcds.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "PHS Electrical Trades controls",
+        "Current WorkSafe New Zealand and EWRB guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the Electrical Trades programme and task risk assessment.",
+        "supervision": "Teacher instruction, permission and active supervision are required.",
+        "notes": [
+          "Electrical Trades publication prepared 25 Aug 2026 from the supplied RAMS records and current New Zealand guidance.",
+          "Publication does not replace a check of the exact equipment, circuit, product, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Inspect before use, keep leads protected and dry, and treat every RCD trip as a fault to report.",
+        "ppe": [
+          "eye",
+          "shoes"
+        ],
+        "hazardTags": [
+          "electric-shock",
+          "trip",
+          "fire"
+        ],
+        "hazards": [
+          "Damaged plugs, sockets, leads or equipment can expose live parts or cause fire.",
+          "Leads can be crushed, cut, wet, overheated, coiled under load or create trip hazards.",
+          "An RCD reduces some shock risk but does not make unsafe equipment or behaviour safe."
+        ],
+        "beforeStart": [
+          "Inspect the plug, pins, lead, socket, casing and strain relief before connecting.",
+          "Confirm the equipment is suitable for the environment and any required RCD protection is present.",
+          "Route the lead away from water, heat, sharp edges, doors, vehicles and walkways."
+        ],
+        "dos": [
+          "Use only approved school equipment and operate the RCD test button at the interval/process set by the school.",
+          "Fully unwind extension reels when the load and manufacturer instructions require it.",
+          "Disconnect by holding the plug, and report/quarantine any defect or protection trip."
+        ],
+        "donts": [
+          "Do not use taped, cut, crushed, burnt, loose, wet or exposed leads and plugs.",
+          "Do not daisy-chain boards, overload outlets, remove earth pins or use incompatible adapters.",
+          "Do not reset a tripped RCD or breaker repeatedly."
+        ],
+        "stop": [
+          "An RCD/breaker trips, a plug or lead becomes hot, or there is arcing, smell or discolouration.",
+          "Equipment has been wet, dropped, crushed, modified or brought in without approval.",
+          "The lead cannot be routed without damage or a trip hazard."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact equipment or product instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Pre-use checks and safe routing/use of portable electrical equipment, extension leads, power boards and RCD protection.",
+        "ppe": [
+          "eye",
+          "shoes"
+        ],
+        "hazards": [
+          "Damaged plugs, sockets, leads or equipment can expose live parts or cause fire.",
+          "Leads can be crushed, cut, wet, overheated, coiled under load or create trip hazards.",
+          "An RCD reduces some shock risk but does not make unsafe equipment or behaviour safe."
+        ],
+        "riskAssessment": [
+          "Apply the hierarchy of controls and keep student work within the demonstrated, assessed task boundary.",
+          "Electrical energy, stored energy, heat, chemicals and unexpected energisation must be considered together."
+        ],
+        "preStart": [
+          "Determine the supply, environment and protection required; inspect equipment and records under the school maintenance system.",
+          "Provide enough outlets and safe cable routes so students do not improvise extensions."
+        ],
+        "safeUse": [
+          "Use RCDs as an additional control, not a substitute for sound equipment, earthing, isolation and safe work.",
+          "Remove defects from service immediately; repair must be done by an authorised/competent person."
+        ],
+        "shutdown": [
+          "Switch off, unplug by the plug, inspect for new damage, coil without tight bends and store dry."
+        ],
+        "restrictions": [
+          "Students must not repair plugs, leads, power boards, RCDs or mains-powered equipment."
+        ],
+        "disposal": [
+          "Segregate electronic, battery, chemical and general waste under the school waste plan; do not place hazardous waste in ordinary bins or drains."
+        ],
+        "storage": [
+          "Store equipment isolated, dry and protected from damage; secure restricted tools, components and substances from unauthorised access."
+        ],
+        "furtherInformation": [
+          "Review the local RAMS whenever the equipment, circuit, product, room or learner group changes."
+        ],
+        "firstAid": [
+          "Stop work and alert the teacher. Isolate the supply only when it is safe to do so; do not touch a person who may still be in contact with electricity.",
+          "Call emergency services for electric shock, burns, fire, breathing difficulty, collapse or significant chemical exposure, and follow the PHS first-aid procedure."
+        ],
+        "teacherChecks": [
+          "Confirm the exact task is permitted, the equipment and controls are suitable, and the learner has been instructed and assessed.",
+          "Remove damaged, modified, wet, overheated or uncertain equipment from service and label/report it."
+        ],
+        "references": [
+          "WorkSafe New Zealand — RCDs, PSOAs, leads, cords, plugs and battery-operated equipment: https://www.worksafe.govt.nz/dmsdocument/83-rcds-psoas-leads-cords-plugs-and-battery-operated-equipment",
+          "WorkSafe New Zealand — Checking equipment is safe: https://www.worksafe.govt.nz/dmsdocument/86-checking-your-electrical-equipment-is-safe/",
+          "WorkSafe New Zealand — Electricity: https://www.worksafe.govt.nz/topic-and-industry/electricity/"
+        ],
+        "supervision": "Teacher instruction, permission and active supervision matched to the task and learner.",
+        "training": "Electrical workshop induction, teacher demonstration and demonstrated competency for the exact task."
+      },
+      "slug": "portable-equipment-leads-and-rcds"
+    },
+    {
+      "id": "elec-testing-tagging-awareness",
+      "aliases": [
+        "PAT testing",
+        "electrical tagging"
+      ],
+      "name": "Pre-use checks and testing/tagging awareness",
+      "category": "Inspection and maintenance",
+      "image": "assets/images/electrical-testing-tagging.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "PHS Electrical Trades controls",
+        "Current WorkSafe New Zealand and EWRB guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the Electrical Trades programme and task risk assessment.",
+        "supervision": "Teacher instruction, permission and active supervision are required.",
+        "notes": [
+          "Electrical Trades publication prepared 25 Aug 2026 from the supplied RAMS records and current New Zealand guidance.",
+          "Publication does not replace a check of the exact equipment, circuit, product, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Do a pre-use visual check every time; a tag is not proof that equipment is safe today.",
+        "ppe": [
+          "eye",
+          "shoes"
+        ],
+        "hazardTags": [
+          "electric-shock",
+          "false-assurance",
+          "damaged-equipment"
+        ],
+        "hazards": [
+          "Damage can occur after a test/tag and may not be visible on a label.",
+          "An incorrect test method can expose the tester or damage equipment.",
+          "A passed tag can create false confidence if pre-use checks are skipped."
+        ],
+        "beforeStart": [
+          "Check the plug, pins, lead, strain relief, casing, controls and guards before use.",
+          "Confirm the equipment belongs to the school system and is within any recorded inspection/test interval.",
+          "Ask the teacher about missing, illegible or expired records."
+        ],
+        "dos": [
+          "Report and quarantine damaged, wet, modified or suspect equipment.",
+          "Continue visual checks even when a tag is present.",
+          "Use only equipment approved for the task and environment."
+        ],
+        "donts": [
+          "Do not perform electrical safety testing or tagging unless you are specifically trained, authorised and supervised for that process.",
+          "Do not open, repair or rewire equipment or copy/alter a test label.",
+          "Do not use equipment merely because it has a current-looking tag."
+        ],
+        "stop": [
+          "A tag/record is missing or conflicts with the equipment identity.",
+          "Any conductor, insulation, enclosure, guard, plug or control is damaged.",
+          "The equipment trips protection, tingles, sparks, smells, overheats or behaves unexpectedly."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact equipment or product instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Student pre-use visual checks plus teacher guidance on the role and limits of inspection, testing and tagging.",
+        "ppe": [
+          "eye",
+          "shoes"
+        ],
+        "hazards": [
+          "Damage can occur after a test/tag and may not be visible on a label.",
+          "An incorrect test method can expose the tester or damage equipment.",
+          "A passed tag can create false confidence if pre-use checks are skipped."
+        ],
+        "riskAssessment": [
+          "Apply the hierarchy of controls and keep student work within the demonstrated, assessed task boundary.",
+          "Electrical energy, stored energy, heat, chemicals and unexpected energisation must be considered together."
+        ],
+        "preStart": [
+          "Establish a risk-based maintenance system for the environment and equipment type.",
+          "Ensure testing is carried out by a person competent for the equipment and test method, with suitable calibrated equipment and records."
+        ],
+        "safeUse": [
+          "Testing and tagging is one way of checking safety; it does not replace visual inspection, maintenance or removal after damage.",
+          "Use AS/NZS 3760:2022 where it applies to in-service safety inspection and testing, while checking current legal, manufacturer and school requirements."
+        ],
+        "shutdown": [
+          "Quarantine failed/suspect items, identify them clearly and record the result; repair or disposal must follow the authorised process."
+        ],
+        "restrictions": [
+          "Students may learn visual inspection but must not perform testing/tagging or repairs unless the school has a separately approved training process with competent supervision."
+        ],
+        "disposal": [
+          "Segregate electronic, battery, chemical and general waste under the school waste plan; do not place hazardous waste in ordinary bins or drains."
+        ],
+        "storage": [
+          "Store equipment isolated, dry and protected from damage; secure restricted tools, components and substances from unauthorised access."
+        ],
+        "furtherInformation": [
+          "Review the local RAMS whenever the equipment, circuit, product, room or learner group changes."
+        ],
+        "firstAid": [
+          "Stop work and alert the teacher. Isolate the supply only when it is safe to do so; do not touch a person who may still be in contact with electricity.",
+          "Call emergency services for electric shock, burns, fire, breathing difficulty, collapse or significant chemical exposure, and follow the PHS first-aid procedure."
+        ],
+        "teacherChecks": [
+          "Confirm the exact task is permitted, the equipment and controls are suitable, and the learner has been instructed and assessed.",
+          "Remove damaged, modified, wet, overheated or uncertain equipment from service and label/report it."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Testing and tagging electrical appliances: https://www.worksafe.govt.nz/topic-and-industry/electricity/testing-and-tagging-electrical-appliances/",
+          "WorkSafe New Zealand — Checking equipment is safe: https://www.worksafe.govt.nz/dmsdocument/86-checking-your-electrical-equipment-is-safe/"
+        ],
+        "supervision": "Teacher instruction, permission and active supervision matched to the task and learner.",
+        "training": "Electrical workshop induction, teacher demonstration and demonstrated competency for the exact task."
+      },
+      "slug": "pre-use-checks-and-testing-tagging-awareness"
+    },
+    {
+      "id": "elec-cable-terminations",
+      "aliases": [
+        "wire stripping",
+        "crimping",
+        "cable termination"
+      ],
+      "name": "Cable preparation and extra-low-voltage terminations",
+      "category": "Wiring skills",
+      "image": "assets/images/electrical-cable-terminations.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "PHS Electrical Trades controls",
+        "Current WorkSafe New Zealand and EWRB guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the Electrical Trades programme and task risk assessment.",
+        "supervision": "Teacher instruction, permission and active supervision are required.",
+        "notes": [
+          "Electrical Trades publication prepared 25 Aug 2026 from the supplied RAMS records and current New Zealand guidance.",
+          "Publication does not replace a check of the exact equipment, circuit, product, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "De-energise first, use the right stripping/crimping tool, and inspect every extra-low-voltage termination.",
+        "ppe": [
+          "eye",
+          "apron"
+        ],
+        "hazardTags": [
+          "cut",
+          "puncture",
+          "short-circuit"
+        ],
+        "hazards": [
+          "Blades, wire ends and clipped conductors can cut or puncture skin and eyes.",
+          "Damaged strands, loose crimps or exposed copper can overheat or short circuit.",
+          "A cable may be mistaken for ELV or remain connected to another source."
+        ],
+        "beforeStart": [
+          "Confirm the cable is disconnected from every source and is part of the approved ELV training task.",
+          "Select the correct strip length, terminal and tool/die for the conductor.",
+          "Inspect tools, insulation and conductor condition; secure the work."
+        ],
+        "dos": [
+          "Cut away from the body, control offcuts and keep fingers outside the tool jaws.",
+          "Avoid nicking strands; make the demonstrated crimp/termination and perform the specified visual/pull check.",
+          "Protect the finished connection against exposed conductor, strain and wrong polarity."
+        ],
+        "donts": [
+          "Do not prepare or terminate mains, fixed-installation, unknown, energised or EV/HEV high-voltage cable.",
+          "Do not use teeth, knives, side cutters or an incorrect crimp tool as a substitute for the specified stripper/die.",
+          "Do not hide a weak, loose or damaged termination under heat-shrink or tape."
+        ],
+        "stop": [
+          "The cable identity, voltage, source or conductor size is uncertain.",
+          "Strands are nicked/cut, insulation is damaged, or the terminal/tool does not match.",
+          "The termination fails its inspection or pull check."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact equipment or product instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Supervised preparation and termination of disconnected extra-low-voltage conductors using appropriate hand tools.",
+        "ppe": [
+          "eye",
+          "apron"
+        ],
+        "hazards": [
+          "Blades, wire ends and clipped conductors can cut or puncture skin and eyes.",
+          "Damaged strands, loose crimps or exposed copper can overheat or short circuit.",
+          "A cable may be mistaken for ELV or remain connected to another source."
+        ],
+        "riskAssessment": [
+          "Apply the hierarchy of controls and keep student work within the demonstrated, assessed task boundary.",
+          "Electrical energy, stored energy, heat, chemicals and unexpected energisation must be considered together."
+        ],
+        "preStart": [
+          "Confirm the training assembly is physically separated from mains/fixed wiring and all sources are controlled.",
+          "Specify cable, strip length, terminals, crimp tool/die and acceptance check."
+        ],
+        "safeUse": [
+          "Demonstrate tool positioning, offcut control, strand preservation and strain relief.",
+          "Inspect and test the completed ELV assembly before energisation."
+        ],
+        "shutdown": [
+          "Account for sharp offcuts, close/store tools safely and leave the assembly disconnected until authorised testing."
+        ],
+        "restrictions": [
+          "No mains, prescribed, fixed-installation, unknown or EV/HEV high-voltage cable work under this SOP."
+        ],
+        "disposal": [
+          "Segregate electronic, battery, chemical and general waste under the school waste plan; do not place hazardous waste in ordinary bins or drains."
+        ],
+        "storage": [
+          "Store equipment isolated, dry and protected from damage; secure restricted tools, components and substances from unauthorised access."
+        ],
+        "furtherInformation": [
+          "Review the local RAMS whenever the equipment, circuit, product, room or learner group changes."
+        ],
+        "firstAid": [
+          "Stop work and alert the teacher. Isolate the supply only when it is safe to do so; do not touch a person who may still be in contact with electricity.",
+          "Call emergency services for electric shock, burns, fire, breathing difficulty, collapse or significant chemical exposure, and follow the PHS first-aid procedure."
+        ],
+        "teacherChecks": [
+          "Confirm the exact task is permitted, the equipment and controls are suitable, and the learner has been instructed and assessed.",
+          "Remove damaged, modified, wet, overheated or uncertain equipment from service and label/report it."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Electricity: https://www.worksafe.govt.nz/topic-and-industry/electricity/",
+          "WorkSafe New Zealand — Protecting workers’ eyes: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
+        ],
+        "supervision": "Teacher instruction, permission and active supervision matched to the task and learner.",
+        "training": "Electrical workshop induction, teacher demonstration and demonstrated competency for the exact task."
+      },
+      "slug": "cable-preparation-and-extra-low-voltage-terminations"
+    },
+    {
+      "id": "elec-stored-energy",
+      "aliases": [
+        "capacitor discharge",
+        "stored charge"
+      ],
+      "name": "Capacitors and stored electrical energy",
+      "category": "Energy control",
+      "image": "assets/images/electrical-stored-energy.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "PHS Electrical Trades controls",
+        "Current WorkSafe New Zealand and EWRB guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the Electrical Trades programme and task risk assessment.",
+        "supervision": "Teacher instruction, permission and active supervision are required.",
+        "notes": [
+          "Electrical Trades publication prepared 25 Aug 2026 from the supplied RAMS records and current New Zealand guidance.",
+          "Publication does not replace a check of the exact equipment, circuit, product, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Assume capacitors are charged until the approved discharge method and measurement prove otherwise.",
+        "ppe": [
+          "eye",
+          "apron"
+        ],
+        "hazardTags": [
+          "stored-energy",
+          "electric-shock",
+          "explosion"
+        ],
+        "hazards": [
+          "A capacitor can retain charge after the supply is removed.",
+          "Wrong polarity, over-voltage or excessive ripple/current can heat, vent or rupture a component.",
+          "Shorting a charged capacitor directly can create an arc, damage and flying material."
+        ],
+        "beforeStart": [
+          "Identify all capacitors and their ratings/polarity on the approved ELV training circuit.",
+          "Switch off and isolate all sources, then wait the specified time.",
+          "Use the teacher-approved discharge device and meter method."
+        ],
+        "dos": [
+          "Keep eye protection on and maintain polarity and rating checks during assembly.",
+          "Discharge through the specified resistor/device, then measure and re-check before contact.",
+          "Treat removed or long-stored components as uncertain until inspected and controlled."
+        ],
+        "donts": [
+          "Do not touch terminals or assume a capacitor is safe because the indicator is off.",
+          "Do not discharge by placing a screwdriver or bare conductor across terminals.",
+          "Do not use swollen, leaking, damaged, incorrectly rated or unknown capacitors."
+        ],
+        "stop": [
+          "Voltage remains, returns after discharge or the measurement is unstable.",
+          "A capacitor is hot, swollen, leaking, hissing or fitted backwards.",
+          "The capacitance, voltage, energy or discharge method is unknown."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact equipment or product instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Awareness and supervised control of stored energy in capacitors used in approved ELV training circuits.",
+        "ppe": [
+          "eye",
+          "apron"
+        ],
+        "hazards": [
+          "A capacitor can retain charge after the supply is removed.",
+          "Wrong polarity, over-voltage or excessive ripple/current can heat, vent or rupture a component.",
+          "Shorting a charged capacitor directly can create an arc, damage and flying material."
+        ],
+        "riskAssessment": [
+          "Apply the hierarchy of controls and keep student work within the demonstrated, assessed task boundary.",
+          "Electrical energy, stored energy, heat, chemicals and unexpected energisation must be considered together."
+        ],
+        "preStart": [
+          "Calculate/assess available stored energy and choose components, current limiting, enclosure and discharge method accordingly.",
+          "Provide a safe proving method and exclude high-energy capacitors/systems from general student tasks."
+        ],
+        "safeUse": [
+          "Use engineered discharge paths where practical and verify de-energisation before access.",
+          "Observe polarity, voltage, temperature and ripple/current ratings from current manufacturer data."
+        ],
+        "shutdown": [
+          "Isolate, wait, discharge by the approved method, verify voltage, then secure or remove the component."
+        ],
+        "restrictions": [
+          "No access to mains power supplies, microwave ovens, CRT equipment, flash units, variable-speed drives, EV/HEV systems or other high-energy capacitor banks."
+        ],
+        "disposal": [
+          "Segregate electronic, battery, chemical and general waste under the school waste plan; do not place hazardous waste in ordinary bins or drains."
+        ],
+        "storage": [
+          "Store equipment isolated, dry and protected from damage; secure restricted tools, components and substances from unauthorised access."
+        ],
+        "furtherInformation": [
+          "Review the local RAMS whenever the equipment, circuit, product, room or learner group changes."
+        ],
+        "firstAid": [
+          "Stop work and alert the teacher. Isolate the supply only when it is safe to do so; do not touch a person who may still be in contact with electricity.",
+          "Call emergency services for electric shock, burns, fire, breathing difficulty, collapse or significant chemical exposure, and follow the PHS first-aid procedure."
+        ],
+        "teacherChecks": [
+          "Confirm the exact task is permitted, the equipment and controls are suitable, and the learner has been instructed and assessed.",
+          "Remove damaged, modified, wet, overheated or uncertain equipment from service and label/report it."
+        ],
+        "references": [
+          "WorkSafe New Zealand — Electricity: https://www.worksafe.govt.nz/topic-and-industry/electricity/",
+          "EWRB — AS/NZS 4836:2023 information: https://www.ewrb.govt.nz/about-us/news-and-notices/standard-of-the-month-asnzs-48362023/"
+        ],
+        "supervision": "Teacher instruction, permission and active supervision matched to the task and learner.",
+        "training": "Electrical workshop induction, teacher demonstration and demonstrated competency for the exact task."
+      },
+      "slug": "capacitors-and-stored-electrical-energy"
+    },
+    {
+      "id": "elec-batteries-dc",
+      "aliases": [
+        "battery safety",
+        "bench power supply"
+      ],
+      "name": "Batteries and current-limited DC supplies",
+      "category": "Power sources",
+      "image": "assets/images/electrical-batteries-dc.webp",
+      "studentVisible": true,
+      "sourceAccess": "age-or-maturity-restricted",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "PHS Electrical Trades controls",
+        "Current WorkSafe New Zealand and EWRB guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": true,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the Electrical Trades programme and task risk assessment.",
+        "supervision": "Teacher instruction, permission and active supervision are required.",
+        "notes": [
+          "Electrical Trades publication prepared 25 Aug 2026 from the supplied RAMS records and current New Zealand guidance.",
+          "Publication does not replace a check of the exact equipment, circuit, product, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "Confirm chemistry and polarity, set a current limit, and keep metal objects away from battery terminals.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes"
+        ],
+        "hazardTags": [
+          "short-circuit",
+          "chemical",
+          "fire",
+          "stored-energy"
+        ],
+        "hazards": [
+          "A short circuit can produce intense heat, burns, fire or molten metal.",
+          "Incorrect charging, damage or wrong polarity can cause venting, leakage, thermal runaway or rupture.",
+          "Battery electrolyte and fumes can injure eyes, skin or lungs."
+        ],
+        "beforeStart": [
+          "Identify the battery chemistry, voltage, condition and approved charger/supply.",
+          "Remove jewellery and loose metal items; use insulated connections and cover unused terminals.",
+          "Set the bench supply voltage/current limit with output off and have the teacher check polarity."
+        ],
+        "dos": [
+          "Make or change connections with the output off and prevent accidental shorting.",
+          "Use only the charger/profile specified for that battery chemistry and monitor the task.",
+          "Keep batteries upright, ventilated as required and away from heat, sparks and combustibles."
+        ],
+        "donts": [
+          "Do not charge swollen, leaking, hot, damaged, frozen, unknown or non-rechargeable batteries.",
+          "Do not mix cell types/ages, reverse polarity, exceed ratings or bypass protection/current limiting.",
+          "Do not work on EV/HEV traction batteries, orange cables or vehicle high-voltage systems."
+        ],
+        "stop": [
+          "A battery or lead becomes hot, swells, leaks, vents, smells, sparks or makes noise.",
+          "The supply current is unexpected or protection operates.",
+          "The chemistry, charger, polarity, voltage or battery condition is uncertain."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact equipment or product instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Supervised use of small batteries and current-limited DC supplies for approved electrical/electronics training.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes"
+        ],
+        "hazards": [
+          "A short circuit can produce intense heat, burns, fire or molten metal.",
+          "Incorrect charging, damage or wrong polarity can cause venting, leakage, thermal runaway or rupture.",
+          "Battery electrolyte and fumes can injure eyes, skin or lungs."
+        ],
+        "riskAssessment": [
+          "Apply the hierarchy of controls and keep student work within the demonstrated, assessed task boundary.",
+          "Electrical energy, stored energy, heat, chemicals and unexpected energisation must be considered together."
+        ],
+        "preStart": [
+          "Identify chemistry-specific hazards from current manufacturer/SDS information and define voltage, current, charging and storage limits.",
+          "Provide short-circuit protection, non-combustible charging location, ventilation and a chemistry-appropriate emergency response."
+        ],
+        "safeUse": [
+          "Control terminals and conductive tools; make connections with output disabled.",
+          "Never treat one charging method as universal across lead-acid, lithium-ion, NiMH or other chemistries.",
+          "Keep EV/HEV high-voltage systems outside student access unless a separate competent programme and controls exist."
+        ],
+        "shutdown": [
+          "Switch output off, disconnect in the specified order, inspect temperature/condition and return batteries to the approved storage/charging area."
+        ],
+        "restrictions": [
+          "No EV/HEV traction-battery or orange-cable work; no improvised charging; no charging without teacher oversight."
+        ],
+        "disposal": [
+          "Segregate electronic, battery, chemical and general waste under the school waste plan; do not place hazardous waste in ordinary bins or drains."
+        ],
+        "storage": [
+          "Store equipment isolated, dry and protected from damage; secure restricted tools, components and substances from unauthorised access."
+        ],
+        "furtherInformation": [
+          "Review the local RAMS whenever the equipment, circuit, product, room or learner group changes."
+        ],
+        "firstAid": [
+          "Stop work and alert the teacher. Isolate the supply only when it is safe to do so; do not touch a person who may still be in contact with electricity.",
+          "Call emergency services for electric shock, burns, fire, breathing difficulty, collapse or significant chemical exposure, and follow the PHS first-aid procedure."
+        ],
+        "teacherChecks": [
+          "Confirm the exact task is permitted, the equipment and controls are suitable, and the learner has been instructed and assessed.",
+          "Remove damaged, modified, wet, overheated or uncertain equipment from service and label/report it."
+        ],
+        "references": [
+          "WorkSafe New Zealand — RCDs, leads and battery-operated equipment: https://www.worksafe.govt.nz/dmsdocument/83-rcds-psoas-leads-cords-plugs-and-battery-operated-equipment",
+          "WorkSafe New Zealand — Hazardous substances practical guide: https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/guidance/your-practical-guide/",
+          "WorkSafe New Zealand — Electricity: https://www.worksafe.govt.nz/topic-and-industry/electricity/"
+        ],
+        "supervision": "Teacher instruction, permission and active supervision matched to the task and learner.",
+        "training": "Electrical workshop induction, teacher demonstration and demonstrated competency for the exact task."
+      },
+      "slug": "batteries-and-current-limited-dc-supplies"
+    },
+    {
+      "id": "1-014-electronics-chemicals-for-printed-circuit-board-etching",
+      "legacyDepartmentIds": [
+        "dvc"
+      ],
+      "aliases": [
+        "PCB etchant",
+        "ferric chloride etching"
+      ],
+      "name": "PCB etching chemicals",
+      "category": "Hazardous substances",
+      "image": "assets/images/electrical-pcb-etching.webp",
+      "studentVisible": true,
+      "sourceAccess": "teacher-only",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "CLEAPSS Model Risk Assessment 1.014 (supplied source)",
+        "Current product SDSs and WorkSafe New Zealand hazardous-substance guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": false,
+        "studentUseCandidate": false,
+        "minimumYear": "Set by the Electrical Trades programme and task risk assessment.",
+        "supervision": "Teacher control only; students may read this page for hazard awareness but must not perform the restricted task.",
+        "notes": [
+          "Electrical Trades publication prepared 25 Aug 2026 from the supplied RAMS records and current New Zealand guidance.",
+          "Publication does not replace a check of the exact equipment, circuit, product, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "REFERENCE ONLY — Students must not use PCB etchants or carry out the etching process.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "apron",
+          "ventilation"
+        ],
+        "hazardTags": [
+          "corrosive",
+          "oxidiser",
+          "toxic-gas",
+          "chemical-burn"
+        ],
+        "hazards": [
+          "Etchants can burn or seriously irritate eyes, skin and airways.",
+          "Different etchants or incompatible chemicals can react and release dangerous gas or heat.",
+          "Used solution contains dissolved metals and requires controlled disposal."
+        ],
+        "beforeStart": [
+          "Do not begin or prepare this process; read for hazard awareness and follow the teacher’s directions.",
+          "Keep away from the chemical area, tanks and wet boards unless the teacher has established a controlled observation point."
+        ],
+        "dos": [
+          "Tell the teacher immediately about a spill, damaged container, strong odour or failed extraction.",
+          "Use the eyewash/emergency response only as directed and report any contact at once."
+        ],
+        "donts": [
+          "Do not operate, use, mix, transfer, heat, dilute or dispose of PCB etching chemicals.",
+          "Do not touch wet boards, tanks, tongs, residues or contaminated surfaces.",
+          "Do not bring another chemical, metal object, food or drink into the controlled area."
+        ],
+        "stop": [
+          "A container is unlabelled, leaking, damaged or incompatible substances are present.",
+          "There is splashing, mist, gas, heat, strong odour or failed ventilation.",
+          "A person has eye, skin or breathing exposure."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact equipment or product instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Teacher-controlled preparation, use and disposal of PCB etchants. The exact product SDS and local hazardous-substance assessment govern the process; historical source wording is not a disposal instruction.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "apron",
+          "ventilation"
+        ],
+        "hazards": [
+          "Etchants can burn or seriously irritate eyes, skin and airways.",
+          "Different etchants or incompatible chemicals can react and release dangerous gas or heat.",
+          "Used solution contains dissolved metals and requires controlled disposal."
+        ],
+        "riskAssessment": [
+          "Apply the hierarchy of controls and keep student work within the demonstrated, assessed task boundary.",
+          "Electrical energy, stored energy, heat, chemicals and unexpected energisation must be considered together."
+        ],
+        "preStart": [
+          "Select one approved process/product, obtain current SDSs and assess incompatibilities, ventilation, containment, eyewash and spill response.",
+          "Restrict chemical preparation, tank maintenance, transfer and disposal to trained staff/technicians."
+        ],
+        "safeUse": [
+          "Use closed/covered equipment and local controls suited to the exact product; avoid mist and incompatible mixing.",
+          "If RPE is required after higher-order controls, use a competent AS/NZS 1715-based programme with equipment meeting AS/NZS 1716, fit testing, training and facial-hair controls."
+        ],
+        "shutdown": [
+          "Secure tanks and labelled containers, decontaminate by the SDS/local procedure, and leave the area inaccessible to students."
+        ],
+        "restrictions": [
+          "Students must not perform etching, prepare solutions, empty tanks, handle concentrates or dispose of etchant."
+        ],
+        "disposal": [
+          "Do not pour etchant or dissolved-metal waste to a drain unless a current, documented local authority/waste rule specifically permits it. Use the school hazardous-waste contractor/process."
+        ],
+        "storage": [
+          "Store in labelled compatible containers within secured secondary containment, separated according to the current SDS and compatibility assessment."
+        ],
+        "furtherInformation": [
+          "Review the local RAMS whenever the equipment, circuit, product, room or learner group changes."
+        ],
+        "firstAid": [
+          "Stop work and alert the teacher. Isolate the supply only when it is safe to do so; do not touch a person who may still be in contact with electricity.",
+          "Call emergency services for electric shock, burns, fire, breathing difficulty, collapse or significant chemical exposure, and follow the PHS first-aid procedure."
+        ],
+        "teacherChecks": [
+          "Confirm the exact task is permitted, the equipment and controls are suitable, and the learner has been instructed and assessed.",
+          "Remove damaged, modified, wet, overheated or uncertain equipment from service and label/report it."
+        ],
+        "references": [
+          "CLEAPSS Model Risk Assessment 1.014 — PCB etching chemicals (supplied source; retained for historical hazard identification only)",
+          "WorkSafe New Zealand — Hazardous substances practical guide: https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/guidance/your-practical-guide/",
+          "WorkSafe New Zealand — Respiratory protective equipment: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/",
+          "WorkSafe New Zealand — Respirator selection tool: https://www.worksafe.govt.nz/tools-registers-resources/tools/respirator-selection-tool/",
+          "WorkSafe New Zealand — Protecting workers’ eyes: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
+        ],
+        "supervision": "Teacher control only. Prescribed electrical work requires the legally required authorisation and supervision; this SOP is not permission to perform it.",
+        "training": "Electrical workshop induction, teacher demonstration and demonstrated competency for the exact task."
+      },
+      "slug": "electronics-chemicals-for-printed-circuit-board-etching"
+    },
+    {
+      "id": "1-015-electronics-chemicals-for-printed-circuit-board-preparation",
+      "legacyDepartmentIds": [
+        "dvc"
+      ],
+      "aliases": [
+        "PCB developer",
+        "photoresist preparation"
+      ],
+      "name": "PCB preparation chemicals",
+      "category": "Hazardous substances",
+      "image": "assets/images/electrical-pcb-preparation.webp",
+      "studentVisible": true,
+      "sourceAccess": "teacher-only",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "CLEAPSS Model Risk Assessment 1.015 (supplied source)",
+        "Current product SDSs and WorkSafe New Zealand hazardous-substance guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": false,
+        "studentUseCandidate": false,
+        "minimumYear": "Set by the Electrical Trades programme and task risk assessment.",
+        "supervision": "Teacher control only; students may read this page for hazard awareness but must not perform the restricted task.",
+        "notes": [
+          "Electrical Trades publication prepared 25 Aug 2026 from the supplied RAMS records and current New Zealand guidance.",
+          "Publication does not replace a check of the exact equipment, circuit, product, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "REFERENCE ONLY — Students must not use PCB preparation chemicals or carry out this process.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "apron",
+          "ventilation"
+        ],
+        "hazardTags": [
+          "corrosive",
+          "chemical-burn",
+          "uv",
+          "fume"
+        ],
+        "hazards": [
+          "Developers, strippers and cleaners may be corrosive, harmful, flammable or irritating.",
+          "UV exposure equipment can injure eyes if interlocks or covers are defeated.",
+          "Sprays, vapours, splashes and contaminated waste can expose other people."
+        ],
+        "beforeStart": [
+          "Do not begin or prepare this process; read for hazard awareness and follow the teacher’s directions.",
+          "Keep away from chemical trays/tanks, spray products and UV equipment unless the teacher establishes a safe observation point."
+        ],
+        "dos": [
+          "Report unlabelled chemicals, damaged lids/interlocks, spills, odours or irritation immediately.",
+          "Know the eyewash location and alert the teacher after any contact."
+        ],
+        "donts": [
+          "Do not operate, use, mix, spray, transfer, heat, dilute or dispose of PCB preparation chemicals.",
+          "Do not open or bypass UV exposure equipment, tank lids or interlocks.",
+          "Do not touch treated boards, residues, wet tools or contaminated surfaces."
+        ],
+        "stop": [
+          "A container/SDS is missing, a chemical is unknown, or the process differs from the local assessment.",
+          "There is mist, vapour, splash, leak, failed extraction or a damaged UV interlock.",
+          "Any person has eye, skin or breathing exposure."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact equipment or product instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Teacher-controlled PCB preparation involving exact-product developers, strippers, cleaners and commercial interlocked UV exposure equipment.",
+        "ppe": [
+          "eye",
+          "gloves",
+          "apron",
+          "ventilation"
+        ],
+        "hazards": [
+          "Developers, strippers and cleaners may be corrosive, harmful, flammable or irritating.",
+          "UV exposure equipment can injure eyes if interlocks or covers are defeated.",
+          "Sprays, vapours, splashes and contaminated waste can expose other people."
+        ],
+        "riskAssessment": [
+          "Apply the hierarchy of controls and keep student work within the demonstrated, assessed task boundary.",
+          "Electrical energy, stored energy, heat, chemicals and unexpected energisation must be considered together."
+        ],
+        "preStart": [
+          "Obtain current SDSs and assess substitution, concentration, application method, ventilation, containment, ignition, eyewash and waste.",
+          "Use only commercial interlocked UV equipment maintained to the manufacturer instructions; prohibit improvised exposure boxes."
+        ],
+        "safeUse": [
+          "Eliminate sprays and open handling where practicable; use closed/covered equipment and tools dedicated to the product.",
+          "If RPE is required after higher-order controls, use a competent AS/NZS 1715-based programme with equipment meeting AS/NZS 1716."
+        ],
+        "shutdown": [
+          "Secure chemicals and equipment, decontaminate under the product procedure, and quarantine any failed interlock or extraction."
+        ],
+        "restrictions": [
+          "Students must not prepare solutions, spray coatings, operate chemical tanks, maintain UV equipment or dispose of waste."
+        ],
+        "disposal": [
+          "Collect developer, stripper, cleaner and contaminated materials under current SDS and local hazardous-waste requirements; do not adopt historical drain-disposal wording without current written approval."
+        ],
+        "storage": [
+          "Store labelled products in secured compatible cabinets/secondary containment, separated from ignition sources and incompatibles according to current SDSs."
+        ],
+        "furtherInformation": [
+          "Review the local RAMS whenever the equipment, circuit, product, room or learner group changes."
+        ],
+        "firstAid": [
+          "Stop work and alert the teacher. Isolate the supply only when it is safe to do so; do not touch a person who may still be in contact with electricity.",
+          "Call emergency services for electric shock, burns, fire, breathing difficulty, collapse or significant chemical exposure, and follow the PHS first-aid procedure."
+        ],
+        "teacherChecks": [
+          "Confirm the exact task is permitted, the equipment and controls are suitable, and the learner has been instructed and assessed.",
+          "Remove damaged, modified, wet, overheated or uncertain equipment from service and label/report it."
+        ],
+        "references": [
+          "CLEAPSS Model Risk Assessment 1.015 — PCB preparation chemicals (supplied source; retained for historical hazard identification only)",
+          "WorkSafe New Zealand — Hazardous substances practical guide: https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/guidance/your-practical-guide/",
+          "WorkSafe New Zealand — Respiratory protective equipment: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/",
+          "WorkSafe New Zealand — Protecting workers’ eyes: https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/protecting-your-workers-eyes/"
+        ],
+        "supervision": "Teacher control only. Prescribed electrical work requires the legally required authorisation and supervision; this SOP is not permission to perform it.",
+        "training": "Electrical workshop induction, teacher demonstration and demonstrated competency for the exact task."
+      },
+      "slug": "electronics-chemicals-for-printed-circuit-board-preparation"
+    },
+    {
+      "id": "1-013-electrical-and-electronics-work",
+      "legacyDepartmentIds": [
+        "dvc"
+      ],
+      "aliases": [
+        "prescribed electrical work",
+        "mains electrical training"
+      ],
+      "name": "Prescribed electrical work and mains training",
+      "category": "Restricted electrical work",
+      "image": "assets/images/electrical-mains-training.webp",
+      "studentVisible": true,
+      "sourceAccess": "teacher-only",
+      "localReviewRequired": false,
+      "sourceSheets": [
+        "CLEAPSS Model Risk Assessment 1.013 (supplied source)",
+        "EWRB supervision rules and current New Zealand electrical safety guidance"
+      ],
+      "local": {
+        "reviewed": true,
+        "studentUseApproved": false,
+        "studentUseCandidate": false,
+        "minimumYear": "Set by the Electrical Trades programme and task risk assessment.",
+        "supervision": "Teacher control only; students may read this page for hazard awareness but must not perform the restricted task.",
+        "notes": [
+          "Electrical Trades publication prepared 25 Aug 2026 from the supplied RAMS records and current New Zealand guidance.",
+          "Publication does not replace a check of the exact equipment, circuit, product, room, emergency arrangements or student competence."
+        ]
+      },
+      "student": {
+        "headline": "REFERENCE ONLY — Students must not perform mains or prescribed electrical work unless the EWRB trainee and supervision requirements are formally in place.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes"
+        ],
+        "hazardTags": [
+          "electric-shock",
+          "arc-flash",
+          "fire",
+          "legal-restriction"
+        ],
+        "hazards": [
+          "Mains and higher-energy systems can cause fatal electric shock, arc burns, fire or explosion.",
+          "Incorrect isolation, testing, earthing, polarity or protection can leave equipment dangerously energised.",
+          "Prescribed electrical work is legally restricted and requires the appropriate authorisation and supervision."
+        ],
+        "beforeStart": [
+          "Do not begin this work; use this page for hazard and legal-awareness only.",
+          "Ask the teacher which ELV simulation or disconnected demonstration is permitted.",
+          "Treat all mains wiring, switchboards, fixed installations and unknown equipment as out of bounds."
+        ],
+        "dos": [
+          "Follow barriers, signs and teacher directions around restricted electrical areas.",
+          "Report exposed parts, damaged covers, unusual heat, smell, sound, tingling or protection trips immediately.",
+          "In an emergency, keep clear, raise the alarm and isolate only if trained and it is safe to do so."
+        ],
+        "donts": [
+          "Do not operate, use, perform or carry out prescribed electrical work under this general student SOP.",
+          "Do not open switchboards, fixed wiring, mains equipment or protective devices.",
+          "Do not test for voltage, bypass isolation, reset protection repeatedly or touch a person still connected to electricity."
+        ],
+        "stop": [
+          "A cover, barrier, earth or protective device is missing or damaged.",
+          "There is a shock/tingle, arc, smoke, fire, smell, heat or unexpected energisation.",
+          "The person’s licence/certificate, scope of work or supervision arrangement is not confirmed."
+        ],
+        "summaryStatus": "curated",
+        "note": "Published Student safety summary. This page supports safety awareness and does not by itself authorise a practical task. Teacher instruction, permission, active supervision, the exact equipment or product instructions, local RAMS and school procedures remain authoritative."
+      },
+      "teacher": {
+        "overview": "Reference page for the legal and technical controls around prescribed electrical work and mains training. It is not a practical-work authorisation.",
+        "ppe": [
+          "eye",
+          "apron",
+          "shoes"
+        ],
+        "hazards": [
+          "Mains and higher-energy systems can cause fatal electric shock, arc burns, fire or explosion.",
+          "Incorrect isolation, testing, earthing, polarity or protection can leave equipment dangerously energised.",
+          "Prescribed electrical work is legally restricted and requires the appropriate authorisation and supervision."
+        ],
+        "riskAssessment": [
+          "Apply the hierarchy of controls and keep student work within the demonstrated, assessed task boundary.",
+          "Electrical energy, stored energy, heat, chemicals and unexpected energisation must be considered together."
+        ],
+        "preStart": [
+          "Confirm whether work is prescribed electrical work and whether every person holds the required practising licence or Limited Certificate for the work.",
+          "Document the supervisor, class of work, active supervision method, work limits and verification/testing arrangements before any trainee activity.",
+          "Apply current legislation, EWRB rules, AS/NZS 4836:2023, AS/NZS 3000:2018 including current amendments where applicable, and local procedures."
+        ],
+        "safeUse": [
+          "Supervision must be active and appropriate to risk; the supervisor remains accountable and must verify the work.",
+          "Prefer de-energised work and ELV simulation. Any departure requires the specific legal, technical and risk controls applicable to that work.",
+          "Use barriers, isolation, test equipment, PPE and arc-risk controls selected by competent persons for the installation and task."
+        ],
+        "shutdown": [
+          "The authorised person verifies completion, testing, covers, barriers, documentation and safe re-energisation.",
+          "Quarantine incomplete or uncertain work so it cannot be energised."
+        ],
+        "restrictions": [
+          "Students without the required EWRB Limited Certificate and supervision must not perform prescribed electrical work.",
+          "This page does not authorise live work, switchboard work, fixed wiring, mains appliance repair, EV/HEV high-voltage work or independent testing."
+        ],
+        "disposal": [
+          "Segregate electronic, battery, chemical and general waste under the school waste plan; do not place hazardous waste in ordinary bins or drains."
+        ],
+        "storage": [
+          "Store equipment isolated, dry and protected from damage; secure restricted tools, components and substances from unauthorised access."
+        ],
+        "furtherInformation": [
+          "Review the local RAMS whenever the equipment, circuit, product, room or learner group changes."
+        ],
+        "firstAid": [
+          "Stop work and alert the teacher. Isolate the supply only when it is safe to do so; do not touch a person who may still be in contact with electricity.",
+          "Call emergency services for electric shock, burns, fire, breathing difficulty, collapse or significant chemical exposure, and follow the PHS first-aid procedure."
+        ],
+        "teacherChecks": [
+          "Confirm the exact task is permitted, the equipment and controls are suitable, and the learner has been instructed and assessed.",
+          "Remove damaged, modified, wet, overheated or uncertain equipment from service and label/report it."
+        ],
+        "references": [
+          "EWRB — Supervision of trainees holding a Limited Certificate (revised June 2026): https://www.ewrb.govt.nz/assets/documents/rules-of-the-board/supervision-trainees-holding-limited-certificate.pdf",
+          "EWRB — AS/NZS 4836:2023 information: https://www.ewrb.govt.nz/about-us/news-and-notices/standard-of-the-month-asnzs-48362023/",
+          "WorkSafe New Zealand — Electricity: https://www.worksafe.govt.nz/topic-and-industry/electricity/",
+          "WorkSafe New Zealand — Electrical emergency guidance: https://www.worksafe.govt.nz/managing-health-and-safety/consumers/safe-living-with-electricity/what-to-do-in-an-electrical-emergency/"
+        ],
+        "supervision": "Teacher control only. Prescribed electrical work requires the legally required authorisation and supervision; this SOP is not permission to perform it.",
+        "training": "Electrical workshop induction, teacher demonstration and demonstrated competency for the exact task."
+      },
+      "slug": "electrical-and-electronics-work"
+    }
+  ],
+  "sources": [
+    {
+      "title": "WorkSafe New Zealand — Electricity",
+      "url": "https://www.worksafe.govt.nz/topic-and-industry/electricity/"
+    },
+    {
+      "title": "EWRB — Supervision of trainees holding a Limited Certificate",
+      "url": "https://www.ewrb.govt.nz/assets/documents/rules-of-the-board/supervision-trainees-holding-limited-certificate.pdf"
+    },
+    {
+      "title": "EWRB — AS/NZS 4836:2023 information",
+      "url": "https://www.ewrb.govt.nz/about-us/news-and-notices/standard-of-the-month-asnzs-48362023/"
+    },
+    {
+      "title": "WorkSafe New Zealand — Testing and tagging electrical appliances",
+      "url": "https://www.worksafe.govt.nz/topic-and-industry/electricity/testing-and-tagging-electrical-appliances/"
+    },
+    {
+      "title": "WorkSafe New Zealand — Respiratory protective equipment",
+      "url": "https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/respiratory-protective-equipment/"
+    }
+  ]
+}
+
