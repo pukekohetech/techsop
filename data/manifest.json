@@ -32,6 +32,16 @@
       ]
     },
     {
+      "id": "automotive",
+      "file": "departments/automotive.json",
+      "enabled": true,
+      "order": 15,
+      "modes": [
+        "student",
+        "teacher"
+      ]
+    },
+    {
       "id": "food",
       "file": "departments/food.json",
       "enabled": true,
