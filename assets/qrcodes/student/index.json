@@ -522,6 +522,123 @@
     "access": "reference-only"
   },
   {
+    "id": "auto-general-workshop-safety",
+    "department": "automotive",
+    "name": "General automotive workshop safety",
+    "url": "https://pukekohetech.github.io/techsop/#/automotive/general-automotive-workshop-safety",
+    "file": "assets/qrcodes/student/auto-general-workshop-safety.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "1-046-motor-vehicle-engineering-asbestos",
+    "department": "automotive",
+    "name": "Brake and clutch dust / asbestos awareness",
+    "url": "https://pukekohetech.github.io/techsop/#/automotive/brake-clutch-dust-asbestos",
+    "file": "assets/qrcodes/student/1-046-motor-vehicle-engineering-asbestos.svg",
+    "approved": false,
+    "access": "reference-only"
+  },
+  {
+    "id": "1-047-motor-vehicle-engineering-batteries-electrolyte-and-fumes",
+    "department": "automotive",
+    "name": "Vehicle batteries and charging",
+    "url": "https://pukekohetech.github.io/techsop/#/automotive/vehicle-batteries-charging",
+    "file": "assets/qrcodes/student/1-047-motor-vehicle-engineering-batteries-electrolyte-and-fumes.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "1-048-motor-vehicle-engineering-demonstration-engines",
+    "department": "automotive",
+    "name": "Starting and running engines",
+    "url": "https://pukekohetech.github.io/techsop/#/automotive/starting-running-engines",
+    "file": "assets/qrcodes/student/1-048-motor-vehicle-engineering-demonstration-engines.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "1-049-motor-vehicle-engineering-engine-fuels-engine-oils",
+    "department": "automotive",
+    "name": "Fuels, oils, coolants and spills",
+    "url": "https://pukekohetech.github.io/techsop/#/automotive/fuels-oils-coolants-spills",
+    "file": "assets/qrcodes/student/1-049-motor-vehicle-engineering-engine-fuels-engine-oils.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "1-050-motor-vehicle-engineering-exhaust-fumes",
+    "department": "automotive",
+    "name": "Vehicle exhaust fumes and extraction",
+    "url": "https://pukekohetech.github.io/techsop/#/automotive/vehicle-exhaust-fumes-extraction",
+    "file": "assets/qrcodes/student/1-050-motor-vehicle-engineering-exhaust-fumes.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "1-051-motor-vehicle-engineering-lifting-and-holding-equipment",
+    "department": "automotive",
+    "name": "Vehicle hoists, jacks and axle stands",
+    "url": "https://pukekohetech.github.io/techsop/#/automotive/vehicle-hoists-jacks-axle-stands",
+    "file": "assets/qrcodes/student/1-051-motor-vehicle-engineering-lifting-and-holding-equipment.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "auto-hand-tools-torque-pullers",
+    "department": "automotive",
+    "name": "Hand tools, torque wrenches and pullers",
+    "url": "https://pukekohetech.github.io/techsop/#/automotive/hand-tools-torque-wrenches-pullers",
+    "file": "assets/qrcodes/student/auto-hand-tools-torque-pullers.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "auto-compressed-air-tyre-inflation",
+    "department": "automotive",
+    "name": "Compressed air and tyre inflation",
+    "url": "https://pukekohetech.github.io/techsop/#/automotive/compressed-air-tyre-inflation",
+    "file": "assets/qrcodes/student/auto-compressed-air-tyre-inflation.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "auto-low-voltage-electrical",
+    "department": "automotive",
+    "name": "12/24 V vehicle electrical work",
+    "url": "https://pukekohetech.github.io/techsop/#/automotive/12-24v-vehicle-electrical-work",
+    "file": "assets/qrcodes/student/auto-low-voltage-electrical.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "auto-parts-cleaning-degreasing",
+    "department": "automotive",
+    "name": "Parts cleaning and degreasing",
+    "url": "https://pukekohetech.github.io/techsop/#/automotive/parts-cleaning-degreasing",
+    "file": "assets/qrcodes/student/auto-parts-cleaning-degreasing.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "auto-hot-work-around-vehicles",
+    "department": "automotive",
+    "name": "Hot work around vehicles",
+    "url": "https://pukekohetech.github.io/techsop/#/automotive/hot-work-around-vehicles",
+    "file": "assets/qrcodes/student/auto-hot-work-around-vehicles.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
+    "id": "auto-heavy-component-lifting",
+    "department": "automotive",
+    "name": "Lifting engines and heavy components",
+    "url": "https://pukekohetech.github.io/techsop/#/automotive/lifting-engines-heavy-components",
+    "file": "assets/qrcodes/student/auto-heavy-component-lifting.svg",
+    "approved": true,
+    "access": "teacher-permission"
+  },
+  {
     "id": "food-general-kitchen-safety",
     "department": "food",
     "name": "General kitchen safety",
@@ -1247,60 +1364,6 @@
     "name": "Metal working: cutting oils",
     "url": "https://pukekohetech.github.io/techsop/#/technology-reference/1-033-metal-working-cutting-oils",
     "file": "assets/qrcodes/student/1-033-metal-working-cutting-oils.svg",
-    "approved": false,
-    "access": "teacher-direction"
-  },
-  {
-    "id": "1-046-motor-vehicle-engineering-asbestos",
-    "department": "technology-reference",
-    "name": "Motor vehicle engineering: asbestos",
-    "url": "https://pukekohetech.github.io/techsop/#/technology-reference/1-046-motor-vehicle-engineering-asbestos",
-    "file": "assets/qrcodes/student/1-046-motor-vehicle-engineering-asbestos.svg",
-    "approved": false,
-    "access": "teacher-direction"
-  },
-  {
-    "id": "1-047-motor-vehicle-engineering-batteries-electrolyte-and-fumes",
-    "department": "technology-reference",
-    "name": "Motor vehicle engineering: batteries, electrolyte and fumes",
-    "url": "https://pukekohetech.github.io/techsop/#/technology-reference/1-047-motor-vehicle-engineering-batteries-electrolyte-and-fumes",
-    "file": "assets/qrcodes/student/1-047-motor-vehicle-engineering-batteries-electrolyte-and-fumes.svg",
-    "approved": false,
-    "access": "teacher-direction"
-  },
-  {
-    "id": "1-048-motor-vehicle-engineering-demonstration-engines",
-    "department": "technology-reference",
-    "name": "Motor vehicle engineering: demonstration engines",
-    "url": "https://pukekohetech.github.io/techsop/#/technology-reference/1-048-motor-vehicle-engineering-demonstration-engines",
-    "file": "assets/qrcodes/student/1-048-motor-vehicle-engineering-demonstration-engines.svg",
-    "approved": false,
-    "access": "teacher-direction"
-  },
-  {
-    "id": "1-049-motor-vehicle-engineering-engine-fuels-engine-oils",
-    "department": "technology-reference",
-    "name": "Motor vehicle engineering: engine fuels, engine oils",
-    "url": "https://pukekohetech.github.io/techsop/#/technology-reference/1-049-motor-vehicle-engineering-engine-fuels-engine-oils",
-    "file": "assets/qrcodes/student/1-049-motor-vehicle-engineering-engine-fuels-engine-oils.svg",
-    "approved": false,
-    "access": "teacher-direction"
-  },
-  {
-    "id": "1-050-motor-vehicle-engineering-exhaust-fumes",
-    "department": "technology-reference",
-    "name": "Motor vehicle engineering: exhaust fumes",
-    "url": "https://pukekohetech.github.io/techsop/#/technology-reference/1-050-motor-vehicle-engineering-exhaust-fumes",
-    "file": "assets/qrcodes/student/1-050-motor-vehicle-engineering-exhaust-fumes.svg",
-    "approved": false,
-    "access": "teacher-direction"
-  },
-  {
-    "id": "1-051-motor-vehicle-engineering-lifting-and-holding-equipment",
-    "department": "technology-reference",
-    "name": "Motor vehicle engineering: lifting and holding equipment",
-    "url": "https://pukekohetech.github.io/techsop/#/technology-reference/1-051-motor-vehicle-engineering-lifting-and-holding-equipment",
-    "file": "assets/qrcodes/student/1-051-motor-vehicle-engineering-lifting-and-holding-equipment.svg",
     "approved": false,
     "access": "teacher-direction"
   }
