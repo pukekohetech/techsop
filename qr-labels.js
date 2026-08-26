@@ -244,8 +244,8 @@ function customContentLayout(preset = currentPreset()) {
   const brandH = clamp(height * (stacked ? .13 : .19), 4.8, 10.5);
   const bodyH = Math.max(1, height - brandH - 2.2);
   const qrSize = stacked
-    ? clamp(Math.min(width * .54, bodyH * .58), 8, 70)
-    : clamp(Math.min(width * .34, bodyH - 4.2), 8, 70);
+    ? clamp(Math.min(width * .78, bodyH * .72), 8, 140)
+    : clamp(Math.min(width * .43, bodyH - .4), 8, 140);
   const titlePt = clamp(11 * scale, 5.6, 22);
   const gap = clamp(Math.min(width, height) * .035, .55, 3);
   const density = height < 22 || width < 40
@@ -379,7 +379,7 @@ function applyPresetVariables() {
       : `The custom left and top starting position is being used; right and bottom gaps are calculated automatically.`;
     const contentMessage = contentLayout
       ? contentLayout.contentComfortable
-        ? ` Content will use a ${contentLayout.stacked ? 'stacked' : 'side-by-side'} layout with an approximately ${contentLayout.qrSize} mm QR code and ${contentLayout.titlePt} pt heading.`
+        ? ` Content will use a ${contentLayout.stacked ? 'stacked' : 'side-by-side'} layout with a maximised QR code of approximately ${contentLayout.qrSize} mm and a ${contentLayout.titlePt} pt heading.`
         : ` The sheet fits, but the labels are too small for a reliably readable QR and heading. Increase each label to about 60 × 35 mm or use a similarly roomy shape.`
       : '';
     const fitHeading = contentFits
