@@ -228,6 +228,89 @@ function layoutFit(preset = currentPreset()) {
   };
 }
 
+function clamp(value, minimum, maximum) {
+  return Math.min(maximum, Math.max(minimum, value));
+}
+
+function customContentLayout(preset = currentPreset()) {
+  const width = preset.labelW;
+  const height = preset.labelH;
+  const stacked = width < 62 || height > width * 1.08;
+  const areaScale = Math.sqrt((width * height) / (99.1 * 38.1));
+  const shapeScale = stacked
+    ? areaScale
+    : Math.min((width / 99.1) * 1.08, height / 38.1);
+  const scale = clamp(shapeScale, .5, 1.75);
+  const brandH = clamp(height * (stacked ? .13 : .19), 4.8, 10.5);
+  const bodyH = Math.max(1, height - brandH - 2.2);
+  const qrSize = stacked
+    ? clamp(Math.min(width * .54, bodyH * .58), 8, 70)
+    : clamp(Math.min(width * .34, bodyH - 4.2), 8, 70);
+  const titlePt = clamp(11 * scale, 5.6, 22);
+  const gap = clamp(Math.min(width, height) * .035, .55, 3);
+  const density = height < 22 || width < 40
+    ? 'micro'
+    : height < 42 || width < 68
+      ? 'compact'
+      : 'roomy';
+  return {
+    stacked,
+    density,
+    brandH: rounded(brandH),
+    qrSize: rounded(qrSize),
+    titlePt: rounded(titlePt),
+    brandPt: rounded(clamp(7.4 * scale, 5.1, 13)),
+    sublinePt: rounded(clamp(6.6 * scale, 4.8, 11)),
+    deptPt: rounded(clamp(7 * scale, 5.2, 11.5)),
+    statusPt: rounded(clamp(6.65 * scale, 5.1, 10.5)),
+    instructionPt: rounded(clamp(7.4 * scale, 5.5, 12.5)),
+    qrCaptionPt: rounded(clamp(7.2 * scale, 5.2, 12)),
+    padX: rounded(clamp(width * .018, .7, 3.2)),
+    padY: rounded(clamp(height * .032, .55, 2.7)),
+    gap: rounded(gap),
+    qrColumn: rounded(qrSize + 1),
+    borderTop: rounded(clamp(brandH * .13, .7, 1.65)),
+    radius: rounded(clamp(brandH * .22, 1, 2.5)),
+    brandImageW: rounded(brandH * .55),
+    brandImageH: rounded(brandH * .68),
+    brandGap: rounded(clamp(gap * .7, .55, 1.7)),
+    titleMargin: rounded(clamp(gap * .35, .25, 1.5)),
+    statusPadY: rounded(clamp(gap * .28, .25, .9)),
+    statusPadX: rounded(clamp(gap * .5, .45, 1.4)),
+    qrGap: rounded(clamp(gap * .2, .15, 1)),
+    instructionMargin: rounded(clamp(gap * .5, .4, 1.5)),
+    contentComfortable: qrSize >= 16 && titlePt >= 7.2 && width >= 32 && height >= 18
+  };
+}
+
+function customLayoutStyle(layout) {
+  return [
+    `--custom-brand-h-mm:${layout.brandH}`,
+    `--custom-qr-mm:${layout.qrSize}`,
+    `--custom-title-pt:${layout.titlePt}`,
+    `--custom-brand-pt:${layout.brandPt}`,
+    `--custom-subline-pt:${layout.sublinePt}`,
+    `--custom-dept-pt:${layout.deptPt}`,
+    `--custom-status-pt:${layout.statusPt}`,
+    `--custom-instruction-pt:${layout.instructionPt}`,
+    `--custom-qr-caption-pt:${layout.qrCaptionPt}`,
+    `--custom-pad-x-mm:${layout.padX}`,
+    `--custom-pad-y-mm:${layout.padY}`,
+    `--custom-content-gap-mm:${layout.gap}`,
+    `--custom-qr-column-mm:${layout.qrColumn}`,
+    `--custom-border-top-mm:${layout.borderTop}`,
+    `--custom-radius-mm:${layout.radius}`,
+    `--custom-brand-image-w-mm:${layout.brandImageW}`,
+    `--custom-brand-image-h-mm:${layout.brandImageH}`,
+    `--custom-brand-gap-mm:${layout.brandGap}`,
+    `--custom-title-margin-mm:${layout.titleMargin}`,
+    `--custom-status-pad-y-mm:${layout.statusPadY}`,
+    `--custom-status-pad-x-mm:${layout.statusPadX}`,
+    `--custom-qr-gap-mm:${layout.qrGap}`,
+    `--custom-instruction-margin-mm:${layout.instructionMargin}`
+  ].join(';');
+}
+
 function loadSettings() {
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
@@ -285,12 +368,25 @@ function applyPresetVariables() {
     <span><strong>${preset.gapY} mm</strong> gap between rows</span>`;
 
   const centred = state.presetId !== 'custom' || state.custom.autoCentre;
-  els.fit.className = `fit-notice ${fit.fits ? 'good' : 'warning'}`;
-  els.fit.innerHTML = fit.fits
-    ? centred
-      ? `<strong>Centred and fits A4 at 100%.</strong> The outside gaps are equal on both sides and equal at the top and bottom.`
-      : `<strong>Fits A4 at 100%.</strong> The custom left and top starting position is being used; right and bottom gaps are calculated automatically.`
-    : `<strong>These measurements do not fit A4.</strong> Reduce the label size, number of labels, or gaps by ${Math.max(fit.overflowW, fit.overflowH).toFixed(1)} mm or more.`;
+  const contentLayout = state.presetId === 'custom' ? customContentLayout(preset) : null;
+  const contentFits = !contentLayout || contentLayout.contentComfortable;
+  els.fit.className = `fit-notice ${fit.fits && contentFits ? 'good' : 'warning'}`;
+  if (!fit.fits) {
+    els.fit.innerHTML = `<strong>These measurements do not fit A4.</strong> Reduce the label size, number of labels, or gaps by ${Math.max(fit.overflowW, fit.overflowH).toFixed(1)} mm or more.`;
+  } else {
+    const positionMessage = centred
+      ? `The outside gaps are equal on both sides and equal at the top and bottom.`
+      : `The custom left and top starting position is being used; right and bottom gaps are calculated automatically.`;
+    const contentMessage = contentLayout
+      ? contentLayout.contentComfortable
+        ? ` Content will use a ${contentLayout.stacked ? 'stacked' : 'side-by-side'} layout with an approximately ${contentLayout.qrSize} mm QR code and ${contentLayout.titlePt} pt heading.`
+        : ` The sheet fits, but the labels are too small for a reliably readable QR and heading. Increase each label to about 60 × 35 mm or use a similarly roomy shape.`
+      : '';
+    const fitHeading = contentFits
+      ? centred ? 'Centred and fits A4 at 100%.' : 'Fits A4 at 100%.'
+      : 'A4 layout fits, but label content is too small.';
+    els.fit.innerHTML = `<strong>${fitHeading}</strong> ${positionMessage}${contentMessage}`;
+  }
 
   renderStartPositions();
 }
@@ -394,7 +490,15 @@ function expandedSelection() {
   return selectedItems.flatMap(item => Array.from({ length: state.copies }, () => item));
 }
 
-function labelHtml(item) {
+function compactAccessLabel(item, density) {
+  if (density === 'roomy') return item.access.label;
+  if (item.access.tone === 'danger') return 'REFERENCE ONLY';
+  if (item.access.tone === 'caution') return 'TEACHER PERMISSION';
+  return 'STUDENT SOP';
+}
+
+function labelHtml(item, contentLayout = null) {
+  const density = contentLayout?.density || 'roomy';
   return `
     <article class="print-label-card ${item.access.tone}">
       <header class="print-label-brand">
@@ -405,7 +509,7 @@ function labelHtml(item) {
         <div class="print-label-copy">
           <small class="print-label-dept">${esc(item.department.name)}</small>
           <h2>${esc(item.name)}</h2>
-          <span class="print-label-status">${esc(item.access.label)}</span>
+          <span class="print-label-status">${esc(compactAccessLabel(item, density))}</span>
           <p class="print-label-instruction">Scan for the Student SOP. Follow teacher instructions and supervision.</p>
         </div>
         <div class="print-label-qr">
@@ -427,6 +531,11 @@ function renderSheets() {
   }
 
   const preset = currentPreset();
+  const contentLayout = state.presetId === 'custom' ? customContentLayout(preset) : null;
+  const customClasses = contentLayout
+    ? `preset-custom custom-${contentLayout.stacked ? 'stacked' : 'side'} custom-${contentLayout.density}`
+    : '';
+  const customStyle = contentLayout ? ` style="${customLayoutStyle(contentLayout)}"` : '';
   const capacity = preset.cols * preset.rows;
   const firstOffset = state.startPosition - 1;
   const totalSlots = firstOffset + labels.length;
@@ -437,11 +546,11 @@ function renderSheets() {
   els.sheets.innerHTML = Array.from({ length: pageCount }, (_, pageIndex) => {
     const pageSlots = slots.slice(pageIndex * capacity, (pageIndex + 1) * capacity);
     return `
-      <section class="print-sheet preset-${preset.tone}" aria-label="Label sheet ${pageIndex + 1} of ${pageCount}">
+      <section class="print-sheet preset-${preset.tone} ${customClasses}"${customStyle} aria-label="Label sheet ${pageIndex + 1} of ${pageCount}">
         <div class="print-label-grid ${state.showGuides ? 'show-guides' : ''}">
           ${pageSlots.map((item, slotIndex) => `
             <div class="print-label-slot ${item ? 'filled' : 'empty'}" data-position="${slotIndex + 1}">
-              ${item ? labelHtml(item) : ''}
+              ${item ? labelHtml(item, contentLayout) : ''}
             </div>`).join('')}
         </div>
       </section>`;

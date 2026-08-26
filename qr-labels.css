@@ -276,6 +276,102 @@ button:disabled { cursor: not-allowed; opacity: .5; }
 .preset-cupboard .print-label-qr img { width: 39mm; height: 39mm; }
 .preset-cupboard .print-label-qr strong { font-size: 9.5pt; }
 
+/* Custom sheets adapt the information hierarchy to the measured label area. */
+.preset-custom .print-label-card {
+  border-top-width: calc(var(--custom-border-top-mm) * 1mm);
+  border-radius: calc(var(--custom-radius-mm) * 1mm);
+}
+.preset-custom .print-label-brand {
+  height: calc(var(--custom-brand-h-mm) * 1mm);
+  min-height: 0;
+  padding: .35mm calc(var(--custom-pad-x-mm) * 1mm);
+  gap: calc(var(--custom-brand-gap-mm) * 1mm);
+  overflow: hidden;
+}
+.preset-custom .print-label-brand img {
+  width: calc(var(--custom-brand-image-w-mm) * 1mm);
+  height: calc(var(--custom-brand-image-h-mm) * 1mm);
+  flex: 0 0 auto;
+}
+.preset-custom .print-label-brand span { min-width: 0; overflow: hidden; }
+.preset-custom .print-label-brand strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: calc(var(--custom-brand-pt) * 1pt);
+}
+.preset-custom .print-label-brand small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: calc(var(--custom-subline-pt) * 1pt);
+}
+.preset-custom .print-label-body {
+  min-height: 0;
+  padding: calc(var(--custom-pad-y-mm) * 1mm) calc(var(--custom-pad-x-mm) * 1mm);
+  grid-template-columns: minmax(0, 1fr) calc(var(--custom-qr-column-mm) * 1mm);
+  gap: calc(var(--custom-content-gap-mm) * 1mm);
+  overflow: hidden;
+}
+.preset-custom .print-label-copy { min-height: 0; }
+.preset-custom .print-label-dept {
+  font-size: calc(var(--custom-dept-pt) * 1pt);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.preset-custom .print-label-card h2 {
+  margin: calc(var(--custom-title-margin-mm) * 1mm) 0;
+  font-size: calc(var(--custom-title-pt) * 1pt);
+  line-height: 1.02;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.preset-custom .print-label-status {
+  padding: calc(var(--custom-status-pad-y-mm) * 1mm)
+    calc(var(--custom-status-pad-x-mm) * 1mm);
+  font-size: calc(var(--custom-status-pt) * 1pt);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.preset-custom .print-label-instruction {
+  font-size: calc(var(--custom-instruction-pt) * 1pt);
+  line-height: 1.18;
+  display: block;
+  overflow: hidden;
+}
+.preset-custom .print-label-qr { min-height: 0; gap: calc(var(--custom-qr-gap-mm) * 1mm); }
+.preset-custom .print-label-qr img {
+  width: calc(var(--custom-qr-mm) * 1mm);
+  height: calc(var(--custom-qr-mm) * 1mm);
+  max-width: 100%;
+  max-height: 100%;
+}
+.preset-custom .print-label-qr strong { font-size: calc(var(--custom-qr-caption-pt) * 1pt); }
+
+.preset-custom.custom-stacked .print-label-body {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, auto) minmax(0, 1fr);
+}
+.preset-custom.custom-stacked .print-label-copy { align-items: center; text-align: center; }
+.preset-custom.custom-stacked .print-label-status { align-self: center; }
+.preset-custom.custom-stacked .print-label-instruction { margin-top: calc(var(--custom-instruction-margin-mm) * 1mm); }
+.preset-custom.custom-stacked .print-label-qr { align-self: stretch; }
+
+.preset-custom.custom-compact .print-label-instruction,
+.preset-custom.custom-micro .print-label-instruction { display: none; }
+.preset-custom.custom-compact .print-label-card h2 { -webkit-line-clamp: 2; }
+.preset-custom.custom-micro .print-label-brand small,
+.preset-custom.custom-micro .print-label-dept,
+.preset-custom.custom-micro .print-label-qr strong { display: none; }
+.preset-custom.custom-micro .print-label-card h2 { -webkit-line-clamp: 2; }
+.preset-custom.custom-micro .print-label-status { max-width: 100%; }
+
 @media (max-width: 1180px) {
   .label-maker-layout { grid-template-columns: 340px minmax(0, 1fr); }
   .sheet-preview { overflow-x: auto; padding-bottom: 8px; }
