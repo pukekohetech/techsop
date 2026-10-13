@@ -4848,6 +4848,156 @@
       }
     },
     {
+      "id": "food-commercial-espresso-machine",
+      "aliases": [
+        "commercial espresso machine",
+        "espresso machine",
+        "coffee machine",
+        "professional coffee machine",
+        "barista machine",
+        "steam wand"
+      ],
+      "name": "Commercial espresso coffee machine",
+      "category": "Cooking equipment",
+      "image": "assets/images/food-commercial-espresso-machine.webp",
+      "studentVisible": true,
+      "sourceAccess": "local-review-required",
+      "localReviewRequired": true,
+      "sourceSheets": [],
+      "local": {
+        "reviewed": false,
+        "studentUseApproved": null,
+        "studentUseCandidate": true,
+        "minimumYear": "Set by the school after equipment-specific training and risk assessment.",
+        "supervision": "Teacher instruction, approval and supervision required until competency is established.",
+        "notes": [
+          "New draft SOP for a generic electric commercial espresso coffee machine, not an equipment-specific approval.",
+          "Before publishing for use, check the installed make/model, manufacturer manual, school RAMS, emergency isolation, cleaning products and permitted student year levels.",
+          "Artwork illustrates a typical two-group espresso machine and may not match the actual machine."
+        ]
+      },
+      "student": {
+        "headline": "Hot steam, water and metal parts can burn you. Keep your hands clear and use the machine only after training.",
+        "ppe": [
+          "apron",
+          "shoes",
+          "hair",
+          "hygiene"
+        ],
+        "hazards": [
+          "Steam and hot water can cause serious scalds.",
+          "The group head, steam wand, filter basket and cups can be very hot.",
+          "A loose portafilter can release hot water and coffee.",
+          "Water around electrical parts can cause shock; spills can cause slips.",
+          "Unclean milk tools or shared equipment can contaminate drinks or transfer allergens."
+        ],
+        "beforeStart": [
+          "Get teacher permission and follow the demonstration for this machine.",
+          "Wash hands, tie hair back and wear an apron and closed shoes.",
+          "Check that the bench is dry and the machine, cord and steam wand look undamaged.",
+          "Use a clean portafilter, a stable cup and a suitable milk jug."
+        ],
+        "dos": [
+          "Lock the portafilter into the group head as demonstrated before brewing.",
+          "Keep hands clear of hot outlets and wait for brewing to stop before removing the portafilter.",
+          "Keep the steam wand inside the jug while steaming; turn steam off before taking the jug away.",
+          "Hold hot jugs by their handles and put drinks on a stable surface.",
+          "Follow the demonstrated safe wipe and purge routine for the steam wand."
+        ],
+        "donts": [
+          "Do not touch the steam wand, group head or hot-water outlet.",
+          "Do not remove the portafilter while coffee is brewing.",
+          "Do not aim steam or hot water toward yourself or another person.",
+          "Do not spray water at switches, plugs or electrical parts.",
+          "Do not descale, backflush with chemicals, open panels or attempt repairs without teacher direction."
+        ],
+        "stop": [
+          "Steam or water escapes unexpectedly, a handle is loose, or the machine leaks.",
+          "Controls fail, unusual noises occur, or the plug or cord is damaged.",
+          "You are burned or scalded - tell the teacher immediately.",
+          "You are unsure whether the machine has finished brewing or cooled enough to handle."
+        ],
+        "summaryStatus": "draft",
+        "note": "Draft generic safety summary. It does not authorise use. Follow the actual machine manual, the school risk assessment and teacher instructions."
+      },
+      "teacher": {
+        "overview": "Draft RAMS/SOP entry for a commercial electric espresso machine used to extract coffee and texture milk. Actual controls and cleaning vary by brand and model.",
+        "ppe": [
+          "apron",
+          "shoes",
+          "hair",
+          "hygiene"
+        ],
+        "supervision": "Demonstrate the installed machine, authorise named learners and supervise according to competency, age and school risk assessment.",
+        "training": "Show power isolation, stable positioning, portafilter locking, brewing cycle, steam use, hot-water outlet, spill response, milk hygiene, allergen control and approved daily cleaning.",
+        "hazards": [
+          "Burns and scalds from steam, hot water, hot group heads, portafilters and metal parts.",
+          "Hot liquid discharged from improperly secured or prematurely removed portafilters.",
+          "Electrical shock or fire from damaged wiring, leaks or improper cleaning.",
+          "Slips from liquid spills and contamination or allergens from milk equipment.",
+          "Skin/eye injury from cleaning or descaling chemicals."
+        ],
+        "riskAssessment": [
+          "Hot water and steam are the principal hazards. WorkSafe NZ explicitly identifies steam and coffee-machine splash-back as burn/scald risks. Assess splash direction, work height, supervision and protective clothing.",
+          "Use only manufacturer-approved procedures for brewing, steam-wand purging, cleaning, backflushing, descaling, shutdown and maintenance.",
+          "Assess local electrical installation, fixed plumbing, drainage, ventilation, safe work zones, spill controls and first-aid readiness.",
+          "Record controls for milk handling, allergy cross-contact, food hygiene and cleaning chemical storage."
+        ],
+        "preStart": [
+          "Identify make/model and verify manufacturer instructions and trained operators.",
+          "Check installation, water supply and drainage, lead/plug condition, stable machine, dry bench and unobstructed steam-wand work area.",
+          "Confirm shields, knobs, portafilter seals, drip tray and steam wand are serviceable.",
+          "Confirm handwashing, milk hygiene, allergen-aware equipment and suitable protective clothing."
+        ],
+        "safeUse": [
+          "Authorised users must use the operating sequence demonstrated for this exact machine.",
+          "Keep hands and faces clear of steam wands, hot-water outlets and hot brewing components.",
+          "Secure the portafilter correctly and never remove it during the brew cycle.",
+          "Only release steam after the wand is positioned safely in the jug; close steam before moving the jug away.",
+          "Maintain clean, dry work surfaces and remove spills promptly using a safe method.",
+          "Use the manufacturer-approved steam-wand cleaning and purge procedure without contacting hot metal.",
+          "Keep chemical cleaners and maintenance operations teacher/staff controlled."
+        ],
+        "shutdown": [
+          "Follow the actual manufacturer shutdown procedure; controls and cleaning cycles are model-specific.",
+          "Carry out approved food-safe cleaning, drip-tray emptying and milk-tool hygiene under supervision.",
+          "Do not open hot or pressurised systems or perform repairs; isolate defective equipment and arrange servicing."
+        ],
+        "restrictions": [
+          "Students may use the machine only when locally authorised and trained.",
+          "Internal servicing, electrical repairs, descaling, chemical backflushing and work on pressurised components are staff/competent-person tasks unless separately assessed and specifically approved.",
+          "Never use a leaking, malfunctioning or electrically damaged machine."
+        ],
+        "disposal": [
+          "Dispose of used coffee grounds, milk and cleaning residues according to the school waste process and product label."
+        ],
+        "storage": [
+          "Store milk chilled as required by the food-safety procedure; secure chemical cleaners away from food preparation areas."
+        ],
+        "furtherInformation": [
+          "Replace generic wording with the installed machine make/model, warning stickers, operating controls, cleaning product SDS and manufacturer steps.",
+          "Ensure a student can locate the safe power isolation and knows how to report a steam or electrical fault."
+        ],
+        "firstAid": [
+          "Burn or scald: stop the task, alert the teacher and cool the burn under cool running water for 20 minutes in accordance with the school first-aid plan. Seek medical help as required.",
+          "Suspected electric shock: do not touch the casualty until the source is safely isolated; follow the school emergency procedure and get urgent help.",
+          "Chemical exposure: use the chemical label/SDS and school emergency procedure; urgently rinse and seek assistance where indicated."
+        ],
+        "teacherChecks": [
+          "Confirm manufacturer manual and model, operating pressure and temperatures, accessible isolation and reliable plumbing.",
+          "Review year level, individual learner competency, required supervision and local RAMS.",
+          "Check cleaning/descaling arrangements, products, SDS, milk hygiene, allergens and first-aid facilities.",
+          "Approve and mark this record locally before treating it as an operational SOP."
+        ],
+        "references": [
+          "WorkSafe NZ - Cafes and restaurants, burns and scalds: https://www.worksafe.govt.nz/managing-health-and-safety/managing-risks/what-risk-looks-like-in-your-industry/cafes-and-restaurants/",
+          "WorkSafe NZ - Burns and scalds: https://www.worksafe.govt.nz/topic-and-industry/burns-and-scalds/",
+          "Health NZ - Burns first aid: https://www.healthnz.govt.nz/health-topics/tests-and-treatments/emergencies-and-first-aid/burns",
+          "Example of manufacturer guidance (not a substitute for the installed machine manual): La Marzocco NZ commercial support: https://nz.lamarzocco.com/support/technical-information/"
+        ]
+      }
+    },
+    {
       "id": "3-034-waste-disposal",
       "aliases": [
         "bins",
